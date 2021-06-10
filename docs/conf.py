@@ -23,6 +23,7 @@ sys.path.insert(0, os.path.abspath('..'))
 import recommonmark
 from recommonmark.transform import AutoStructify
 
+html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
 
 source_suffix = ['.rst', '.md']
 
