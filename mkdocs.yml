@@ -7,10 +7,9 @@ site_author: Cirrent Team
 edit_uri: ""
 
 theme:
-    name: null
+    name: mkdocs
     locale: en
     #analytics: {gtag: 'G-274394082'}
-    custom_dir: material
     highlightjs: true
     hljs_languages:
         - yaml
