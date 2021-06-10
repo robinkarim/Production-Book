@@ -9,5 +9,5 @@ Welcome to Cirrent
    :hidden:
    
    account-management
-   INI
-   MAI
+   ini
+   mai
