@@ -9,3 +9,8 @@ source_parsers = {
 }
 
 source_suffix = ['.rst', '.md']
+
+html_sidebars = {
+   '**': ['globaltoc.html', 'sourcelink.html', 'searchbox.html'],
+   'using/windows': ['windowssidebar.html', 'searchbox.html'],
+}
