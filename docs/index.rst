@@ -8,8 +8,5 @@ Welcome to Cirrent
    :maxdepth: 2
    
    account-management
-   account-management/*
    INI
-   INI/*
    MAI
-   MAI/*
