@@ -7,8 +7,14 @@ Welcome to helloworld's documentation!
 ======================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+    :maxdepth: 2
+    :numbered:
+    :caption: Demo Documentation
+
+    demo/structure
+    demo/demo
+    demo/lists_tables
+    demo/api
    
    README.md
    文件托管系统-ReadtheDocs.md
