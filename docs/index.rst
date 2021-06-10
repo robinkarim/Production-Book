@@ -5,4 +5,9 @@ Welcome to Cirrent
    :description lang=en: Automate building, versioning, and hosting of your technical documentation continuously on Read the Docs.
    
 .. toctree::
-   account-management.rst
+   :maxdepth: 2
+   :hidden:
+   account-management
+   INI
+   MAI
+   
