@@ -16,8 +16,6 @@ Welcome to helloworld's documentation!
     demo/lists_tables
     demo/api
    
-   README.md
-   文件托管系统-ReadtheDocs.md
 
 
 Indices and tables
