@@ -1,155 +1,140 @@
-# Configuration file for the Sphinx documentation builder.
-#
-# This file only contains a selection of the most common options. For a full
-# list see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
+import os
+import sys
+from configparser import RawConfigParser
 
-from myst_parser import __version__
+import sphinx_rtd_theme
 
-# -- Project information -----------------------------------------------------
+sys.path.insert(0, os.path.abspath('..'))
+sys.path.append(os.path.dirname(__file__))
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "readthedocs.settings.dev")
 
-project = "MyST Parser"
-copyright = "2020, Executable Book Project"
-author = "Executable Book Project"
-version = __version__
+from django.utils import timezone
 
-master_doc = "index"
-language = "en"
+import django
+django.setup()
 
-# -- General configuration ---------------------------------------------------
 
-# Add any Sphinx extension module names here, as strings. They can be
-# extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
-# ones.
+def get_version():
+    """Return package version from setup.cfg."""
+    config = RawConfigParser()
+    config.read(os.path.join('..', 'setup.cfg'))
+    return config.get('metadata', 'version')
+
+
+sys.path.append(os.path.abspath('_ext'))
 extensions = [
-    "myst_parser",
-    "sphinx.ext.autodoc",
-    "sphinx.ext.intersphinx",
-    "sphinx.ext.viewcode",
-    "sphinxcontrib.bibtex",
-    "sphinx_panels",
+    'sphinx.ext.autosectionlabel',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.intersphinx',
+    'sphinxcontrib.httpdomain',
+    'djangodocs',
+    'doc_extensions',
+    'sphinx_tabs.tabs',
+    'sphinx-prompt',
+    'notfound.extension',
+    'hoverxref.extension',
+    'sphinx_search.extension',
+    'sphinxemoji.sphinxemoji',
 ]
 
-# Add any paths that contain templates here, relative to this directory.
-templates_path = ["_templates"]
+templates_path = ['_templates']
 
-# List of patterns, relative to source directory, that match files and
-# directories to ignore when looking for source files.
-# This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
-
-
-# -- Options for HTML output -------------------------------------------------
-
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-#
-html_theme = "sphinx_book_theme"
-html_logo = "_static/logo-wide.svg"
-html_favicon = "_static/logo-square.svg"
-html_title = ""
-html_theme_options = {
-    "github_url": "https://github.com/executablebooks/MyST-Parser",
-    "repository_url": "https://github.com/executablebooks/MyST-Parser",
-    "use_edit_page_button": True,
-    "repository_branch": "master",
-    "path_to_docs": "docs",
-}
-
-# Add any paths that contain custom static files (such as style sheets) here,
-# relative to this directory. They are copied after the builtin static files,
-# so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ["_static"]
-
-myst_enable_extensions = [
-    "dollarmath",
-    "amsmath",
-    "deflist",
-    "html_admonition",
-    "html_image",
-    "colon_fence",
-    "smartquotes",
-    "replacements",
-    "linkify",
-    "substitution",
-    "tasklist",
-]
-myst_url_schemes = ("http", "https", "mailto")
-myst_heading_anchors = 2
-myst_footnote_transition = True
-myst_dmath_double_inline = True
-panels_add_bootstrap_css = False
-bibtex_bibfiles = ["examples/references.bib"]
-
-
-def run_apidoc(app):
-    """generate apidoc
-
-    See: https://github.com/rtfd/readthedocs.org/issues/1139
-    """
-    import os
-    import shutil
-
-    import sphinx
-    from sphinx.ext import apidoc
-
-    logger = sphinx.util.logging.getLogger(__name__)
-    logger.info("running apidoc")
-    # get correct paths
-    this_folder = os.path.abspath(os.path.dirname(os.path.realpath(__file__)))
-    api_folder = os.path.join(this_folder, "_api")
-    module_path = os.path.normpath(os.path.join(this_folder, "../"))
-    ignore_paths = ["../setup.py", "../conftest.py", "../tests"]
-    ignore_paths = [
-        os.path.normpath(os.path.join(this_folder, p)) for p in ignore_paths
-    ]
-
-    if os.path.exists(api_folder):
-        shutil.rmtree(api_folder)
-    os.mkdir(api_folder)
-
-    argv = ["-M", "--separate", "-o", api_folder, module_path] + ignore_paths
-
-    apidoc.main(argv)
-
-    # we don't use this
-    if os.path.exists(os.path.join(api_folder, "modules.rst")):
-        os.remove(os.path.join(api_folder, "modules.rst"))
-
-
+master_doc = 'index'
+project = 'Read the Docs'
+copyright = '2010-{}, Read the Docs, Inc & contributors'.format(
+    timezone.now().year
+)
+version = get_version()
+release = version
+exclude_patterns = ['_build']
+default_role = 'obj'
 intersphinx_mapping = {
-    "python": ("https://docs.python.org/3.7", None),
-    "sphinx": ("https://www.sphinx-doc.org/en/master", None),
-    "markdown_it": ("https://markdown-it-py.readthedocs.io/en/latest", None),
+    'python': ('https://docs.python.org/3.6/', None),
+    'django': ('https://docs.djangoproject.com/en/1.11/', 'https://docs.djangoproject.com/en/1.11/_objects/'),
+    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
+    'pip': ('https://pip.pypa.io/en/stable/', None),
+}
+htmlhelp_basename = 'ReadTheDocsdoc'
+latex_documents = [
+    ('index', 'ReadTheDocs.tex', 'Read the Docs Documentation',
+     'Eric Holscher, Charlie Leifer, Bobby Grace', 'manual'),
+]
+man_pages = [
+    ('index', 'read-the-docs', 'Read the Docs Documentation',
+     ['Eric Holscher, Charlie Leifer, Bobby Grace'], 1)
+]
+
+exclude_patterns = [
+    # 'api' # needed for ``make gettext`` to not die.
+]
+
+language = 'en'
+
+locale_dirs = [
+    'locale/',
+]
+gettext_compact = False
+
+html_theme = 'sphinx_rtd_theme'
+html_static_path = ['_static']
+html_js_files = ['js/expand_tabs.js']
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+html_logo = 'img/logo.svg'
+html_theme_options = {
+    'logo_only': True,
+    'display_version': False,
 }
 
-# autodoc_default_options = {
-#     "show-inheritance": True,
-#     "special-members": "__init__, __enter__, __exit__",
-#     "members": True,
-#     # 'exclude-members': '',
-#     "undoc-members": True,
-#     # 'inherited-members': True
-# }
-autodoc_member_order = "bysource"
+hoverxref_auto_ref = True
+hoverxref_domains = ['py']
+hoverxref_roles = [
+    'option',
+    'doc',
+]
+hoverxref_role_types = {
+    'mod': 'modal',  # for Python Sphinx Domain
+    'doc': 'modal',  # for whole docs
+    'class': 'tooltip',  # for Python Sphinx Domain
+    'ref': 'tooltip',  # for hoverxref_auto_ref config
+    'confval': 'tooltip',  # for custom object
+}
 
-nitpick_ignore = [
-    ("py:class", "docutils.nodes.document"),
-    ("py:class", "docutils.nodes.docinfo"),
-    ("py:class", "docutils.nodes.Element"),
-    ("py:class", "docutils.nodes.field_list"),
-    ("py:class", "docutils.nodes.problematic"),
-    ("py:class", "docutils.nodes.pending"),
-    ("py:class", "docutils.nodes.system_message"),
-    ("py:class", "docutils.statemachine.StringList"),
-    ("py:class", "docutils.parsers.rst.directives.misc.Include"),
-    ("py:class", "docutils.parsers.rst.Parser"),
-    ("py:class", "docutils.utils.Reporter"),
-    ("py:class", "DocutilsRenderer"),
-    ("py:class", "MockStateMachine"),
+rst_epilog = """
+.. |org_brand| replace:: Read the Docs Community
+.. |com_brand| replace:: Read the Docs for Business
+"""
+
+# Activate autosectionlabel plugin
+autosectionlabel_prefix_document = True
+
+numfig = True
+
+# sphinx-notfound-page
+# https://github.com/readthedocs/sphinx-notfound-page
+notfound_context = {
+    'title': 'Page Not Found',
+    'body': '''
+<h1>Page Not Found</h1>
+<p>Sorry, we couldn't find that page.</p>
+<p>Try using the search box or go to the homepage.</p>
+''',
+}
+linkcheck_ignore = [
+    r'http://127\.0\.0\.1',
+    r'http://localhost',
+    r'http://community\.dev\.readthedocs\.io',
+    r'https://yourproject\.readthedocs\.io',
+    r'https?://docs\.example\.com',
+    r'https://foo\.readthedocs\.io/projects',
+    r'https://github\.com.+?#L\d+',
+    r'https://github\.com/readthedocs/readthedocs\.org/issues',
+    r'https://github\.com/readthedocs/readthedocs\.org/pull',
+    r'https://docs\.readthedocs\.io/\?rtd_search',
+    r'https://readthedocs\.org/search',
+    # This page is under login
+    r'https://readthedocs\.org/accounts/gold',
 ]
 
 
 def setup(app):
-    """Add functions to the Sphinx setup."""
-    # app.connect("builder-inited", run_apidoc)
+    app.add_css_file('css/sphinx_prompt_css.css')
