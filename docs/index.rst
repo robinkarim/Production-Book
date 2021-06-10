@@ -6,6 +6,7 @@ Welcome to Cirrent
    
 .. toctree::
    :maxdepth: 2
+   :hidden:
    
    account-management
    INI
