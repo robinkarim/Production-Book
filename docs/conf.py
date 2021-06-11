@@ -52,11 +52,11 @@ templates_path = ['_templates']
 master_doc = 'index'
 
 # General information about the project.
-project = u'Recommonmark'
-copyright = u'2015, Luca Barbato, Eric Holscher, and contributors'
-author = u'Luca Barbato, Eric Holscher, and contributors'
+project = u'Cirrent Support Docs'
+copyright = u'®2020 Cirrent. All rights reserved.'
+author = u'Tahir Mushtaq'
 
-github_doc_root = 'https://github.com/rtfd/recommonmark/tree/master/docs/'
+#github_doc_root = 'https://github.com/rtfd/recommonmark/tree/master/docs/'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
