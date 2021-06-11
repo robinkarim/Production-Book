@@ -8,6 +8,6 @@ Welcome to Cirrent
    :maxdepth: 2
    :hidden:
    
-   account-management
+   console
    ini
    mai
