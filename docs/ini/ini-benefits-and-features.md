@@ -14,10 +14,10 @@ IoT Network Intelligence (INI) helps you monitor your fleet of connected devices
 
 1.  Understand broad trends for your entire fleet
 2.  Benchmark performance of different connected products (eg: different SKUs or models, different ODMs, etc) against Wi-Fi environment
-3.  Isolate failure using 20+  [Events](https://support.cirrent.com/hc/en-us/articles/360034616633). These events help you determine if the failure is in the Network stack, or from device to Router, or Router to ISP, or Device to Cloud, or if it’s caused by RF conditions
+3.  Isolate failure using 20+  [Events](ini-events). These events help you determine if the failure is in the Network stack, or from device to Router, or Router to ISP, or Device to Cloud, or if it’s caused by RF conditions
 4.  Use Measurements to understand user's Wi-Fi environment. Eg: If device is too far from the router or if there is interference
 5.  Quantify how many customers are impacted by each issue
-6.  Find correlation between Events (eg: Wi-Fi Not Associated) and  [Attributes](https://support.cirrent.com/hc/en-us/articles/360049772934)  (eg: routers)
+6.  Find correlation between Events (eg: Wi-Fi Not Associated) and  [Attributes](ini-attributes)  (eg: routers)
 7.  Router make and model identification
 8.  ISP and location identification
 9.  Ability to add Custom Attributes (eg: firmware version, manufacturing lot number, ODM, etc) to understand correlation
@@ -54,4 +54,4 @@ The Cirrent Agent is embedded software that goes on your product. It collects so
 
 The Cirrent cloud processes the data using Analytics engine, Benchmarking & Correlation engine, and machine learning. The Cirrent cloud also stores and compresses the data. The Cirrent console shows insights on your products using dashboards and reports.
 
-![Screen_Shot_2020-06-18_at_2.14.28_PM.png](https://support.cirrent.com/hc/article_attachments/360076442373/Screen_Shot_2020-06-18_at_2.14.28_PM.png)
+![](../img/Screen_Shot_2020-06-18_at_2.14.28_PM.png)

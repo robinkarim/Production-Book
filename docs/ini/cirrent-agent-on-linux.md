@@ -24,4 +24,4 @@ Dependencies vary by features. Source code available with Software License Agree
 
 # Components
 
-![Linux_Block_Diagram.png](https://support.cirrent.com/hc/article_attachments/360087314254/Linux_Block_Diagram.png)
+![](../img/Linux_Block_Diagram.png)

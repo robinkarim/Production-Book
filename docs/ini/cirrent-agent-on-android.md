@@ -24,4 +24,4 @@ Dependencies vary by features.
 
 # Components
 
-![Android_Architecture.png](../img/Android_Architecture.png)
+![](../img/Android_Architecture.png)

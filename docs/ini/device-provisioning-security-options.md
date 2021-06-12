@@ -26,4 +26,4 @@ Temporary Credentials
 The third way to provision devices is to use a provisioning key that is shared across many devices. Cirrent's service uses this provisioning key and the device id to generate a temporary shared secret unique to the device, and uses that to log into ZipKey hotspots and the Cirrent cloud. On the first connection, the device is then issued a shared secret, which the device uses from that time forward. To provision your device using temporary credentials:
 
 -   Make sure you have a Provisioning Key
--   Put the device id and the Provisioning Key in the CA configuration ([learn more here](https://support.cirrent.com/hc/en-us/articles/115000084846))
+-   Put the device id and the Provisioning Key in the CA configuration ([learn more here](starting-ca-using-temporary-credentials))
