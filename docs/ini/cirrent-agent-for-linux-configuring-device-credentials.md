@@ -6,7 +6,7 @@ Cirrent provides a script to configure the Cirrent Agent on each device. Before 
 
 -   **Account ID.** This is your Cirrent account ID, an integer like 1312, which you can find [here](https://go.cirrent.com/account). It lets Cirrent associate the device with a company account.
 -   **Device ID.** This is the unique ID for the device.
--   **Device secret.** This is the secret that you allocated to the device, or Cirrent issued for the device. If you don't have a secret yet, make sure to register the device in the [Management Center](https://go.cirrent.com/management/devices). Make sure to double check capital I and l and 0 and O to get the secret right. You can find more information about the Device ID and secret [here](https://support.cirrent.com/hc/en-us/articles/217518466-Devices).
+-   **Device secret.** This is the secret that you allocated to the device, or Cirrent issued for the device. If you don't have a secret yet, make sure to register the device in the [Management Center](https://go.cirrent.com/management/devices). Make sure to double check capital I and l and 0 and O to get the secret right. You can find more information about the Device ID and secret [here](device-provisioning-security-options).
 
 Now you can configure the device by running the personalization script:
 ```
@@ -23,7 +23,7 @@ If you have an internet connection on the device, this should return a success. 
 
 ## Configuring credentials for production devices
 
-Every ZipKey-enabled device needs its own credential. On Linux devices, the Cirrent Agent reads the credential from a specially formatted credential file, or uses a library you provide to read the credential. For production devices, each device should be pre-provisioned with a unique credential as part of the manufacturing process. The credential must also be uploaded to the Cirrent cloud. You can find more information about Device IDs [here](https://support.cirrent.com/hc/en-us/articles/217518466-Devices).
+Every ZipKey-enabled device needs its own credential. On Linux devices, the Cirrent Agent reads the credential from a specially formatted credential file, or uses a library you provide to read the credential. For production devices, each device should be pre-provisioned with a unique credential as part of the manufacturing process. The credential must also be uploaded to the Cirrent cloud. You can find more information about Device IDs [here](device-provisioning-security-options).
 
 ### **Credential library**
 
