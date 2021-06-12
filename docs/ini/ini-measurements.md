@@ -16,4 +16,4 @@ ICMP Packet Loss measurements (default gateways are google.com and yahoo.com)
 
 ## Application Performance Monitoring
 
-You can add your own [Custom Measuremen](https://support.cirrent.com/hc/en-us/articles/360045861214)t to report numerical data relevant to your application or system. For example, you could report memory usage or CPU temperature data.
+You can add your own [Custom Measuremen](ini-custom-data-api)t to report numerical data relevant to your application or system. For example, you could report memory usage or CPU temperature data.

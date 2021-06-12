@@ -2,7 +2,7 @@
 
 # Events:
 
-An event is an issue or error experienced by a device. Below is a list of Events that the Cirrent Agent collects and that are analyzed in the Cirrent Cloud. When you're in your instance of the Cirrent Console, you may see some or all of these metrics affecting the devices in your fleet. You can also add  [Custom Events](https://support.cirrent.com/hc/en-us/articles/360045861214)  to monitor your application.
+An event is an issue or error experienced by a device. Below is a list of Events that the Cirrent Agent collects and that are analyzed in the Cirrent Cloud. When you're in your instance of the Cirrent Console, you may see some or all of these metrics affecting the devices in your fleet. You can also add  [Custom Events](ini-custom-data-api)  to monitor your application.
 
 **Network Performance Score:** This metric shows the overall connectivity score
 

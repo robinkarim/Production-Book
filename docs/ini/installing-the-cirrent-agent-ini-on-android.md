@@ -1,9 +1,9 @@
 ﻿# Installing the Cirrent Agent (INI) on Android
 
 1.  Create a new provisioning key by visiting the Cirrent Console.
-    -   [Learn more about the provisioning key here](https://support.cirrent.com/hc/en-us/articles/115000084846-Starting-CA-using-temporary-credentials).
+    -   [Learn more about the provisioning key here](starting-ca-using-temporary-credentials).
     -   Note down the provisioning key and secret. You will need this information later.
-2.  Extract the  [ca_android_1.50.tar.gz](https://support.cirrent.com/hc/article_attachments/360081719973/ca_android_1.50-ini.tar.gz)  tar file to your local machine. The tar file contains the Cirrent APK and a Cirrent directory. It is compatible with Android versions 6 and above.
+2.  Extract the  [ca_android_1.50.tar.gz](../files/ca_android_1.50-ini.tar.gz)  tar file to your local machine. The tar file contains the Cirrent APK and a Cirrent directory. It is compatible with Android versions 6 and above.
 3.  Connect to Android using adb by executing the following command. You will need to enable USB debugging on your Android device. Please use adb version v1.0.39 or newer  
     ```
     adb connect IP_ADDRESS_OF_ANDROID_ON_SAME_SUBNET
@@ -19,6 +19,6 @@
     -   Disable SELINUX on the Android box
     -   If you still have trouble getting things up and running contact [support@cirrent.com](mailto:support@cirrent.com) with the adb logcat output of your Android device and the Android version of your device.
 
--   [ca_android_1.50-ini.tar.gz](https://support.cirrent.com/hc/en-us/article_attachments/360081719973/ca_android_1.50-ini.tar.gz)
+-   [ca_android_1.50-ini.tar.gz](../files/ca_android_1.50-ini.tar.gz)
     
-    4 MB  [Download](https://support.cirrent.com/hc/en-us/article_attachments/360081719973/ca_android_1.50-ini.tar.gz)
+    4 MB  [Download](../files/ca_android_1.50-ini.tar.gz)
