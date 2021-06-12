@@ -24,4 +24,4 @@ Dependencies vary by features.
 
 # Components
 
-![Android_Architecture.png](https://support.cirrent.com/hc/article_attachments/360087314154/Android_Architecture.png)
+![Android_Architecture.png](../img/Android_Architecture.png)
