@@ -12,7 +12,7 @@ You will need an account on  [Cirrent console](https://console.cirrent.com/login
 
 ### Method 1: Using Cirrent Console
 
-Step 1: Define your [Device Type](https://support.cirrent.com/hc/en-us/articles/218369843-Device-Types)  in the  [Manage Device Types page](https://go.cirrent.com/management/device-type).
+Step 1: Define your [Device Type](device-provisioning-security-options)  in the  [Manage Device Types page](https://go.cirrent.com/management/device-type).
 
 Step 2: Define Device Credentials are in the form of Device ID and Secret as described [here](https://support.cirrent.com/hc/en-us/articles/217518466).
 
@@ -30,11 +30,11 @@ device4, secretfordevice4, device5, secretfordevice5
 
 You can also register devices by using [Operations API](https://app.swaggerhub.com/apis/Cirrent/api-ops/1.0.0-oas3#/) during manufacturing process to programmatically register your devices.
 
-Step 1: Define  [Device Type](https://support.cirrent.com/hc/en-us/articles/218369843-Device-Types)  using POST /devicetypes and passing JSON payload as shown in [Operations API](https://app.swaggerhub.com/apis/Cirrent/api-ops/1.0.0-oas3#/)
+Step 1: Define  [Device Type](device-provisioning-security-options)  using POST /devicetypes and passing JSON payload as shown in [Operations API](https://app.swaggerhub.com/apis/Cirrent/api-ops/1.0.0-oas3#/)
 
-Step 2: Define Device Credentials are in the form of Device ID and Secret as described [here](https://support.cirrent.com/hc/en-us/articles/217518466).
+Step 2: Define Device Credentials are in the form of Device ID and Secret as described [here](device-provisioning-security-options).
 
-==**Note:**  You can try out the different  [Operations API](https://app.swaggerhub.com/apis/Cirrent/api-ops/1.0.0-oas3#/)  calls shown in next few steps by clicking "Authorize" on the top right of the  [Operations API page](https://app.swaggerhub.com/apis/Cirrent/api-ops/1.0.0-oas3#/).  [More details on Ops API are here](https://support.cirrent.com/hc/en-us/articles/360035665393). Click "Tryout" to edit the different JSON payloads and see the results.==
+==**Note:**  You can try out the different  [Operations API](https://app.swaggerhub.com/apis/Cirrent/api-ops/1.0.0-oas3#/)  calls shown in next few steps by clicking "Authorize" on the top right of the  [Operations API page](https://app.swaggerhub.com/apis/Cirrent/api-ops/1.0.0-oas3#/).  [More details on Ops API are here](using-ops-api-to-register-devices). Click "Tryout" to edit the different JSON payloads and see the results.==
 
 Step 3: Get Device Type ID using GET /devicetypes
 

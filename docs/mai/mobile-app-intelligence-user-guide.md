@@ -59,9 +59,9 @@ Location
 
 The connected product mobile app will use a JSON web token (JWT) to confirm its scope of control when it calls the Cirrent cloud. The App API Key and Secret are generated using Cirrent Console using link  [https://console.cirrent.com/api-keys](https://console.cirrent.com/api-keys). Please click “Create API Key” button and choose key type as “app” as shown below.
 
-![](https://support.cirrent.com/hc/article_attachments/360075111753/image-1.png)
+![](../img/image-1.png)
 
-Using the App API Key and Secret, you will need to generate  [Analytics token](https://support.cirrent.com/hc/en-us/articles/360049837074).
+Using the App API Key and Secret, you will need to generate  [Analytics token](analytics-token-generation).
 
 Please use one of these options to generate analytics JWT token:
 

@@ -6,7 +6,7 @@ Here is how you start the CA to use the temporary credentials:
 
 1.  Make sure you have a Provisioning Key, Provisioning Secret (see screen shot below on how to create these), device type id[(see in Console](https://console.cirrent.com/device-types)), your account ID ([see in Console](https://console.cirrent.com/edit-user-profile)) and a unique device identifier for your device(could be a serial number, MAC address or any other unique identifier).
 
-![Screen_Shot_2020-07-07_at_9.29.13_PM.png](https://support.cirrent.com/hc/article_attachments/360079392393/Screen_Shot_2020-07-07_at_9.29.13_PM.png)
+![](../img/Screen_Shot_2020-07-07_at_9.29.13_PM.png)
 
 2. Run the cirrent_agent on the device passing in the account_id, device_type_id, provisioning_key, provisioning_secret and unique device identifier(eg: serial_number). The following table describes the arguments that needs to be passed to Cirrent Agent on Linux and Android platform while using Temporary Credentials.
 

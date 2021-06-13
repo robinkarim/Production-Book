@@ -6,7 +6,7 @@ The main areas of functionality that you should look at are:
 
 -   Fragments - these are some screens for the sample app that call the main methods in the CirrentService
 
--   LoginFragment - this is the first screen where the user logs in. You should replace this with a login to your cloud. It logs the user in, and gets a SEARCH token that will be used to authenticate your app to the Cirrent cloud. See the article on  [tokens](https://support.cirrent.com/hc/en-us/articles/115000055723-App-Keys-and-Token-Generation)  for more information on the tokens that your app will need to pass into the Cirrent SDK.
+-   LoginFragment - this is the first screen where the user logs in. You should replace this with a login to your cloud. It logs the user in, and gets a SEARCH token that will be used to authenticate your app to the Cirrent cloud. See the article on  [tokens](analytics-token-generation)  for more information on the tokens that your app will need to pass into the Cirrent SDK.
 -   FindDeviceFragment - this is the screen where the user searches for nearby devices of the correct type that have been powered on recently and are not yet associated with a user account.
 -   SetupDeviceManuallyFragment, SetupDeviceAutomaticallyFragment, SetupDeviceViaSoftApFragment - these are the screens that enable the user to choose which network they would like the connected product to join
 -   SendPrivateCredentialsFragment - this fragment sends the private credentials via the Cirrent cloud, and waits for the device to confirm that it has JOINED the private network.
