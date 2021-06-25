@@ -19,3 +19,33 @@ Engineers can quickly get products up and running using INI by  [integrating the
 
 ![Cirrent IoT Network Intelligence](https://img.youtube.com/vi/Ybz1lKY9rFg/0.jpg)](https://www.youtube.com/watch?v=Ybz1lKY9rFg)
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   
+   ini/installing-the-cirrent-agent-ini-using-the-cypress-linux-driver-packages
+   ini/ini-benefits-and-features
+   ini/ini-console-user-guide
+   :caption: Technology Overview
+   ini/cirrent-agent-on-linux
+   ini/cirrent-agent-on-android
+   ini/ini-events
+   ini/ini-attributes
+   ini/ini-custom-data-api
+   ini/ini-measurements
+   :caption: Provisioning and Authentication
+   ini/using-ops-api-to-register-devices
+   ini/temporary-device-credentials
+   ini/device-provisioning-security-options
+   ini/registering-devices-with-cirrent
+   ini/starting-ca-using-temporary-credentials
+   :caption: Implementation
+   ini/installing-the-cirrent-agent-ini-on-raspberry-pi
+   ini/installing-the-cirrent-agent-ini-on-android
+   ini/ca-for-linux-dependencies
+   ini/cirrent-agent-for-linux-configuring-device-credentials
+   ini/ca-c-api
+   :caption: Testing and Troubleshooting
+   ini/testing-the-ca-for-iot-network-intelligence-ini
+   ini/troubleshooting-tools
+   
