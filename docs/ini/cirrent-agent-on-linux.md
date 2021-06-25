@@ -1,6 +1,6 @@
 ﻿# Cirrent Agent on Linux
 
-# Overview
+## Overview
 
 The Cirrent Agent is compatible with  **Linux 2.2 and above**. The Cirrent Agent is delivered as a tarball comprised of:
 
@@ -22,6 +22,6 @@ Features include:
 
 Dependencies vary by features. Source code available with Software License Agreement (SLA).
 
-# Components
+## Components
 
 ![](../img/Linux_Block_Diagram.png)
