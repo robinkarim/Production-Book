@@ -24,28 +24,28 @@ Engineers can quickly get products up and running using INI by `integrating the 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ybz1lKY9rFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :hidden:
 
-   ini/installing-the-cirrent-agent-ini-using-the-cypress-linux-driver-packages
-   ini/ini-benefits-and-features
-   ini/ini-console-user-guide
-   ini/cirrent-agent-on-linux
-   ini/cirrent-agent-on-android
-   ini/ini-events
-   ini/ini-attributes
-   ini/ini-custom-data-api
-   ini/ini-measurements
-   ini/using-ops-api-to-register-devices
-   ini/temporary-device-credentials
-   ini/device-provisioning-security-options
-   ini/registering-devices-with-cirrent
-   ini/starting-ca-using-temporary-credentials
-   ini/installing-the-cirrent-agent-ini-on-raspberry-pi
-   ini/installing-the-cirrent-agent-ini-on-android
-   ini/ca-for-linux-dependencies
-   ini/cirrent-agent-for-linux-configuring-device-credentials
-   ini/ca-c-api
-   ini/testing-the-ca-for-iot-network-intelligence-ini
-   ini/troubleshooting-tools
+   installing-the-cirrent-agent-ini-using-the-cypress-linux-driver-packages
+   ini-benefits-and-features
+   ini-console-user-guide
+   cirrent-agent-on-linux
+   cirrent-agent-on-android
+   ini-events
+   ini-attributes
+   ini-custom-data-api
+   ini-measurements
+   using-ops-api-to-register-devices
+   temporary-device-credentials
+   device-provisioning-security-options
+   registering-devices-with-cirrent
+   starting-ca-using-temporary-credentials
+   installing-the-cirrent-agent-ini-on-raspberry-pi
+   installing-the-cirrent-agent-ini-on-android
+   ca-for-linux-dependencies
+   cirrent-agent-for-linux-configuring-device-credentials
+   ca-c-api
+   testing-the-ca-for-iot-network-intelligence-ini
+   troubleshooting-tools
    
