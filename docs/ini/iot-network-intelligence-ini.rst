@@ -27,20 +27,18 @@ Engineers can quickly get products up and running using INI by `integrating the 
    :maxdepth: 3
    :hidden:
 
-   installing-the-cirrent-agent-ini-using-the-cypress-linux-driver-packages
    ini-benefits-and-features
    ini-console-user-guide
    cirrent-agent-on-linux
    cirrent-agent-on-android
-   ini-events
-   ini-attributes
+   ini-data-model
    ini-custom-data-api
-   ini-measurements
    using-ops-api-to-register-devices
    temporary-device-credentials
    device-provisioning-security-options
    registering-devices-with-cirrent
    starting-ca-using-temporary-credentials
+   installing-the-cirrent-agent-ini-using-the-cypress-linux-driver-packages
    installing-the-cirrent-agent-ini-on-raspberry-pi
    installing-the-cirrent-agent-ini-on-android
    ca-for-linux-dependencies
