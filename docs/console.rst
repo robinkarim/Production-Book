@@ -2,7 +2,7 @@ Console
 =======
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :hidden:
    
    console/i-lost-the-secret-for-my-api-key-can-i-retrieve-it
