@@ -20,6 +20,7 @@ INI works with the Cirrent Agent running on the device and sending data to the C
 Engineers can quickly get products up and running using INI by `integrating the Cirrent Agent for INI <https://support.cirrent.com/hc/en-us/articles/360008780154>`_. Below is a walkthrough of the Cirrent Console for INI showing how INI can be used to help improve product connectivity.
 
 .. raw:: html
+
    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ybz1lKY9rFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 .. toctree::
