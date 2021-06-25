@@ -1,6 +1,6 @@
 ﻿# Cirrent Agent on Android
 
-# Overview
+## Overview
 
 The Cirrent Agent is compatible with **Android 6.0 (API level 23) and above**. The Cirrent Agent is delivered as a tarball comprised of:
 
@@ -22,6 +22,6 @@ Features include:
 
 Dependencies vary by features.
 
-# Components
+## Components
 
 ![](../img/Android_Architecture.png)
