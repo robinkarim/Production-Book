@@ -2,11 +2,11 @@
 
 ==This guide should take approximately 1 hour to complete==
 
-# Overview
+## Overview
 
 This guide covers how to install, configure, run, and use the Cirrent Agent on your A-Class device to enable the IoT Network Intelligence feature. By the end of this guide you will have the latest Cirrent Agent running on your device and reporting data to the Cirrent Cloud. Data will be displayed in your Cirrent Console account.
 
-# Requirements
+## Requirements
 
 -   A-Class device with compatible architecture (armhf). Here is a link to the platform we use to test:
     
@@ -32,7 +32,7 @@ This guide covers how to install, configure, run, and use the Cirrent Agent on y
     -   libcrypto 1.0.2
     -   libcurl 4.5.0
 
-# Setup
+## Setup
 
 1.  Make sure your device is powered on and is connected to a Wi-Fi network that can reach the Internet. If you are using the Yocto SD card image, you can connect to Wi-Fi by following these steps:
 
@@ -53,7 +53,7 @@ systemctl enable systemd-networkd
 
 3. Create a new Device Type use an existing device type and make note of its ID. You can find the device type ID in the  [Device Types section of the Cirrent Console](https://console.cirrent.com/device-types).
 
-# Installation
+## Installation
 
 **1**. If you are using the Yocto SD card image you can go to step 2. If you are installing for another armhf device, please follow the instructions included in the root directory of the FMAC tarball under the "Instructions - Cirrent Agent" section of the README.
 
@@ -73,7 +73,7 @@ reboot
 ```
 All done! You can now leave your device running and the Cirrent Agent will automatically collect data.
 
-# Checking the Data
+## Checking the Data
 
 The Cirrent Agent will start reporting some data like the SSID, BSSID, router that the device is connected to after the first few minutes, while some data like metrics and connectivity values take up to a day for the Cirrent Agent to collect and report.
 
