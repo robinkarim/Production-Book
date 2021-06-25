@@ -9,5 +9,5 @@ Welcome to Cirrent
    :hidden:
    
    console
-   ini
+   ini/iot-network-intelligence-ini
    mai
