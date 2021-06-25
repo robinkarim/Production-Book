@@ -1,6 +1,6 @@
 ﻿# Testing the CA for IoT Network Intelligence (INI)
 
-# Testing
+## Testing
 
 For testing you'll need a device with the CA installed and configured to run INI.
 
