@@ -3,11 +3,11 @@ Ready to get started?
 
 At this point, you’ve set up your device to be able to run Cirrent’s IoT Network Intelligence (INI). This guide is intended for Engineers, Product Managers and Customer Support Agents who use the console to get insights on their Wi-Fi connected products. This guide will walk you through how you can use the console to monitor performance of your fleet, to get insights at both the aggregate-level and on a single device, and to diagnose problems with products in the field.
 
-# Login
+## Login
 
 First thing you’re going to need to do is login. Enter your email and password.
 
-# Dashboard
+## Dashboard
 
 The first screen that you will see when you login is your dashboard.
 
@@ -19,37 +19,37 @@ Then, starting at the top left corner,  you will see various tiles holding data,
 
 For a deeper dive into any of the charts, just click on a point within the box and it will take you to another page with more details.
 
-## Device Reporting
+### Device Reporting
 
 This chart shows number of devices that are reporting each day.
 
-## Problematic Routers
+### Problematic Routers
 
 This chart shows on which routers your products are experiencing the most issues.
 
-## # of Devices Reporting
+### # of Devices Reporting
 
 This chart shows number of devices that have reported in the time period.
 
-## Top Routers
+### Top Routers
 
 This chart shows which routers are most popular for your fleet of devices within the time period.
 
-## Top ISPs
+### Top ISPs
 
 This chart shows a ranking of which Internet Service Providers most of your devices are on during the chosen time period.
 
-## Devices
+### Devices
 
 List of unique devices sorted by number of events that device has experienced in the time period.
 
 ![](../img/Screen_Shot_2020-05-13_at_4.45.56_PM.png)
 
-## Recent Events
+### Recent Events
 
 This chart shows recent events occurring on any of your devices.
 
-## Event Types over Time
+### Event Types over Time
 
 Charts metrics over time period. This data can be in event counts, but is defaulted to normalized view. Toggle the Normalize data button to see event counts.
 
@@ -57,29 +57,29 @@ Charts metrics over time period. This data can be in event counts, but is defaul
 
 On the left side of your screen, you will see the navigation. In this section, we will focus on Product Operations tools.
 
-# Connectivity
+## Connectivity
 
 The Connectivity dashboards will show multiple charts- one on each tab. The Connectivity dashboards gives you an aggregate view of your fleet. You can also check relative performance across different sub-sets of the fleet.
 
-## Over Time
+### Over Time
 
 This chart shows metrics over time period. Toggling Normalize data allows you to see the metric counts. You can filter by metric type (including network performance events and custom events). You can also filter by various attributes. For example, if you only want to look at your devices in the United States, you can filter by Country = US.
 
 ![](../img/Screen_Shot_2020-05-13_at_4.54.02_PM.png)
 
-## By Attribute
+### By Attribute
 
 This view shows metrics (issues), ranked by count from most issues to least, by attribute. You’re able to select a metric to view and filter by any attribute. You’re also able to customize what columns you’d like to see.
 
 ![](../img/Screen_Shot_2020-05-13_at_4.47.11_PM.png)
 
-## Device List
+### Device List
 
 This is a list of unique devices that have experienced the selected metric. In the screen below, Low Signal Strength is the metric. You’re also able to filter by any attribute, change the time period and customize the columns. The list defaults to a ranking from highest metric value to lowest.
 
 ![](../img/Screen_Shot_2020-03-31_at_3.28.33_PM.png)
 
-## By Environment
+### By Environment
 
 This is a benchmarking tool. To get the most out of the dashboard, click the settings button and choose what metric you’d like to view. Choose environment - from ISP, router, country or a combination of those. Then choose any attribute or attribute combination to compare against any other attribute or combination.
 
@@ -89,11 +89,11 @@ Once you apply the settings that you have chosen, the benchmark chart will popul
 
 ![](../img/Screen_Shot_2020-05-13_at_4.49.13_PM.png)
 
-# Device Inspector
+## Device Inspector
 
 The Device Inspector dashboards give you the view of a single device.
 
-## Network
+### Network
 
 This page shows the network performance of a single device. In the top right side, input the device ID. Choose the time period to explore.
 
@@ -117,25 +117,25 @@ This is useful to understand if this device is performing better, worse or avera
 
 ![](../img/Screen_Shot_2020-05-13_at_4.43.42_PM.png)
 
-## Diagnostics
+### Diagnostics
 
 From this tab, you are able to run diagnostics on a single device. You will see the status of the diagnostic test on the chart table. Once the diagnostic has run, you will be able to click on the results to see more information.
 
 ![](../img/Screen_Shot_2020-05-13_at_4.41.37_PM.png)
 
-# Device Management
+## Device Management
 
 ![](../img/mceclip0.png)
 
 On the left side of your screen, you will see the navigation. In this section, we will focus on Device Management. Only Console Users with Operations privilege have access to Device Management.
 
-## Device Types
+### Device Types
 
 From this tab, you are able to add, edit or delete Device Types. We suggest using different device types for different products or SKUs so that you can compare performance between different products in the field.
 
 ![](../img/Screen_Shot_2020-05-13_at_4.50.46_PM.png)
 
-## Devices
+### Devices
 
 From this tab, you are able to register devices to your account. More details on registering devices is available here:  [registering devices with Cirrent](registering-devices-with-cirrent)
 
