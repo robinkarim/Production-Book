@@ -22,8 +22,7 @@ Cloud ID allows you to:
 * Provision devices in your cloud through cloud-to-cloud APIs.
 * Monitor your manufacturing to ensure appropriate build quantities.
 
-Engineers can quickly get products up and running using MAI by
-????
+Engineers can quickly get products up and running using MAI by ????
 
 
 How Cloud ID works

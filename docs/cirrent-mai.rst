@@ -27,8 +27,7 @@ MAI allows you to:
 * **Diagnose** the cause of the problem
   * Analyze data to understand root cause
 
-Engineers can quickly get products up and running using MAI by
-????
+Engineers can quickly get products up and running using MAI by ????
 
 
 How MAI works
