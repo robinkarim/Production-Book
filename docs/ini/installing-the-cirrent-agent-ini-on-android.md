@@ -12,7 +12,7 @@
 5.  ``` adb install PATH_TO_CIRRENT_APK ```
     
 6. ``` am startservice -n com.cirrent.agent/.CirrentAgentService -e acc_id 0000 -e device_type_id 0000 -e prov_key abc -e prov_secret abc -e serial_number abc ```
-    
+
 7.  The cirrent service will be started in the background. You can log into the Console and check the INI data on the device explorer page by entering the serial number passed in step 6 and click the Explore button.
 8.  If you don't see the updates on the device explorer page,
     -   Make sure that the Cirrent service is running by typing in "ps -A | grep cirrent" in adb shell, if not then run the command in step 6 again.
@@ -20,5 +20,5 @@
     -   If you still have trouble getting things up and running contact [support@cirrent.com](mailto:support@cirrent.com) with the adb logcat output of your Android device and the Android version of your device.
 
 -   [ca_android_1.50-ini.tar.gz](../files/ca_android_1.50-ini.tar.gz)
-    
+
     4 MB  [Download](../files/ca_android_1.50-ini.tar.gz)
