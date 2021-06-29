@@ -1,12 +1,16 @@
-﻿# INI Custom Data API
+Using INI Extensions
+-----------------------
 
-## Overview
+Overview
+^^^^^^^^^^^^
 
 Custom Data refers to data that you can pass from your application to the Cirrent Agent. The various data types Custom Event (eg: user initiated reboot), or Custom Measurement (eg: CPU temperature), or Custom Attribute (eg: firmware version). This Custom data can be passed from your application to the Cirrent Agent (CA) using INI Custom Data API.
 
 This document covers an example use case, requirements and general considerations for using the IoT Network Intelligence feature to add customer-defined data through an API call in the cirrent_cli. The data sent using this API will be accessible in the Cirrent Console.
 
-### **Sending INI Custom data API using the cirrent_cli:**
+**Sending INI Custom data API using the cirrent_cli:**
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 ```
 $ cirrent_cli ini_custom <type> <name> <value>
 ```
@@ -17,17 +21,17 @@ The  cirrent_cli  call takes in three ordered arguments:
 #### type
 
 -   This case-sensitive string must be one of  event,  measurement,  attribute, or  state
-    
+
 
 #### name
 
 -   This case-sensitive string must be  no longer than 100 bytes.
-    
+
 
 #### value
 
 -   This string depends on what the data  type  is being sent. The following table describes the accepted  value  for each corresponding data  type
-    
+
 
 Choosing the right data to send:
 
@@ -68,9 +72,9 @@ $ ./cirrent_cli ini_custom state connection_established 1
 ```
 **measurement:**
 ```
-$ ./cirrent_cli ini_custom measurement cpu_temp 30  
-$ ./cirrent_cli ini_custom measurement cpu_temp 20  
-$ ./cirrent_cli ini_custom measurement cpu_temp 10  
+$ ./cirrent_cli ini_custom measurement cpu_temp 30
+$ ./cirrent_cli ini_custom measurement cpu_temp 20
+$ ./cirrent_cli ini_custom measurement cpu_temp 10
 $ ./cirrent_cli ini_custom measurement cpu_temp 40
 ```
 This adds a custom measurement cpu_temp to the measurement summary along with the following information for cpu_temp
@@ -89,7 +93,7 @@ $ ./cirrent_cli ini_custom event log_upload
 ```
 This will add an event count of log_upload=1 to the event summary.
 ```
-$ ./cirrent_cli ini_custom event log_upload_duration start  
+$ ./cirrent_cli ini_custom event log_upload_duration start
 $ ./cirrent_cli ini_custom event log_upload_duration stop
 ```
 This will add an event count of log_upload_duration=(Duration in minutes between when the start and stop commands were executed) to the event summary.
