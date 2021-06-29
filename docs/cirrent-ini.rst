@@ -16,15 +16,25 @@ What INI can do
 INI allows you to:
 
 * **Identify**  connectivity problems
+
   * Look at broad trends from your entire fleet
+
   * Correlate performance and issues across multiple variables (router, ISP, fw/hw version, or your own custom parameters)
+
 * **Characterize**  impacted products and customers
+
   * Isolate issues by characterizing across additional environmental, user, or product variables
+
   * Quantify the scope of the impact
+
 * **Identify**  which products are facing the situations and problems
+
   * Create groups of products with specific characteristics
+
 * **Diagnose**  the cause of the problem
+
   * Run diagnostic protocols on impacted products
+
   * Analyze data to understand root cause
 
 Engineers can quickly get products up and running using INI by
@@ -53,5 +63,3 @@ to help improve product connectivity and product performance.
    /ini/using-ini-extensions
    /ini/using-the-ini-dashboard
    /ini/ini-device-management
-
-   
