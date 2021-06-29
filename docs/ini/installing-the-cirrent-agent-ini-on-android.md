@@ -10,7 +10,7 @@
     ```
 4.  Install the APK and start the service. You will need to include your provisioning key, unique identifier, account id, serial number, and device type id.
 5.  ``` adb install PATH_TO_CIRRENT_APK ```
-    
+
 6. ``` am startservice -n com.cirrent.agent/.CirrentAgentService -e acc_id 0000 -e device_type_id 0000 -e prov_key abc -e prov_secret abc -e serial_number abc ```
 
 7.  The cirrent service will be started in the background. You can log into the Console and check the INI data on the device explorer page by entering the serial number passed in step 6 and click the Explore button.

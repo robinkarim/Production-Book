@@ -47,9 +47,3 @@ to help improve product connectivity and product performance.
 .. toctree::
    :maxdepth: 2
    :hidden:
-
-   ini/getting-started-with-ini
-   ini/ini-data-model
-   ini/using-ini-extensions
-   ini/using-the-ini-dashboard
-   ini/ini-device-management

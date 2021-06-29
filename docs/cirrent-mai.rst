@@ -38,12 +38,3 @@ Learn more
 ^^^^^^^^^^^^
 
 This book will help you get familiar with Cirrent and MAI
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-
-   mai/getting-started-with-ini
-   mai/mai-data-model
-   mai/using-mai-extensions
-   mai/using-the-mai-dashboard
