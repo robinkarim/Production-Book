@@ -13,14 +13,14 @@ Today Infineon's cloud software services consist of three offerings:
 
 * Cirrent Product Analytics.
 
-** :doc:`Cirrent IoT Network Intelligence (INI) <cirrent-ini>` is a complete
+  * :doc:`Cirrent IoT Network Intelligence (INI) <cirrent-ini>` is a complete
 platform for data-driven product analytics.  With real-world data from your products
 in the field, you can understand how your products are performing, provide data-driven
 customer support, and have deeper visibility into your products that ever before, using the Cirrent Agent
 embedded in your product along with the Cirrent Console and Dashboards, where you can
 use analytics tools to quickly understand your proudcts.
 
-** :doc:`Cirrent IoT Network Intelligence (INI) <cirrent-ini>` is a complete
+  * :doc:`Cirrent IoT Network Intelligence (INI) <cirrent-ini>` is a complete
 platform for data-driven product analytics.  With real-world data from your products
 in the field, you can understand how your products are performing, provide data-driven
 customer support, and have deeper visibility into your products that ever before, using the Cirrent Agent
@@ -28,7 +28,8 @@ embedded in your product along with the Cirrent Console and Dashboards, where yo
 use analytics tools to quickly understand your proudcts.
 
 * Cirrent Security Software Services.
-** :doc:`Cirrent Cloud ID <cirrent-cloud-id>` is a device registration, provisioning, and
+
+  * :doc:`Cirrent Cloud ID <cirrent-cloud-id>` is a device registration, provisioning, and
 authentication service built to make IoT product manufacturing and authentication
 easier, cheaper, and more secure by extending the chain of security from the chip to the cloud.
 
@@ -36,13 +37,17 @@ easier, cheaper, and more secure by extending the chain of security from the chi
    :maxdepth: 2
    :hidden:
    :caption: Cirrent Console
+
    cirrent-console
 
    :caption: Cirrent IoT Network Intelligence (INI)
+
    cirrent-ini
 
    :caption: Cirrent Mobile App Intelligence (MAI)
+
    cirrent-mai
 
    :caption: Cirrent Cloud ID
+
    cirrent-cloud-id
