@@ -16,4 +16,4 @@ it to the secure Cirrent Cloud, where the data can be analyzed using the Cirrent
    /ini/ini-data-model
    /ini/using-ini-extensions
    /ini/using-the-ini-dashboard
-   /ini/ini-device-management
+   /ini/device-management

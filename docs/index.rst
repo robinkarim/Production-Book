@@ -42,9 +42,5 @@ Today Infineon's cloud software services consist of three offerings:
    /cirrent-ini
 
    /cirrent-mai
-   /mai/getting-started-with-ini
-   /mai/mai-data-model
-   /mai/using-mai-extensions
-   /mai/using-the-mai-dashboard
 
    /cirrent-cloud-id

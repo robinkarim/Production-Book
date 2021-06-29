@@ -16,4 +16,4 @@ it to the secure Cirrent Cloud, where the data can be analyzed using the Cirrent
    /mai/getting-started-with-mai
    /mai/mai-data-model
    /mai/using-mai-extensions
-   /mai/using-the-mai-dashboard
+   /mai/using-the-mai-dashboards
