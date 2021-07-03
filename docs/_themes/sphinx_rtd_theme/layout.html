@@ -109,14 +109,21 @@
 
   <div class="new-nav">
     {% if logo %}
-            {# Not strictly valid HTML, but it's the only way to display/scale
-               it properly, without weird scripting or heaps of work
-            #}
-            <img src="{{ pathto('_static/' + logo, 1) }}" class="logo" alt="{{ _('Logo') }}"/>
-          {% endif %}
-          </a>
-    {% include "searchbox.html" %}
-    
+        {# Not strictly valid HTML, but it's the only way to display/scale
+           it properly, without weird scripting or heaps of work
+        #}
+        <img src="{{ pathto('_static/' + logo, 1) }}" class="logo" alt="{{ _('Logo') }}"/>
+      {% endif %}
+      </a>
+      <div class="top-search">
+      {% include "searchbox.html" %}
+    </div>
+    <ul class="top-nav">
+      <li><a href="cirrent-console.html">Cirrent Console</a></li>
+      <li><a href="cirrent-ini.html">Cirrent IoT Network Intelligence (INI)</a></li>
+      <li><a href="cirrent-mai.html">Cirrent Mobile App Intelligence (MAI)</a></li>
+      <li><a href="cirrent-cloud-id.html">Cirrent Cloud ID</a></li>
+    </ul>
   </div>
 
   {% block extrabody %} {% endblock %}

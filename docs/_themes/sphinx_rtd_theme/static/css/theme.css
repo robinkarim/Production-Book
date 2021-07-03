@@ -14,6 +14,15 @@ html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}article,aside,det
 	background: #fff;
 	z-index: 9999;
 }
+.new-nav .logo {
+	float: left;
+}
+.top-search {
+	float: left;
+}
+.top-nav {
+	float: left;
+}
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
