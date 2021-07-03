@@ -118,12 +118,9 @@
       <div class="top-search">
       {% include "searchbox.html" %}
     </div>
-    <ul class="top-nav">
-      <li><a href="cirrent-console.html">Cirrent Console</a></li>
-      <li><a href="cirrent-ini.html">Cirrent IoT Network Intelligence (INI)</a></li>
-      <li><a href="cirrent-mai.html">Cirrent Mobile App Intelligence (MAI)</a></li>
-      <li><a href="cirrent-cloud-id.html">Cirrent Cloud ID</a></li>
-    </ul>
+    <div class="top-nav">
+      {% include "breadcrumbs.html" %}
+    </div>
   </div>
 
   {% block extrabody %} {% endblock %}
