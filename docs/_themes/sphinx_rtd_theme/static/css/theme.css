@@ -46,6 +46,21 @@ html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}article,aside,det
 .wy-grid-for-nav {
 	padding-top:78px;
 }
+
+.wy-nav-side {
+	background: #fff !important;
+}
+.wy-menu-vertical a {
+	color: #333;
+}
+
+.desk-hide {display: none !important;}
+.mob-hide {display: block !important;}
+@media (max-width: 767px){
+	.desk-hide {display: block !important;}
+	.mob-hide {display: none !important;}
+}
+
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
