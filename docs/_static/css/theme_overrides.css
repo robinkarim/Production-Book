@@ -468,11 +468,14 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend
 
 .wy-nav-side {
 	background: #fff !important;
+	padding-top: 78px;
 }
 .wy-menu-vertical a {
 	color: #333;
 }
-
+.wy-menu-vertical a:hover {
+    background-color: #fefefe !important;   
+}
 .desk-hide {display: none !important;}
 .mob-hide {display: block !important;}
 @media (max-width: 767px){
