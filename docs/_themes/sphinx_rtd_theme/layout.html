@@ -108,15 +108,17 @@
 <body class="wy-body-for-nav">
 
   <div class="new-nav">
-    {% if logo %}
-        {# Not strictly valid HTML, but it's the only way to display/scale
-           it properly, without weird scripting or heaps of work
-        #}
-        <img src="{{ pathto('_static/' + logo, 1) }}" class="logo" alt="{{ _('Logo') }}"/>
-      {% endif %}
-      </a>
-      <div class="top-search">
-      {% include "searchbox.html" %}
+    <div class="nav-left">
+      {% if logo %}
+          {# Not strictly valid HTML, but it's the only way to display/scale
+             it properly, without weird scripting or heaps of work
+          #}
+          <img src="{{ pathto('_static/' + logo, 1) }}" class="logo" alt="{{ _('Logo') }}"/>
+        {% endif %}
+        </a>
+        <div class="top-search">
+        {% include "searchbox.html" %}
+      </div>
     </div>
     <div class="top-nav">
       {% include "breadcrumbs.html" %}

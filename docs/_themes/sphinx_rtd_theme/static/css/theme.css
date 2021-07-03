@@ -16,16 +16,28 @@ html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}article,aside,det
 }
 .new-nav .logo {
 	float: left;
-	width: 150px;
+	width: 90px !important;
 	margin: 20px 0 0 30px;
+	position: absolute;
+	top: 20px;
+	left: 30px;
 }
 .top-search {
 	float: left;
-	margin:20px 0 0 20px;	
+	margin:22px 0 0 0px;	
+	padding-left: 200px;
+	width: 100%;
+}
+.top-search input {
+	width: 100%;
+}
+.nav-left {
+	width: 40%;
 }
 .top-nav {
 	float: left;
 	margin: 20px 0 0 20px;
+	width: 60%;
 }
 .wy-grid-for-nav {
 	padding-top:90px;
