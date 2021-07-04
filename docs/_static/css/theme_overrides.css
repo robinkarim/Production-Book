@@ -29,6 +29,7 @@ body {
   width: auto;
   overflow-y: auto;
   padding-bottom: 3% !important;
+  border-right: 2px solid #e9e6e7;
 }
 
 .version {
@@ -478,6 +479,10 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend
 }
 .desk-hide {display: none !important;}
 .mob-hide {display: block !important;}
+
+.wy-menu-vertical {
+	padding-top: 30px;
+}
 @media (max-width: 767px){
 	.desk-hide {display: block !important;}
 	.mob-hide {display: none !important;}
