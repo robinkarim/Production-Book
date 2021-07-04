@@ -53,7 +53,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Cirrent Support Docs'
-copyright = u'®2020 Cirrent. All rights reserved.'
+copyright = u'®2021 Cirrent. All rights reserved.'
 author = u'Tahir Mushtaq'
 
 #github_doc_root = 'https://github.com/rtfd/recommonmark/tree/master/docs/'
