@@ -36,7 +36,7 @@
 
   {# FAVICON #}
   {% if favicon %}
-    <link rel="shortcut icon" href="{{ pathto('_static/' + favicon, 1) }}"/>
+    <link rel="shortcut icon" href="{{ pathto('' + favicon, 1) }}"/>
   {% endif %}
   {# CANONICAL URL #}
   {% if theme_canonical_url %}
@@ -113,7 +113,7 @@
           {# Not strictly valid HTML, but it's the only way to display/scale
              it properly, without weird scripting or heaps of work
           #}
-          <img src="{{ pathto('_static/' + logo, 1) }}" class="logo" alt="{{ _('Logo') }}"/>
+          <img src="{{ pathto('' + logo, 1) }}" class="logo" alt="{{ _('Logo') }}"/>
         {% endif %}
         </a>
         <div class="top-search">
