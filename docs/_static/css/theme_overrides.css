@@ -285,23 +285,24 @@ hr {
 
 h1 {
 	font-family: 'Source Sans Pro', sans-serif !important;
-	font-size: 150% !important;
+	font-size: 40px !important;
 	font-weight: bold !important;
+	margin-bottom: 2em !important;
 }
 
 
 h2 {
 	font-family: 'Source Sans Pro', sans-serif !important;
-	font-size: 150% !important;
+	font-size: 30px !important;
 	font-weight: bold !important;
 	padding: 1px !important;
 	margin-top: 1em !important;
-	margin-bottom: 0.8em !important;
+	margin-bottom: 2em !important;
 	border-bottom: 1px solid #404040 !important;
 }
 
 h3 {
-	font-size: 150% !important;
+	font-size: 26px !important;
 	font-weight: normal !important;
 	font-family: 'Source Sans Pro', sans-serif !important;
 	margin-bottom: 0.5em !important;
@@ -309,13 +310,13 @@ h3 {
 }
 
 h3.simpleheader {
-	font-size: 125% !important;
+	font-size: 24px !important;
 	font-weight: bold !important;
 	margin-bottom: 0px;
 }
 
 h4 {
-	font-size: 100% !important;
+	font-size: 20px !important;
 	font-weight: bold !important;
 	margin-bottom: 0.5em !important;
 	margin-top: 1.0em !important;
