@@ -284,12 +284,14 @@ hr {
 }
 
 h1 {
+	font-family: 'Source Sans Pro', sans-serif !important;
 	font-size: 150% !important;
 	font-weight: bold !important;
 }
 
 
 h2 {
+	font-family: 'Source Sans Pro', sans-serif !important;
 	font-size: 150% !important;
 	font-weight: bold !important;
 	padding: 1px !important;
@@ -301,7 +303,7 @@ h2 {
 h3 {
 	font-size: 150% !important;
 	font-weight: normal !important;
-	font-family: Roboto Slab,ff-tisa-web-pro,Georgia,Arial,sans-serif !important;
+	font-family: 'Source Sans Pro', sans-serif !important;
 	margin-bottom: 0.5em !important;
 	margin-top: 1.0em !important;
 }
@@ -317,7 +319,7 @@ h4 {
 	font-weight: bold !important;
 	margin-bottom: 0.5em !important;
 	margin-top: 1.0em !important;
-	font-family: Roboto Slab,ff-tisa-web-pro,Georgia,Arial,sans-serif !important;
+	font-family: 'Source Sans Pro', sans-serif !important;
 }
 
 h5 {
@@ -420,7 +422,7 @@ table.table-bgcolor {
 
 h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend
 {
-	font-family : "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif !important;
+	font-family: 'Source Sans Pro', sans-serif !important;
 }
 
 
