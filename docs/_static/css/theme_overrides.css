@@ -287,7 +287,7 @@ h1 {
 	font-family: 'Source Sans Pro', sans-serif !important;
 	font-size: 40px !important;
 	font-weight: bold !important;
-	margin-bottom: 2em !important;
+	margin-bottom: 0.7em !important;
 }
 
 
@@ -297,7 +297,7 @@ h2 {
 	font-weight: bold !important;
 	padding: 1px !important;
 	margin-top: 1em !important;
-	margin-bottom: 2em !important;
+	margin-bottom: 0.7em !important;
 	border-bottom: 1px solid #404040 !important;
 }
 
