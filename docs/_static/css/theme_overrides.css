@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 /* override table width restrictions */
 @media screen and (min-width: 767px) {
 
@@ -14,8 +15,12 @@
 
 body {
 	font-size : 100% !important;
+	font-family: sans-serif;
 }
 
+h1, h2, h3, h4, h5 {
+	font-family: 'Source Sans Pro', sans-serif !important;
+}
 .wy-side-nav-search input[type=text] {
    border-radius: 0px !important;
    border-color: #333333 !important;
