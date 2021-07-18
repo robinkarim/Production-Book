@@ -495,7 +495,9 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend
 	margin-right:15px;
 }
 
-
+.wy-side-nav-search {
+	display: none !important;
+}
 
 
 @media (max-width: 767px){
@@ -503,5 +505,9 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend
 	.mob-hide {display: none !important;}
 	.nav-left {width:100%;}
 	.top-nav {width: 100%;}
+	.top-search {padding-right: 30px;}
+	.new-nav {height:125px;}
+	.wy-side-nav-search, .wy-nav-top {margin-top: 50px;}
+	.wy-nav-top i {color: #000;}
 }
 
