@@ -509,5 +509,8 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend
 	.new-nav {height:125px;}
 	.wy-side-nav-search, .wy-nav-top {margin-top: 50px;}
 	.wy-nav-top i {color: #000;}
+	.wy-menu-vertical {padding-top: 46px;}
+	.wy-nav-content-wrap .wy-nav-content {padding-top: 0;}
+	.wy-breadcrumbs li, .wy-breadcrumbs li a {font-size: 12px;}
 }
 
