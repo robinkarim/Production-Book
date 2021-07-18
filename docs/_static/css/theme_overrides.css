@@ -867,7 +867,9 @@ footer.footer--slim .hidden-print {
     }
 }
 
-
+.rst-content .centered {
+	margin: 0 auto;
+}
 @media (max-width: 767px){
 	.desk-hide {display: block !important;}
 	.mob-hide {display: none !important;}
