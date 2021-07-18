@@ -512,5 +512,15 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend
 	.wy-menu-vertical {padding-top: 46px;}
 	.wy-nav-content-wrap .wy-nav-content {padding-top: 0;}
 	.wy-breadcrumbs li, .wy-breadcrumbs li a {font-size: 12px;}
+	h1 {
+		font-size: 30px;
+	}
+	h2 {
+		font-size: 24px;
+	}
+	h3 {
+		font-size: 18px;
+	}
+
 }
 
