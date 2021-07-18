@@ -491,8 +491,17 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend
 .wy-menu-vertical {
 	padding-top: 30px;
 }
+.wy-breadcrumbs-aside {
+	margin-right:15px;
+}
+
+
+
+
 @media (max-width: 767px){
 	.desk-hide {display: block !important;}
 	.mob-hide {display: none !important;}
+	.nav-left {width:100%;}
+	.top-nav {width: 100%;}
 }
 
