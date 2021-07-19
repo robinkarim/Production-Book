@@ -18,7 +18,7 @@ Today Infineon's cloud software services consist of three offerings:
     in the field, you can understand how your products are performing, provide data-driven
     customer support, and have deeper visibility into your products that ever before, using the Cirrent Agent
     embedded in your product along with the Cirrent Console and Dashboards, where you can
-    use analytics tools to quickly understand your proudcts.
+    use analytics tools to quickly understand your products.
 
   * :doc:`Cirrent IoT Network Intelligence (INI) <cirrent-ini>` is a complete
     platform for data-driven product analytics.  With real-world data from your products
