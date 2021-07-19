@@ -1,4 +1,4 @@
-Getting Started wtih INI
+Getting Started with INI
 --------------------------
 
 Integrating the Cirrent Agent
