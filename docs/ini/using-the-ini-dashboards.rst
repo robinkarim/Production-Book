@@ -123,4 +123,4 @@ Device Inspector - Device-level view that provides your team the ability to revi
 
 
 
-To learn more about the CIRRENT™ Console please review this :ref:`INI User Guide <ini-console-user-guide>`.
+To learn more about the CIRRENT™ Console please review this :doc:`INI User Guide </ini/ini-console-user-guide>`.
