@@ -17,10 +17,8 @@ Device Fleet - ability to slice and dice the data, to see the performance of you
 
 
 .. image:: ../img/dash-2.png
-    :align: left
+    :align: center
     :alt: Dashboard 2
-
-
 
 
 In this view, there are over 60+ prebuilt metrics, which can be leveraged to slice and dice the data and filter for specific views including:
@@ -125,4 +123,4 @@ Device Inspector - Device-level view that provides your team the ability to revi
 
 
 
-To learn more about the CIRRENT™ Console please review this - :doc:`INI User Guide </ini-console-user-guide.html>`.
+To learn more about the CIRRENT™ Console please review this :doc:`INI User Guide </ini-console-user-guide>`.
