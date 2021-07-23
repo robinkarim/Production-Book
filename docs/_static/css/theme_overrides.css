@@ -445,15 +445,15 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend
 }
 .new-nav .logo {
 	float: left;
-	width: 90px !important;
+	width: 160px !important;
 	position: absolute;
-	top: 20px;
-	left: 30px;
+	top: 7px;
+	left: 20px;
 }
 .top-search {
 	float: left;
 	margin:22px 0 0 0px;	
-	padding-left: 150px;
+	padding-left: 200px;
 	width: 100%;
 }
 .top-search input {
@@ -749,6 +749,10 @@ footer.footer--slim .copyright {
 
 footer.footer--slim .hidden-print {
     background-color: #644f54
+}
+
+.contentinfo p {
+	color: #333 !important;
 }
 
 @media (max-width: 1023px) {
