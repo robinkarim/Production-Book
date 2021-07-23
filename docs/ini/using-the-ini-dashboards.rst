@@ -13,7 +13,7 @@ Using CIRRENT™ INI Dashboards is simple, easy and hassle-free. Below are the e
 
 From here the choice is yours! You can dive deeper into specific reports, individual devices, etc. by navigating to the left corner and selecting one of the these options within Product Analytics tab:
 
-Device Fleet - ability to slice and dice the data, to see the performance of your device fleet including the top issues and errors that are reported by your devices. This data is helpful to help troubleshoot your products and provide the best experience for your users.
+**Device Fleet -** ability to slice and dice the data, to see the performance of your device fleet including the top issues and errors that are reported by your devices. This data is helpful to help troubleshoot your products and provide the best experience for your users.
 
 
 .. image:: ../img/dash-2.png
@@ -111,7 +111,7 @@ All of these metrics can also be filtered by the following categories:
 23.	Wi-Fi Radio Driver
 
 
-Device Inspector - Device-level view that provides your team the ability to review the comprehensively rich data on an individual, device level for  deeper understanding. This view includes data such as:
+**Device Inspector -** Device-level view that provides your team the ability to review the comprehensively rich data on an individual, device level for  deeper understanding. This view includes data such as:
 
 1.	Last Known State
 2.	Mesh Info
