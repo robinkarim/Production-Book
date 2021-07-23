@@ -4,21 +4,33 @@ Mobile App Intelligence User Guide
 1. Introduction:
 """"""""""""""""""""""""""""""""""""
 
-Mobile App Intelligence (MAI) product consists of two parts: a. Mobile App SDK that is installed in connected product mobile apps, and b. Cirrent console that displays the analytics data collected from the app. By including Mobile App SDK in their apps, customers get access to dashboards and analytics in the Cirrent Console.
+CIRRENT™ Mobile App Intelligence is a cloud software solution that provides data-driven Wi-Fi onboarding improvement, leading to higher connectivity rates and better app reviews. 
 
-MAI helps product companies understand the Wi-Fi onboarding experience for their users and the problems app users are facing in the field. Connected product companies can use this data to understand onboarding issues with their apps, fix these issues and measure the impact. By iterating through this process, connected product companies can improve Wi-Fi onboarding success rate for their products, reduce customer call volumes and improve app ratings.
+CIRRENT™ MAI uses the free CIRRENT™ App SDK in your IoT mobile app to securely report data into the CIRRENT™ Cloud and provide real-time access for your product management and engineering teams via the CIRRENT™ Console.
+
+With CIRRENT™ MAI, your product and software engineering teams can understand mobile app usage and customer environments in order to increase connectivity rates for IoT products in the field. To get started, register for a free account or contact sales for more information. To get started, register for a free account or contact sales for more information.
 
 2. Benefits of using MAI:
 """"""""""""""""""""""""""""""""""""
 
-The Analytics in Cirrent Console enable connected product companies to:
+Higher Connectivity Rate
 
-1.  Get quick time to value
-2.  Measure the  onboarding duration and success rate for onboarding
-3.  Capture data on Attributes such as router type, ISP, phone OS / model. Ability to add Custom Attributes (eg: App Version)
-4.  Aggregate views of all the apps in the fleet showing the sensitivity of onboarding issues with various Attributes
-5.  Ability to drill down from aggregate view to a single onboarding instance to find issues related to Wi-Fi onboarding
-6.  Solve issues reported through Customer Support calls
+1.  Identify and fix onboarding steps with a high failure rate
+2.  Improve customer experience so more customers succeed
+
+Kick off to results in < one month
+
+1.  Integrate in less than 2 hours
+2.  Prebuilt, easy to use, flexible dashboards
+3.  50 lines of code for simple integration
+
+Better app reviews
+
+1.  Increased customer satisfaction and brand loyalty
+2.  Increased user engagement via in-app optimizations
+3.  Increased app store ratings by average of 1 star
+4.  Reduced customer support calls and costs
+
 
 3. Terms:
 """"""""""""""""""""""""""""""""""""
