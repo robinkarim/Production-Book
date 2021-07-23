@@ -1,51 +1,95 @@
 What is INI?
 -----------------------------------------
 
-Cirrent's IoT Network Intelligence (INI) is a service that makes it easy
-for companies making connected products to understand their product performance in the field.
-
-INI uses a piece of embedded code - the Cirrent Agent - to collect data from products in the field and send
-it to the secure Cirrent Cloud, where the data can be analyzed using the Cirrent INI services and dashboards.
+CIRRENT™ IoT Network Intelligence is a cloud software solution that helps data-driven product development to improve user experience, improve product reviews, decrease returns, and increase sales. CIRRENT™ INI uses the CIRRENT™ Agent embedded software in your IoT product to securely report data into the CIRRENT™ Cloud and provide real-time access for your product management and engineering teams via the CIRRENT™ Console. With CIRRENT™ INI, your product and engineering teams can solve customer and product problems faster. To get started, register for a free account or contact sales for more information.
 
 What INI can do
 ^^^^^^^^^^^^^^^^^
 
 INI allows you to:
 
-* **Identify**  connectivity problems
+* **Get** deep insights into customer environments
 
-  * Look at broad trends from your entire fleet
+  * Identify and prioritize your customer’s pain points and solve issues faster
 
-  * Correlate performance and issues across multiple variables (router, ISP, fw/hw version, or your own custom parameters)
+  * Understand customer environment: ISP, router make and model, and more
 
-* **Characterize**  impacted products and customers
+* **Optimize**  product performance using data
 
-  * Isolate issues by characterizing across additional environmental, user, or product variables
+  * Real-world performance analytics pre and post product launch
 
-  * Quantify the scope of the impact
+  * Product lifecycle data related to product capabilities and wireless performance
+  
+  * Make sure your test plans align with real world deployments
 
-* **Identify**  which products are facing the situations and problems
+* **Identify**  and prioritize product issues
 
-  * Create groups of products with specific characteristics
+  * Visibility into all your products in the field
 
-* **Diagnose**  the cause of the problem
+  * Compare performance of products in your fleet at scale or deep dive into a single device
+  
+  * Improve product performance in the field
 
-  * Run diagnostic protocols on impacted products
+  * Timely identification of device failures and network issues in the field
+  
+* **Leverage**  pre-built dashboards and reports to solve problems
+
+  * Preconfigured 10+ pre-built dashboards, 25+ out of the box events
 
   * Analyze data to understand root cause
+  
+  * Less time (on average 40 hours) spent trying to get to root cause of the product issue or customer environment
 
 Engineers can quickly get products up and running using INI by
-`integrating the Cirrent Agent for INI <https://support.cirrent.com/hc/en-us/articles/360008780154>`_.
+`creating an account and logging in <https://console.infineon.com/login>`_.
 
 
 How INI works
 ^^^^^^^^^^^^^^^
+Getting started with INI is easy, hassle-free and secure. To get started, `register for a free account <https://console.infineon.com/login>`_.  Next step is to integrate the CIRRENT™ Agent in your device and watch the data flow into the CIRRENT™ Console, a secure dashboard that provides deep visibility into the performance of your IoT products (at scale or at individual device-level). 
+
+CIRRENT™ Console provides real-time visibility into the data from your devices, including 10+ out-of-the-box dashboards that collect  25+ events and attributes. Simply log in to the CIRRENT™ Console to see the data, access reports, and understand the performance of your devices. To learn more read  `INI Console User Guide <https://github.com/Cirrent/support_docs/blob/master/docs/ini/ini-console-user-guide.md>`_. and  `Using INI Dashboards <https://github.com/Cirrent/support_docs/blob/master/docs/ini/using-the-ini-dashboards.rst>`_.
 
 Learn more
 ^^^^^^^^^^^^
-This book will help you get familiar with Cirrent and INI, and
-below is a walkthrough of the Cirrent Console for INI showing how INI can be used
-to help improve product connectivity and product performance.
+This GitHub set of documents will provide all of the information on CIRRENT™ INI including:
+
+* **Introduction to INI**  
+
+  * `INI Features and Benefits <https://github.com/Cirrent/support_docs/blob/master/docs/ini/ini-benefits-and-features.md>`_
+  
+  * `Getting Started with INI <https://github.com/Cirrent/support_docs/blob/master/docs/ini/getting-started-with-ini.rst>`_
+  
+* **Getting started with INI**
+
+  * `Installing Cirrent Agent on Android <https://github.com/Cirrent/support_docs/blob/master/docs/ini/installing-the-cirrent-agent-ini-on-android.md>`_
+  
+  * `Installing Cirrent Agent on Raspberry Pi <https://github.com/Cirrent/support_docs/blob/master/docs/ini/installing-the-cirrent-agent-ini-on-raspberry-pi.md>`_
+  
+  * `Installing Cirrent Agent Using Cypress Linux Drivers <https://github.com/Cirrent/support_docs/blob/master/docs/ini/installing-the-cirrent-agent-ini-using-the-cypress-linux-driver-packages.md>`_
+  
+  * `Using INI Extensions <https://github.com/Cirrent/support_docs/blob/master/docs/ini/using-ini-extensions.rst>`_
+  
+  * `Using OPS API to Register Devices <https://github.com/Cirrent/support_docs/blob/master/docs/ini/using-ops-api-to-register-devices.md>`_
+  
+  * `Cirrent Agent C API <https://github.com/Cirrent/support_docs/blob/master/docs/ini/ca-c-api.md>`_
+  
+  * `Cirrent Agent for Linux Dependencies <https://github.com/Cirrent/support_docs/blob/master/docs/ini/ca-for-linux-dependencies.md>`_
+  
+  * `Cirrent Agent on Android <https://github.com/Cirrent/support_docs/blob/master/docs/ini/cirrent-agent-on-android.md>`_
+  
+  * `Cirrent Agent on Linux <https://github.com/Cirrent/support_docs/blob/master/docs/ini/cirrent-agent-on-linux.md>`_
+  
+  * `Device Management <https://github.com/Cirrent/support_docs/blob/master/docs/ini/device-management.rst>`_
+  
+* **Reporting, analytics and data modeling with INI**
+
+  * `INI Console User Guide <https://github.com/Cirrent/support_docs/blob/master/docs/ini/ini-console-user-guide.md>`_
+  
+  * `Using INI Dashboards <https://github.com/Cirrent/support_docs/blob/master/docs/ini/using-the-ini-dashboards.rst>`_
+  
+  * `INI Data Model <https://github.com/Cirrent/support_docs/blob/master/docs/ini/ini-data-model.rst>`_
+    
 
 .. raw:: html
 
