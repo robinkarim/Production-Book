@@ -8,7 +8,7 @@ Using CIRRENT™ INI Dashboards is simple, easy and hassle-free. Below are the e
 
  .. image:: ../img/dash-1.png
     :align: center
-    :alt: aDashboard
+    :alt: Dashboard 1
 
 
 From here the choice is yours! You can dive deeper into specific reports, individual devices, etc. by navigating to the left corner and selecting one of the these options within Product Analytics tab:
@@ -17,8 +17,8 @@ Device Fleet - ability to slice and dice the data, to see the performance of you
 
 
 .. image:: ../img/dash-2.png
-    :align: center
-    :alt: aDashboard
+    :align: left
+    :alt: Dashboard 2
 
 
 
@@ -87,6 +87,7 @@ In this view, there are over 60+ prebuilt metrics, which can be leveraged to sli
 60.	Wifi Scan
 
 All of these metrics can also be filtered by the following categories:
+
 1.	Batch Updates
 2.	Board Owner
 3.	Custom Attribute
@@ -113,6 +114,7 @@ All of these metrics can also be filtered by the following categories:
 
 
 Device Inspector - Device-level view that provides your team the ability to review the comprehensively rich data on an individual, device level for  deeper understanding. This view includes data such as:
+
 1.	Last Known State
 2.	Mesh Info
 3.	Metrics Summary (10+ metrics)
@@ -121,9 +123,6 @@ Device Inspector - Device-level view that provides your team the ability to revi
 6.	Diagnostics
 
 
- 
 
 
-
-
-To learn more about the CIRRENT™ Console please review this INI User Guide. 
+To learn more about the CIRRENT™ Console please review this `INI User Guide </ini/ini-console-user-guide.html>`_.
