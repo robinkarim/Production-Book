@@ -53,7 +53,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Cirrent Support Docs'
-copyright = u'®2021 Cirrent. All rights reserved.'
+copyright = u'© Cypress Semiconductor Corporation. All rights reserved.'
 author = u'Tahir Mushtaq'
 
 #github_doc_root = 'https://github.com/rtfd/recommonmark/tree/master/docs/'
@@ -299,7 +299,7 @@ html_logo = '_static/image/IFX_ICON.png'
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-html_favicon = '_static/image/cirrent-icon.png'
+html_favicon = '_static/image/IFX_ICON.ico'
 
 # app setup hook
 def setup(app):
