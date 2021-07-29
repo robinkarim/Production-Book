@@ -127,7 +127,8 @@ code, .rst-content tt, .rst-content code {
 }
 .wy-menu-vertical li.toctree-l3.current li.toctree-l4>a
 {
-	background: #beb4b6 !important;
+	background: #fff !important;
+	color: #AB337A !important;
 }
 
 .wy-menu-vertical li.toctree-l4.current li.toctree-l5>a
