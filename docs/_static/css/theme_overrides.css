@@ -116,7 +116,8 @@ code, .rst-content tt, .rst-content code {
 
 .wy-menu-vertical li.toctree-l2.current>a
 {
-	background: #d3cdce !important;
+	background: #AB337A !important;
+	color:#fff !important;
 }
 
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3>a
