@@ -894,6 +894,18 @@ footer.footer--slim .hidden-print {
 footer a  {
 	text-decoration: none !important;
 }
+@media (max-width: 1366px) and (min-width: 768px){
+	.nav-left {width:100%;}
+	.top-nav {width: 100%;}
+	.top-search {padding-right: 30px;}
+	.new-nav {height:125px;}
+	.wy-side-nav-search, .wy-nav-top {margin-top: 50px;}
+	.wy-nav-top i {color: #000;}
+	.wy-menu-vertical {padding-top: 46px;}
+	.wy-nav-content-wrap .wy-nav-content {padding-top: 0;}
+	.wy-breadcrumbs li, .wy-breadcrumbs li a {}
+
+}
 @media (max-width: 767px){
 	.desk-hide {display: block !important;}
 	.mob-hide {display: none !important;}
