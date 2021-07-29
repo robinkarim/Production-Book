@@ -911,6 +911,9 @@ footer a  {
 	.wy-breadcrumbs li, .wy-breadcrumbs li a {}
 
 }
+@media (max-width: 880px) {
+	.wy-breadcrumbs li.wy-breadcrumbs-aside {display: none;}
+}
 @media (max-width: 767px){
 	.desk-hide {display: block !important;}
 	.mob-hide {display: none !important;}
