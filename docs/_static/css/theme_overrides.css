@@ -903,6 +903,9 @@ footer a  {
 }
 .wy-nav-content-wrap {background: #fff !important;}
 .wy-menu-vertical li.current>a, .wy-menu-vertical li.on a {background: #fff !important;}
+.wy-nav-content {
+	background: #fff !important;
+}
 @media (max-width: 1366px) and (min-width: 768px){
 	.nav-left {width:100%;}
 	.top-nav {width: 100%;}
