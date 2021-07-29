@@ -122,7 +122,7 @@ code, .rst-content tt, .rst-content code {
 
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3>a
 {
-	background: #d3cdce !important;
+	background: #fff !important;
 }
 .wy-menu-vertical li.toctree-l3.current li.toctree-l4>a
 {
@@ -175,7 +175,8 @@ code, .rst-content tt, .rst-content code {
 }
 
 .wy-menu-vertical li.current a:hover {
-    background: #d3cdce  !important;
+    background: #AB337A  !important;
+    color:#fff !important;
 }
 .rst-content .note{
 	background: #e6f0ed !important;
