@@ -123,6 +123,7 @@ code, .rst-content tt, .rst-content code {
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3>a
 {
 	background: #fff !important;
+	color: #AB337A !important;
 }
 .wy-menu-vertical li.toctree-l3.current li.toctree-l4>a
 {
@@ -239,7 +240,8 @@ p {
 }
 
 .wy-menu-vertical a:hover {
-    background-color: #4a4042 !important;   
+    background-color: #AB337A !important;   
+    color: #fff !important;
 }
 
 .comment{
@@ -342,6 +344,9 @@ h5 {
 
 p {
 	font-family: 'Source Sans Pro Regular' !important;
+}
+a {
+	color: #AB337A;
 }
 
 .simple{
