@@ -55,11 +55,7 @@ This GitHub set of documents will provide all of the information on CIRRENT™ M
   * `Android Sample Application <https://github.com/Cirrent/support_docs/blob/master/docs/mai/android-sample-application.md>`_
   
   * `iOS Sample Application <https://github.com/Cirrent/support_docs/blob/master/docs/mai/ios-sample-application.md>`_
-  
-  * `MAI Custome Extensions <https://github.com/Cirrent/support_docs/blob/master/docs/mai/using-mai-extensions.rst>`_
-  
+
 * **Reporting, Analytics and Data Modeling with MAI**
 
-  * `MAI Data Model <https://github.com/Cirrent/support_docs/blob/master/docs/mai/mai-data-model.rst>`_
-  
   * `Using MAI Dashboards <https://github.com/Cirrent/support_docs/blob/master/docs/mai/using-the-mai-dashboards.rst>`_

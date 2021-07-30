@@ -35,26 +35,26 @@ Better app reviews
 3. Terms:
 """"""""""""""""""""""""""""""""""""
 
-AppID: Each app instance has unique AppID that is provided by customer
+*AppID*: Each app instance has unique AppID that is provided by customer
 
-OnboardingID: Each onboarding attempt is assigned unique OnboardingID by Cirrent SDK
+*OnboardingID*: Each onboarding attempt is assigned unique OnboardingID by Cirrent SDK
 
-DeviceID: unique ID for each connected product
+*DeviceID*: unique ID for each connected product
 
 4. Sample App and SDK repos
 """"""""""""""""""""""""""""""""""""
 
 **App repos :**
 
-Android [https://github.com/Cirrent/ZipKey-Android-App](https://github.com/Cirrent/ZipKey-Android-App)
+* `Android Sample App <https://github.com/Cirrent/ZipKey-Android-App>`_
 
-iOS [https://github.com/Cirrent/ZipKey-iOS-App](https://github.com/Cirrent/ZipKey-iOS-App)
+* `iOS Sample App <https://github.com/Cirrent/ZipKey-iOS-App>`_
 
 **SDK(binaries) repos:**
 
-Android [https://github.com/Cirrent/ZipKey-Android-SDK](https://github.com/Cirrent/ZipKey-Android-SDK)
+* Cirrent SDK `for Android <https://github.com/Cirrent/ZipKey-Android-SDK>`_
 
-iOS [https://github.com/Cirrent/ZipKey-iOS-SDK](https://github.com/Cirrent/ZipKey-iOS-SDK)
+* Cirrent SDK `for iOS <https://github.com/Cirrent/ZipKey-iOS-SDK>`_
 
 5. App permissions
 """"""""""""""""""""""""""""""""""""
@@ -64,12 +64,12 @@ You will need to ask the user for the following App permissions for Cirrent SDK 
 
 **iOS:**
 
-1.  Location;
-2.  Local Network(iOS 14).
+* Location;
+* Local Network(iOS 14).
 
 **Android:**
 
-Location
+* Location.
 
 6. Using Cirrent MAI within your app
 """"""""""""""""""""""""""""""""""""
@@ -78,11 +78,11 @@ Location
 6a. Create Analytics JWT
 +++++++++++++++++++++++++
 
-The connected product mobile app will use a JSON web token (JWT) to confirm its scope of control when it calls the Cirrent cloud. The App API Key and Secret are generated using Cirrent Console using link  [https://console.cirrent.com/api-keys](https://console.cirrent.com/api-keys). Please click “Create API Key” button and choose key type as “app” as shown below.
+The connected product mobile app will use a JSON web token (JWT) to confirm its scope of control when it calls the Cirrent cloud. The App API Key and Secret are generated using Cirrent Console using link  https://console.cirrent.com/api-keys . Please click “Create API Key” button and choose key type as “app” as shown below.
 
-![](../img/image-1.png)
+.. image:: ../img/image-1.png
 
-Using the App API Key and Secret, you will need to generate  [Analytics token](analytics-token-generation).
+Using the App API Key and Secret, you will need to generate `Analytics token <https://github.com/Cirrent/support_docs/blob/master/docs/mai/analytics-token-generation.md>`_.
 
 Please use one of these options to generate analytics JWT token:
 
@@ -199,7 +199,7 @@ iOS:
 
 **II. Onboarding related functions**
 
-These functions help capture data related to particular onboarding. A single try of one app instance onboarding one Wi-Fi connected device is considered to be a unique OnboardingID. It is essential to use start_onboarding and end_onboarding functions to identify the start and end of a unique OnboardingID.
+These functions help capture data related to particular onboarding. A single try of one app instance onboarding one Wi-Fi connected device is considered to be a unique *OnboardingID*. It is essential to use ``startOnboarding()`` and ``endOnboarding()`` functions to identify the start and end of a unique *OnboardingID*.
 
 The SDK gives the app developers flexibility to decide on which steps in the app to collect data. App developers can also annotate moving from one step to the next with reason codes.
 

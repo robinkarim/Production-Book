@@ -1,3 +1,0 @@
-
-MAI Custom Extensions
------------------------
