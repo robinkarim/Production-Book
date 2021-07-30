@@ -15,4 +15,4 @@ The main areas of functionality that you should look at are:
 
 - MaiHelper - Helper class. It gets a ANALYTICS token that will be used to authenticate your app to the Cirrent cloud. Do not forget to change apiKey/apiSecret here if you plan to generate the analytics JWT token using the SDK. See the article on  [tokens](analytics-token-generation)  for more information.
 
-You can download the sample app from Google Play at  [https://play.google.com/store/apps/details?id=com.cirrent.ZipKeyApp](https://play.google.com/store/apps/details?id=com.cirrent.ZipKeyApp)
+You can download the sample app at https://github.com/Cirrent/ZipKey-Android-App

@@ -26,4 +26,4 @@ If you wish to build the sample app, you will need to install CocoaPods, using t
 
 CocoaPods is required for AlamoFire, EVReflection and RxBluetooth (which are used in the Cirrent sample app).
 
-You can also download the sample app from the App Store at [https://itunes.apple.com/ca/app/zipkey-dev-tool/id1265896377](https://itunes.apple.com/ca/app/zipkey-dev-tool/id1265896377)
+You can download the sample app at https://github.com/Cirrent/ZipKey-iOS-App
