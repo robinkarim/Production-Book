@@ -9,7 +9,7 @@ Infineon customers have long trusted Infineon as a trusted partner for semicondu
 and Infineon's Cirent product family now delivers new, unique capabilities to
 Infineon customers via the cloud.
 
-Today Infineon's cloud software services consist of three offerings:
+Today Infineon's cloud software services consist of the following offerings:
 
 * Cirrent Product Analytics.
 
@@ -27,11 +27,6 @@ Today Infineon's cloud software services consist of three offerings:
     embedded in your product along with the Cirrent Console and Dashboards, where you can
     use analytics tools to quickly understand your proudcts.
 
-* Cirrent Security Software Services.
-
-  * :doc:`Cirrent Cloud ID <cirrent-cloud-id>` is a device registration, provisioning, and
-    authentication service built to make IoT product manufacturing and authentication
-    easier, cheaper, and more secure by extending the chain of security from the chip to the cloud.
 
 .. toctree::
    :maxdepth: 2
@@ -42,5 +37,3 @@ Today Infineon's cloud software services consist of three offerings:
    /cirrent-ini
 
    /cirrent-mai
-
-   /cirrent-cloud-id
