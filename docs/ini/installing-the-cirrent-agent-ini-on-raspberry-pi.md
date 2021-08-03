@@ -32,7 +32,7 @@ sudo apt-get update
 ```
 2. Install the Cirrent Agent `.deb` package:
 ```
-sudo dpkg -i cirrent-agent_1.50-ini+deb10u3_armhf.deb
+sudo dpkg -i cirrent-agent_2.0.4-ini+deb10u3_armhf.deb
 ```
 ⚠️ some errors may be reported by `dpkg`. You can safely ignore these errors. See output:
 ```
@@ -51,8 +51,14 @@ sudo apt-get -f install
 ```
 4. Personalize your device by entering your device credentials:
 ```
-sudo /etc/cirrent/scripts/personalize.sh /etc/cirrent/
+sudo nano /etc/default/cirrent
 ```
+Uncomment
+```
+PROVISION_CRED="-K $PROVISIONING_KEY -S $PROVISIONING_SECRET \
+ -U $(ip link show dev eth0 | grep ether | awk '{print $2}' | sed 's|:|-|g')"
+```
+⚠️ Older versions may have placeholder arguments for Account ID `-A` and Device Type ID `-D`. They must be removed as they are no longer required.
 5. Reboot your Raspberry Pi
 ```
 sudo reboot
