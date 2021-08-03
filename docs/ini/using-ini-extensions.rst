@@ -25,7 +25,7 @@ The  cirrent_cli  call takes in three ordered arguments:
 
 #### name
 
--   This case-sensitive string must be  no longer than 100 bytes.
+-   This case-sensitive string must be no longer than 100 bytes.
 
 
 #### value
@@ -47,7 +47,6 @@ state | string
 1.  Dummy custom attribute and dummy custom event sent using cirrent_cli during testing will be visible on the console forever.
 2.  Make sure the names of the custom attribute/event used during testing are meaningful and will be used in the future.
 
-The Cirrent Agent 1.39.x versions support a maximum of 5 custom attribute, state, measurement, event each.
 
 ### Return Values
 
