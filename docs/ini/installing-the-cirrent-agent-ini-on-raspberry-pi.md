@@ -23,7 +23,7 @@ This guide covers how to install, configure, run, and use the Cirrent Agent (CA)
 1. Make sure your Raspberry Pi is running a clean OS installation and is powered on with your official Raspberry Pi power supply
 2. Make sure your Raspberry Pi is connected to the 2.4 GHz Wi-Fi network and can reach the Internet
     * https://www.raspberrypi.org/documentation/configuration/wireless/
-3. Make sure you have device credentials ready for the Cirrent Agent. Each Cirrent Agent must have its own credentials to communicate with the Cirrent Cloud. Please use the device credentials as provided by Cirrent.
+3. Make sure you have a provisioning key and secret ready for the Cirrent Agent. Each Cirrent Agent must be authorized to communicate with the Cirrent Cloud. Log into your Cirrent Console account to generate the provisioning key and secret if you don't have one already.
 
 ##### Installation
 1. Update your Raspberry Pi:
@@ -32,7 +32,7 @@ sudo apt-get update
 ```
 2. Install the Cirrent Agent `.deb` package:
 ```
-sudo dpkg -i cirrent-agent_1.50-ini+deb10u3_armhf.deb
+sudo dpkg -i cirrent-agent_2.0.4-ini+deb10u3_armhf.deb
 ```
 ⚠️ some errors may be reported by `dpkg`. You can safely ignore these errors. See output:
 ```
@@ -49,10 +49,16 @@ Errors were encountered while processing:
 ```
 sudo apt-get -f install
 ```
-4. Personalize your device by entering your device credentials:
+4. Configure your device by entering your provisioning key and secret:
 ```
-sudo /etc/cirrent/scripts/personalize.sh /etc/cirrent/
+sudo nano /etc/default/cirrent
 ```
+Add the following lines and replace the placeholders `PROVISIONING_KEY` and `PROVISIONING_SECRET` with your provisioning key and secret
+```
+PROVISION_CRED="-K PROVISIONING_KEY -S PROVISIONING_SECRET \
+ -U $(ip link show dev eth0 | grep ether | awk '{print $2}' | sed 's|:|-|g')"
+```
+
 5. Reboot your Raspberry Pi
 ```
 sudo reboot

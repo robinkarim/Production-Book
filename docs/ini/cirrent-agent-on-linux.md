@@ -17,16 +17,10 @@ Features include:
 
 -   IoT Network Intelligence (INI)
 
--   Connection Manager (CM)
-
 
 Source code available with Software License Agreement (SLA).
 
 ## Components
-
-![](../img/Linux_Block_Diagram.png)
-
-
 ### cirrent_agent
 An executable binary that runs as a daemon (cirrent_agent)
 
@@ -43,12 +37,6 @@ The Cirrent Agent hardware requirements depend on the feature being used.
 ### IoT Network Intelligence
 * Wi-Fi Network Interface
     * STA mode
-* Persistent Storage (Read/Write)
-### Connection Manager
-* Wi-Fi Network Interface
-    * STA mode
-    * AP mode (required for Soft-AP onboarding)
-* BLE Radio (required for BLE onboarding)
 * Persistent Storage (Read/Write)
 
 ## Software Requirements

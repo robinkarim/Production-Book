@@ -23,101 +23,71 @@ From here the choice is yours! You can dive deeper into specific reports, indivi
 
 In this view, there are over 60+ prebuilt metrics, which can be leveraged to slice and dice the data and filter for specific views including:
 
-1.	Band Switch To 2GHz
-2.	Band Switch To 5GHz
-3.	Custom Evt Instant
-4.	Custom Evt Start Stop
-5.	Dns Error Custom1
-6.	Gateway Error Custom1
-7.	Gateway Internet Error Custom1
-8.	High Cpu Temp
-9.	High Gpu Temp
-10.	Ip Conflict Custom1
-11.	Measure Temp
-12.	Myevent
-13.	Throttled
-14.	Under-voltage
-15.	Watchdog Error
-16.	WiFi Connected
-17.	WiFi Disconnected
-18.	Wifi Interference Custom1
-19.	Wifi Not Associated Custom1
-20.	App Crash
-21.	Bssid Switch
-22.	Days Since Last Connect
-23.	Destination Service Unreachable Google
-24.	Destination Service Unreachable Id 1
-25.	Dhcp No Gateway
-26.	Dhcp No Ip Address
-27.	Dhcp No Netmask
-28.	Dns Error
-29.	Dns Timeout
-30.	Gateway Error
-31.	Gateway Internet Error
-32.	High Cpu Usage
-33.	High Memory Usage
-34.	High Per
-35.	Ip Conflict
-36.	Low Signal Strength
-37.	Low Storage
-38.	Network Performance
-39.	Offline Percentage 30 Days
-40.	Offline Percentage 7 Days
-41.	Powered On
-42.	Restart Triggered
-43.	Restarted
-44.	Running
-45.	Shutdown Triggered
-46.	Tls Error
-47.	Tls Expired
-48.	Tls Hostname Mismatch
-49.	Tls Not Yet Valid
-50.	Unreachable Destination Service
-51.	Wifi Associating
-52.	Wifi Connect
-53.	Wifi Connected
-54.	Wifi Diassociated
-55.	Wifi Disconnect
-56.	Wifi Disconnected
-57.	Wifi Failed Association
-58.	Wifi Interference
-59.	Wifi Not Associated
-60.	Wifi Scan
+1.	WiFi Connected
+2.	WiFi Disconnected
+3.	App Crash
+4.	Bssid Switch
+5.	Days Since Last Connect
+6.	Destination Service Unreachable
+7.	Dhcp No Gateway
+8.	Dhcp No Ip Address
+9.	Dhcp No Netmask
+10.	Dns Error
+11.	Dns Timeout
+12.	Gateway Error
+13.	Gateway Internet Error
+14.	High Cpu Usage
+15.	High Memory Usage
+16.	High Per
+17.	Ip Conflict
+18.	Low Signal Strength
+19.	Low Storage
+20.	Network Performance
+21.	Offline Percentage 30 Days
+22.	Offline Percentage 7 Days
+23.	Powered On
+24.	Restart Triggered
+25.	Restarted
+26.	Shutdown Triggered
+27.	Tls Error
+28.	Tls Expired
+29.	Tls Hostname Mismatch
+30.	Tls Not Yet Valid
+31.	Wifi Associating
+32.	Wifi Diassociated
+33.	Wifi Disconnect
+34.	Wifi Disconnected
+35.	Wifi Failed Association
+36.	Wifi Interference
+37.	Wifi Not Associated
+38.	Wifi Scan
 
 All of these metrics can also be filtered by the following categories:
 
-1.	Batch Updates
-2.	Board Owner
-3.	Custom Attribute
-4.	Field Test Version
-5.	Firmware version
-6.	Gpu Firmware
-7.	Model
-8.	Serial No
-9.	ASN
-10.	CIty
-11.	Country
-12.	CPU 
-13.	Device Type
-14.	ISP 
-15.	OS
-16.	OS Version
-17.	Postal Code
-18.	Region
-19.	Router
-20.	Router Brand
-21.	Router Brand Model
-22.	Wi-Fi Radio
-23.	Wi-Fi Radio Driver
+1.	City
+2.	Country
+3.	ASN
+4.	CPU
+5.	Device Type
+6.	ISP
+7.	OS
+8.	Postal Code
+9.	Region
+10.	Router
+11.	Router Brand
+12.	Router Brand Model
+13.	Wi-Fi Radio
+14.	Wi-Fi Radio Driver
 
 
-**Device Inspector -** Device-level view that provides your team the ability to review the comprehensively rich data on an individual, device level for  deeper understanding. This view includes data such as:
 
-1.	Last Known State
-2.	Mesh Info
+**Device Inspector -** Device-level view that provides your team the ability to review the comprehensively rich data on an individual, device level for deeper understanding. This view includes data such as:
+
+1.	Last Known State (Channel, Channel Width, Band, etc)
+2.	Mesh Info (Single Node, Multiple Nodes, etc)
 3.	Metrics Summary (10+ metrics)
-4.	Measurements
-5.	Wi-Fi Scans 
+4.	Measurements (Signal Strength, Wi-Fi Data Rate, etc)
+5.	Wi-Fi Scans
 6.	Diagnostics
 
 

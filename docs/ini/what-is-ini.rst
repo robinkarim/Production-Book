@@ -61,26 +61,14 @@ This GitHub set of documents will provide all of the information on CIRRENT™ I
   * `Getting Started with INI <https://github.com/Cirrent/support_docs/blob/master/docs/ini/getting-started-with-ini.rst>`_
   
 * **Getting started with INI**
-
-  * `Installing Cirrent Agent on Android <https://github.com/Cirrent/support_docs/blob/master/docs/ini/installing-the-cirrent-agent-ini-on-android.md>`_
   
   * `Installing Cirrent Agent on Raspberry Pi <https://github.com/Cirrent/support_docs/blob/master/docs/ini/installing-the-cirrent-agent-ini-on-raspberry-pi.md>`_
-  
-  * `Installing Cirrent Agent Using Cypress Linux Drivers <https://github.com/Cirrent/support_docs/blob/master/docs/ini/installing-the-cirrent-agent-ini-using-the-cypress-linux-driver-packages.md>`_
   
   * `Using INI Extensions <https://github.com/Cirrent/support_docs/blob/master/docs/ini/using-ini-extensions.rst>`_
   
   * `Using OPS API to Register Devices <https://github.com/Cirrent/support_docs/blob/master/docs/ini/using-ops-api-to-register-devices.md>`_
   
-  * `Cirrent Agent C API <https://github.com/Cirrent/support_docs/blob/master/docs/ini/ca-c-api.md>`_
-  
-  * `Cirrent Agent for Linux Dependencies <https://github.com/Cirrent/support_docs/blob/master/docs/ini/ca-for-linux-dependencies.md>`_
-  
-  * `Cirrent Agent on Android <https://github.com/Cirrent/support_docs/blob/master/docs/ini/cirrent-agent-on-android.md>`_
-  
   * `Cirrent Agent on Linux <https://github.com/Cirrent/support_docs/blob/master/docs/ini/cirrent-agent-on-linux.md>`_
-  
-  * `Device Management <https://github.com/Cirrent/support_docs/blob/master/docs/ini/device-management.rst>`_
   
 * **Reporting, analytics and data modeling with INI**
 
