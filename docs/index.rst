@@ -13,19 +13,9 @@ Today Infineon's cloud software services consist of the following offerings:
 
 * Cirrent Product Analytics.
 
-  * :doc:`Cirrent IoT Network Intelligence (INI) <cirrent-ini>` is a complete
-    platform for data-driven product analytics.  With real-world data from your products
-    in the field, you can understand how your products are performing, provide data-driven
-    customer support, and have deeper visibility into your products that ever before, using the Cirrent Agent
-    embedded in your product along with the Cirrent Console and Dashboards, where you can
-    use analytics tools to quickly understand your products.
+  * CIRRENT™ IoT Network Intelligence (INI) is a cloud software solution that helps data-driven product development to improve user experience, improve product reviews, decrease returns, and increase sales. CIRRENT™ INI uses the CIRRENT™ Agent embedded software in your IoT product to securely report data into the CIRRENT™ Cloud and provide real-time access for your product management and engineering teams via the CIRRENT™ Console. With CIRRENT™ INI, your product and engineering teams can solve customer and product problems faster
 
-  * :doc:`Cirrent IoT Network Intelligence (INI) <cirrent-ini>` is a complete
-    platform for data-driven product analytics.  With real-world data from your products
-    in the field, you can understand how your products are performing, provide data-driven
-    customer support, and have deeper visibility into your products that ever before, using the Cirrent Agent
-    embedded in your product along with the Cirrent Console and Dashboards, where you can
-    use analytics tools to quickly understand your proudcts.
+  * CIRRENT™ Mobile App Intelligence (MAI) is a cloud software solution that provides data-driven Wi-Fi onboarding improvement, leading to higher connectivity rates and better app reviews. CIRRENT™ MAI uses the free CIRRENT™ App SDK in your IoT mobile app to securely report data into the CIRRENT™ Cloud and provide real-time access for your product management and engineering teams via the CIRRENT™ Console. With CIRRENT™ MAI, your product and software engineering teams can understand mobile app usage and customer environments in order to increase connectivity rates for IoT products in the field.
 
 
 .. toctree::
