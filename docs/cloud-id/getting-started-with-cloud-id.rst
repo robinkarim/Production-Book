@@ -1,15 +1,22 @@
+Getting Started with Cloud ID
+==================================
 
-Downloading Device Certificates
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Integrating Cloud ID with your cloud 
+--------------------------------------------------------- 
 
-Configuring your Product Cloud API
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Describe at a high level what needs to be done and how it works. Link to the Automatic Provisioning page below for more detail. 
 
-How to register products
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Integrating Cloud ID into your manufacturing process
+--------------------------------------------------------- 
+Describe it at a high level, then link to the Registering Cloud-ID Compatible Products below
 
-Enabling automatic provisioning
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Integrating Cloud ID with your device code
+--------------------------------------------------------- 
 
-How to use Claim Vouchers
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Using Cloud ID with CIRRENT INI
+--------------------------------------------------------- 
+
+Cloud ID Virtual Dev Kit
+--------------------------------------------------------- 
+Describe it and link to the page
+
