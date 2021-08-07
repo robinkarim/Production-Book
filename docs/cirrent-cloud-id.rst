@@ -18,4 +18,5 @@ without compromising device security.
    /cloud-id/automatic-provisioning
    /cloud-id/device-tokens
    /cloud-id/registering-cloud-id-compatible-products
+   /cloud-id/cloud-id-security
    /cloud-id/faq
