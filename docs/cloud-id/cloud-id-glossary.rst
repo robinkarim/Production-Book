@@ -1,2 +1,0 @@
-Cloud ID Glossary
--------------------
