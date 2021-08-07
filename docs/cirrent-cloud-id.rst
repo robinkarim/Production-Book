@@ -12,7 +12,10 @@ without compromising device security.
    :maxdepth: 2
    :hidden:
 
+   /cloud-id/what-is-cloud-id
    /cloud-id/getting-started-with-cloud-id
-   /cloud-id/adding-cloud-id-to-your-project
-   /cloud-id/cloud-id-glossary
-   /cloud-id/cloud-id-security
+   /cloud-id/device-certificates
+   /cloud-id/automatic-provisioning
+   /cloud-id/device-tokens
+   /cloud-id/registering-cloud-id-compatible-products
+   /cloud-id/faq
