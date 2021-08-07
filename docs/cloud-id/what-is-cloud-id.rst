@@ -8,7 +8,7 @@ device authentication, and the Cirrent Cloud ID service facilitates a
 simple manufacturing process that can be done in an insecure facility
 without compromising device security.
 
-What Cloud ID Can Do
+What Can Cloud ID Do?
 ^^^^^^^^^^^^^^^^^^^^^^
 
 Cloud ID allows you to:
