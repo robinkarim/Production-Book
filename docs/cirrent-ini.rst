@@ -15,5 +15,7 @@ it to the secure Cirrent Cloud, where the data can be analyzed using the Cirrent
    /ini/getting-started-with-ini
    /ini/ini-data-model
    /ini/using-ini-extensions
-   /ini/using-the-ini-dashboard
-   /ini/device-management
+   /ini/using-the-ini-dashboards
+   /ini/cirrent-agent-on-linux
+   /ini/installing-the-cirrent-agent-ini-on-raspberry-pi
+   /ini/ini-console-user-guide
