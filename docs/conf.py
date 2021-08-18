@@ -315,7 +315,7 @@ def setup(app):
         'enable_eval_rst': True,
         'enable_auto_doc_ref': True,
     }, True)
-    app.add_transform(AutoStructify)
+    # app.add_transform(AutoStructify)
     app.add_css_file('https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.1/flatly/bootstrap.min.css')
     app.add_css_file('css/theme_overrides.css')
     app.add_css_file('css/cookie_style.css')
