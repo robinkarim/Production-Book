@@ -44,8 +44,8 @@ extensions = [
 ]
 
 nbsphinx_custom_formats = {
-    '.rst': ['jupytext.reads', {'html': 'py:percent'}],
-    '.md': ['jupytext.reads', {'fmt': 'Rmd'}],
+    '.rst': ['jupytext.reads', {'fmt': 'md'}],
+    '.md': ['jupytext.reads', {'fmt': 'md'}],
 }
 
 # Add any paths that contain templates here, relative to this directory.
