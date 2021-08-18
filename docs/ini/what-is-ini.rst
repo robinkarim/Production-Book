@@ -56,7 +56,7 @@ This GitHub set of documents will provide all of the information on CIRRENT™ I
 
 * **Introduction to INI**  
 
-  * `INI Features and Benefits </ini-benefits-and-features>`_
+  * `INI Features and Benefits </ini/ini-benefits-and-features.md>`_
   
   * `Getting Started with INI <https://github.com/Cirrent/support_docs/blob/master/docs/ini/getting-started-with-ini.rst>`_
   
