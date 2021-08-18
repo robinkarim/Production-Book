@@ -25,7 +25,7 @@ from recommonmark.transform import AutoStructify
 
 html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
 
-source_suffix = ['.rst', '.md']
+source_suffix = ['.md', '.rst']
 
 # -- General configuration ------------------------------------------------
 
@@ -36,9 +36,9 @@ source_suffix = ['.rst', '.md']
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    # 'sphinx.ext.autodoc',
-    # 'sphinx.ext.napoleon',
-    # 'sphinx.ext.mathjax',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.mathjax',
     'recommonmark',
     'nbsphinx',
 ]
