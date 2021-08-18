@@ -48,7 +48,7 @@ How INI works
 ^^^^^^^^^^^^^^^
 Getting started with INI is easy, hassle-free and secure. To get started, `register for a free account <https://console.infineon.com/login>`_.  Next step is to integrate the CIRRENT™ Agent in your device and watch the data flow into the CIRRENT™ Console, a secure dashboard that provides deep visibility into the performance of your IoT products (at scale or at individual device-level). 
 
-CIRRENT™ Console provides real-time visibility into the data from your devices, including 10+ out-of-the-box dashboards that collect  25+ events and attributes. Simply log in to the CIRRENT™ Console to see the data, access reports, and understand the performance of your devices. To learn more read  `INI Console User Guide <https://github.com/Cirrent/support_docs/blob/master/docs/ini/ini-console-user-guide.md>`_. and  `Using INI Dashboards <https://github.com/Cirrent/support_docs/blob/master/docs/ini/using-the-ini-dashboards.rst>`_.
+CIRRENT™ Console provides real-time visibility into the data from your devices, including 10+ out-of-the-box dashboards that collect  25+ events and attributes. Simply log in to the CIRRENT™ Console to see the data, access reports, and understand the performance of your devices. To learn more read  `INI Console User Guide <ini-console-user-guide.md>`_. and  `Using INI Dashboards <using-the-ini-dashboards.rst>`_.
 
 Learn more
 ^^^^^^^^^^^^
@@ -58,25 +58,25 @@ This GitHub set of documents will provide all of the information on CIRRENT™ I
 
   * `INI Features and Benefits <ini-benefits-and-features.md>`_
   
-  * `Getting Started with INI <https://github.com/Cirrent/support_docs/blob/master/docs/ini/getting-started-with-ini.rst>`_
+  * `Getting Started with INI <getting-started-with-ini.rst>`_
   
 * **Getting started with INI**
   
-  * `Installing Cirrent Agent on Raspberry Pi <https://github.com/Cirrent/support_docs/blob/master/docs/ini/installing-the-cirrent-agent-ini-on-raspberry-pi.md>`_
+  * `Installing Cirrent Agent on Raspberry Pi <installing-the-cirrent-agent-ini-on-raspberry-pi.md>`_
   
-  * `Using INI Extensions <https://github.com/Cirrent/support_docs/blob/master/docs/ini/using-ini-extensions.rst>`_
+  * `Using INI Extensions <using-ini-extensions.rst>`_
   
-  * `Using OPS API to Register Devices <https://github.com/Cirrent/support_docs/blob/master/docs/ini/using-ops-api-to-register-devices.md>`_
+  * `Using OPS API to Register Devices <using-ops-api-to-register-devices.md>`_
   
-  * `Cirrent Agent on Linux <https://github.com/Cirrent/support_docs/blob/master/docs/ini/cirrent-agent-on-linux.md>`_
+  * `Cirrent Agent on Linux <cirrent-agent-on-linux.md>`_
   
 * **Reporting, analytics and data modeling with INI**
 
-  * `INI Console User Guide <https://github.com/Cirrent/support_docs/blob/master/docs/ini/ini-console-user-guide.md>`_
+  * `INI Console User Guide <ini-console-user-guide.md>`_
   
-  * `Using INI Dashboards <https://github.com/Cirrent/support_docs/blob/master/docs/ini/using-the-ini-dashboards.rst>`_
+  * `Using INI Dashboards <using-the-ini-dashboards.rst>`_
   
-  * `INI Data Model <https://github.com/Cirrent/support_docs/blob/master/docs/ini/ini-data-model.rst>`_
+  * `INI Data Model <ini-data-model.rst>`_
     
 
 .. raw:: html
