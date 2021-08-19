@@ -25,7 +25,7 @@ from recommonmark.transform import AutoStructify
 
 html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
 
-source_suffix = [ '.rst']
+source_suffix = '.rst'
 
 # -- General configuration ------------------------------------------------
 
@@ -40,8 +40,8 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.mathjax',
     'recommonmark',
-    'nbsphinx',
     'myst_parser',
+    'nbsphinx',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
