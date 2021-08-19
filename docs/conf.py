@@ -25,7 +25,7 @@ from recommonmark.transform import AutoStructify
 
 html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
 
-source_suffix = '.rst'
+source_suffix = ['.md', '.rst']
 
 # -- General configuration ------------------------------------------------
 
@@ -40,7 +40,6 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.mathjax',
     'recommonmark',
-    'myst_parser',
     'nbsphinx',
 ]
 
