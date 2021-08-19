@@ -25,7 +25,7 @@ from recommonmark.transform import AutoStructify
 
 html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
 
-source_suffix = ['.md', '.rst']
+source_suffix = [ '.rst']
 
 # -- General configuration ------------------------------------------------
 
