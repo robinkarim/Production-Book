@@ -40,7 +40,7 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.mathjax',
     'recommonmark',
-    'nbsphinx',
+    # 'nbsphinx',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -305,7 +305,7 @@ html_favicon = '_static/image/IFX_ICON.ico'
 # app setup hook
 def setup(app):
     app.add_config_value('recommonmark_config', {
-        #'url_resolver': lambda url: github_doc_root + url,
+        'url_resolver': lambda url: github_doc_root + url,
         'auto_toc_tree_section': 'Contents',
         'enable_math': False,
         'enable_inline_math': False,
@@ -322,7 +322,6 @@ def setup(app):
 
 html_js_files = [('https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js', {'crossorigin': 'anonymous'}),
              ('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js', {'crossorigin': 'anonymous'})]
-
 
 
 
