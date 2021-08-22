@@ -1,5 +1,5 @@
 Mobile App Intelligence User Guide
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------------------
 
 1. Introduction:
 """"""""""""""""""""""""""""""""""""
@@ -82,7 +82,7 @@ The connected product mobile app will use a JSON web token (JWT) to confirm its 
 
 .. image:: ../img/image-1.png
 
-Using the App API Key and Secret, you will need to generate `Analytics token <https://github.com/Cirrent/support_docs/blob/master/docs/mai/analytics-token-generation.md>`_.
+Using the App API Key and Secret, you will need to generate `Analytics token <analytics-token-generation.rst>`_ .
 
 Please use one of these options to generate analytics JWT token:
 
