@@ -26,22 +26,17 @@ Payload:
 
 The payload is the signed JWT token, which includes the following claims:
 
-+-----------+---------------------------------------------------+--------------------------------------------------------------------------------------------------+
-| Claim     | Contents                                          | Comments                                                                                         |
-+===========+===================================================+==================================================================================================+
-| iss       | Issuer of this token (Account ID)                 | You can get Account ID from  `User Management Console page <https://console.cirrent.com/users>`_ |
-+-----------+---------------------------------------------------+--------------------------------------------------------------------------------------------------+
-| iat       | Time token was issued (seconds in epoch)          |                                                                                                  |
-+-----------+---------------------------------------------------+--------------------------------------------------------------------------------------------------+
-| exp       | Expiration date for this token (seconds in epoch) |                                                                                                  |
-+-----------+---------------------------------------------------+--------------------------------------------------------------------------------------------------+
-| owner     | The Owner ID for this app                         | You can see the results of the binding in `User Management Console page <https://console.cirrent.com/users>`_ |
-+-----------+---------------------------------------------------+--------------------------------------------------------------------------------------------------+
-| scope     | ‘analytics’                                       |                                                                                                  |
-+-----------+---------------------------------------------------+--------------------------------------------------------------------------------------------------+
-| devices   | Array of device IDs                               | Must be an array even if it's a single device                                                    |
-|           | Example: ['device1','device2','device3']          | 																								   |
-+-----------+---------------------------------------------------+--------------------------------------------------------------------------------------------------+
+============= ================================================== =============================================================================================================
+ Claim         Contents                                           Comments
+============= ================================================== =============================================================================================================
+ iss          Issuer of this token (Account ID)                  You can get Account ID from  `User Management Console page <https://console.cirrent.com/users>`_ 
+ iat          Time token was issued (seconds in epoch)           
+ exp          Expiration date for this token (seconds in epoch)
+ owner        The Owner ID for this app                          You can see the results of the binding in `User Management Console page <https://console.cirrent.com/users>`_
+ scope        ‘analytics’                                        
+ devices      Array of device IDs                                Must be an array even if it's a single device
+              Example: ['device1','device2','device3']
+============= ================================================== =============================================================================================================
 
 Token Validator
 ===============
