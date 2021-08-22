@@ -1,5 +1,4 @@
-﻿
-Cirrent Agent on Linux
+﻿Cirrent Agent on Linux
 -----------------------------------------
 
 *********

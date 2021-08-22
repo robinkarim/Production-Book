@@ -1,5 +1,4 @@
-﻿
-INI Benefits and Features
+﻿INI Benefits and Features
 -----------------------------------------
 
 IoT Network Intelligence (INI) helps you monitor your fleet of connected devices. We developed INI as a purpose built tool for Wi-Fi connected products to help you identify issues and resolve them faster. INI’s unique strength comes from a combination of embedded agent and cloud logic to bring insights for your connected devices.
@@ -21,10 +20,10 @@ Features:
 
 1.  Understand broad trends for your entire fleet
 2.  Benchmark performance of different connected products (eg: different SKUs or models, different ODMs, etc) against Wi-Fi environment
-3.  Isolate failure using 20+  [Events](ini-events). These events help you determine if the failure is in the Network stack, or from device to Router, or Router to ISP, or Device to Cloud, or if it’s caused by RF conditions
+3.  Isolate failure using 20+  `Events <ini-events.rst>`. These events help you determine if the failure is in the Network stack, or from device to Router, or Router to ISP, or Device to Cloud, or if it’s caused by RF conditions
 4.  Use Measurements to understand user's Wi-Fi environment. Eg: If device is too far from the router or if there is interference
 5.  Quantify how many customers are impacted by each issue
-6.  Find correlation between Events (eg: Wi-Fi Not Associated) and  [Attributes](ini-attributes)  (eg: routers)
+6.  Find correlation between Events (eg: Wi-Fi Not Associated) and  `Attributes <ini-attributes.rst>`  (eg: routers)
 7.  Router make and model identification
 8.  ISP and location identification
 9.  Ability to add Custom Attributes (eg: firmware version, manufacturing lot number, ODM, etc) to understand correlation
