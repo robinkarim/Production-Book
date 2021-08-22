@@ -48,22 +48,19 @@ Sample code for Generating Analytics Token
 
 Here's a code snippet in Node.js. Implementation examples for other languages can be found at `https://jwt.io <https://jwt.io/>`_ .
 
->>>
+``
 var jwt = require('jsonwebtoken');  
-  
 let accountId = 'account_number_from_console';  
 let ownerId = 'enter_app_owner_ID';  
 let scope = 'analytics';  
 let expiresIn = 60 * 60 * 24 * 30;  
 let apiKey = 'enter_app_api_key_here';  
 let apiKeySecret = 'enter_api_secret_here';  
-  
 var token = jwt.sign({  
  iss: accountId,  
  owner: ownerId,  
  scope: scope,  
  demo_devices: 'false'  
 }, apiKeySecret, { expiresIn: expiresIn });  
-  
 console.log('token=' + apiKey + '::' + token);
->>>
+``
