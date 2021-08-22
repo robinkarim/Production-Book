@@ -14,21 +14,22 @@ This document covers an example use case, requirements and general consideration
 ```
 $ cirrent_cli ini_custom <type> <name> <value>
 ```
-### Arguments
+
+**Arguments**
 
 The  cirrent_cli  call takes in three ordered arguments:
 
-#### type
+**type**
 
 -   This case-sensitive string must be one of  event,  measurement,  attribute, or  state
 
 
-#### name
+**name**
 
 -   This case-sensitive string must be no longer than 100 bytes.
 
 
-#### value
+**value**
 
 -   This string depends on what the data  type  is being sent. The following table describes the accepted  value  for each corresponding data  type
 
