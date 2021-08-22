@@ -11,30 +11,24 @@ This document covers an example use case, requirements and general consideration
 **Sending INI Custom data API using the cirrent_cli:**
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-
 ```
 $ cirrent_cli ini_custom <type> <name> <value>
 ```
-
-Arguments
-----------
+### Arguments
 
 The  cirrent_cli  call takes in three ordered arguments:
 
-type
-----------
+#### type
 
 -   This case-sensitive string must be one of  event,  measurement,  attribute, or  state
 
 
-name
-----------
+#### name
 
 -   This case-sensitive string must be no longer than 100 bytes.
 
 
-value
-----------
+#### value
 
 -   This string depends on what the data  type  is being sent. The following table describes the accepted  value  for each corresponding data  type
 
@@ -59,8 +53,7 @@ Choosing the right data to send:
 2.  Make sure the names of the custom attribute/event used during testing are meaningful and will be used in the future.
 
 
-Return Values
-==============
+### Return Values
 
 All  cirrent_cli ini_custom
 
