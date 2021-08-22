@@ -40,7 +40,7 @@ How MAI works
 
 Getting started with MAI is easy, hassle-free and secure. To get started, `register for a free account <https://console.infineon.com/login>`_.  Next step is to integrate the CIRRENT™ Mobile App SDK in your IoT device, which on average takes less than two hours and less than 50 lines of code. Then  watch the data flow into the CIRRENT™ Console, a secure dashboard that provides deep visibility into the performance of your IoT products (at scale or at individual device-level).
 
-CIRRENT™ Console provides real-time visibility into the data from your devices, including 10+ out-of-the-box dashboards that collect  25+ events and attributes. Simply log in to the CIRRENT™ Console to see the data, access reports, and understand the performance of your devices. To learn more read  `MAI User Guide <https://github.com/Cirrent/support_docs/blob/master/docs/mai/getting-started-with-mai.rst>`_. and  `Using MAI Dashboards <https://github.com/Cirrent/support_docs/blob/master/docs/mai/using-the-mai-dashboards.rst>`_.
+CIRRENT™ Console provides real-time visibility into the data from your devices, including 10+ out-of-the-box dashboards that collect  25+ events and attributes. Simply log in to the CIRRENT™ Console to see the data, access reports, and understand the performance of your devices. To learn more read  `MAI User Guide <https://github.com/Cirrent/support_docs/blob/master/docs/mai/getting-started-with-mai.rst>`_. and  `Using MAI Dashboards <using-the-mai-dashboards.rst>`_.
 
 Learn more
 ^^^^^^^^^^^^
@@ -48,14 +48,14 @@ This GitHub set of documents will provide all of the information on CIRRENT™ M
 
 * **Getting started with MAI**
 
-  * `Getting Started with MAI <https://github.com/Cirrent/support_docs/blob/master/docs/mai/getting-started-with-mai.rst>`_
+  * `Getting Started with MAI <getting-started-with-mai.rst>`_
   
-  * `Android Analytics Token Generator <https://github.com/Cirrent/support_docs/blob/master/docs/mai/analytics-token-generation.md>`_
+  * `Android Analytics Token Generator <analytics-token-generation.rst>`_
   
-  * `Android Sample Application <https://github.com/Cirrent/support_docs/blob/master/docs/mai/android-sample-application.md>`_
+  * `Android Sample Application <android-sample-application.rst>`_
   
-  * `iOS Sample Application <https://github.com/Cirrent/support_docs/blob/master/docs/mai/ios-sample-application.md>`_
+  * `iOS Sample Application <ios-sample-application.rst>`_
 
 * **Reporting, Analytics and Data Modeling with MAI**
 
-  * `Using MAI Dashboards <https://github.com/Cirrent/support_docs/blob/master/docs/mai/using-the-mai-dashboards.rst>`_
+  * `Using MAI Dashboards <using-the-mai-dashboards.rst>`_

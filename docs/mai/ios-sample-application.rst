@@ -16,7 +16,7 @@ The main areas of functionality that you should look at are:
 - SuccessFragment - this is the screen that is shown when the device has successfully joined the user's private network. This screen will typically be replaced with the main screen for your connected product.
 
 
-- MaiHelper - Helper class. It gets a ANALYTICS token that will be used to authenticate your app to the Cirrent cloud. Do not forget to change apiKey/apiSecret here if you plan to generate the analytics JWT token using the SDK. See the article on  [tokens](analytics-token-generation)  for more information.
+- MaiHelper - Helper class. It gets a ANALYTICS token that will be used to authenticate your app to the Cirrent cloud. Do not forget to change apiKey/apiSecret here if you plan to generate the analytics JWT token using the SDK. See the article on  `tokens <analytics-token-generation.rst>`_  for more information.
 
 If you wish to build the sample app, you will need to install CocoaPods, using the following commands:
 
