@@ -11,9 +11,9 @@ This document covers an example use case, requirements and general consideration
 **Sending INI Custom data API using the cirrent_cli:**
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-```
+.. code-block:: shell
 $ cirrent_cli ini_custom <type> <name> <value>
-```
+
 ### Arguments
 
 The  cirrent_cli  call takes in three ordered arguments:
