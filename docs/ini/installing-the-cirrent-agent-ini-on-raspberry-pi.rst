@@ -1,6 +1,5 @@
-﻿#########################
-Raspberry Pi Quick Start
-#########################
+﻿Raspberry Pi Quick Start
+==========================
 
 **⏱️ This guide should take approximately 30 minutes to complete ⏱️**
 
