@@ -12,7 +12,9 @@ This document covers an example use case, requirements and general consideration
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 
-```$ cirrent_cli ini_custom <type> <name> <value>```
+```
+$ cirrent_cli ini_custom <type> <name> <value>
+```
 
 Arguments
 ----------
