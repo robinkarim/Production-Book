@@ -3,7 +3,7 @@
 
 **⏱️ This guide should take approximately 30 minutes to complete ⏱️**
 
-This guide covers how to install, configure, run, and use the Cirrent Agent (CA) on your Raspberry Pi to run the IoT Network Intelligence feature. By the end of this guide you will have the latest Cirrent Agent running on your Raspberry Pi and reporting data to the Cirrent Cloud. Data will be displayed in your Cirrent Console account.
+This guide covers how to install, configure, run, and use the CIRRENT™ Agent (CA) on your Raspberry Pi to run the IoT Network Intelligence feature. By the end of this guide you will have the latest CIRRENT™ Agent running on your Raspberry Pi and reporting data to the CIRRENT™ Cloud. Data will be displayed in your CIRRENT™ Console account.
 
 Requirements
 -------------
@@ -18,16 +18,16 @@ Requirements
     * `https://downloads.raspberrypi.org/raspbian/images/ <https://downloads.raspberrypi.org/raspbian/images/>`_
 * Raspberry Pi Terminal access
     * `https://www.raspberrypi.org/documentation/usage/terminal/ <https://www.raspberrypi.org/documentation/usage/terminal/>`_
-* Cirrent Console account
-    * Please register for a console account using the invite email sent by Cirrent. You can also request an account by contacting support@cirrent.com
-* The latest Cirrent Agent .deb package
+* CIRRENT™ Console account
+    * Please register for a console account using the invite email sent by CIRRENT™. You can also request an account by contacting support@cirrent.com
+* The latest CIRRENT™ Agent .deb package
 
 Setup
 -------
 1. Make sure your Raspberry Pi is running a clean OS installation and is powered on with your official Raspberry Pi power supply
 2. Make sure your Raspberry Pi is connected to the 2.4 GHz Wi-Fi network and can reach the Internet
     * `https://www.raspberrypi.org/documentation/configuration/wireless/ <https://www.raspberrypi.org/documentation/configuration/wireless/>`_
-3. Make sure you have a provisioning key and secret ready for the Cirrent Agent. Each Cirrent Agent must be authorized to communicate with the Cirrent Cloud. Log into your Cirrent Console account to generate the provisioning key and secret if you don't have one already.
+3. Make sure you have a provisioning key and secret ready for the CIRRENT™ Agent. Each CIRRENT™ Agent must be authorized to communicate with the CIRRENT™ Cloud. Log into your CIRRENT™ Console account to generate the provisioning key and secret if you don't have one already.
 
 Installation
 --------------
@@ -35,7 +35,7 @@ Installation
 ```
 sudo apt-get update
 ```
-2. Install the Cirrent Agent `.deb` package:
+2. Install the CIRRENT™ Agent `.deb` package:
 ```
 sudo dpkg -i cirrent-agent_2.0.4-ini+deb10u3_armhf.deb
 ```
@@ -69,11 +69,11 @@ PROVISION_CRED="-K PROVISIONING_KEY -S PROVISIONING_SECRET \
 sudo reboot
 ```
 
-**✔️ All done!** You can now leave your Raspberry Pi running and the Cirrent Agent will automatically collect data.
+**✔️ All done!** You can now leave your Raspberry Pi running and the CIRRENT™ Agent will automatically collect data.
 
 Next Steps
 ------------
-The Cirrent Agent will start reporting some data like the SSID, BSSID, router that the Raspberry Pi is connected to after the first few minutes, while some data like metrics and connectivity values take up to a day for the Cirrent Agent to collect and report.
+The CIRRENT™ Agent will start reporting some data like the SSID, BSSID, router that the Raspberry Pi is connected to after the first few minutes, while some data like metrics and connectivity values take up to a day for the CIRRENT™ Agent to collect and report.
 
 To view data for all devices in an account, please visit:
 

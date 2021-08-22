@@ -5,10 +5,10 @@ The OPS API is used for bulk provisioning of devices during your manufacturing p
 
 You can use any one of the two options below for BasicAuth with this API:
 
-1. Use Username and Password associated with Cirrent account
+1. Use Username and Password associated with CIRRENT™ account
 
-2. Use OPS API Key and Secret generated from Cirrent console
+2. Use OPS API Key and Secret generated from CIRRENT™ console
 
-To generate OPS API Key and Secret, please go to  `API Key Management page <https://go.cirrent.com/management/api-key>`_ . Select Key Type as "OPS", enter a name for the key and click "Add". The Cirrent Console will generate OPS API Key and Secret.
+To generate OPS API Key and Secret, please go to  `API Key Management page <https://go.cirrent.com/management/api-key>`_ . Select Key Type as "OPS", enter a name for the key and click "Add". The CIRRENT™ Console will generate OPS API Key and Secret.
 
-==**Note:**  Cirrent does not store the API secret so it cannot be recovered if lost.==
+==**Note:**  CIRRENT™ does not store the API secret so it cannot be recovered if lost.==

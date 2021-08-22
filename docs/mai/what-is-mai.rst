@@ -1,4 +1,4 @@
-What is Cirrent Mobile App Intelligence (MAI)?
+What is CIRRENT™ Mobile App Intelligence (MAI)?
 ------------------------------------------------
 
 CIRRENT™ Mobile App Intelligence is a cloud software solution that provides data-driven Wi-Fi onboarding improvement, leading to higher connectivity rates and better app reviews. 

@@ -62,9 +62,9 @@ Features:
 How does INI work?
 ******************
 
-The Cirrent Agent is embedded software that goes on your product. It collects some data out of the box and you can pass more data using Custom Events, Custom Measurements and Custom Attributes. The Cirrent agent does edge processing and sends the data to Cirrent Cloud.
+The CIRRENT™ Agent is embedded software that goes on your product. It collects some data out of the box and you can pass more data using Custom Events, Custom Measurements and Custom Attributes. The CIRRENT™ agent does edge processing and sends the data to CIRRENT™ Cloud.
 
-The Cirrent cloud processes the data using Analytics engine, Benchmarking & Correlation engine, and machine learning. The Cirrent cloud also stores and compresses the data. The Cirrent console shows insights on your products using dashboards and reports.
+The CIRRENT™ cloud processes the data using Analytics engine, Benchmarking & Correlation engine, and machine learning. The CIRRENT™ cloud also stores and compresses the data. The CIRRENT™ console shows insights on your products using dashboards and reports.
 
 .. image:: ../img/Screen_Shot_2020-06-18_at_2.14.28_PM.png
 

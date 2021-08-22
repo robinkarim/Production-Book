@@ -1,7 +1,8 @@
-﻿# iOS Sample Application
+﻿iOS Sample Application
+------------------------
 
 
-Along with the Cirrent iOS SDK, we will provide you with the source code to a sample application that uses the Cirrent SDK to onboard a device onto the user's private Wi-Fi network. The Cirrent iOS sample application is written in Swift, and provided in source code form to help you while you are modifying your app to incorporate the Cirrent SDK. The Cirrent sample app shows the on-boarding flow for a typical connected product.
+Along with the CIRRENT™ iOS SDK, we will provide you with the source code to a sample application that uses the CIRRENT™ SDK to onboard a device onto the user's private Wi-Fi network. The CIRRENT™ iOS sample application is written in Swift, and provided in source code form to help you while you are modifying your app to incorporate the CIRRENT™ SDK. The CIRRENT™ sample app shows the on-boarding flow for a typical connected product.
 
 The main areas of functionality that you should look at are:
 
@@ -16,7 +17,7 @@ The main areas of functionality that you should look at are:
 - SuccessFragment - this is the screen that is shown when the device has successfully joined the user's private network. This screen will typically be replaced with the main screen for your connected product.
 
 
-- MaiHelper - Helper class. It gets a ANALYTICS token that will be used to authenticate your app to the Cirrent cloud. Do not forget to change apiKey/apiSecret here if you plan to generate the analytics JWT token using the SDK. See the article on  `tokens <analytics-token-generation.rst>`_  for more information.
+- MaiHelper - Helper class. It gets a ANALYTICS token that will be used to authenticate your app to the CIRRENT™ cloud. Do not forget to change apiKey/apiSecret here if you plan to generate the analytics JWT token using the SDK. See the article on  `tokens <analytics-token-generation.rst>`_  for more information.
 
 If you wish to build the sample app, you will need to install CocoaPods, using the following commands:
 
@@ -24,6 +25,6 @@ If you wish to build the sample app, you will need to install CocoaPods, using t
 
 `pod install`
 
-CocoaPods is required for AlamoFire, EVReflection and RxBluetooth (which are used in the Cirrent sample app).
+CocoaPods is required for AlamoFire, EVReflection and RxBluetooth (which are used in the CIRRENT™ sample app).
 
 You can download the sample app at https://github.com/Cirrent/ZipKey-iOS-App

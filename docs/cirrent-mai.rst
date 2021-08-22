@@ -1,12 +1,12 @@
-Cirrent Mobile App Intelligence (MAI)
+CIRRENT™ Mobile App Intelligence (MAI)
 =========================================
 
 Cirrent's Mobile App Intelligence (MAI) is a service that makes it easy
 for companies making connected products to understand their Wi-Fi onboarding process and
 Wi-Fi and netowrking environment.
 
-MAI uses a mobile-app SDK - the Cirrent Mobile App SDK - to collect data from your app and send
-it to the secure Cirrent Cloud, where the data can be analyzed using the Cirrent MAI services and dashboards.
+MAI uses a mobile-app SDK - the CIRRENT™ Mobile App SDK - to collect data from your app and send
+it to the secure CIRRENT™ Cloud, where the data can be analyzed using the CIRRENT™ MAI services and dashboards.
 
 .. toctree::
    :maxdepth: 2

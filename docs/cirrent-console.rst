@@ -1,8 +1,8 @@
 Cirrent Console
 =================
 
-The Cirrent Console is the web application where you interact with the Cirrent services.
-You can access the Cirrent Console here: https://cirrent.infineon.com
+The CIRRENT™ Console is the web application where you interact with the CIRRENT™ services.
+You can access the CIRRENT™ Console here: https://cirrent.infineon.com
 
 The Cirent Console is organized into Users, Accounts, and Roles.
 
@@ -21,7 +21,7 @@ An Account represents a unique collection of Devices (e.g. any
 Device is only associated with one Account).  Each user may be a member of multiple
 Accounts.
 
-When you log into the Cirrent Console, you'll be asked to select an Account to access,
+When you log into the CIRRENT™ Console, you'll be asked to select an Account to access,
 or be given the ability to create a new Account.  If you create a new Account, you will
 be automatically an Admin on the new Account, and you will be able to add Users to the
 new Account.

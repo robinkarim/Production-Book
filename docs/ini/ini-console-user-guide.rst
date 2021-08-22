@@ -126,7 +126,7 @@ This is useful to understand if this device is performing better, worse or avera
 
 .. image:: ../img/Screen_Shot_2020-06-19_at_7.49.59_AM.png
 
-**Connectivity Values**  shows the measurements collected by the Cirrent Agent for the device.
+**Connectivity Values**  shows the measurements collected by the CIRRENT™ Agent for the device.
 
 .. image:: ../img/Screen_Shot_2020-06-19_at_7.51.29_AM.png
 

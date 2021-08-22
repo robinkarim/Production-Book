@@ -1,19 +1,19 @@
-﻿Cirrent Agent on Linux
+﻿CIRRENT™ Agent on Linux
 -----------------------------------------
 
 *********
 Overview
 *********
 
-The Cirrent Agent is compatible with  **Linux 2.2 and above**. It runs in userspace as a `cirrent_agent` daemon . The Cirrent Agent is delivered as a tarball comprised of:
+The CIRRENT™ Agent is compatible with  **Linux 2.2 and above**. It runs in userspace as a `cirrent_agent` daemon . The CIRRENT™ Agent is delivered as a tarball comprised of:
 
 *  Pre-compiled binaries compatible with your device’s architecture (armhf, x86, etc)
 
 *   All necessary configuration files
 
-*   Scripts for managing the Cirrent Agent
+*   Scripts for managing the CIRRENT™ Agent
 
-*   Shared libraries for working with the Cirrent Agent
+*   Shared libraries for working with the CIRRENT™ Agent
 
 
 Features include:
@@ -35,20 +35,20 @@ An executable binary that runs as a daemon (cirrent_agent)
 libcirrent_api.so
 =================
 
-Shared library for communicating and controlling the Cirrent Agent.
+Shared library for communicating and controlling the CIRRENT™ Agent.
 
-Communication and control of the Cirrent Agent is done either by linking in the libcirrent using the cirrent.h header or using the cirrent_cli shell utility (which internally uses the libcirrent)
+Communication and control of the CIRRENT™ Agent is done either by linking in the libcirrent using the cirrent.h header or using the cirrent_cli shell utility (which internally uses the libcirrent)
 
 cirrent_cli
 ===========
 
-Shell utility for communicating and controlling the Cirrent Agent using the libcirrent_api.so library.
+Shell utility for communicating and controlling the CIRRENT™ Agent using the libcirrent_api.so library.
 
 *********************
 Hardware Requirements
 *********************
 
-The Cirrent Agent hardware requirements depend on the feature being used.
+The CIRRENT™ Agent hardware requirements depend on the feature being used.
 
 IoT Network Intelligence
 ========================
@@ -61,7 +61,7 @@ IoT Network Intelligence
 Software Requirements
 *********************
 
-Depending on the configuration for each feature, the Cirrent Agent may require root permissions or special file capabilities.
+Depending on the configuration for each feature, the CIRRENT™ Agent may require root permissions or special file capabilities.
 
 ************************
 IoT Network Intelligence

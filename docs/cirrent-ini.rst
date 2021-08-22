@@ -1,11 +1,11 @@
-Cirrent IoT Network Intelligence (INI)
+CIRRENT™ IoT Network Intelligence (INI)
 ========================================
 
 Cirrent's IoT Network Intelligence (INI) is a service that makes it easy
 for companies making connected products to understand their product performance in the field.
 
-INI uses a piece of embedded code - the Cirrent Agent - to collect data from products in the field and send
-it to the secure Cirrent Cloud, where the data can be analyzed using the Cirrent INI services and dashboards.
+INI uses a piece of embedded code - the CIRRENT™ Agent - to collect data from products in the field and send
+it to the secure CIRRENT™ Cloud, where the data can be analyzed using the CIRRENT™ INI services and dashboards.
 
 .. toctree::
    :maxdepth: 2

@@ -4,9 +4,9 @@ Using INI Extensions
 Overview
 ^^^^^^^^^^^^
 
-Custom Data refers to data that you can pass from your application to the Cirrent Agent. The various data types Custom Event (eg: user initiated reboot), or Custom Measurement (eg: CPU temperature), or Custom Attribute (eg: firmware version). This Custom data can be passed from your application to the Cirrent Agent (CA) using INI Custom Data API.
+Custom Data refers to data that you can pass from your application to the CIRRENT™ Agent. The various data types Custom Event (eg: user initiated reboot), or Custom Measurement (eg: CPU temperature), or Custom Attribute (eg: firmware version). This Custom data can be passed from your application to the CIRRENT™ Agent (CA) using INI Custom Data API.
 
-This document covers an example use case, requirements and general considerations for using the IoT Network Intelligence feature to add customer-defined data through an API call in the cirrent_cli. The data sent using this API will be accessible in the Cirrent Console.
+This document covers an example use case, requirements and general considerations for using the IoT Network Intelligence feature to add customer-defined data through an API call in the cirrent_cli. The data sent using this API will be accessible in the CIRRENT™ Console.
 
 **Sending INI Custom data API using the cirrent_cli:**
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""
