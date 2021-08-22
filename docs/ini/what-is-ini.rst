@@ -48,7 +48,7 @@ How INI works
 ^^^^^^^^^^^^^^^
 Getting started with INI is easy, hassle-free and secure. To get started, `register for a free account <https://console.infineon.com/login>`_.  Next step is to integrate the CIRRENT™ Agent in your device and watch the data flow into the CIRRENT™ Console, a secure dashboard that provides deep visibility into the performance of your IoT products (at scale or at individual device-level). 
 
-CIRRENT™ Console provides real-time visibility into the data from your devices, including 10+ out-of-the-box dashboards that collect  25+ events and attributes. Simply log in to the CIRRENT™ Console to see the data, access reports, and understand the performance of your devices. To learn more read  `INI Console User Guide <ini-console-user-guide.md>`_. and  `Using INI Dashboards <using-the-ini-dashboards.rst>`_.
+CIRRENT™ Console provides real-time visibility into the data from your devices, including 10+ out-of-the-box dashboards that collect  25+ events and attributes. Simply log in to the CIRRENT™ Console to see the data, access reports, and understand the performance of your devices. To learn more read  `INI Console User Guide <ini-console-user-guide.rst>`_. and  `Using INI Dashboards <using-the-ini-dashboards.rst>`_.
 
 Learn more
 ^^^^^^^^^^^^
@@ -56,23 +56,23 @@ This GitHub set of documents will provide all of the information on CIRRENT™ I
 
 * **Introduction to INI**  
 
-  * `INI Features and Benefits <ini-benefits-and-features.md>`_
+  * `INI Features and Benefits <ini-benefits-and-features.rst>`_
   
   * `Getting Started with INI <getting-started-with-ini.rst>`_
   
 * **Getting started with INI**
   
-  * `Installing Cirrent Agent on Raspberry Pi <installing-the-cirrent-agent-ini-on-raspberry-pi.md>`_
+  * `Installing Cirrent Agent on Raspberry Pi <installing-the-cirrent-agent-ini-on-raspberry-pi.rst>`_
   
   * `Using INI Extensions <using-ini-extensions.rst>`_
   
-  * `Using OPS API to Register Devices <using-ops-api-to-register-devices.md>`_
+  * `Using OPS API to Register Devices <using-ops-api-to-register-devices.rst>`_
   
-  * `Cirrent Agent on Linux <cirrent-agent-on-linux.md>`_
+  * `Cirrent Agent on Linux <cirrent-agent-on-linux.rst>`_
   
 * **Reporting, analytics and data modeling with INI**
 
-  * `INI Console User Guide <ini-console-user-guide.md>`_
+  * `INI Console User Guide <ini-console-user-guide.rst>`_
   
   * `Using INI Dashboards <using-the-ini-dashboards.rst>`_
   

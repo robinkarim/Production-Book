@@ -35,12 +35,17 @@ The  cirrent_cli  call takes in three ordered arguments:
 
 Choosing the right data to send:
 
-| type | Accepted value |
-| :----: | :-------------:|
-event | start,  stop,  ““
-measurement | floating point
-attribute | string
-state | string
++-------------+------------------+
+| type        | Accepted value   |
++=============+==================+
+| event       | start,  stop,  ““|
++-------------+------------------+
+| measurement | floating point   |
++-------------+------------------+
+| attribute   | string           |
++-------------+------------------+
+| state       | string           |
++-------------+------------------+
 
 **NOTE:**
 
@@ -52,10 +57,16 @@ state | string
 
 All  cirrent_cli ini_custom
 
-stdout | stderr | Reason(s) |
-| :----: | :-------------:|:----------------------:|
-FAILURE | non-zero | <ul><li>More custom event types than preconfigured maximum sent</li><li>Out of storage</li><li>Cirrent Agent not running</li><li>Invalid arguments</li></ul> |
-| OK | 0 | Cirrent Agent successfully received and stored ini_custom data |
++-------------+------------------+----------------------------------------------------------------+
+| stdout      | stderr           | Reason(s)                                                      |
++=============+==================+================================================================+
+| FAILURE     | non-zero         | - More custom event types than preconfigured maximum sent      |
+|             |                  | - Out of storage                                               |
+|             |                  | - Cirrent Agent not running                                    |
+|             |                  | - Invalid arguments                                            | 
++-------------+------------------+----------------------------------------------------------------+
+| OK          | 0                | Cirrent Agent successfully received and stored ini_custom data |
++-------------+------------------+----------------------------------------------------------------+
 
 **Example shell command:**
 ```
