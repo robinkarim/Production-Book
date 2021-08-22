@@ -76,6 +76,7 @@ $ export LD_LIBRARY_PATH=/PATH_TO/cirrent/lib
 ```
 
 **attribute:**
+
 ```
 $ ./cirrent_cli ini_custom attribute fw_version 1.2
 ```
