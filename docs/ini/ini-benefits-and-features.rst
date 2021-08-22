@@ -1,6 +1,6 @@
-﻿=========================
+﻿#########################
 INI Benefits and Features
-=========================
+#########################
 
 IoT Network Intelligence (INI) helps you monitor your fleet of connected devices. We developed INI as a purpose built tool for Wi-Fi connected products to help you identify issues and resolve them faster. INI’s unique strength comes from a combination of embedded agent and cloud logic to bring insights for your connected devices.
 
