@@ -78,6 +78,7 @@ Dependencies
 ************
 
 On Linux, the CA relies on the following libraries that are linked directly into the CA.
+
 +--------------------+-------------------------------+--------------+-----------------------------+
 Library/Application  | Description                   | Required For | Notes                       |
 +====================+===============================+==============+=============================+
