@@ -15,7 +15,7 @@ Dashboard
 
 The first screen that you will see when you login is your dashboard.
 
-.. image:: ../img/Updated%20CIrrent%20INI%20Dashboard.png
+.. image:: ../img/Updated-CIrrent-INI-Dashboard.png
 
 On the top right, you can choose the time period that you’d like to view.
 
@@ -67,7 +67,7 @@ Charts metrics over time period. This data can be in event counts, but is defaul
 
 On the left side of your screen, you will see the navigation. In this section, we will focus on Product Analytics and performance of your devices.
 
-.. image:: ../img/Product%20Analytics%20Drop%20Down_INI.png
+.. image:: ../img/Product-Analytics-Drop-Down_INI.png
 
 Device Fleet
 ============
@@ -79,14 +79,14 @@ Over Time
 
 This chart shows metrics over time period. Toggling Normalize data allows you to see the metric counts. You can filter by metric type (including network performance events and custom events). You can also filter by various attributes. For example, if you only want to look at your devices in the United States, you can filter by Country = US.
 
-.. image:: ../img/Device%20Fleet_Overtime_INI.png
+.. image:: ../img/Device-Fleet_Overtime_INI.png
 
 By Attribute
 ============
 
 This view shows metrics (issues), ranked by count from most issues to least, by attribute. You’re able to select a metric to view and filter by any attribute. You’re also able to customize what columns you’d like to see.
 
-.. image:: ../img/Device%20Fleet%20By%20Attribute%20INI.png
+.. image:: ../img/Device-Fleet-By-Attribute-INI.png
 
 
 Device List
@@ -94,7 +94,7 @@ Device List
 
 This is a list of unique devices that have experienced the selected metric. In the screen below, Low Signal Strength is the metric. You’re also able to filter by any attribute, change the time period and customize the columns. The list defaults to a ranking from highest metric value to lowest.
 
-.. image:: ../img/Device%20Fleet%20by%20Device%20List%20INI.png
+.. image:: ../img/Device-Fleet-by-Device-List-INI.png
 
 
 By Environment
@@ -102,7 +102,7 @@ By Environment
 
 This is a benchmarking tool. To get the most out of the dashboard, click the settings button and choose what metric you’d like to view. Choose environment - from ISP, router, country or a combination of those. Then choose any attribute or attribute combination to compare against any other attribute or combination.
 
-.. image:: ../img/Device%20Fleet%20by%20Environment%20INI.png
+.. image:: ../img/Device-Fleet-by-Environment-INI.png
 
 Once you apply the settings that you have chosen, the benchmark chart will populate. It will default to ranking from worst to best, but you can click on any of the columns and it will rank based on the column. For example, if you want to rank by number of devices in that environment, click “device Count.”
 
