@@ -41,12 +41,12 @@ INI allows you to:
   * Less time (on average 40 hours) spent trying to get to root cause of the product issue or customer environment
 
 Engineers can quickly get products up and running using INI by
-`creating an account and logging in <https://console.infineon.com/login>`_.
+`creating an account and logging in <https://cirrent.infineon.com/login>`_.
 
 
 How INI works
 ^^^^^^^^^^^^^^^
-Getting started with INI is easy, hassle-free and secure. To get started, `register for a free account <https://console.infineon.com/login>`_.  Next step is to integrate the CIRRENT™ Agent in your device and watch the data flow into the CIRRENT™ Console, a secure dashboard that provides deep visibility into the performance of your IoT products (at scale or at individual device-level). 
+Getting started with INI is easy, hassle-free and secure. To get started, `register for a free account <https://cirrent.infineon.com/login>`_.  Next step is to integrate the CIRRENT™ Agent in your device and watch the data flow into the CIRRENT™ Console, a secure dashboard that provides deep visibility into the performance of your IoT products (at scale or at individual device-level). 
 
 CIRRENT™ Console provides real-time visibility into the data from your devices, including 10+ out-of-the-box dashboards that collect  25+ events and attributes. Simply log in to the CIRRENT™ Console to see the data, access reports, and understand the performance of your devices. To learn more read  `INI Console User Guide <ini-console-user-guide.rst>`_. and  `Using INI Dashboards <using-the-ini-dashboards.rst>`_.
 
