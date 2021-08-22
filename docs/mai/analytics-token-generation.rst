@@ -49,6 +49,7 @@ Sample code for Generating Analytics Token
 Here's a code snippet in Node.js. Implementation examples for other languages can be found at `https://jwt.io <https://jwt.io/>`_ .
 
 ::
+
 	var jwt = require('jsonwebtoken');  
 	let accountId = 'account_number_from_console';  
 	let ownerId = 'enter_app_owner_ID';  
