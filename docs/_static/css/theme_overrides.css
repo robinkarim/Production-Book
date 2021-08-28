@@ -469,8 +469,12 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend
 	float: left;
 	width: 80px !important;
 	position: absolute;
-	top: 7px;
+	top: 22px;
 	left: 20px;
+}
+.themetitle {
+	color:  #928285;
+	font-size: 20px;
 }
 .top-search {
 	float: left;
