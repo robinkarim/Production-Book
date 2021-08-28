@@ -475,6 +475,9 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend
 .themetitle {
 	color:  #928285;
 	font-size: 20px;
+	position: absolute;
+    top: 24px;
+    left: 103px;
 }
 .top-search {
 	float: left;
