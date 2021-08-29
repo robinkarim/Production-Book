@@ -489,6 +489,9 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend
 .top-search input {
 	width: 100%;
 }
+.main-nav-top {
+	float: right;
+}
 .nav-left {
 	width: 35%;
 	float: left;
