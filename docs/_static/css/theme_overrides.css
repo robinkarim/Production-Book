@@ -480,14 +480,18 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend
     left: 103px;
 }
 .top-search {
-	float: left;
-	margin:0px 0 0 0px;	
-	padding-left: 200px;
+	float: right;
+	margin:0px 20px 0 0px;	
 	width: 100%;
 	max-width: 300px;
 }
 .top-search input {
 	width: 100%;
+	outline: none !important;
+	box-shadow: none !important;
+}
+.wy-breadcrumbs li a {
+	color: #3780cb !important;
 }
 .main-nav-top {
 	float: right;
