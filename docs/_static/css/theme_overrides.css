@@ -481,15 +481,18 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend
 }
 .top-search {
 	float: left;
-	margin:22px 0 0 0px;	
+	margin:0px 0 0 0px;	
 	padding-left: 200px;
 	width: 100%;
+	max-width: 300px;
 }
 .top-search input {
 	width: 100%;
 }
 .nav-left {
 	width: 35%;
+	float: left;
+	min-height: 1px;
 }
 .top-nav {
 	float: left;
