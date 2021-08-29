@@ -489,6 +489,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend
 	width: 100%;
 	outline: none !important;
 	box-shadow: none !important;
+	border:1px solid #ccc !important;
 }
 .wy-breadcrumbs li a {
 	color: #3780cb !important;
@@ -962,6 +963,7 @@ footer a  {
 	p {
 		font-size: 14px !important;
 	}
+	.top-search {margin-top: 46px;}
 
 }
 
