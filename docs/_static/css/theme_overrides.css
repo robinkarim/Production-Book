@@ -963,7 +963,7 @@ footer a  {
 	p {
 		font-size: 14px !important;
 	}
-	.top-search {margin-top: 46px;}
+	.top-search {margin: 46px 0 0 0; padding-right: 20px;}
 
 }
 
