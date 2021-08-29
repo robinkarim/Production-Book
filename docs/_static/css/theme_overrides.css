@@ -117,7 +117,7 @@ code, .rst-content tt, .rst-content code {
 .wy-menu-vertical li.toctree-l2.current>a
 {
 	background: #AB337A !important;
-	color:#fff !important;
+	color:#005DA9 !important;
 }
 
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3>a
@@ -178,7 +178,7 @@ code, .rst-content tt, .rst-content code {
 
 .wy-menu-vertical li.current a:hover {
     background: #AB337A  !important;
-    color:#fff !important;
+    color:#005DA9 !important;
 }
 .rst-content .note{
 	background: #e6f0ed !important;
@@ -523,8 +523,8 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend
 	color: #333;
 }
 .wy-menu-vertical a:hover {
-    background-color: #005DA9 !important;
-    color:#fff !important;   
+    background-color: #AB337A !important;
+    color:#005DA9 !important;   
 }
 .desk-hide {display: none !important;}
 .mob-hide {display: block !important;}
