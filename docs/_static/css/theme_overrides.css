@@ -112,17 +112,12 @@ code, .rst-content tt, .rst-content code {
 	border-top: none !important;
 }
 
-.wy-menu-vertical li.on a span.toctree-expand, .wy-menu-vertical li.current>a span.toctree-expand {
-	display: block;
-    font-size: 0.8em;
-    line-height: 1.6em;
-    color: #333;
-}
+
 
 .wy-menu-vertical li.toctree-l2.current>a
 {
 	background: #AB337A !important;
-	color:#005DA9 !important;
+	color:#fff !important;
 }
 
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3>a
@@ -183,7 +178,7 @@ code, .rst-content tt, .rst-content code {
 
 .wy-menu-vertical li.current a:hover {
     background: #AB337A  !important;
-    color:#005DA9 !important;
+    color:#fff !important;
 }
 .rst-content .note{
 	background: #e6f0ed !important;
@@ -529,7 +524,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend
 }
 .wy-menu-vertical a:hover {
     background-color: #AB337A !important;
-    color:#005DA9 !important;   
+    color:#fff !important;   
 }
 .desk-hide {display: none !important;}
 .mob-hide {display: block !important;}
@@ -801,6 +796,12 @@ footer.footer--slim .hidden-print {
 	color: #333 !important;
 }
 
+.wy-menu-vertical li.on a span.toctree-expand, .wy-menu-vertical li.current>a span.toctree-expand {
+	display: block;
+    font-size: 0.8em;
+    line-height: 1.6em;
+    color: #333;
+}
 
 @media (max-width: 1023px) {
     footer .apps {
