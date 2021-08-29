@@ -523,7 +523,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend
 	color: #333;
 }
 .wy-menu-vertical a:hover {
-    background-color: #AB337A !important;
+    background-color: #005DA9 !important;
     color:#fff !important;   
 }
 .desk-hide {display: none !important;}
@@ -963,7 +963,7 @@ footer a  {
 	p {
 		font-size: 14px !important;
 	}
-	.top-search {margin: 46px 0 0 0; padding-right: 20px;}
+	.top-search {margin: 46px 0 0 0; padding-right: 20px; max-width: 100%;}
 
 }
 
