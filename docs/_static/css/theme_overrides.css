@@ -17,6 +17,7 @@
     src: url('../font/EOT/SourceSansPro-Semibold.eot') format('embedded-opentype'),
          url('../font/WOFF/OTF/SourceSansPro-Semibold.otf.woff') format('woff'),
          url('../font/OTF/SourceSansPro-Semibold.otf') format('opentype'),
+}
 
 /* override table width restrictions */
 @media screen and (min-width: 767px) {
