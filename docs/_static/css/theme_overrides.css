@@ -50,9 +50,11 @@ h1, h2, h3, h4, h5 {
 .version {
   color: #000000 !important;
 }
-
+a {
+	color: #3c9cdb;
+}
 a:hover {
-  color: #3c9cdb !important;
+  color: #AB337A !important;
 }
 
 .logo {
@@ -346,9 +348,7 @@ h5 {
 p {
 	font-family: 'Source Sans Pro Regular' !important;
 }
-a {
-	color: #AB337A;
-}
+
 
 .simple{
     padding-left: 12px !important;
