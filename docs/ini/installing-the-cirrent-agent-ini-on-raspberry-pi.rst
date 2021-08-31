@@ -11,7 +11,7 @@ Requirements
 * Raspberry Pi 3B with a supported power supply
 	* `https://www.raspberrypi.org/products/raspberry-pi-3-model-b/ <https://www.raspberrypi.org/products/raspberry-pi-3-model-b/>`_
 	* `https://www.raspberrypi.org/documentation/hardware/raspberrypi/power/README.md <https://www.raspberrypi.org/documentation/hardware/raspberrypi/power/README.md>`_
-    * Other Raspberry Pis may work, but we test the CA with the Raspberry Pi 3B.
+	* Other Raspberry Pis may work, but we test the CA with the Raspberry Pi 3B.
 * 2.4 GHz Wi-Fi Network
 	* Raspberry Pi 3B radio only supports 2.4 GHz networks
 * Raspbian OS 2020-02-14 Clean Install
