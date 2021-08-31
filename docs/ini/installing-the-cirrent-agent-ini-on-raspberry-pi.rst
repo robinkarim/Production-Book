@@ -33,9 +33,9 @@ Installation
 --------------
 1. Update your Raspberry Pi:
 
-.. code:: java 
-
-sudo apt-get update
+.. code-block:: java
+   :linenos:
+   sudo apt-get update
 
 
 2. Install the CIRRENT™ Agent `.deb` package:
