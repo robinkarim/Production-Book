@@ -29,7 +29,7 @@ Requirements
 * CIRRENT™ Console account
 
 	* Please register for a console account using the invite email sent by CIRRENT™. You can also request an account by contacting support@cirrent.com
-	
+
 * The latest CIRRENT™ Agent .deb package
 
 Setup
@@ -37,6 +37,7 @@ Setup
 1. Make sure your Raspberry Pi is running a clean OS installation and is powered on with your official Raspberry Pi power supply
 
 2. Make sure your Raspberry Pi is connected to the 2.4 GHz Wi-Fi network and can reach the Internet
+	
 	* `https://www.raspberrypi.org/documentation/configuration/wireless/ <https://www.raspberrypi.org/documentation/configuration/wireless/>`_
 
 3. Make sure you have a provisioning key and secret ready for the CIRRENT™ Agent. Each CIRRENT™ Agent must be authorized to communicate with the CIRRENT™ Cloud. Log into your CIRRENT™ Console account to generate the provisioning key and secret if you don't have one already.
