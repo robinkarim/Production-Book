@@ -53,13 +53,13 @@ Installation
 .. code:: raspberry
 
 	dpkg: dependency problems prevent configuration of cirrent-agent:
-	 cirrent-agent depends on monit; however:
-	  Package monit is not installed.
+	cirrent-agent depends on monit; however:
+	Package monit is not installed.
 	dpkg: error processing package cirrent-agent (--install):
-	 dependency problems - leaving unconfigured
+	dependency problems - leaving unconfigured
 	Processing triggers for systemd (241-7~deb10u2+rpi1) ...
 	Errors were encountered while processing:
-	 cirrent-agent
+	cirrent-agent
 
 
 3. Finish installation. This will also resolve errors from the previous step:
