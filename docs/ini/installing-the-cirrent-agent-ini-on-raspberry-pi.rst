@@ -31,6 +31,7 @@ Setup
 
 Installation
 --------------
+
 1. Update your Raspberry Pi:
 
 .. code-block:: java
@@ -92,6 +93,7 @@ sudo reboot
 
 Next Steps
 ------------
+
 The CIRRENT™ Agent will start reporting some data like the SSID, BSSID, router that the Raspberry Pi is connected to after the first few minutes, while some data like metrics and connectivity values take up to a day for the CIRRENT™ Agent to collect and report.
 
 To view data for all devices in an account, please visit:
