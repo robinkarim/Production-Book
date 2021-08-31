@@ -32,15 +32,22 @@ Setup
 Installation
 --------------
 1. Update your Raspberry Pi:
-```
+
+::
+
 sudo apt-get update
-```
+
+
 2. Install the CIRRENT™ Agent `.deb` package:
-```
+
+::
+
 sudo dpkg -i cirrent-agent_2.0.4-ini+deb10u3_armhf.deb
-```
+
+
 ⚠️ some errors may be reported by `dpkg`. You can safely ignore these errors. See output:
-```
+
+::
 dpkg: dependency problems prevent configuration of cirrent-agent:
  cirrent-agent depends on monit; however:
   Package monit is not installed.
@@ -49,25 +56,36 @@ dpkg: error processing package cirrent-agent (--install):
 Processing triggers for systemd (241-7~deb10u2+rpi1) ...
 Errors were encountered while processing:
  cirrent-agent
-```
+
+
 3. Finish installation. This will also resolve errors from the previous step:
-```
+
+::
+
 sudo apt-get -f install
-```
+
+
 4. Configure your device by entering your provisioning key and secret:
-```
+
+::
+
 sudo nano /etc/default/cirrent
-```
+
+
 Add the following lines and replace the placeholders `PROVISIONING_KEY` and `PROVISIONING_SECRET` with your provisioning key and secret
-```
+
+::
+
 PROVISION_CRED="-K PROVISIONING_KEY -S PROVISIONING_SECRET \
  -U $(ip link show dev eth0 | grep ether | awk '{print $2}' | sed 's|:|-|g')"
-```
+
 
 5. Reboot your Raspberry Pi
-```
+
+::
+
 sudo reboot
-```
+
 
 **✔️ All done!** You can now leave your Raspberry Pi running and the CIRRENT™ Agent will automatically collect data.
 
