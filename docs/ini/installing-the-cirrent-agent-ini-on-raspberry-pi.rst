@@ -33,21 +33,22 @@ Installation
 --------------
 1. Update your Raspberry Pi:
 
-::
+.. code:: java 
 
 sudo apt-get update
 
 
 2. Install the CIRRENT™ Agent `.deb` package:
 
-::
+.. code:: java
 
 sudo dpkg -i cirrent-agent_2.0.4-ini+deb10u3_armhf.deb
 
 
 ⚠️ some errors may be reported by `dpkg`. You can safely ignore these errors. See output:
 
-::
+.. code:: java
+
 dpkg: dependency problems prevent configuration of cirrent-agent:
  cirrent-agent depends on monit; however:
   Package monit is not installed.
@@ -60,21 +61,21 @@ Errors were encountered while processing:
 
 3. Finish installation. This will also resolve errors from the previous step:
 
-::
+.. code:: java
 
 sudo apt-get -f install
 
 
 4. Configure your device by entering your provisioning key and secret:
 
-::
+.. code:: java
 
 sudo nano /etc/default/cirrent
 
 
 Add the following lines and replace the placeholders `PROVISIONING_KEY` and `PROVISIONING_SECRET` with your provisioning key and secret
 
-::
+.. code:: java
 
 PROVISION_CRED="-K PROVISIONING_KEY -S PROVISIONING_SECRET \
  -U $(ip link show dev eth0 | grep ether | awk '{print $2}' | sed 's|:|-|g')"
@@ -82,7 +83,7 @@ PROVISION_CRED="-K PROVISIONING_KEY -S PROVISIONING_SECRET \
 
 5. Reboot your Raspberry Pi
 
-::
+.. code:: java
 
 sudo reboot
 
