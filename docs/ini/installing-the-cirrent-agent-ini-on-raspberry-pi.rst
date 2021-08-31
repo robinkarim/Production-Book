@@ -9,17 +9,27 @@ Requirements
 -------------
 
 * Raspberry Pi 3B with a supported power supply
+
 	* `https://www.raspberrypi.org/products/raspberry-pi-3-model-b/ <https://www.raspberrypi.org/products/raspberry-pi-3-model-b/>`_
 	* `https://www.raspberrypi.org/documentation/hardware/raspberrypi/power/README.md <https://www.raspberrypi.org/documentation/hardware/raspberrypi/power/README.md>`_
 	* Other Raspberry Pis may work, but we test the CA with the Raspberry Pi 3B.
+
 * 2.4 GHz Wi-Fi Network
+
 	* Raspberry Pi 3B radio only supports 2.4 GHz networks
+
 * Raspbian OS 2020-02-14 Clean Install
+
 	* `https://downloads.raspberrypi.org/raspbian/images/ <https://downloads.raspberrypi.org/raspbian/images/>`_
+
 * Raspberry Pi Terminal access
+
 	* `https://www.raspberrypi.org/documentation/usage/terminal/ <https://www.raspberrypi.org/documentation/usage/terminal/>`_
+
 * CIRRENT™ Console account
+
 	* Please register for a console account using the invite email sent by CIRRENT™. You can also request an account by contacting support@cirrent.com
+	
 * The latest CIRRENT™ Agent .deb package
 
 Setup
