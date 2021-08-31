@@ -9,24 +9,24 @@ Requirements
 -------------
 
 * Raspberry Pi 3B with a supported power supply
-    * `https://www.raspberrypi.org/products/raspberry-pi-3-model-b/ <https://www.raspberrypi.org/products/raspberry-pi-3-model-b/>`_
-    * `https://www.raspberrypi.org/documentation/hardware/raspberrypi/power/README.md <https://www.raspberrypi.org/documentation/hardware/raspberrypi/power/README.md>`_
+	* `https://www.raspberrypi.org/products/raspberry-pi-3-model-b/ <https://www.raspberrypi.org/products/raspberry-pi-3-model-b/>`_
+	* `https://www.raspberrypi.org/documentation/hardware/raspberrypi/power/README.md <https://www.raspberrypi.org/documentation/hardware/raspberrypi/power/README.md>`_
     * Other Raspberry Pis may work, but we test the CA with the Raspberry Pi 3B.
 * 2.4 GHz Wi-Fi Network
-    * Raspberry Pi 3B radio only supports 2.4 GHz networks
+	* Raspberry Pi 3B radio only supports 2.4 GHz networks
 * Raspbian OS 2020-02-14 Clean Install
-    * `https://downloads.raspberrypi.org/raspbian/images/ <https://downloads.raspberrypi.org/raspbian/images/>`_
+	* `https://downloads.raspberrypi.org/raspbian/images/ <https://downloads.raspberrypi.org/raspbian/images/>`_
 * Raspberry Pi Terminal access
-    * `https://www.raspberrypi.org/documentation/usage/terminal/ <https://www.raspberrypi.org/documentation/usage/terminal/>`_
+	* `https://www.raspberrypi.org/documentation/usage/terminal/ <https://www.raspberrypi.org/documentation/usage/terminal/>`_
 * CIRRENT™ Console account
-    * Please register for a console account using the invite email sent by CIRRENT™. You can also request an account by contacting support@cirrent.com
+	* Please register for a console account using the invite email sent by CIRRENT™. You can also request an account by contacting support@cirrent.com
 * The latest CIRRENT™ Agent .deb package
 
 Setup
 -------
 1. Make sure your Raspberry Pi is running a clean OS installation and is powered on with your official Raspberry Pi power supply
 2. Make sure your Raspberry Pi is connected to the 2.4 GHz Wi-Fi network and can reach the Internet
-    * `https://www.raspberrypi.org/documentation/configuration/wireless/ <https://www.raspberrypi.org/documentation/configuration/wireless/>`_
+	* `https://www.raspberrypi.org/documentation/configuration/wireless/ <https://www.raspberrypi.org/documentation/configuration/wireless/>`_
 3. Make sure you have a provisioning key and secret ready for the CIRRENT™ Agent. Each CIRRENT™ Agent must be authorized to communicate with the CIRRENT™ Cloud. Log into your CIRRENT™ Console account to generate the provisioning key and secret if you don't have one already.
 
 Installation
