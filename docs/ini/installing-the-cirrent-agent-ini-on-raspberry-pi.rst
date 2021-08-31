@@ -35,7 +35,6 @@ Installation
 1. Update your Raspberry Pi:
 
 .. code:: raspberry
-   :linenos:
 
    sudo apt-get update
 
@@ -44,7 +43,6 @@ Installation
 
 
 .. code:: raspberry
-   :linenos:
 
    sudo dpkg -i cirrent-agent_2.0.4-ini+deb10u3_armhf.deb
 
@@ -53,7 +51,6 @@ Installation
 ⚠️ some errors may be reported by `dpkg`. You can safely ignore these errors. See output:
 
 .. code:: raspberry
-   :linenos:
 
 	dpkg: dependency problems prevent configuration of cirrent-agent:
 	 cirrent-agent depends on monit; however:
@@ -68,7 +65,6 @@ Installation
 3. Finish installation. This will also resolve errors from the previous step:
 
 .. code:: raspberry
-   :linenos:
 
 	sudo apt-get -f install
 
@@ -76,7 +72,6 @@ Installation
 4. Configure your device by entering your provisioning key and secret:
 
 .. code:: raspberry
-   :linenos:
 
 	sudo nano /etc/default/cirrent
 
@@ -84,7 +79,6 @@ Installation
 Add the following lines and replace the placeholders `PROVISIONING_KEY` and `PROVISIONING_SECRET` with your provisioning key and secret
 
 .. code:: raspberry
-   :linenos:
 
 	PROVISION_CRED="-K PROVISIONING_KEY -S PROVISIONING_SECRET \
 	 -U $(ip link show dev eth0 | grep ether | awk '{print $2}' | sed 's|:|-|g')"
@@ -93,7 +87,6 @@ Add the following lines and replace the placeholders `PROVISIONING_KEY` and `PRO
 5. Reboot your Raspberry Pi
 
 .. code:: raspberry
-   :linenos:
 
 	sudo reboot
 
