@@ -1,6 +1,10 @@
 Cirrent Cloud Software Services
 ===============================
 
+.. image:: img/cirrentproduct_v2.png
+    :align: center
+    :alt: Dashboard 2
+
 Infineon's Cirrent Cloud Software Services provide
 cloud-enabled software and services that are intimately tied to Infineon
 semiconductor products.

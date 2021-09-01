@@ -10,6 +10,10 @@ With CIRRENT™ MAI, your product and software engineering teams can understand 
 What MAI can do
 ^^^^^^^^^^^^^^^^^
 
+.. image:: ../img/mai-dashboard-image.jpg
+    :align: center
+    :alt: Dashboard 2
+
 MAI allows you to:
 
 * **Identify** Wi-FI onboarding problems
