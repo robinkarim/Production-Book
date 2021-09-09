@@ -226,7 +226,7 @@
             var expires = "; expires=" + date.toGMTString();
         }
         else var expires = "";
-        document.cookie = name + "=" + value + expires + ";domain="+window.location.hostname+";path=/";
+        document.cookie = name + "=" + value + expires + ";domain="+window.location.hostname+";path=/cirrent-support-docs";
     }
     
 
