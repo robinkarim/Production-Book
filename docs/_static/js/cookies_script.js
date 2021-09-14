@@ -140,7 +140,7 @@
                     preferences.push($(this).val());
 				});
 				console.log("after selection :: "+preferences);
-                CreateCookie('cookie_consent', JSON.stringify(preferences), settings.expireDays);
+                CreateCookie('cirrent_cookie_consent', JSON.stringify(preferences), settings.expireDays);
 				settings.OnUserAction.call(this);
 				
 			 });
@@ -159,7 +159,7 @@
                     preferences.push($(this).val());
 				});
                 
-                CreateCookie('cookie_consent', JSON.stringify(preferences), settings.expireDays);
+                CreateCookie('cirrent_cookie_consent', JSON.stringify(preferences), settings.expireDays);
 				
 				// Run callback function
                 settings.OnUserAction.call(this);
@@ -175,7 +175,7 @@
      * Returns user preferences saved in cookie
      */
     $.fn.bsgdprcookies.GetUserPreferences = function() {
-        var preferences = ReadCookie('cookie_consent');
+        var preferences = ReadCookie('cirrent_cookie_consent');
 		if(preferences!=null)
 			return JSON.parse(preferences);
 		else

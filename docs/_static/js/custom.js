@@ -1,6 +1,17 @@
+//Hotjar Tracking Code as follows
+(function(h,o,t,j,a,r){
+	h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:2184213,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+
+
 $(document).ready(function(){
 	try{
-
+		
 	var settings = {
 		title: '<u>Use of Cookies</u>',
         	class: '',
@@ -33,19 +44,31 @@ $(document).ready(function(){
 			console.log('User preferences');
 			if($.fn.bsgdprcookies.PreferenceExists("marketing"))
 			{
-				console.log('google tag logic will execute here after save preferences');
+				executeMarketingCookiesLogic();
+				//console.log('google tag logic will execute here after save preferences');
 			}
 		}
 	}
-
+	
 	$('body').bsgdprcookies(settings);
-
+		
 	if($.fn.bsgdprcookies.PreferenceExists("marketing"))
 	{
-		console.log('google tag logic will execute here');
+		executeMarketingCookiesLogic();
+		//console.log('google tag logic will execute here');
 	}
 
-
+	$('a[href*="cypresssemiconductorco"]').each(function(){ 
+		var oldUrl = $(this).attr("href"); 
+		var sampleText = $(this).text().replace("cypresssemiconductorco", "Infineon");
+		console.log(sampleText);
+		$(this).text(sampleText);
+		var newUrl = oldUrl.replace("cypresssemiconductorco", "Infineon"); 
+		$(this).attr("href", newUrl); 
+	});
+	
+		
+	
 	$('.rst-content').find(".wy-breadcrumbs").find("a").each(function(){
 		if($(this).text()=='Docs')
 		{
@@ -53,9 +76,9 @@ $(document).ready(function(){
 			$(this).text("");
 		}
 	});	
-
+	
 	//display hr line after heading which is replaced in xml with conf.pf code block
-    var isToolguid=false;
+    	var isToolguid=false;
 	$( "ul[class='wy-breadcrumbs']" ).find("li").each(function(){
 		//console.log('li text :: '+$(this).text());
 		//console.log('is contains Tool Guide :: '+($(this).text().indexOf('Tool Guide')));
@@ -63,7 +86,7 @@ $(document).ready(function(){
 		if($(this).text().indexOf('Tool Guide')>-1 || $(this).text().indexOf('ModusToolbox')>-1 || $(this).text().indexOf('Secure Boot SDK User Guide')>-1 || $(this).text().indexOf('Secure Policy Configurator Guide')>-1 || $(this).text().indexOf('CapSense Configurator Guide')>-1 || $(this).text().indexOf('CapSense Tuner Guide')>-1 || ($(this).text().indexOf('PSoC 6 MCU CapSense')>-1 && $(this).text().indexOf('Design Guide')>-1) || ($(this).text().indexOf('Feature Guides')>-1 && ($(this).text().indexOf('Bluetooth Low Energy')>-1 || $(this).text().indexOf('Low-Power')>-1 )))
 			isToolguid = true;
 	});
-
+	
 	//console.log('isToolguid :: '+isToolguid);
 	if(!isToolguid)
 	{
@@ -95,16 +118,16 @@ $(document).ready(function(){
 				else if (tagName.toLowerCase()=='img' )
 					$(this).before("<br>")
 			});
-
+			
 		});
-
+		
 		if($( ".section li > p > em" ).next().is( "hr" ))
 		{
 			$( ".section li > p > em" ).next().is( "hr" ).remove();
 			$( ".section li > p > em" ).removeClass( "headingclass" );
 		}
 	}
-
+	
 	$('.highlight-default .highlight pre').each(function (e) {
         var spans = Array.prototype.slice.call(this.getElementsByTagName('span'));
         var startCmts = [], endCmts = [], startMethod = [];
@@ -132,7 +155,7 @@ $(document).ready(function(){
         });
     });
 	}catch(err){console.log('err :: '+err);}
-
+	
 	//This is used to auto enable the toctree after 4 depth menu elements
 	setTimeout(toctreeSettingFunction, 50);
 
@@ -147,3 +170,16 @@ function toctreeSettingFunction()
 		}
 	});
 }
+
+
+function executeMarketingCookiesLogic()
+{
+
+	//Google tag manager Tracking Code as follows
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-186719284-1');
+
+}
+
