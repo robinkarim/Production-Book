@@ -4,7 +4,7 @@
     $.fn.bsgdprcookies = function(options, event) {
 		
         var $element = $(this);
-        var cookiePreferences = ReadCookie('cookie_consent');
+        var cookiePreferences = ReadCookie('cirrent_cookie_consent');
 
         // Set default settings
         var settings = $.extend({
