@@ -11,11 +11,11 @@ it to the secure CIRRENT™ Cloud, where the data can be analyzed using the CIRR
    :maxdepth: 2
    :hidden:
 
-   /ini/what-is-ini
-   /ini/getting-started-with-ini
-   /ini/ini-data-model
-   /ini/using-ini-extensions
-   /ini/using-the-ini-dashboards
-   /ini/cirrent-agent-on-linux
-   /ini/installing-the-cirrent-agent-ini-on-raspberry-pi
+   /ini/cirrent-agent
+   /ini/ini-getting-started
    /ini/ini-console-user-guide
+   /ini/ini-data-model
+   /ini/what-is-ini
+
+   
+  

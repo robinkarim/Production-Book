@@ -114,3 +114,5 @@ On Linux, the CA relies on the following libraries that are linked directly into
 +---------+-------------+-------------------------------------------+
 | `jq`    | json parser | Used during install for parsing requests  |
 +---------+-------------+-------------------------------------------+
+
+`Using INI Extensions <using-ini-extensions.rst>`_
