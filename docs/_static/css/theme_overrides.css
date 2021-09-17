@@ -526,7 +526,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend
 }
 
 .wy-nav-side {
-	background: #fff !important;
+	background: #f4f2f3 !important;
 	padding-top: 78px;
 }
 .wy-menu-vertical a {
