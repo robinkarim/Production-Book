@@ -493,7 +493,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend
 	float: right;
 	margin:0px 20px 0 0px;	
 	width: 100%;
-	max-width: 300px;
+	max-width: 520px;
 }
 .top-search input {
 	width: 100%;
