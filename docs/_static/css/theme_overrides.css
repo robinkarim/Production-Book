@@ -530,11 +530,11 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend
 	padding-top: 78px;
 }
 .wy-menu-vertical a {
-	color: #333;
+	color: #000;
 }
 .wy-menu-vertical a:hover {
-    background-color: #AB337A !important;
-    color:#fff !important;   
+    background-color: #fff !important;
+    color:#AB337A !important;   
 }
 .desk-hide {display: none !important;}
 .mob-hide {display: block !important;}
