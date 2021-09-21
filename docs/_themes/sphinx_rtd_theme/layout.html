@@ -142,9 +142,9 @@
           {% block sidebartitle %}
 
           {% if logo and theme_logo_only %}
-            <a href="{{ pathto(master_doc) }}">
+            <a href="../index.html">
           {% else %}
-            <a href="{{ pathto(master_doc) }}" class="icon icon-home"> {{ project }}
+            <a href="../index.html" class="icon icon-home"> {{ project }}
           {% endif %}
 
           {% if logo %}
@@ -204,7 +204,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         {% block mobile_nav %}
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="{{ pathto(master_doc) }}">{{ project }}</a>
+          <a href="../index.html">{{ project }}</a>
         {% endblock %}
       </nav>
 
