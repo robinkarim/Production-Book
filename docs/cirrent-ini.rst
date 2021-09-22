@@ -27,7 +27,7 @@ CIRRENT™ INI works on its own, or in combination with CIRRENT™ MAI, to deliv
 
 INI uses the CIRRENT™ Agent, a lean application that’s embedded in your IoT product to securely report data into the CIRRENT™ Cloud, providing real-time access for your product management and engineering teams via the CIRRENT™ Console. 
 
-.. image:: ../img/ini-img.png
+.. image:: img/ini-img.png
     :align: center
     :alt: Dashboard 2
 
@@ -69,7 +69,7 @@ This GitHub set of documents will provides extensive information on CIRRENT™ I
 		* Using the API to run jobs
 		* Using the API for notifications
 		* API Commands
-		
+
 * CIRRENT™ Console for INI
 	* Dashboard
 	* Device Fleet
