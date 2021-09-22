@@ -649,6 +649,10 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend
     padding: 0
 }
 
+
+.simple li {
+	list-style: disc !important; 
+}
 @media (min-width: 1024px) {
     .socialbar-footer .social-popup.wechat {
         max-width:814px
