@@ -653,6 +653,13 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend
 .simple li {
 	list-style: disc !important; 
 }
+.simple li ul li {
+	list-style: circle; !important; 
+}
+.simple li ul li ul li {
+	list-style: square; !important; 
+}
+
 @media (min-width: 1024px) {
     .socialbar-footer .social-popup.wechat {
         max-width:814px

@@ -68,6 +68,7 @@ This GitHub set of documents will provides extensive information on CIRRENT™ I
 	* Installing CIRRENT™ Agent on Linux
 	* Installation example: Raspberry Pi
 	* CIRRENT™ Agent API
+	
 		* Using the API to submit custom data
 		* Using the API to run jobs
 		* Using the API for notifications
