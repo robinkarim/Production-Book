@@ -52,16 +52,19 @@ Learn more
 This GitHub set of documents will provides extensive information on CIRRENT™ INI:
 
 * Getting started with INI
+
 	* INI Requirements
 	* Steps to configuring INI
 
 * INI Data Model
+
 	* Events
 	* Measurements
 	* Attributes
 	* States
 
 * CIRRENT™ Agent
+
 	* Installing CIRRENT™ Agent on Linux
 	* Installation example: Raspberry Pi
 	* CIRRENT™ Agent API
@@ -71,6 +74,7 @@ This GitHub set of documents will provides extensive information on CIRRENT™ I
 		* API Commands
 
 * CIRRENT™ Console for INI
+
 	* Dashboard
 	* Device Fleet
 	* Device Inspector
