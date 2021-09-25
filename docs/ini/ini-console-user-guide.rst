@@ -21,15 +21,14 @@ Dashboard
 The first screen that you will see when you login is your INI dashboard. If you make use of multiple CIRRENT™ products you may need to toggle your dashboard using the hamburger menu, selecting your INI dashboard from the list of choices.
 
 .. image:: ../img/img-1.png
-	:align: center
-    :alt: image
- 
+    :align: center
+    :alt: Dashboard 2
+
 Towards the top of the INI dashboard you can choose the time period that you’d like to examine. Below, you’ll see several tiles containing INI-specific data and charts.
 
 .. image:: ../img/img-2.png
-	:align: center
-    :alt: image
-
+    :align: center
+    :alt: Dashboard 2
 
 You can read specific values off the charts by doing a mouseover on the data point you’re looking to investigate. 
 For a deeper dive into any of the charts, just click on the expansion icon   to view an expanded version of the chart, with each chart offering unique customization options.
@@ -63,9 +62,10 @@ This is how each panel relates to your IoT fleet:
 
 You can customize the CIRRENT™ Console for INI by adding custom charts to your dashboard. Just navigate to **Product Analytics** and **Dashboard Manager** to create new dashboards or to customize an existing dashboard.
 
+
 .. image:: ../img/img-3.png
-	:align: center
-    :alt: image
+    :align: center
+    :alt: Dashboard 2
 
 ************* 
 Device Fleet
@@ -83,9 +83,10 @@ Over Time
 
 This tab shows key metrics over a time period. Toggling Normalize Data allows you to see the metric counts. You can filter by metric type (including network performance events and custom events). You can also filter by various attributes. For example, if you only want to look at your devices in the United States, you can filter by Country = US.
 
+
 .. image:: ../img/img-4.png
-	:align: center
-    :alt: image
+    :align: center
+    :alt: Dashboard 2
  
 In this view, there are over 30+ prebuilt metrics, which can be leveraged to slice and dice the data and to filter for specific views. 
 For complete full details on the exact meaning of metrics, and how these metrics are calculated, please view the INI Data Model page. The metrics you have access to include via the INI Console includes:
@@ -156,8 +157,8 @@ By Attribute
 This view shows a ranked view of metrics – including device attributes and events. You’re able to select a metric to view and filter by any attribute. You can customize which columns that appear in the attribute view.
 
 .. image:: ../img/img-5.png
-	:align: center
-    :alt: image
+    :align: center
+    :alt: Dashboard 2
  
 Device List
 ^^^^^^^^^^^^^
@@ -165,8 +166,8 @@ Device List
 This is a list of unique devices that have experienced the selected metric. In the screen below, Low Signal Strength is the metric. You’re also able to filter by any attribute, change the time period and customize the columns. The list defaults to a ranking from highest metric value to lowest.
  
 .. image:: ../img/img-6.png
-	:align: center
-    :alt: image
+    :align: center
+    :alt: Dashboard 2
 
 Jobs
 ^^^^^
@@ -174,8 +175,8 @@ Jobs
 The jobs tab allows you to manage CIRRENT™ Agent jobs across your entire device fleet. You can monitor jobs queued for action, and add jobs for future execution.
  
 .. image:: ../img/img-7.png
-	:align: center
-    :alt: image 
+    :align: center
+    :alt: Dashboard 2
 
 By Environment
 ^^^^^^^^^^^^^^^^
@@ -189,8 +190,8 @@ and choose what metric you’d like to view.
 Choose environment - from ISP, router, country or a combination of those. Then choose any attribute or attribute combination to compare against any other attribute or combination of attributes.
 
 .. image:: ../img/img-8.png
-	:align: center
-    :alt: image
+    :align: center
+    :alt: Dashboard 2
   
 Once you apply the settings that you have chosen, the benchmark chart will populate. It will default to ranking from worst to best, but you can click on any of the columns and it will rank based on the column. For example, if you want to rank by number of devices in that environment, click “Device Count.”
 
@@ -223,40 +224,37 @@ This is useful to understand if this device is performing better, worse or avera
 **Metrics Over Time** shows metrics for that particular device over the selected time period.
   
 .. image:: ../img/img-9.png
-	:align: center
-    :alt: image
+    :align: center
+    :alt: Dashboard 2
 
 **Metrics** is a detailed breakdown of events for the device across the date range provided. You can customize the breakdown by selecting the events shown, and the date range.
  
 **Measurements** shows the measurements collected by the CIRRENT™ Agent for the device.
 
 .. image:: ../img/img-10.png
-	:align: center
-    :alt: image
-   
+    :align: center
+    :alt: Dashboard 2
 
 **Wi-Fi Scans** shows the list of Wi-Fi networks around the device. This is useful to check if there is an issue related to mesh extenders, or if there are too many networks on a particular Wi-Fi channel.
 
 .. image:: ../img/img-11.png
-	:align: center
-    :alt: image
- 
+    :align: center
+    :alt: Dashboard 2
 
 **Legacy diagnostics** will allow you to run legacy diagnostics on this particular device and view diagnostics that you have run as well as their status and results. Note that the legacy diagnostic feature has been deprecated, diagnostics should now be executed using the Jobs panel.
 
 .. image:: ../img/img-12.png
-	:align: center
-    :alt: image
- 
- 
+    :align: center
+    :alt: Dashboard 2
+
 Jobs
 ^^^^^^^
 
 From this tab, you are able to run jobs such as diagnostics on a single device. You will see the status of the job on the chart table. Once the job has run, you will be able to click on the results to see more information.
 
 .. image:: ../img/img-13.png
-	:align: center
-    :alt: image
+    :align: center
+    :alt: Dashboard 2
 
 Administration
 ^^^^^^^^^^^^^^^^^
@@ -266,9 +264,9 @@ This tab gives you further detailed information about the device. You can see wh
 You can also view a complete list of all attributes recorded for the device, including the last moment in time the attribute changed.
 
 .. image:: ../img/img-14.png
-	:align: center
-    :alt: image
- 
+    :align: center
+    :alt: Dashboard 2
+
 ***************************************
 Exporting data from the CIRRENT™ Cloud
 ***************************************
@@ -291,7 +289,5 @@ Exporting tables
 You export table contents the same way you export chart data, but when you export a table your export will be generated by CIRRENT™ Cloud and made available under the **Data Exports** tab under **Product Analytics**.
 
 .. image:: ../img/img-15.png
-	:align: center
-    :alt: image
- 
-
+    :align: center
+    :alt: Dashboard 2
