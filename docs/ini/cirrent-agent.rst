@@ -175,10 +175,12 @@ Installation
 ^^^^^^^^^^^^^
 
 1.	Update your Raspberry Pi:
+
 ::
 	sudo apt-get update
 
 1.	Install the CIRRENT™ Agent .deb package
+
 ::
 	sudo dpkg -i CIRRENT™-agent_2.0.4-ini+deb10u3_armhf.deb
 
@@ -195,10 +197,12 @@ Installation
 	CIRRENT™-agent
 
 1.	Finish installation. This will also resolve errors from the previous step:
+
 ::
 	sudo apt-get -f install
 
 1.	Configure your device by entering your provisioning key and secret:
+
 ::
 	sudo nano /etc/default/CIRRENT™
 
@@ -211,6 +215,7 @@ placeholders PROVISIONING_KEY and PROVISIONING_SECRET with your provisioning key
 	 -U $(ip link show dev eth0 | grep ether | awk '{print $2}' | sed 's|:|-|g')"
 
 1.	Reboot your Raspberry Pi
+
 ::
 	sudo reboot
 
@@ -428,6 +433,7 @@ Sending INI custom data using the cirrent_cli:
 **********************************************
 
 Using the CIRRENT™ Agent API to submit custom data to the CIRRENT™ Cloud is simple. Just execute the following shell command to submit custom data:
+
 ::
 	$ cirrent_cli ini_custom <type> <name> <value>
 
