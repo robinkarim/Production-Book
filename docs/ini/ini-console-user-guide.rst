@@ -20,17 +20,17 @@ Dashboard
 
 The first screen that you will see when you login is your INI dashboard. If you make use of multiple CIRRENT™ products you may need to toggle your dashboard using the hamburger menu, selecting your INI dashboard from the list of choices.
 
-.. image:: ../img/console/img-1.png
+.. image:: ../img/img-1.png
 	:align: center
     :alt: image
  
 Towards the top of the INI dashboard you can choose the time period that you’d like to examine. Below, you’ll see several tiles containing INI-specific data and charts.
 
-.. image:: ../img/console/img-2.png
+.. image:: ../img/img-2.png
 	:align: center
     :alt: image
 
-  
+
 You can read specific values off the charts by doing a mouseover on the data point you’re looking to investigate. 
 For a deeper dive into any of the charts, just click on the expansion icon   to view an expanded version of the chart, with each chart offering unique customization options.
 
@@ -63,7 +63,7 @@ This is how each panel relates to your IoT fleet:
 
 You can customize the CIRRENT™ Console for INI by adding custom charts to your dashboard. Just navigate to **Product Analytics** and **Dashboard Manager** to create new dashboards or to customize an existing dashboard.
 
-.. image:: ../img/console/img-3.png
+.. image:: ../img/img-3.png
 	:align: center
     :alt: image
 
@@ -83,7 +83,7 @@ Over Time
 
 This tab shows key metrics over a time period. Toggling Normalize Data allows you to see the metric counts. You can filter by metric type (including network performance events and custom events). You can also filter by various attributes. For example, if you only want to look at your devices in the United States, you can filter by Country = US.
 
-.. image:: ../img/console/img-4.png
+.. image:: ../img/img-4.png
 	:align: center
     :alt: image
  
@@ -155,7 +155,7 @@ By Attribute
 
 This view shows a ranked view of metrics – including device attributes and events. You’re able to select a metric to view and filter by any attribute. You can customize which columns that appear in the attribute view.
 
-.. image:: ../img/console/img-5.png
+.. image:: ../img/img-5.png
 	:align: center
     :alt: image
  
@@ -164,7 +164,7 @@ Device List
 
 This is a list of unique devices that have experienced the selected metric. In the screen below, Low Signal Strength is the metric. You’re also able to filter by any attribute, change the time period and customize the columns. The list defaults to a ranking from highest metric value to lowest.
  
-.. image:: ../img/console/img-6.png
+.. image:: ../img/img-6.png
 	:align: center
     :alt: image
 
@@ -173,7 +173,7 @@ Jobs
 
 The jobs tab allows you to manage CIRRENT™ Agent jobs across your entire device fleet. You can monitor jobs queued for action, and add jobs for future execution.
  
-.. image:: ../img/console/img-7.png
+.. image:: ../img/img-7.png
 	:align: center
     :alt: image 
 
@@ -182,13 +182,13 @@ By Environment
 
 This is a benchmarking tool. To get the most out of the dashboard, click the settings button 
 
-.. image:: ../img/console/icon.png
+.. image:: ../img/icon.png
 
 and choose what metric you’d like to view. 
 
 Choose environment - from ISP, router, country or a combination of those. Then choose any attribute or attribute combination to compare against any other attribute or combination of attributes.
 
-.. image:: ../img/console/img-8.png
+.. image:: ../img/img-8.png
 	:align: center
     :alt: image
   
@@ -222,7 +222,7 @@ This is useful to understand if this device is performing better, worse or avera
 
 **Metrics Over Time** shows metrics for that particular device over the selected time period.
   
-.. image:: ../img/console/img-9.png
+.. image:: ../img/img-9.png
 	:align: center
     :alt: image
 
@@ -230,21 +230,21 @@ This is useful to understand if this device is performing better, worse or avera
  
 **Measurements** shows the measurements collected by the CIRRENT™ Agent for the device.
 
-.. image:: ../img/console/img-10.png
+.. image:: ../img/img-10.png
 	:align: center
     :alt: image
    
 
 **Wi-Fi Scans** shows the list of Wi-Fi networks around the device. This is useful to check if there is an issue related to mesh extenders, or if there are too many networks on a particular Wi-Fi channel.
 
-.. image:: ../img/console/img-11.png
+.. image:: ../img/img-11.png
 	:align: center
     :alt: image
  
 
 **Legacy diagnostics** will allow you to run legacy diagnostics on this particular device and view diagnostics that you have run as well as their status and results. Note that the legacy diagnostic feature has been deprecated, diagnostics should now be executed using the Jobs panel.
 
-.. image:: ../img/console/img-12.png
+.. image:: ../img/img-12.png
 	:align: center
     :alt: image
  
@@ -254,7 +254,7 @@ Jobs
 
 From this tab, you are able to run jobs such as diagnostics on a single device. You will see the status of the job on the chart table. Once the job has run, you will be able to click on the results to see more information.
 
-.. image:: ../img/console/img-13.png
+.. image:: ../img/img-13.png
 	:align: center
     :alt: image
 
@@ -265,7 +265,7 @@ This tab gives you further detailed information about the device. You can see wh
 
 You can also view a complete list of all attributes recorded for the device, including the last moment in time the attribute changed.
 
-.. image:: ../img/console/img-14.png
+.. image:: ../img/img-14.png
 	:align: center
     :alt: image
  
@@ -276,7 +276,7 @@ Exporting data from the CIRRENT™ Cloud
 The CIRRENT™ Console allows you to export data from the CIRRENT™ Cloud. 
 You start the export process using the
 
-.. image:: ../img/console/icon-2.png
+.. image:: ../img/icon-2.png
    
 button located next to the chart or table you are viewing. 
 
@@ -290,7 +290,7 @@ Exporting tables
 
 You export table contents the same way you export chart data, but when you export a table your export will be generated by CIRRENT™ Cloud and made available under the **Data Exports** tab under **Product Analytics**.
 
-.. image:: ../img/console/img-15.png
+.. image:: ../img/img-15.png
 	:align: center
     :alt: image
  
