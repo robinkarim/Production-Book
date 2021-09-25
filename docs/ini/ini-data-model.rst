@@ -31,47 +31,47 @@ When you’re in your instance of the CIRRENT™ Console, you may see some or al
 
 The following events indicate that your device is disconnected from Wi-Fi, and will help you to understand what caused the disconnection.
 
-* Wi-Fi Not Associated: A continuous event indicating that the device is not connected to the Wi-Fi network.
+* **Wi-Fi Not Associated:** A continuous event indicating that the device is not connected to the Wi-Fi network.
 
-* Wi-Fi Disassociated: Received disconnected or disassociated event from Wi-Fi library: an instantaneous event indicating that the device just lost connectivity.
+* **Wi-Fi Disassociated:** Received disconnected or disassociated event from Wi-Fi library: an instantaneous event indicating that the device just lost connectivity.
 
-* Wi-Fi Failed Association: Wi-Fi association process started, but failed
+* **Wi-Fi Failed Association:** Wi-Fi association process started, but failed
 
-* Gateway Error: Device is having trouble communicating with the router
+* **Gateway Error:** Device is having trouble communicating with the router
 
-* Gateway Internet Error: User’s router is not connected to the Internet
+* **Gateway Internet Error:** User’s router is not connected to the Internet
 
-* TLS Errors: HTTPS request to a configurable validation target fails with a TLS error, either due to certificate expired, or certificate valid in the future, or certificate hostname mismatch
+* **TLS Errors:** HTTPS request to a configurable validation target fails with a TLS error, either due to certificate expired, or certificate valid in the future, or certificate hostname mismatch
 
-* DHCP Errors: DHCP errors due to any of the following: no gateway present, no IP address present, no netmask present; indicates a DNS configuration error.
+* **DHCP Errors:** DHCP errors due to any of the following: no gateway present, no IP address present, no netmask present; indicates a DNS configuration error.
 
-* DNS Error/DNS Timeout: DNS lookup to a configurable URL failed, but the device is connected to the internet
+* **DNS Error/DNS Timeout:** DNS lookup to a configurable URL failed, but the device is connected to the internet
 
-* Destination Service Unreachable: Device is connected to internet, but unable to reach a configurable destination server.
+* **Destination Service Unreachable:** Device is connected to internet, but unable to reach a configurable destination server.
 
 These metrics indicate atypical or unusual Wi-fi radiofrequency conditions that may impair connectivity:
 
-* High PER: High % of packets sent over Wi-fi are either failing or experiencing retries – this is a configurable value, with a default threshold of 5%.
+* **High PER:** High % of packets sent over Wi-fi are either failing or experiencing retries – this is a configurable value, with a default threshold of 5%.
 
-* BSSID Switch: BSSID of Wi-Fi router changed since last sample, it indicates that the device may have an unstable Wi-Fi connection because of your mesh router or extender
+* **BSSID Switch:** BSSID of Wi-Fi router changed since last sample, it indicates that the device may have an unstable Wi-Fi connection because of your mesh router or extender
 
-* Low Signal Strength: Device is too far from the router or there is something blocking the Wi-Fi signal to the device (configurable minimum value)
+* **Low Signal Strength:** Device is too far from the router or there is something blocking the Wi-Fi signal to the device (configurable minimum value)
 
-* Wi-Fi Interference: Device is experiencing Wi-Fi interference while uploading data
+* **Wi-Fi Interference:** Device is experiencing Wi-Fi interference while uploading data
 
-* Low storage: the available storage capacity on the device is below a threshold.
+* **Low storage:** the available storage capacity on the device is below a threshold.
 
 The following metrics enable you to understand system level performance of your fleet of connected products in the field:
 
-* High CPU Usage: CPU usage is above a configurable threshold
+* **High CPU Usage:** CPU usage is above a configurable threshold
 
-* High Memory Usage: Memory usage is above a configurable threshold
+* **High Memory Usage:** Memory usage is above a configurable threshold
 
-* Restarted: The system was restarted
+* **Restarted:** The system was restarted
 
-* Restart Triggered: CIRRENT™ Agent detected something in the system triggered a restart
+* **Restart Triggered:** CIRRENT™ Agent detected something in the system triggered a restart
 
-* Shutdown Triggered: CIRRENT™ Agent detected something in the system triggered a shutdown
+* **Shutdown Triggered:** CIRRENT™ Agent detected something in the system triggered a shutdown
 
 
 Note that for users of Infineon AIROC™ Wi-Fi, the CIRRENT™ Agent will also collect the following events: 
@@ -89,7 +89,7 @@ A measurement represents numerical data that varies with time, and that may help
 
 Measurements are reported in CIRRENT™ Console for each individual device and are not shown at an aggregate level. The CIRRENT™ Agent collects the following measurements for network monitoring:
 
-* Network Performance Score: This metric shows the overall connectivity score. The score is a calculation based on the reported DHCP, DNS, gateway, TLS and Wi-Fi events.
+* **Network Performance Score:** This metric shows the overall connectivity score. The score is a calculation based on the reported DHCP, DNS, gateway, TLS and Wi-Fi events.
 
 * Analyzing this score is sensitive to the requirements of the device – for example, distinguishing between the minimal connectivity required by a microwave and the higher throughput required by a streaming device. 
 
@@ -135,29 +135,29 @@ An attribute is a characteristic or parameter of a group of devices. Attributes 
 
 In addition to the attributes listed below, you can add custom attributes relevant to your products and customers such as firmware version, radio driver, and more – read more about custom attributes here.
 
-* ISP: Internet service provider that the device is connected to
+* **ISP:** Internet service provider that the device is connected to
 
-* Router: Router that the device is connected to
+* **Router:** Router that the device is connected to
 
-* City: City where the device is located
+* **City:** City where the device is located
 
-* Country: Country where the device is located
+* **Country:** Country where the device is located
 
-* Region: Region where the device is located
+* **Region:** Region where the device is located
 
-* OS: Operating System
+* **OS:** Operating System
 
-* Device Type: Device type of the device e.g. microwave, fridge, oven
+* **Device Type:** Device type of the device e.g. microwave, fridge, oven
 
-* Device Type ID: Device type identification of the device
+* **Device Type ID:** Device type identification of the device
 
-* ca_version: The version of CIRRENT™ Agent running on the device
+* **ca_version:** The version of CIRRENT™ Agent running on the device
 
-* CPU: CPU model of the device
+* **CPU:** CPU model of the device
 
-* Wi-Fi Driver version: the Wi-Fi driver version of the device
+* **Wi-Fi Driver version:** the Wi-Fi driver version of the device
 
-* Wi-Fi Radio version: The Wi-Fi radio version of the device
+* **Wi-Fi Radio version:** The Wi-Fi radio version of the device
 
 ********
 States
@@ -165,15 +165,15 @@ States
 
 Similar to attributes, state values are also likely to remain consistent for longer than a measurement but are more likely to change than attributes – for example, if the device is restarted. By default, the CIRRENT™ Agent collects the following state values:
 
-* Ssid: The SSID of the network the device is associated with
+* **Ssid:** The SSID of the network the device is associated with
 
-* Bssid. The BSSID of the network device is associated with
+* **Bssid.** The BSSID of the network device is associated with
 
-* Frequency: Wi-Fi frequency the device is operating on
+* **Frequency:** Wi-Fi frequency the device is operating on
 
-* Channel: The Wi-Fi channel the device is operating on
+* **Channel:** The Wi-Fi channel the device is operating on
 
-* Wi-Fi Scan: monitors whether the device is currently performing a Wi-Fi Scan
+* **Wi-Fi Scan:** monitors whether the device is currently performing a Wi-Fi Scan
 
 
 If you’re using an AIROC device the CIRRENT™ Agent will also collect the following states:
