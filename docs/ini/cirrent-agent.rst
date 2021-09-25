@@ -176,15 +176,18 @@ Installation
 
 1.	Update your Raspberry Pi:
 
+
 ::
 	sudo apt-get update
 
 1.	Install the CIRRENT™ Agent .deb package
 
+
 ::
 	sudo dpkg -i CIRRENT™-agent_2.0.4-ini+deb10u3_armhf.deb
 
 ⚠️ some errors may be reported by dpkg. You can safely ignore these errors. See output:
+
 
 ::
 	dpkg: dependency problems prevent configuration of CIRRENT™-agent:
@@ -198,10 +201,12 @@ Installation
 
 1.	Finish installation. This will also resolve errors from the previous step:
 
+
 ::
 	sudo apt-get -f install
 
 1.	Configure your device by entering your provisioning key and secret:
+
 
 ::
 	sudo nano /etc/default/CIRRENT™
@@ -210,11 +215,13 @@ Add the following lines and replace the
 
 placeholders PROVISIONING_KEY and PROVISIONING_SECRET with your provisioning key and secret
 
+
 ::
 	PROVISION_CRED="-K PROVISIONING_KEY -S PROVISIONING_SECRET \
 	 -U $(ip link show dev eth0 | grep ether | awk '{print $2}' | sed 's|:|-|g')"
 
 1.	Reboot your Raspberry Pi
+
 
 ::
 	sudo reboot
@@ -327,11 +334,13 @@ Using Eclipse IDE for ModusToolbox
 - **Using CLI**:
 
  From the terminal, execute the `make program` command to build and program the application using the default toolchain to the default target. You can specify a target and toolchain manually:
-    
+
+
 ::
    	make program TARGET=<BSP> TOOLCHAIN=<toolchain>   
 
 Example:
+
 
 ::
    make program TARGET=CY8CPROTO-062-4343W TOOLCHAIN=GCC_ARM
@@ -340,6 +349,7 @@ Example:
 **Note**:  Before building the application, ensure that the *deps* folder contains the BSP file (*TARGET_xxx.lib*) corresponding to the TARGET. Execute the `make getlibs` command to fetch the BSP contents before building the application.
 
 After programming, the application starts automatically. Confirm that the CIRRENT™ Agent is running by examining the terminal output. You should see the CIRRENT™ Agent start to print logs like:
+
 
 :: 
 	|INFO|2000.01.01 00:00:00.000000|0000||CA-START||ca_version=2.0.6;
@@ -434,6 +444,7 @@ Sending INI custom data using the cirrent_cli:
 
 Using the CIRRENT™ Agent API to submit custom data to the CIRRENT™ Cloud is simple. Just execute the following shell command to submit custom data:
 
+
 ::
 	$ cirrent_cli ini_custom <type> <name> <value>
 
@@ -477,6 +488,7 @@ Example shell command for CIRRENT™ Agent API:
 
 To access the CIRRENT™ Agent API, run the following command:
 
+
 ::
 	$ export LD_LIBRARY_PATH=/PATH_TO/CIRRENT™/lib
 
@@ -485,10 +497,12 @@ Adding a single custom attribute
 
 This is an example of submitting a custom attribute to the CIRRENT™ Cloud via the CIRRENT™ Agent API. In this example, we submit the firmware version of the device using the attribute custom value type:
 
+
 ::
 	$ ./cirrent_cli ini_custom attribute fw_version 1.2 
 
 In the next example, we use the state custom value type to submit a value confirming that the device has established a connection:
+
 
 ::
 	$ ./cirrent_cli ini_custom state connection_established 1 
@@ -497,6 +511,7 @@ Adding a series of measurements
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is a series of three submissions using the measurement custom value type:
+
 
 ::
 	 $ ./cirrent_cli ini_custom measurement cpu_temp 30 $ ./Cirrent_cli ini_custom measurement cpu_temp 20 $ ./Cirrent_cli ini_custom measurement cpu_temp 10 $ ./Cirrent_cli ini_custom measurement cpu_temp 40
@@ -515,10 +530,12 @@ Adding to the event counter
 
 This is an example of an instantaneous event, this example submits an event count of log_upload=1 to the event summary by using the empty string “” parameter:
 
+
 ::
 	$ ./cirrent_cli ini_custom event log_upload 
 
 Finally, the following example adds an event count of log_upload_duration equal to the duration in minutes between when the start and stop commands were executed to the event summary.
+
 
 ::
 	$ ./cirrent_cli ini_custom event log_upload_duration start
