@@ -664,7 +664,10 @@ ul li ul li ul li {
 }
 .wy-menu ul {
 	list-style: none !important;
-	padding-left: 10px !important;
+	padding-left: 0px !important;
+}
+.wy-menu ul li {
+	list-style: none !important;
 }
 
 @media (min-width: 1024px) {
