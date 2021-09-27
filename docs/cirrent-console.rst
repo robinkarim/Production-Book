@@ -15,8 +15,9 @@ The CIRRENT™ Console is organized into four sections. Your CIRRENT™ Account 
 * **Development includes** two developer tools – the Log Explorer and a Token Validator.
 
 * **Accounting settings** allows you to manage API keys for the CIRRENT™ Mobile App SDK, and contains an area for user management. 
-Note that the sections that are visible to you depend on the CIRRENT™ services you subscribe to, and the role your user is assigned. 
-To manage your personal account information, click on the arrow next to your email address. Here you can change personal details, including your password.
+
+.. note:: Note that the sections that are visible to you depend on the CIRRENT™ services you subscribe to, and the role your user is assigned. 
+	To manage your personal account information, click on the arrow next to your email address. Here you can change personal details, including your password.
 
 CIRRENT™ Console User Architecture
 -----------------------------------
