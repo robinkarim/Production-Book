@@ -9,6 +9,16 @@ INI is a tool that you can use to drive the product development that improves th
 Introduction to INI
 ********************
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   /ini/what-is-ini
+   /ini/ini-getting-started
+   /ini/cirrent-agent
+   /ini/ini-console-user-guide
+   /ini/ini-data-model
+
 What can INI do?
 ^^^^^^^^^^^^^^^^^^^^^
 
@@ -87,14 +97,7 @@ This GitHub set of documents will provides extensive information on CIRRENT™ I
 
 
 
-.. toctree::
-   :maxdepth: 4
 
-   /ini/what-is-ini
-   /ini/ini-getting-started
-   /ini/cirrent-agent
-   /ini/ini-console-user-guide
-   /ini/ini-data-model
    
 
    
