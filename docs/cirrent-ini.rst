@@ -85,7 +85,7 @@ This GitHub set of documents will provides extensive information on CIRRENT™ I
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
    :hidden:
 
    /ini/what-is-ini
