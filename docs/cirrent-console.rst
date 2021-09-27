@@ -1,4 +1,4 @@
-Cirrent Console
+CIRRENT™ Console
 =================
 
 The CIRRENT™ Console is the web application where you interact with the CIRRENT™ services.
