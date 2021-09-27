@@ -1,14 +1,7 @@
 CIRRENT™ IoT Network Intelligence (INI)
 ========================================
 
-.. toctree::
-   :maxdepth: 1
-   :hidden:
 
-   /ini/ini-getting-started
-   /ini/ini-data-model
-   /ini/cirrent-agent
-   /ini/ini-console-user-guide
 
 CIRRENT™ IoT Network Intelligence (INI) delivers IoT device analytics for IoT devices at home (including appliances, home security and home entertainment, and smart home devices) and for IoT devices in industry.
 
@@ -94,3 +87,10 @@ This GitHub set of documents will provides extensive information on CIRRENT™ I
 	* Device Inspector
 	* Device Management
 	* Exporting data from the CIRRENT™ Cloud
+
+.. toctree::
+
+   /ini/ini-getting-started
+   /ini/ini-data-model
+   /ini/cirrent-agent
+   /ini/ini-console-user-guide
