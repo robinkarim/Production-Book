@@ -672,6 +672,10 @@ ul li ul li ul li {
 .wy-menu ul li {
 	list-style: none !important;
 }
+img {
+	max-width: 600px !important;
+	margin-left: 0 !important;
+}
 
 
 @media (min-width: 1024px) {
