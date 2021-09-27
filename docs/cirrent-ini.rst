@@ -1,26 +1,13 @@
 CIRRENT™ IoT Network Intelligence (INI)
 ========================================
 
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-
-   /ini/ini-getting-started
-   /ini/ini-data-model
-   /ini/cirrent-agent
-   /ini/ini-console-user-guide
-
 CIRRENT™ IoT Network Intelligence (INI) delivers IoT device analytics for IoT devices at home (including appliances, home security and home entertainment, and smart home devices) and for IoT devices in industry.
 
 INI is a tool that you can use to drive the product development that improves the user experience – which leads to better product reviews, fewer returns, and increased sales. 
 
-********************
-Introduction to INI
-********************
 
+**What can INI do?**
 
-What can INI do?
-^^^^^^^^^^^^^^^^^^^^^
 
 The data that INI collects works in combination with powerful analytics tools to give you deep insight into how your devices behave in the field, and how users make use of your devices every day. Using INI you can: 
 
@@ -33,8 +20,7 @@ The data that INI collects works in combination with powerful analytics tools to
 * **Leverage pre-built dashboards and reports to solve problems,** thanks to 10+ pre-built dashboards and 25+ out of the box events. Analyze data to understand root cause and spend less time (on average 40 hours) trying to get to root cause of the product issue or customer environment.
 
 
-How INI works
-^^^^^^^^^^^^^^^^^^^^^
+**How INI works**
 
 CIRRENT™ INI works on its own, or in combination with CIRRENT™ MAI, to deliver insight into how your IoT devices perform and are being used in practice. 
 
@@ -45,8 +31,7 @@ INI uses the CIRRENT™ Agent, a lean application that’s embedded in your IoT 
     :alt: Dashboard 2
 
 
-Components of INI
-^^^^^^^^^^^^^^^^^^^^^
+**Components of INI**
 
 CIRRENT™ IoT Network Intelligence consists out of several interacting components working together to provide device analytics.
 
@@ -59,8 +44,7 @@ CIRRENT™ IoT Network Intelligence consists out of several interacting componen
 * **The CIRRENT™ Console** provides real-time visibility into the data from your devices, including 10+ out-of-the-box dashboards that collect 25+ events and attributes. Simply log in to the CIRRENT™ Console to see the data and access the reports that helps you to understand the performance of your devices.
 
 
-Learn more
-^^^^^^^^^^^^^^^^^^^^^
+**Learn more**
 
 This GitHub set of documents will provides extensive information on CIRRENT™ INI:
 
@@ -95,4 +79,11 @@ This GitHub set of documents will provides extensive information on CIRRENT™ I
 	* Device Management
 	* Exporting data from the CIRRENT™ Cloud
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
 
+   /ini/ini-getting-started
+   /ini/ini-data-model
+   /ini/cirrent-agent
+   /ini/ini-console-user-guide
