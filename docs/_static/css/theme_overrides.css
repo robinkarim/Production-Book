@@ -654,7 +654,7 @@ ul {
 }
 
 ul li {
-	list-style: number !important; 
+	list-style: disc !important; 
 }
 ul li ul li {
 	list-style: circle; !important; 
