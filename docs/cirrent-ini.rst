@@ -1,6 +1,3 @@
-CIRRENT™ IoT Network Intelligence (INI)
-========================================
-
 .. toctree::
    :maxdepth: 2
    :hidden:
@@ -10,6 +7,9 @@ CIRRENT™ IoT Network Intelligence (INI)
    /ini/cirrent-agent
    /ini/ini-console-user-guide
    /ini/ini-data-model
+
+CIRRENT™ IoT Network Intelligence (INI)
+========================================
 
 CIRRENT™ IoT Network Intelligence (INI) delivers IoT device analytics for IoT devices at home (including appliances, home security and home entertainment, and smart home devices) and for IoT devices in industry.
 
