@@ -662,6 +662,9 @@ ul li ul li {
 ul li ul li ul li {
 	list-style: square; !important; 
 }
+.simple {
+	padding-left: 40px !important;
+}
 .wy-menu ul {
 	list-style: none !important;
 	padding-left: 0px !important;
@@ -669,6 +672,7 @@ ul li ul li ul li {
 .wy-menu ul li {
 	list-style: none !important;
 }
+
 
 @media (min-width: 1024px) {
     .socialbar-footer .social-popup.wechat {
