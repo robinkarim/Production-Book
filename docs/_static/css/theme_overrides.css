@@ -843,6 +843,11 @@ footer.footer--slim .hidden-print {
     color: #333;
 }
 
+.rst-content .topic-title {
+	font-size: 24px !important;
+    margin: 20px 0 10px !important;
+}
+
 @media (max-width: 1023px) {
     footer .apps {
         background-color:#f4f2f3;
