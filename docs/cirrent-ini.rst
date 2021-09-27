@@ -88,11 +88,12 @@ This GitHub set of documents will provides extensive information on CIRRENT™ I
    :maxdepth: 2
    :hidden:
 
-   /ini/cirrent-agent
+   /ini/what-is-ini
    /ini/ini-getting-started
+   /ini/cirrent-agent
    /ini/ini-console-user-guide
    /ini/ini-data-model
-   /ini/what-is-ini
+   
 
    
   
