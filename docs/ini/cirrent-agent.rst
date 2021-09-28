@@ -181,7 +181,7 @@ Installation
 
 	sudo apt-get update
 
-1. Install the CIRRENT™ Agent .deb package
+2. Install the CIRRENT™ Agent .deb package
 
 
 ::
@@ -202,14 +202,14 @@ Installation
 	Errors were encountered while processing:
 	CIRRENT™-agent
 
-1. Finish installation. This will also resolve errors from the previous step:
+3. Finish installation. This will also resolve errors from the previous step:
 
 
 ::
 
 	sudo apt-get -f install
 
-1. Configure your device by entering your provisioning key and secret:
+4. Configure your device by entering your provisioning key and secret:
 
 
 ::
@@ -226,7 +226,7 @@ placeholders PROVISIONING_KEY and PROVISIONING_SECRET with your provisioning key
 	PROVISION_CRED="-K PROVISIONING_KEY -S PROVISIONING_SECRET \
 	 -U $(ip link show dev eth0 | grep ether | awk '{print $2}' | sed 's|:|-|g')"
 
-1.	Reboot your Raspberry Pi
+5.	Reboot your Raspberry Pi
 
 
 ::
@@ -321,9 +321,9 @@ In Third-party IDEs:
 3. Follow the instructions displayed in the terminal to create or import the application as an IDE project.
 For more details, see the "Exporting to IDEs" section of the ModusToolbox User Guide: *{ModusToolbox install directory}/ide_{version}/docs/mtb_user_guide.pdf*.
 
-*****************************************
+
 Using the CIRRENT™ Agent in ModusToolbox
-*****************************************
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Using your CIRRENT™ Developer Account, log into the [Cirrent Console](https://cirrent.infineon.com) and navigate to "Device Management->Cloud ID". Click on the 'Device Registration' tab and create a new Provision API Key. Name it something convenient like "Sample 43012 Application key". Make a note of the key and its secret.
 2. Connect the board to your PC using the provided USB cable through the KitProg3 USB connector.
