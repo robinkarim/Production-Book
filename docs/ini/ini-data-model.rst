@@ -16,7 +16,7 @@ The measurements below are all visible in the CIRRENT™ Console, review the CIR
 
 .. note:: You can customize the CIRRENT™ INI data model to include custom measurements by submitting these measurements via the CIRRENT™ Agent API. Read more about the CIRRENT™ API here.
 
- .. note:: The CIRRENT™ Agent automatically collects additional data for some Infineon chips, including the Infineon AIROC™ Wi-Fi chip. We outline these for each category in the data model.
+.. note:: The CIRRENT™ Agent automatically collects additional data for some Infineon chips, including the Infineon AIROC™ Wi-Fi chip. We outline these for each category in the data model.
 
 **********
 Events
