@@ -9,15 +9,19 @@ Measurements collected by the CIRRENT™ Agent can be classified into four categ
 
 * **Events** that flag any specific network or hardware related issues experience by your device, or monitoring the frequency with which these issues occur across your fleet
 
+
 * **Measurements** a time range of samples that can help you determine how devices perform, or what the system conditions were during a specific event
+
 
 * **Attributes** are properties that change relative rarely and is generally not unique to the specific device, and which is likely to remain the same if the device is restarted - such as firmware version or the ISP the user is using
 
+
 * **State** refers to device properties that are specific to that device’s environment, that is not necessarily shared with another device, and which may well change if the device is switch off or restarted – for example, the Wi-Fi channel the device is associated with
+
 
 **Note:** you can customize the CIRRENT™ INI data model to include custom measurements by submitting these measurements via the CIRRENT™ Agent API. Read more about the CIRRENT™ API here.
 
-Note that the CIRRENT™ Agent automatically collects additional data for some Infineon chips, including the Infineon AIROC™ Wi-Fi chip. We outline these for each category in the data model.
+.. note:: Note that the CIRRENT™ Agent automatically collects additional data for some Infineon chips, including the Infineon AIROC™ Wi-Fi chip. We outline these for each category in the data model.
 
 **********
 Events
@@ -25,7 +29,7 @@ Events
 
 An event is an issue or error experienced by a device. Below is a list of events that the CIRRENT™ Agent collects and sends to the CIRRENT™ Cloud.
 
-Note that some events are instantaneous – where there is no duration to the event. Other events are continuous, with a specific start and end. 
+.. note:: Note that some events are instantaneous – where there is no duration to the event. Other events are continuous, with a specific start and end. 
 
 When you’re in your instance of the CIRRENT™ Console, you may see some or all of these metrics affecting the devices in your fleet. You can also add custom events to monitor your application.
 
