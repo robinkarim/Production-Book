@@ -1,9 +1,9 @@
 ﻿CIRRENT™ Console for INI
 =========================
 
-The CIRRENT™ Console for INI is a central dashboard that helps you analyze how your fleet performs in aggregate, troubleshoot issues across your fleet, and to examine the performance and behavior of individual devices. 
+The CIRRENT™ Console for INI is a central dashboard that helps you analyze how your fleet performs in aggregate, troubleshoot issues across your fleet, and to examine the performance and behavior of individual devices. You can read more about the CIRRENT™ Console itself and how to manage it here. 
 
-You can read more about the CIRRENT™ Console here. To use the CIRRENT™ Console for INI you need:
+To use the CIRRENT™ Console for INI you need:
 
 * An active account on the CIRRENT™ Cloud
 * A device with CIRRENT™ Agent installed on it
@@ -46,11 +46,9 @@ This is how each panel relates to your IoT fleet:
 
   In the expanded chart you can adjust the chart to display results according to a different metric – DNS timeout, or low signal strength for example. You can also apply a filter group, and compare the chart according to a set benchmark.
 
-* Number of Devices Reporting: This chart shows number of devices that have reported in the time period. Expand the chart to choose a filter group or add filters one by one to narrow down the counter to a select group of devices.
+* **Number of Devices Reporting:** This chart shows number of devices that have reported in the time period. Expand the chart to choose a filter group or add filters one by one to narrow down the counter to a select group of devices.
 
-* **Population by router:** This chart shows the most common routers models your devices are attached to within the time period.
-
-  Expand the chart to customize the number of slices shown, filter according to a filter group – or add filters one by one. You can also customize the chart to view any one of a range of custom attributes.
+* **Population by router:** This chart shows the most common routers models your devices are attached to within the time period. Expand the chart to customize the number of slices shown, filter according to a filter group – or add filters one by one. You can also customize the chart to view any one of a range of custom attributes.
 
 * **Population by ISP:** This chart shows a ranking of which Internet Service Providers most of your devices are on during the chosen time period.
 
@@ -130,8 +128,6 @@ For complete full details on the exact meaning of metrics, and how these metrics
 37.	Wifi Not Associated
 38.	Wifi Scan
 
-for AEROC – also 
-
 All of these metrics can also be filtered by the following categories:
 
 1.	City
@@ -185,9 +181,7 @@ This is a benchmarking tool. To get the most out of the dashboard, click the set
 
 .. image:: ../img/icon.png
 
-and choose what metric you’d like to view. 
-
-Choose environment - from ISP, router, country or a combination of those. Then choose any attribute or attribute combination to compare against any other attribute or combination of attributes.
+and choose what metric you’d like to view. Choose environment - from ISP, router, country or a combination of those. Then choose any attribute or attribute combination to compare against any other attribute or combination of attributes.
 
 .. image:: ../img/img-8.png
     :align: center
