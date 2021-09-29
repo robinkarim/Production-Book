@@ -1,9 +1,7 @@
 INI Data Model
 ================
 
-CIRRENT™ IoT Network Intelligence collects a range of standard measurements and attributes by default. When the CIRRENT™ Agent is active on your device it automatically collects these measurements and submits it to the CIRRENT™ Cloud.
-
-The measurements below are all visible in the CIRRENT™ Console, review the CIRRENT™ Console page here to see how you can view your fleet’s data. Measurements collected by the CIRRENT™ Agent can be classified into four categories: 
+CIRRENT™ IoT Network Intelligence collects a range of standard measurements and attributes by default. When the CIRRENT™ Agent is active on your device it automatically collects these measurements and submits it to the CIRRENT™ Cloud. The measurements below are all visible in the CIRRENT™ Console, review the CIRRENT™ Console page here to see how you can view your fleet’s data. Measurements collected by the CIRRENT™ Agent can be classified into four categories: 
 
 * **Events** that flag any specific network or hardware related issues experience by your device, also used to monitor the frequency with which these issues occur across your fleet.
 
@@ -22,11 +20,9 @@ The measurements below are all visible in the CIRRENT™ Console, review the CIR
 Events
 **********
 
-An event is an issue or error experienced by a device. Below is a list of events that the CIRRENT™ Agent collects and sends to the CIRRENT™ Cloud.
+An event is an issue or error experienced by a device. Below is a list of events that the CIRRENT™ Agent collects and sends to the CIRRENT™ Cloud. When you’re in your instance of the CIRRENT™ Console, you may see some or all of these metrics affecting the devices in your fleet. You can also add custom events to monitor your application.
 
 .. note:: Note that some events are instantaneous – where there is no duration to the event. Other events are continuous, with a specific start and end. 
-
-When you’re in your instance of the CIRRENT™ Console, you may see some or all of these metrics affecting the devices in your fleet. You can also add custom events to monitor your application.
 
 The following events indicate that your device is disconnected from Wi-Fi, and will help you to understand what caused the disconnection.
 
@@ -60,7 +56,7 @@ These metrics indicate atypical or unusual Wi-fi radiofrequency conditions that 
 
 * **Low storage:** The available storage capacity on the device is below a threshold.
 
-The following metrics enable you to understand system level performance of your fleet of connected products in the field:
+The following metric-based events enable you to understand system level performance of your fleet of connected products in the field:
 
 * **High CPU Usage:** CPU usage is above a configurable threshold.
 
@@ -104,7 +100,9 @@ Note that for users of Infineon AIROC™ Wi-Fi, the CIRRENT™ Agent will also c
 
 * **CCA statistics:** ibss, obss, interference
 
-The measurement data type is a special data type in the CIRRENT™ Cloud. Based on the measure data, the CIRRENT™ Cloud automatically generates a range of calculations to support your analysis, including:
+**Measurement date type**
+
+The measurement data type is a special data type in the CIRRENT™ Cloud. Based on measurement data, the CIRRENT™ Cloud automatically generates a range of calculations to support your analysis, including:
 
 * **Average measurement value**, calculated by dividing the sum of the measurements by the number of measurements submitted
 
@@ -123,9 +121,7 @@ The measurement data type is a special data type in the CIRRENT™ Cloud. Based 
 Attributes
 ***********
 
-An attribute is a characteristic or parameter of a group of devices. Attributes may change over time but a change will typically only occur over a longer time horizon, whereas measurements may change continually.
-
-In addition to the attributes listed below, you can add custom attributes relevant to your products and customers such as firmware version, radio driver, and more – read more about custom attributes here.
+An attribute is a characteristic or parameter of a group of devices. Attributes may change over time but a change will typically only occur over a longer time horizon, whereas measurements may change continually. In addition to the attributes listed below, you can add custom attributes relevant to your products and customers such as firmware version, radio driver, and more – read more about custom attributes here.
 
 * **ISP:** Internet service provider that the device is connected to.
 
