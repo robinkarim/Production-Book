@@ -34,7 +34,7 @@ The CIRRENT™ Cloud facilitates device authentication for your single device or
 
 Once data starts steaming in from CIRRENT™ Agent you will be able to review a range of analytics across all your devices, and drill down into device specific analytics. You can read more about the CIRRENT™ Console here.
 
-**Note:** before you get started with INI you must have an active CIRRENT™ Cloud account so that you register your device and access CIRRENT™ Console where you will view your device data. You also need a device that is compatible with the CIRRENT™ Agent – you can view the requirements here.
+.. note:: Before you get started with INI you must have an active CIRRENT™ Cloud account so that you register your device and access CIRRENT™ Console where you will view your device data. You also need a device that is compatible with the CIRRENT™ Agent – you can view the requirements here.
  
 *******************************************
 Onboarding devices into the CIRRENT™ Cloud
