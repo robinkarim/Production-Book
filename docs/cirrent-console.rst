@@ -16,7 +16,7 @@ The CIRRENT™ Console is organized into four sections. Your CIRRENT™ account 
 
 * **Accounting settings** allows you to manage API keys for the CIRRENT™ Mobile App SDK, and contains an area for user management. 
 
-.. note:: Note that the sections that are visible to you depend on the CIRRENT™ services you subscribe to, and the role your user is assigned. 
+.. note:: The sections that are visible in your CIRRENT™ Console depend on the CIRRENT™ services you subscribe to, and the role your assigned to your user. 
 
 CIRRENT™ Console User Architecture
 -----------------------------------
