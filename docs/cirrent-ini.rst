@@ -82,4 +82,5 @@ CIRRENT™ IoT Network Intelligence (INI) delivers IoT device analytics for IoT 
    /ini/ini-getting-started
    /ini/ini-data-model
    /ini/cirrent-agent
+   /ini/cirrent-agent-api
    /ini/ini-console-user-guide

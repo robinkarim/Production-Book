@@ -65,10 +65,8 @@ Learn more
 This GitHub set of documents will provide all of the information on CIRRENT™ INI including:
 
 * **Introduction to INI**  
-
-  * `INI Features and Benefits <ini-benefits-and-features.rst>`_
   
-  * `Getting Started with INI <getting-started-with-ini.rst>`_
+  * `Getting Started with INI <ini-getting-started.rst>`_
   
 * **Getting started with INI**
   
@@ -78,7 +76,9 @@ This GitHub set of documents will provide all of the information on CIRRENT™ I
   
   * `Using OPS API to Register Devices <using-ops-api-to-register-devices.rst>`_
   
-  * `Cirrent Agent on Linux <cirrent-agent-on-linux.rst>`_
+  * `Cirrent Agent <cirrent-agent.rst>`_
+
+  * `Cirrent Agent API <cirrent-agent-api.rst>`_
   
 * **Reporting, analytics and data modeling with INI**
 
