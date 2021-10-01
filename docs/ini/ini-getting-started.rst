@@ -12,6 +12,7 @@ Interested in testing INI on your device? You need to complete a few steps to co
 * Register for an account on CIRRENT™ Cloud. 
   Registration is free and you can do so via this link. Registering automatically creates a user profile on CIRRENT™ Cloud, and gives you full access to CIRRENT™ Console.
 
+
 * Install the CIRRENT™ Agent on your device
 
   The instructions to install the CIRRENT Agent depends on the operating system on your device:
@@ -23,6 +24,7 @@ Interested in testing INI on your device? You need to complete a few steps to co
 	Please contact us on support@cirrent.com if your device runs RTOS. 
 
 	Note: CIRRENT™ Agent is already pre-installed on a select range of INFINEON products, including INFINEON AIROC™ Wi-Fi.
+
 
 * Onboard your device with CIRRENT™ Cloud
 
