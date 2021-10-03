@@ -1,11 +1,10 @@
 Getting started with MAI
 =============================
 
-Getting started with MAI is easy, hassle-free and secure. To get started, `register for a free account <https://cirrent.infineon.com/login>`_. Next step is to integrate the CIRRENT™ Mobile App SDK in your IoT device, which on average takes less than two hours and less than 50 lines of code. 
+Getting started with MAI is easy, hassle-free and secure. To get started, `register for a free account <https://cirrent.infineon.com/login>`_. The next step is to integrate the CIRRENT™ Mobile App SDK into the Android or iOS app that connectes to your IoT device, which on average takes less than two hours and less than 50 lines of code. Once integration is complete, simply watch the data flow into the CIRRENT™ Console, a secure dashboard that provides deep visibility into the performance of your IoT products.
 
-Once integration is complete, simply watch the data flow into the CIRRENT™ Console, a secure dashboard that provides deep visibility into the performance of your IoT products (at scale or at individual device-level).
-
-**Key terms**
+Key terms
+++++++++++
 
 Some of the key terms you should know before you start to include the CIRRENT™ Mobile SDK in your app include:
 
@@ -13,7 +12,8 @@ Some of the key terms you should know before you start to include the CIRRENT™
 * **OnboardingID:** Each onboarding attempt is assigned a unique OnboardingID by the CIRRENT™ Mobile SDK.
 * **DeviceID:** A unique ID for each connected product
 
-**Sample App and SDK repos**
+Sample App and SDK repos
++++++++++++++++++++++++++
 
 You can find sample apps and the SDK repos for Android and iOS here.
 
@@ -26,12 +26,13 @@ SDK (binaries) repos:
 * CIRRENT™ Mobile SDK for iOS
 
 
-**App permissions**
+App permissions
++++++++++++++++
 
 You will need to ask the user of the mobile device on which your app is installed for the following app permissions in order for the CIRRENT™ SDK to be able to collect the data needed for MAI:
 
-* iOS: Location and Local Network (iOS 14 and later).
-* Android: Location
+* **iOS**: Location and Local Network (iOS 14 and later).
+* **Android**: Location
 
 Steps to getting started with MAI
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -567,7 +568,7 @@ iOS:
     public func setDebugInfo(_ debugInfo: [String: String]) -> EndData
 
 Using MAI in practice
-+++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^
 
 1.  **Single line of code to collect Phone and Wi-Fi Environment details**
 
