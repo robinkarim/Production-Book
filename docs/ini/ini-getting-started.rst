@@ -10,6 +10,7 @@ Steps to configuring INI
 Interested in testing INI on your device? You need to complete a few steps to configure INI and to start receiving device analytics:
 
 * Register for an account on CIRRENT™ Cloud. 
+
   Registration is free and you can do so via this link. Registering automatically creates a user profile on CIRRENT™ Cloud, and gives you full access to CIRRENT™ Console.
 
 
