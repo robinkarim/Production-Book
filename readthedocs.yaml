@@ -24,4 +24,4 @@ python:
   install:
     - requirements: docs/requirements.txt
     - method: pip
-      path: Pygments 2.6.1
+      path: Pygments 2.7.4
