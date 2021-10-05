@@ -23,3 +23,5 @@ python:
   system_packages: true
   install:
     - requirements: docs/requirements.txt
+    - method: pip
+      path: Pygments 2.6.1
