@@ -64,10 +64,10 @@ All  cirrent_cli ini_custom
 +=============+==================+================================================================+
 | FAILURE     | non-zero         | - More custom event types than preconfigured maximum sent      |
 |             |                  | - Out of storage                                               |
-|             |                  | - Cirrent Agent not running                                    |
+|             |                  | - CIRRENT™ Agent not running                                    |
 |             |                  | - Invalid arguments                                            | 
 +-------------+------------------+----------------------------------------------------------------+
-| OK          | 0                | Cirrent Agent successfully received and stored ini_custom data |
+| OK          | 0                | CIRRENT™ Agent successfully received and stored ini_custom data |
 +-------------+------------------+----------------------------------------------------------------+
 
 **Example shell command:**

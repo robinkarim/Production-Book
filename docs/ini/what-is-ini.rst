@@ -70,15 +70,15 @@ This GitHub set of documents will provide all of the information on CIRRENT™ I
   
 * **Getting started with INI**
   
-  * `Installing Cirrent Agent on Raspberry Pi <installing-the-cirrent-agent-ini-on-raspberry-pi.rst>`_
+  * `Installing CIRRENT™ Agent on Raspberry Pi <installing-the-cirrent-agent-ini-on-raspberry-pi.rst>`_
   
   * `Using INI Extensions <using-ini-extensions.rst>`_
   
   * `Using OPS API to Register Devices <using-ops-api-to-register-devices.rst>`_
   
-  * `Cirrent Agent <cirrent-agent.rst>`_
+  * `CIRRENT™ Agent <cirrent-agent.rst>`_
 
-  * `Cirrent Agent API <cirrent-agent-api.rst>`_
+  * `CIRRENT™ Agent API <cirrent-agent-api.rst>`_
   
 * **Reporting, analytics and data modeling with INI**
 

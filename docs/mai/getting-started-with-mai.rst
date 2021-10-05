@@ -57,7 +57,7 @@ Using CIRRENT™ MAI within your app
 Create Analytics JWT
 +++++++++++++++++++++++++
 
-The connected product mobile app will use a JSON web token (JWT) to confirm its scope of control when it calls the Cirrent cloud. The App API Key and Secret are generated using Cirrent Console using link  https://console.cirrent.com/api-keys . Please click “Create API Key” button and choose key type as “app” as shown below.
+The connected product mobile app will use a JSON web token (JWT) to confirm its scope of control when it calls the CIRRENT™ cloud. The App API Key and Secret are generated using Cirrent Console using link  https://console.cirrent.com/api-keys . Please click “Create API Key” button and choose key type as “app” as shown below.
 
 .. image:: ../img/image-1.png
 
