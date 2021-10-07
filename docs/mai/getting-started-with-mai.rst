@@ -55,7 +55,7 @@ Using CIRRENT™ MAI within your app
 Create Analytics JWT
 ^^^^^^^^^^^^^^^^^^^^^
 
-The connected product mobile app will use a JSON web token (JWT) to confirm its scope of control when it calls the CIRRENT™ cloud. The App API Key and Secret are generated using Cirrent Console using link  https://console.cirrent.com/api-keys . Please click “Create API Key” button and choose key type as “app” as shown below.
+The connected product mobile app will use a JSON web token (JWT) to confirm its scope of control when it calls the CIRRENT™ cloud. The App API Key and Secret are generated using CIRRENT™ Console using link  https://console.cirrent.com/api-keys . Please click “Create API Key” button and choose key type as “app” as shown below.
 
 .. image:: ../img/image-1.png
 
@@ -90,7 +90,7 @@ It is useful to look at the SDK functions as two separate categories:
 
 **I. Init Function**
 
-It is possible to get started within minutes by using only the Init Function. Using just the Init function provides a way to get quick time to value from Cirrent Mobile SDK. Note that any communication between the app and Cirrent cloud needs an analytics JWT token.
+It is possible to get started within minutes by using only the Init Function. Using just the Init function provides a way to get quick time to value from CIRRENT™ Mobile SDK. Note that any communication between the app and CIRRENT™ cloud needs an analytics JWT token.
 
 Android:
 
@@ -611,7 +611,7 @@ However, this example will not give details on what is the order of steps that t
 
 3.  **Understand which steps cause users to abandon onboarding and why**
 
-You will need to annotate the various onboarding steps with step names to understand where users abandon the process. Consider SoftAP onboarding process shown below where the user goes through a series of steps such as scanning for a device, connecting to SoftAP SSID, and then going to the step where the user enters private Wi-Fi network credentials. At this step, let’s say the user spent too much time entering his Wi-Fi password and gets a timeout error from the SoftAP connected device. As Cirrent SDK captures all steps and their duration all this information allows developers to understand the root cause of the issue. A similar approach can be used for onboarding steps for BLE.
+You will need to annotate the various onboarding steps with step names to understand where users abandon the process. Consider SoftAP onboarding process shown below where the user goes through a series of steps such as scanning for a device, connecting to SoftAP SSID, and then going to the step where the user enters private Wi-Fi network credentials. At this step, let’s say the user spent too much time entering his Wi-Fi password and gets a timeout error from the SoftAP connected device. As CIRRENT™ SDK captures all steps and their duration all this information allows developers to understand the root cause of the issue. A similar approach can be used for onboarding steps for BLE.
 
 Java-based example:
 
