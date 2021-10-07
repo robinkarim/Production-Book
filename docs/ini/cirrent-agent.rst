@@ -334,26 +334,26 @@ Using the CIRRENT™ Agent in ModusToolbox
 	 	From the terminal, execute the `make program` command to build and program the application using the default toolchain to the default target. You can specify a target and toolchain manually:
 
 
-	::
+		::
 
-	   	make program TARGET=<BSP> TOOLCHAIN=<toolchain>   
+		   	make program TARGET=<BSP> TOOLCHAIN=<toolchain>   
 
-	Example:
-
-
-	::
-
-	   make program TARGET=CY8CPROTO-062-4343W TOOLCHAIN=GCC_ARM
+		Example:
 
 
-	**Note**:  Before building the application, ensure that the *deps* folder contains the BSP file (*TARGET_xxx.lib*) corresponding to the TARGET. Execute the `make getlibs` command to fetch the BSP contents before building the application.
+		::
 
-	After programming, the application starts automatically. Confirm that the CIRRENT™ Agent is running by examining the terminal output. You should see the CIRRENT™ Agent start to print logs like:
+		   make program TARGET=CY8CPROTO-062-4343W TOOLCHAIN=GCC_ARM
 
 
-	:: 
+		**Note**:  Before building the application, ensure that the *deps* folder contains the BSP file (*TARGET_xxx.lib*) corresponding to the TARGET. Execute the `make getlibs` command to fetch the BSP contents before building the application.
 
-		|INFO|2000.01.01 00:00:00.000000|0000||CA-START||ca_version=2.0.6;
+		After programming, the application starts automatically. Confirm that the CIRRENT™ Agent is running by examining the terminal output. You should see the CIRRENT™ Agent start to print logs like:
+
+
+		:: 
+
+			|INFO|2000.01.01 00:00:00.000000|0000||CA-START||ca_version=2.0.6;
 
 6. Navigate to the Device Inspector in the [CIRRENT™ Console](https://cirrent.infineon.com) and search for your `DEVICE_ID` (by default this is the MAC address of your device's Wi-Fi interface delimited by dashes, e.g. 00-11-22-aa-bb-cc). The CIRRENT™ Agent will upload the Wi-Fi network SSID within a minute of starting. It will be displayed in the Device Inspector as soon as it is uploaded. Other data like metrics, and connectivity values will take up to 24 hours to be gathered and uploaded.
 
