@@ -22,7 +22,6 @@ Interested in testing INI on your device? You need to complete a few steps to co
 
 	Please contact us on support@cirrent.com if your device runs RTOS. 
 
-	Note: CIRRENT™ Agent is already pre-installed on a select range of INFINEON products, including INFINEON AIROC™ Wi-Fi.
 
 * | Onboard your device with CIRRENT™ Cloud
   | The CIRRENT™ Cloud facilitates device authentication for your single device or fleet of devices. Every device that sends INI data to the CIRRENT™ Cloud must first complete an onboarding process. See the next section for more details about onboarding.
@@ -32,7 +31,9 @@ Interested in testing INI on your device? You need to complete a few steps to co
 * | Reviewing your analytics on CIRRENT™ Console
   | Once data starts steaming in from CIRRENT™ Agent you will be able to review a range of analytics across all your devices, and drill down into device specific analytics. You can read more about the CIRRENT™ Console here.
 
-.. note:: Before you get started with INI you must have an active CIRRENT™ Cloud account so that you register your device and access CIRRENT™ Console where you will view your device data. You also need a device that is compatible with the CIRRENT™ Agent – you can view the requirements here.
+.. note:: Before you get started with INI you must have an active CIRRENT™ Cloud account so that you register your device and access CIRRENT™ Console where you will view your device data. You also need a device that is compatible with the CIRRENT™ Agent – you can view the requirements here. 
+
+ CIRRENT™ Agent is already pre-installed on a select range of INFINEON products, including INFINEON AIROC™ Wi-Fi.
  
 *******************************************
 Onboarding devices into the CIRRENT™ Cloud
