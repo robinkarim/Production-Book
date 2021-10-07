@@ -293,7 +293,6 @@ In Eclipse IDE for ModusToolbox:
 3.	In the **Project Creator - Select Application** dialog, choose the example.
 
 4.	Optionally, update the **Application Name:** and **Location** fields with the application name and local path where the application is created.
-
 5.	Click **Create** to complete the application creation process.
 For more details, see the Eclipse IDE for ModusToolbox User Guide: *{ModusToolbox install directory}/ide_{version}/docs/mt_ide_user_guide.pdf*.
 
@@ -304,7 +303,6 @@ In Command-line Interface (CLI):
 2.	Open a CLI terminal and navigate to the application folder.
 
 	On Linux and macOS, you can use any terminal application. On Windows, navigate to the modus-shell directory (*{ModusToolbox install directory}/tools_\<version>/modus-shell*) and run *Cygwin.bat*.
-
 3.	Import the required libraries by executing the `make getlibs` command.
 
 In Third-party IDEs:
