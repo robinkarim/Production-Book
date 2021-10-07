@@ -19,14 +19,12 @@ Interested in testing INI on your device? You need to complete a few steps to co
   |	* View the general steps for installing the CIRRENT™ Agent on a Linux device here.
   |	* View specific steps to configure CIRRENT™ Agent on Raspberry Pi. 
   |	* View specific steps for configuring CIRRENT™ Agent using ModusToolbox
-  |
 
-	  Please contact us on support@cirrent.com if your device runs RTOS. 
+	Please contact us on support@cirrent.com if your device runs RTOS. 
 
-	| Note: CIRRENT™ Agent is already pre-installed on a select range of INFINEON products, including INFINEON AIROC™ Wi-Fi.
+	Note: CIRRENT™ Agent is already pre-installed on a select range of INFINEON products, including INFINEON AIROC™ Wi-Fi.
 
 * | Onboard your device with CIRRENT™ Cloud
-  |
   | The CIRRENT™ Cloud facilitates device authentication for your single device or fleet of devices. Every device that sends INI data to the CIRRENT™ Cloud must first complete an onboarding process. See the next section for more details about onboarding.
   |
 
