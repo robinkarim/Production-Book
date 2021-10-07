@@ -69,9 +69,8 @@ The CIRRENT™ Agent consists out of three components that work together to conn
   | Shell utility for communicating and controlling the CIRRENT™ Agent using the libCIRRENT_api.so library.
   | Refer to the section on the CIRRENT™ Agent API for a list of the commands that you can run.
 
-*********************************************
 Steps for installing CIRRENT™ Agent on Linux
-*********************************************
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Steps for installing CIRRENT™ Agent will vary depending on which Linux distribution your device uses. 
 
@@ -89,9 +88,8 @@ We provide sample installation instructions for Raspberry Pi below, but in the b
 
 Once in production, you will ship your products with CIRRENT™ Agent pre-installed. You can read more about the onboarding process for manufactured devices here.
 
-*************
 Dependencies
-*************
+^^^^^^^^^^^^^^^
 
 On Linux, the CA relies on the following libraries that are linked directly into the CA. These libraries must be available on your device.
 
@@ -180,7 +178,7 @@ Installation
 
 	sudo apt-get update
 
-1. Install the CIRRENT™ Agent .deb package
+2. Install the CIRRENT™ Agent .deb package
 
 
 ::
@@ -201,14 +199,14 @@ Installation
 	Errors were encountered while processing:
 	CIRRENT™-agent
 
-1. Finish installation. This will also resolve errors from the previous step:
+3. Finish installation. This will also resolve errors from the previous step:
 
 
 ::
 
 	sudo apt-get -f install
 
-1. Configure your device by entering your provisioning key and secret:
+4. Configure your device by entering your provisioning key and secret:
 
 
 ::
@@ -225,7 +223,7 @@ placeholders PROVISIONING_KEY and PROVISIONING_SECRET with your provisioning key
 	PROVISION_CRED="-K PROVISIONING_KEY -S PROVISIONING_SECRET \
 	 -U $(ip link show dev eth0 | grep ether | awk '{print $2}' | sed 's|:|-|g')"
 
-1.	Reboot your Raspberry Pi
+5.	Reboot your Raspberry Pi
 
 
 ::
@@ -246,8 +244,9 @@ To view data for all devices in an account, please visit:
 To start viewing your Raspberry Pi’s data simply go the Device Inspector page and search for your device.
 
 
+*****************************************************
 Installation example: CIRRENT™ Agent on ModusToolbox
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*****************************************************
 
 If you’re making use of ModusToolbxo you can follow the instructions below to start the CIRRENT™ Agent with PSoC® 6 MCU and CYW43xxx connectivity devices. The example establishes a connection with a user defined Wi-Fi network and then starts the CIRRENT™ Agent to monitor the Wi-Fi network and upload data to the CIRRENT™ Cloud to enable the INI feature.
 
@@ -320,9 +319,8 @@ In Third-party IDEs:
 3. Follow the instructions displayed in the terminal to create or import the application as an IDE project.
 For more details, see the "Exporting to IDEs" section of the ModusToolbox User Guide: *{ModusToolbox install directory}/ide_{version}/docs/mtb_user_guide.pdf*.
 
-*****************************************
 Using the CIRRENT™ Agent in ModusToolbox
-*****************************************
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Using your CIRRENT™ Developer Account, log into the [CIRRENT™ Console](https://cirrent.infineon.com) and navigate to "Device Management->Cloud ID". Click on the 'Device Registration' tab and create a new Provision API Key. Name it something convenient like "Sample 43012 Application key". Make a note of the key and its secret.
 2. Connect the board to your PC using the provided USB cable through the KitProg3 USB connector.
