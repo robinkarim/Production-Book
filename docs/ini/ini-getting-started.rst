@@ -10,22 +10,20 @@ Steps to configuring INI
 Interested in testing INI on your device? You need to complete a few steps to configure INI and to start receiving device analytics:
 
 * | Register for an account on CIRRENT™ Cloud. 
-  |
   | Registration is free and you can do so via this link. Registering automatically creates a user profile on CIRRENT™ Cloud, and gives you full access to CIRRENT™ Console.
   |
-  
+
 * | Install the CIRRENT™ Agent on your device
-  |
   | The instructions to install the CIRRENT™ Agent depends on the operating system on your device:
   |
   |	* View the general steps for installing the CIRRENT™ Agent on a Linux device here.
   |	* View specific steps to configure CIRRENT™ Agent on Raspberry Pi. 
   |	* View specific steps for configuring CIRRENT™ Agent using ModusToolbox
   |
-	| Please contact us on support@cirrent.com if your device runs RTOS. 
+
+	  Please contact us on support@cirrent.com if your device runs RTOS. 
 
 	| Note: CIRRENT™ Agent is already pre-installed on a select range of INFINEON products, including INFINEON AIROC™ Wi-Fi.
-  |
 
 * | Onboard your device with CIRRENT™ Cloud
   |
@@ -34,7 +32,6 @@ Interested in testing INI on your device? You need to complete a few steps to co
 
 
 * | Reviewing your analytics on CIRRENT™ Console
-  |
   | Once data starts steaming in from CIRRENT™ Agent you will be able to review a range of analytics across all your devices, and drill down into device specific analytics. You can read more about the CIRRENT™ Console here.
 
 .. note:: Before you get started with INI you must have an active CIRRENT™ Cloud account so that you register your device and access CIRRENT™ Console where you will view your device data. You also need a device that is compatible with the CIRRENT™ Agent – you can view the requirements here.
