@@ -72,11 +72,7 @@ The CIRRENT™ Agent consists out of three components that work together to conn
 Steps for installing CIRRENT™ Agent on Linux
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Steps for installing CIRRENT™ Agent will vary depending on which Linux distribution your device uses. 
-
-Note that each CIRRENT™ Agent must be authorized to communicate with the CIRRENT™ Cloud. Log into your CIRRENT™ Console account to generate the provisioning key and secret key if you don’t have one already.
-
-We provide sample installation instructions for Raspberry Pi below, but in the broad your installation steps will look as follows:
+Steps for installing CIRRENT™ Agent will vary depending on which Linux distribution your device uses. Note that each CIRRENT™ Agent must be authorized to communicate with the CIRRENT™ Cloud. Log into your CIRRENT™ Console account to generate the provisioning key and secret key if you don’t have one already. We provide sample installation instructions for Raspberry Pi below, but in the broad your installation steps will look as follows:
 
 1.	Ensure your device is fully updated
 2.	Verify that your device can connect to Wi-Fi
@@ -86,7 +82,7 @@ We provide sample installation instructions for Raspberry Pi below, but in the b
 6.	Install the CIRRENT™ Agent using sudo command
 7.	Use sudo to provision your device by adding the unique provisioning and secret key for CIRRENT™ Agent
 
-Once in production, you will ship your products with CIRRENT™ Agent pre-installed. You can read more about the onboarding process for manufactured devices here.
+Once in production, you will ship your products with CIRRENT™ Agent pre-installed.
 
 Dependencies
 ^^^^^^^^^^^^^^^
