@@ -173,64 +173,60 @@ Installation
 
 1. Update your Raspberry Pi:
 
+	::
 
-::
-
-	sudo apt-get update
+		sudo apt-get update
 
 2. Install the CIRRENT™ Agent .deb package
 
+	::
 
-::
+		sudo dpkg -i CIRRENT™-agent_2.0.4-ini+deb10u3_armhf.deb
 
-	sudo dpkg -i CIRRENT™-agent_2.0.4-ini+deb10u3_armhf.deb
-
-⚠️ some errors may be reported by dpkg. You can safely ignore these errors. See output:
+	⚠️ some errors may be reported by dpkg. You can safely ignore these errors. See output:
 
 
-::
+	::
 
-	dpkg: dependency problems prevent configuration of CIRRENT™-agent:
-	CIRRENT™-agent depends on monit; however:
-	Package monit is not installed.
-	dpkg: error processing package CIRRENT™-agent (--install):
-	dependency problems - leaving unconfigured
-	Processing triggers for systemd (241-7~deb10u2+rpi1) ...
-	Errors were encountered while processing:
-	CIRRENT™-agent
+		dpkg: dependency problems prevent configuration of CIRRENT™-agent:
+		CIRRENT™-agent depends on monit; however:
+		Package monit is not installed.
+		dpkg: error processing package CIRRENT™-agent (--install):
+		dependency problems - leaving unconfigured
+		Processing triggers for systemd (241-7~deb10u2+rpi1) ...
+		Errors were encountered while processing:
+		CIRRENT™-agent
 
 3. Finish installation. This will also resolve errors from the previous step:
 
+	::
 
-::
+		sudo apt-get -f install
 
-	sudo apt-get -f install
-
-4. Configure your device by entering your provisioning key and secret:
-
-
-::
-
-	sudo nano /etc/default/CIRRENT™
-
-Add the following lines and replace the 
-
-placeholders PROVISIONING_KEY and PROVISIONING_SECRET with your provisioning key and secret
+	4. Configure your device by entering your provisioning key and secret:
 
 
-::
+	::
 
-	PROVISION_CRED="-K PROVISIONING_KEY -S PROVISIONING_SECRET \
-	 -U $(ip link show dev eth0 | grep ether | awk '{print $2}' | sed 's|:|-|g')"
+		sudo nano /etc/default/CIRRENT™
+
+	Add the following lines and replace the 
+
+	placeholders PROVISIONING_KEY and PROVISIONING_SECRET with your provisioning key and secret
+
+
+	::
+
+		PROVISION_CRED="-K PROVISIONING_KEY -S PROVISIONING_SECRET \
+		 -U $(ip link show dev eth0 | grep ether | awk '{print $2}' | sed 's|:|-|g')"
 
 5.	Reboot your Raspberry Pi
 
+	::
 
-::
+		sudo reboot
 
-	sudo reboot
-
-✔️ All done! You can now leave your Raspberry Pi running and the CIRRENT™ Agent will automatically collect data.
+	✔️ All done! You can now leave your Raspberry Pi running and the CIRRENT™ Agent will automatically collect data.
 
 Next Steps
 ^^^^^^^^^^^
@@ -284,15 +280,15 @@ In Eclipse IDE for ModusToolbox:
 
 2.	Pick a kit supported by the code example from the list shown in the **Project Creator - Choose Board Support Package (BSP)** dialog.
 
-When you select a supported kit, the example is reconfigured automatically to work with the kit. 
+	When you select a supported kit, the example is reconfigured automatically to work with the kit. 
 
-To work with a different supported kit later, use the **Library Manager** to choose the BSP for the supported kit. You can use the Library Manager to select or update the BSP and firmware libraries used in this application. 
+	To work with a different supported kit later, use the **Library Manager** to choose the BSP for the supported kit. You can use the Library Manager to select or update the BSP and firmware libraries used in this application. 
 
-To access the Library Manager, right-click the application name from the Project Workspace window in the IDE, and select **ModusToolbox** > **Library Manager**. You can also access it from the **Quick Panel**.
+	To access the Library Manager, right-click the application name from the Project Workspace window in the IDE, and select **ModusToolbox** > **Library Manager**. You can also access it from the **Quick Panel**.
 
-You can also just start the application creation process again and select a different kit.
+	You can also just start the application creation process again and select a different kit.
 
-If you want to use the application for a kit not listed here, you may need to update the source files. If the kit does not have the required resources, the application may not work.
+	If you want to use the application for a kit not listed here, you may need to update the source files. If the kit does not have the required resources, the application may not work.
 
 3.	In the **Project Creator - Select Application** dialog, choose the example.
 
@@ -307,7 +303,7 @@ In Command-line Interface (CLI):
 1.	Download and unzip this repository onto your local machine, or clone the repository.
 2.	Open a CLI terminal and navigate to the application folder.
 
-On Linux and macOS, you can use any terminal application. On Windows, navigate to the modus-shell directory (*{ModusToolbox install directory}/tools_\<version>/modus-shell*) and run *Cygwin.bat*.
+	On Linux and macOS, you can use any terminal application. On Windows, navigate to the modus-shell directory (*{ModusToolbox install directory}/tools_\<version>/modus-shell*) and run *Cygwin.bat*.
 
 3.	Import the required libraries by executing the `make getlibs` command.
 
