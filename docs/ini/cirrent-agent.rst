@@ -203,7 +203,7 @@ Installation
 
 		sudo apt-get -f install
 
-	4. Configure your device by entering your provisioning key and secret:
+4. Configure your device by entering your provisioning key and secret:
 
 
 	::
