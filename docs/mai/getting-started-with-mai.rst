@@ -3,59 +3,57 @@ Getting started with MAI
 
 Getting started with MAI is easy, hassle-free and secure. To get started, `register for a free account <https://cirrent.infineon.com/login>`_. The next step is to integrate the CIRRENT™ Mobile App SDK into the Android or iOS app that connectes to your IoT device, which on average takes less than two hours and less than 50 lines of code. Once integration is complete, simply watch the data flow into the CIRRENT™ Console, a secure dashboard that provides deep visibility into the performance of your IoT products.
 
-Key terms
-++++++++++
+.. topic:: Key terms
 
-Some of the key terms you should know before you start to include the CIRRENT™ Mobile SDK in your app include:
+    Some of the key terms you should know before you start to include the CIRRENT™ Mobile SDK in your app include:
 
-* **AppID:** Each app instance has a unique AppID that is provided by customer
-* **OnboardingID:** Each onboarding attempt is assigned a unique OnboardingID by the CIRRENT™ Mobile SDK.
-* **DeviceID:** A unique ID for each connected product
-
-Sample App and SDK repos
-+++++++++++++++++++++++++
-
-You can find sample apps and the SDK repos for Android and iOS here.
-
-* Android Sample App
-* iOS Sample App
-
-SDK (binaries) repos:
-
-* CIRRENT™ Mobile SDK for Android
-* CIRRENT™ Mobile SDK for iOS
+    * **AppID:** Each app instance has a unique AppID that is provided by customer
+    * **OnboardingID:** Each onboarding attempt is assigned a unique OnboardingID by the CIRRENT™ Mobile SDK.
+    * **DeviceID:** A unique ID for each connected product
 
 
-App permissions
-+++++++++++++++
+.. topic:: Sample App and SDK repos
 
-You will need to ask the user of the mobile device on which your app is installed for the following app permissions in order for the CIRRENT™ SDK to be able to collect the data needed for MAI:
+    You can find sample apps and the SDK repos for Android and iOS here.
 
-* **iOS**: Location and Local Network (iOS 14 and later).
-* **Android**: Location
+    * `Android Sample App <https://github.com/Cirrent/ZipKey-Android-App>`_
+    * `iOS Sample App <https://github.com/Cirrent/ZipKey-iOS-App>`_
 
-Steps to getting started with MAI
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    SDK (binaries) repos:
 
-1.  Register for an account on CIRRENT™ Cloud. 
-
-    Registration is free and you can do so via this link. Registering automatically creates a user profile on CIRRENT™ Cloud, and gives you full access to CIRRENT™ Console.
-
-2.  Integrate the CIRRENT™ Mobile SDK into your mobile app
-
-    You need to integrate the CIRRENT™ Mobile SDK into your mobile app in order to start collecting data for CIRRENT™ MAI. We provide links to sample apps and the SDK binaries below. 
-
-3.  Reviewing your analytics on CIRRENT™ Console
-
-    Once data starts steaming in from the CIRRENT™ Mobile SDK you will be able to review a range of onboarding analytics across all your devices, and drill down into device specific analytics too. You can read more about the CIRRENT™ Console here.
+    * CIRRENT™ Mobile SDK `for Android <https://github.com/Cirrent/ZipKey-Android-SDK>`_
+    * CIRRENT™ Mobile SDK `for iOS <https://github.com/Cirrent/ZipKey-iOS-SDK>`_
 
 
+.. topic:: App permissions
+
+    You will need to ask the user of the mobile device on which your app is installed for the following app permissions in order for the CIRRENT™ SDK to be able to collect the data needed for MAI:
+
+    * **iOS**: Location and Local Network (iOS 14 and later).
+    * **Android**: Location
+
+.. topic:: Steps to getting started with MAI
+
+    1.  Register for an account on CIRRENT™ Cloud. 
+
+        Registration is free and you can do so via this link. Registering automatically creates a user profile on CIRRENT™ Cloud, and gives you full access to CIRRENT™ Console.
+
+    2.  Integrate the CIRRENT™ Mobile SDK into your mobile app
+
+        You need to integrate the CIRRENT™ Mobile SDK into your mobile app in order to start collecting data for CIRRENT™ MAI. We provide links to sample apps and the SDK binaries below. 
+
+    3.  Reviewing your analytics on CIRRENT™ Console
+
+        Once data starts steaming in from the CIRRENT™ Mobile SDK you will be able to review a range of onboarding analytics across all your devices, and drill down into device specific analytics too. You can read more about the CIRRENT™ Console here.
+
+
+**********************************
 Using CIRRENT™ MAI within your app
-^^^^^^^^^^^^^^^^^^^^^^^
+**********************************
 
 
 Create Analytics JWT
-+++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^
 
 The connected product mobile app will use a JSON web token (JWT) to confirm its scope of control when it calls the CIRRENT™ cloud. The App API Key and Secret are generated using Cirrent Console using link  https://console.cirrent.com/api-keys . Please click “Create API Key” button and choose key type as “app” as shown below.
 
@@ -86,7 +84,7 @@ OR
     public static String createToken(int expiresIn, String accountId, String appId, String appKey, String appSecret)
 
 Add SDK Functions to the app
-+++++++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 It is useful to look at the SDK functions as two separate categories:
 
@@ -567,8 +565,9 @@ iOS:
     /// - Returns: `EndData` object.
     public func setDebugInfo(_ debugInfo: [String: String]) -> EndData
 
+***********************
 Using MAI in practice
-^^^^^^^^^^^^^^^^^^^^^^^
+***********************
 
 1.  **Single line of code to collect Phone and Wi-Fi Environment details**
 
