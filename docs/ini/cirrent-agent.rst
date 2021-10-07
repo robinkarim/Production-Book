@@ -324,7 +324,7 @@ Using the CIRRENT™ Agent in ModusToolbox
 4. Modify the `WIFI_SSID`, `WIFI_PASSWORD`, and `WIFI_SECURITY` macros to match with that of the Wi-Fi network credentials that you want to connect and monitor. These macros are defined in the *configs/wifi_config.h* file. Make sure the Wi-Fi network has Internet connectivity.
 5. Program the board.
 
-	Using Eclipse IDE for ModusToolbox
+	**Using Eclipse IDE for ModusToolbox**
 
 	1. Select the application project in the Project Explorer.
 
