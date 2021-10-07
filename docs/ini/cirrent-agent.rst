@@ -310,8 +310,8 @@ In Third-party IDEs:
 
 1. Follow the instructions from the CLI section to download or clone the repository, and import the libraries using the `make getlibs` command.
 2. Export the application to a supported IDE using the `make <ide>` command.
-3. Follow the instructions displayed in the terminal to create or import the application as an IDE project.
-For more details, see the "Exporting to IDEs" section of the ModusToolbox User Guide: *{ModusToolbox install directory}/ide_{version}/docs/mtb_user_guide.pdf*.
+3. Follow the instructions displayed in the terminal to create or import the application as an IDE project. 
+   For more details, see the "Exporting to IDEs" section of the ModusToolbox User Guide: *{ModusToolbox install directory}/ide_{version}/docs/mtb_user_guide.pdf*.
 
 Using the CIRRENT™ Agent in ModusToolbox
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
