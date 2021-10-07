@@ -16,7 +16,7 @@ Interested in testing INI on your device? You need to complete a few steps to co
 * | Install the CIRRENT™ Agent on your device
   | The instructions to install the CIRRENT™ Agent depends on the operating system on your device:
   |
-  |	* View the general steps for installing the CIRRENT™ Agent on a Linux device here.
+  |	* View the general steps for installing the `CIRRENT™ Agent on a Linux device here <cirrent-agent.rst#installing-cirrent-agent-on-linux>`_.
   |	* View specific steps to configure CIRRENT™ Agent on Raspberry Pi. 
   |	* View specific steps for configuring CIRRENT™ Agent using ModusToolbox
 
