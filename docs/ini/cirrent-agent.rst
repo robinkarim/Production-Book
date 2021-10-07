@@ -331,7 +331,7 @@ Using the CIRRENT™ Agent in ModusToolbox
 
 	- **Using CLI**:
 
-	 From the terminal, execute the `make program` command to build and program the application using the default toolchain to the default target. You can specify a target and toolchain manually:
+	 	From the terminal, execute the `make program` command to build and program the application using the default toolchain to the default target. You can specify a target and toolchain manually:
 
 
 	::
