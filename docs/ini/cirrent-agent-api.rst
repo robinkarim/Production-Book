@@ -3,28 +3,26 @@ CIRRENT™ Agent API
 
 CIRRENT™ INI gives you the ability to develop custom uses cases that rely on the CIRRENT™ Agent. You do so by using the CIRRENT™ Agent API. There are three key areas in which CIRRENT™ Agent API can help you build a custom monitoring and control use case.
 
-**********************
 Custom data submission
-**********************
+^^^^^^^^^^^^^^^^^^^^^^^
 
 You can use the CIRRENT™ Agent to collect custom data from your device, and transmit it to the CIRRENT™ Cloud - in addition to the data that is automatically collected by the CIRRENT™ Agent. You can then use the CIRRENT™ Console to analyze the custom attributes you submitted.
 
 That gives you the ability to monitor custom events, measurements and attributes that is unique to your IoT deployment. Custom measurements are submitted by making use of the CIRRENT™ Agent API. Any application on your device can connect to the CIRRENT™ Agent on your device, submitting custom parameters via the CIRRENT™ Agent API. 
 
-***************************
 Running jobs on your device
-***************************
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can use the CIRRENT™ Agent API to run specific jobs on a single device, or across a fleet of devices, including the ability to collect entire device logs with a single action.
 
-******************************************
 Pushing status notifications to your apps
-******************************************
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The CIRRENT™ Agent also has the ability to send notifications directly to other apps on your device. For example, notifying another application that the device has lost Wi-Fi connectivity.
  
+************************************
 Using the API to submit custom data
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+************************************
 
 You can submit a range of custom data through the CIRRENT™ Agent API. This includes custom events such as user-initiated reboot, custom measurements such as CPI temperatures, as well as any other attributed eg: firmware version. Depending on your choice of argument type you can submit either a string of up to 100 bytes, a floating-point value or a start stop event. The CIRRENT™ Agent API accepts four types of arguments:
 
@@ -35,6 +33,7 @@ You can submit a range of custom data through the CIRRENT™ Agent API. This inc
 * Attribute is a string of up to 100 characters which contains any text you would like to record in CIRRENT™ Cloud that matches attribute data type 
 
 * State is a string of up to 100 characters which contains any text you would like to record in CIRRENT™ Cloud that matches status data type
+
 	
 	Accepted values for each argument:
 
