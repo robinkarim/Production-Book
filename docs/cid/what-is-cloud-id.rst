@@ -75,6 +75,7 @@ Registration is the process of adding a group of devices into a CIRRENT™ Accou
 Is the process of informing your Product Cloud that a particular device should be authorized and how to authenticate the device. This may be done manually outside of the Cloud ID system by uploading a Manifest File, or may be done automatically by the Cloud ID service through a Product Cloud API configuration.  This will add the device to your Product Cloud access control list.
 
 **Product Cloud API**
+
 Product Cloud APIs are the API provided by the Cloud Infrastructure company (i.e. Azure, AWS, GCP) or private cloud to interact with Product Company Clouds.  Supported use cases include device provisioning. 
 
 **Product Company**
