@@ -1,18 +1,17 @@
 CIRRENT™ Cloud ID
 =========================================
 
-What is CIRRENT™ Cloud ID?
-***************************
+.. topic:: What is CIRRENT™ Cloud ID?
 
-It is important to ensure that only authentic, authorized devices are allowed to communicate with a Product Company’s cloud environment. Commonly, Product Companies (OEMs) rely on hardware security modules used on the manufacturing line. 
+	It is important to ensure that only authentic, authorized devices are allowed to communicate with a Product Company’s cloud environment. Commonly, Product Companies (OEMs) rely on hardware security modules used on the manufacturing line. 
 
-This process involves time-consuming physical handling of individual chips, and often requires delegating security and trust to a third party – a contract manufacturer. Alternative software solutions exist, but these are vulnerable to security breaches.
+	This process involves time-consuming physical handling of individual chips, and often requires delegating security and trust to a third party – a contract manufacturer. Alternative software solutions exist, but these are vulnerable to security breaches.
 
-CIRRENT™ Cloud ID is designed to solve many of the device authentication difficulties associated with hardware security modules (HSMs), while avoiding the security risks of software-only alternatives.
+	CIRRENT™ Cloud ID is designed to solve many of the device authentication difficulties associated with hardware security modules (HSMs), while avoiding the security risks of software-only alternatives.
 
-Cloud ID works by extending the silicon-based chain of trust from Product Company devices to the cloud. It does so by acting as a registration intermediary, relying on hardware-based certificates in Cloud ID compatible chips to authenticate devices, subsequently confirming the registration with the Product Cloud.
+	Cloud ID works by extending the silicon-based chain of trust from Product Company devices to the cloud. It does so by acting as a registration intermediary, relying on hardware-based certificates in Cloud ID compatible chips to authenticate devices, subsequently confirming the registration with the Product Cloud.
 
-By using Cloud ID, Product Companies no longer need to manually handle devices on the manufacturing line to process registration, nor do Product Companies need to risk insecure software solutions.
+	By using Cloud ID, Product Companies no longer need to manually handle devices on the manufacturing line to process registration, nor do Product Companies need to risk insecure software solutions.
 
 .. topic:: How Cloud ID works
 
