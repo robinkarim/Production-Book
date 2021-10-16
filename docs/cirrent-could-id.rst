@@ -14,7 +14,7 @@ Cloud ID works by extending the silicon-based chain of trust from Product Compan
 
 By using Cloud ID, Product Companies no longer need to manually handle devices on the manufacturing line to process registration, nor do Product Companies need to risk insecure software solutions.
 
-.. ::topic How Cloud ID works
+.. topic:: How Cloud ID works
 
 	Cloud ID works by including a secure, unique, unspoofable device identity on a chip that Product Companies include in their products. Cloud ID-compatible chips have a unique X.509 device certificate built in at Infineon’s manufacturing facility. 
 
@@ -32,7 +32,7 @@ By using Cloud ID, Product Companies no longer need to manually handle devices o
 
 	Your Product Cloud can therefore accept data from verified devices and prevent unauthorized or spoofed devices from pumping data into your Product Cloud.
 
-.. ::topic Cloud ID deployment options
+.. topic:: Cloud ID deployment options
 
 	Every manufacturing line is different and to accommodate these needs Cloud ID provides Product Companies with different routes to device registration, each with increasing levels of automation.
 
@@ -44,7 +44,7 @@ By using Cloud ID, Product Companies no longer need to manually handle devices o
 
 	The different processes allow you to keep just the right level of control across the device onboarding process and allows you to flexibly manage when and where device certificates are injected your Product Cloud.
 
-.. ::topic Key Cloud ID terms
+.. topic:: Key Cloud ID terms
 
 	**Binding**
 
