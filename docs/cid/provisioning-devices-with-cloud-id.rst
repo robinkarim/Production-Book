@@ -27,6 +27,7 @@ The workflow is as follows:
 5.	Chain of Trust is established between the Product and the Product Cloud.  All ongoing communications is direct between Host & Product Company Cloud
  
 .. figure:: ../img/pd-1.png
+
 	Provisioning devices using a Manifest File
 
 We will now outline the steps you need to take to complete the above workflow. There are two stages to this process. First, you need to bind ownership of the devices, adding the devices to your CIRRENT™ Cloud ID account. Next, you need to download the Manifest File containing the device certificates and upload these certificates into your API.
