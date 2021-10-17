@@ -32,83 +32,134 @@ The workflow is as follows:
 
 We will now outline the steps you need to take to complete the above workflow. There are two stages to this process. First, you need to bind ownership of the devices, adding the devices to your CIRRENT™ Cloud ID account. Next, you need to download the Manifest File containing the device certificates and upload these certificates into your API.
 
-Note: The steps below outline a manual onboarding process, your devices will not automatically be provisioned to your Product Cloud.
+.. note:: The steps below outline a manual onboarding process, your devices will not automatically be provisioned to your Product Cloud.
 
 Binding devices
+^^^^^^^^^^^^^^^^
 
 Your Cloud ID-compatible devices come pre-installed with a device certificate, but you first need to “claim” the devices as your own. To bind ownership with these devices you need to add the devices to CIRRENT™ Cloud ID by entering the Group Product ID for the group of devices into the Cloud ID section in the CIRRENT™ Console.
+
 Binding using a desktop browser
+"""""""""""""""""""""""""""""""""
+If you’re using a desktop browser you can do so by navigating to **Device Management** and to **Cloud ID**. The default Cloud ID panel displays the groups of devices you have already onboarded. To add a new group of devices click on the **Add Infineon Devices** button.
 
-If you’re using a desktop browser you can do so by navigating to Device Management and to Cloud ID. The default Cloud ID panel displays the groups of devices you have already onboarded. To add a new group of devices click on the Add Infineon Devices button.
-
+.. image:: ../img/pd-2.png
+    :align: center
+    :alt: Dashboard 2
  
 
 Next, you’ll see the following screen:
 
 
-
+.. image:: ../img/pd-3.png
+    :align: center
+    :alt: Dashboard 2
  
 
-In the Product Group ID field you enter the GUID associated with the devices you want to bind ownership to. This could be a batch of chips, for example, identified by a unique alpha-numeric string.  
-Note: If you have access to a demonstration account you can use one of the dummy reels to test functionality.
+In the Product Group ID field you enter the GUID associated with the devices you want to bind ownership to. This could be a batch of chips, for example, identified by a unique alpha-numeric string. 
+
+.. note:: If you have access to a demonstration account you can use one of the dummy reels to test functionality.
+
 You can enter the GUID manually, by copying and pasting the GUID, or by using a barcode scanner attached to your PC.
-Because you will be downloading the Manifest File to manually upload it to your Product Cloud you need to leave the Product Cloud API field blank. Simply click Add to complete the binding process.
+
+Because you will be downloading the Manifest File to manually upload it to your Product Cloud you need to leave the Product Cloud API field blank. Simply click **Add** to complete the binding process.
+
 You should now see the group of devices listed in your list of Infineon devices:
 
+.. image:: ../img/pd-4.png
+    :align: center
+    :alt: Dashboard 2
  
 
 You will see a counter reflecting the number of registered devices, indicating the number of devices contained in that Group Product ID.
+
+
 Binding using a mobile browser
+"""""""""""""""""""""""""""""""
 
 CIRRENT™ Cloud ID offers a simplified mobile experience to speed up device registration in certain use cases – the factory floor, for example. To start the process of binding devices using a mobile device, simply navigate to the CIRRENT™ Cloud ID section in the CIRRENT™ Cloud.
+
 This will automatically display the following prompt:
+
+.. image:: ../img/pd-5.png
+    :align: center
+    :alt: Dashboard 2
  
-To bind ownership, simply enter the Product Group ID number. Because you will be downloading the Manifest File to manually upload it to your Product Cloud you need to leave the Product Cloud API field. Click Add to complete the binding process.
-Note: To ensure a simplified onboarding experience the Cloud ID mobile browsing experience is restricted and users can only register devices using a mobile device. Please switch to a desktop device for further device management features, as well as API management features.
+To bind ownership, simply enter the Product Group ID number. Because you will be downloading the Manifest File to manually upload it to your Product Cloud you need to leave the Product Cloud API field. Click **Add** to complete the binding process.
+
+.. note:: To ensure a simplified onboarding experience the Cloud ID mobile browsing experience is restricted and users can only register devices using a mobile device. Please switch to a desktop device for further device management features, as well as API management features.
 
 
 Binding using a mobile device and QR code
+""""""""""""""""""""""""""""""""""""""""""
 
 Some Cloud ID compatible devices will come in a container carrying a QR code. Cloud ID offers a one-step onboarding process for devices shipped with a QR code.
+
 To bind devices that are identified with a QR code, simply scan the QR code with a QR-capable app. The QR code contains a link that automatically directs you to the cloud ID website, and which also automatically populates the Product Group ID field:
+
+.. image:: ../img/pd-6.png
+    :align: center
+    :alt: Dashboard 2
  
 
 Because you will be downloading the Manifest File to manually upload it to your Product Cloud you need to leave the Product Cloud API field blank. Simply click Add to confirm the binding step.
 
 Downloading the Manifest File in CIRRENT™ Console
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Now that you have completed the binding step in CIRRENT™ Cloud ID you can proceed to download the Manifest File containing the device certificates. To do so, click on the download button next to the entry for the list of device you’d like to import into your Product Cloud:
+
+.. image:: ../img/pd-7.png
+    :align: center
+    :alt: Dashboard 2
  
 Clicking the download button will automatically trigger the download of an .csv file. This csv file contains three data fields:
-•	device_id: containing the unique device ID for an individual device
-•	group_id: the Group Product ID the device is associated with
-•	certificate: the full device security certificate
+
+* **device_id:** containing the unique device ID for an individual device
+* **group_id:** the Group Product ID the device is associated with
+* **certificate:** the full device security certificate
+
 As a final step, you need to ingest the .csv Manifest File into your product cloud by using an import tool appropriate for your environment.
-Note: Only users with an administrator role are able to download Manifest Files.
+
+.. note:: Only users with an administrator role are able to download Manifest Files.
 
 
 Provisioning devices via a Product Cloud API
+*********************************************
 
 In the previous section we described how you can use a Manifest File to extract device certificates, which you needed to import into your Product Cloud to complete onboarding.
+
 In this section we outline how you can use an API that connects to your cloud service - including AWS, Azure, or your custom cloud – to inject device certificates into your Product Cloud when you bind a group of devices to your Cloud ID account. Broadly speaking, the workflow is as follows:
+
 1.	Device ships with built-in Device Certificate prepopulated in CIRRENT™ Cloud ID service
 2.	Log onto the CIRRENT™ Console and set up the automation to provision your reels into Product Cloud
 3.	Use any smartphone to scan the QR Code on the reel and bind ownership 
 4.	CIRRENT™ Cloud ID service pushes the certificates into Product Cloud with a Cloud to Cloud API
 5.	Chain of trust is established between the device and the Product Cloud.  All ongoing communications is directly between the device and the Product Cloud
  
-Provisioning devices to your Product Cloud using an API
-You have two options to inject device certificates into your Product Cloud:
-•	Automatic. Choose a default cloud API to automatically accept device certificates as soon as you bind a group ID to your account. Cloud ID will automatically provision devices into your cloud API as soon as you activate a Group ID.
+.. figure:: ../img/pd-8.png
 
-•	Manual. Once you’ve activated a Group ID you can instead choose to manually provision groups of devices to a Product Cloud using a cloud API of your choice. You can also trigger the provisioning action multiple times in order to provision groups of devices into multiple Product Clouds.
+	Provisioning devices to your Product Cloud using an API
+
+
+You have two options to inject device certificates into your Product Cloud:
+
+* **Automatic.** Choose a default cloud API to automatically accept device certificates as soon as you bind a group ID to your account. Cloud ID will automatically provision devices into your cloud API as soon as you activate a Group ID.
+
+* **Manual.** Once you’ve activated a Group ID you can instead choose to manually provision groups of devices to a Product Cloud using a cloud API of your choice. You can also trigger the provisioning action multiple times in order to provision groups of devices into multiple Product Clouds.
+
 Your unique manufacturing workflow will determine whether automated or manual API-driven provisioning is your best choice.
+
 Configuring a cloud API
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In order to provision devices using an API you need to first set up a link to your Product Cloud by configuring a cloud API in CIRRENT™ Console.
-To configure your first cloud API with Cloud ID, navigate to Device Management and Cloud ID. Select the Product Cloud APIs tab, and click on Add Cloud API. You’ll be presented with a dialog box where you need to complete your Product Cloud API details.
 
- 
+To configure your first cloud API with Cloud ID, navigate to **Device Management** and **Cloud ID**. Select the **Product Cloud APIs** tab, and click on **Add Cloud API**. You’ll be presented with a dialog box where you need to complete your Product Cloud API details.
+
+.. image:: ../img/pd-9.png
+    :align: center
+    :alt: Dashboard 2
 
 •	Name: This is the name of your Product Cloud that will appear in CIRRENT™ Cloud ID. This name will help you identify which Product Cloud you are provisioning a device into when you set up automated provisioning – or when you manually provision a device.
 
