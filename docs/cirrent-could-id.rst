@@ -91,3 +91,4 @@ CIRRENT™ Cloud ID
    :hidden:
 
    /cid/getting-started-with-cloud-id
+   /cid/provisioning-devices-with-cloud-id
