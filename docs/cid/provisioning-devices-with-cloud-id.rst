@@ -1,24 +1,33 @@
 Provisioning devices with Cloud ID
+===================================
 
 CIRRENT™ Cloud ID helps you to ensure that only authorized devices get access to your Product Cloud. It does so by facilitating a secure device registration process. The exacts steps involved in the registration process depends on your product workflow. However, broadly speaking, the onboarding process involves two key stages:
-Stage One: Binding devices to your Cloud ID account
+
+**Stage One: Binding devices to your Cloud ID account**
+
 You inform CIRRENT™ Cloud ID that a device or group of devices should be granted access to your Product Cloud. Cloud ID authenticates the devices, ensuring that only authentic devices are permitted to enter your Product Cloud.
-Stage Two: Provisioning devices into your Product Cloud
+
+**Stage Two: Provisioning devices into your Product Cloud**
+
 CIRRENT™ Cloud ID uses an API to communicate to your Product Cloud that a device or group of devices have been authenticated ant that your Product Cloud should allow communications with these devices. If you do not want to or cannot set up an API link to your Product Cloud you can, as an alternative, manually download the device certificates and inject these into your Product Cloud.
 
 Provisioning devices via a Manifest File
+*****************************************
 
 You have the option to manually onboard devices by obtaining a Manifest File containing certificates from CIRRENT™ Cloud ID and uploading the Manifest File to your Product Cloud. 
+
 A Manifest File is a list of Device Certificates that can be used to manually provision devices into the Product Cloud.  This use case is currently implemented in Cloud ID through downloading a CSV file and subsequently uploading the CSV file into your Product Cloud.  
 
 The workflow is as follows: 
+
 1.	Device ships with a built-in Device Certificate prepopulated in CIRRENT™ Cloud ID service
 2.	Use any smartphone to scan the QR Code on the reel and bind ownership.
 3.	Log onto the CIRRENT™ Console and download the Manifest File
 4.	Upload the Manifest File into the Product Cloud
 5.	Chain of Trust is established between the Product and the Product Cloud.  All ongoing communications is direct between Host & Product Company Cloud
  
-Provisioning devices using a Manifest File
+.. figure:: ../img/pd-1.png
+	Provisioning devices using a Manifest File
 
 We will now outline the steps you need to take to complete the above workflow. There are two stages to this process. First, you need to bind ownership of the devices, adding the devices to your CIRRENT™ Cloud ID account. Next, you need to download the Manifest File containing the device certificates and upload these certificates into your API.
 
