@@ -92,3 +92,5 @@ CIRRENT™ Cloud ID
 
    /cid/getting-started-with-cloud-id
    /cid/provisioning-devices-with-cloud-id
+   /cid/cirrent-console-for-cloud-id
+   /cid/quick-start-cloud-id-virtual-dev-kit
