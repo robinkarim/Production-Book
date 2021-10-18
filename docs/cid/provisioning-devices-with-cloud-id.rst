@@ -11,15 +11,12 @@ You inform CIRRENT™ Cloud ID that a device or batch of devices should be grant
 
 CIRRENT™ Cloud ID uses an API to communicate to your Product Cloud that a device or batch of devices have been authenticated and that your Product Cloud should allow communications with these devices. If you do not want to or cannot set up an API link to your Product Cloud you can, as an alternative, manually download the device certificates and inject these into your Product Cloud.
 
-We will separately look at the two routes – provisioning via Manifest File, and provisioning via API.
+We will now separately look at the two routes – provisioning via Manifest File, and provisioning via API.
 
 Provisioning devices via a Manifest File
 *****************************************
 
-
-You have the option to manually onboard devices by obtaining a Manifest File containing certificates from CIRRENT™ Cloud ID and uploading the Manifest File to your Product Cloud. 
-
-A Manifest File is a list of Device Certificates that can be used to manually provision devices into the Product Cloud.  This use case is currently implemented in Cloud ID through downloading a CSV file and subsequently uploading the CSV file into your Product Cloud.  
+You have the option to manually onboard devices by obtaining a Manifest File containing certificates from CIRRENT™ Cloud ID and uploading the Manifest File to your Product Cloud. A Manifest File is a list of Device Certificates that can be used to manually provision devices into the Product Cloud.  This use case is currently implemented in Cloud ID through downloading a CSV file and subsequently uploading the CSV file into your Product Cloud.  
 
 The workflow is as follows: 
 
@@ -160,10 +157,10 @@ ABCDEFGHIJK Tahir, please insert the image for Amazon Web Service Here - please 
 
 Next, configure the fields as follows:
 
-* Account ID. This is your Amazon Web Services account identifier.
-* API Gateway ID. Here, enter the API gateway ID you have set up.
-* Region. Select the AWS region your AWS service operates in.
-* Stage. Provide the name of the stage in your deployment that you want to use for this API link.
+* **Account ID**. This is your Amazon Web Services account identifier.
+* **API Gateway ID**. Here, enter the API gateway ID you have set up.
+* **Region**. Select the AWS region your AWS service operates in.
+* **Stage**. Provide the name of the stage in your deployment that you want to use for this API link.
 
 You have now added your AWS-based Product Cloud to CIRRENT™ Cloud ID and can now provision devices binded to your Cloud ID account directly into your Product Cloud.
 
