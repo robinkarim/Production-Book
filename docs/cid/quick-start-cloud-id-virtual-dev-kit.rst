@@ -1,6 +1,8 @@
 Quick Start: Cloud ID Virtual Dev Kit
 ======================================
 
+**note this is currently the older version of the developer kit - will be replaced shortly**
+
 Do you want to take Cloud ID for a test run? This set of instruction will help you get up and running with Cloud ID and show you just how easy it is to provision your devices with Cloud ID.
 
 To start, first register an account with Infineon’s CIRRENT™ division. You can do so by visiting https://cirrent.infineon.com/. Simply select **Create a new account**, and follow the steps to complete the account creation process. You can then log in using your new credentials, which will present you with this screen:
