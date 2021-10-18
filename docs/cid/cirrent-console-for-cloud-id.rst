@@ -13,10 +13,10 @@ There are two CIRRENT™ Console roles that pertain to Cloud ID users:
 **Administrator**: An administrator can perform all the actions of a Cloud ID user. The administrator role is required to download Manifest Files, to configure APIs and to trigger device provisioning into the API if needed. This is a back-office task that involves advanced Cloud ID skills and access to cloud infrastructure.  
 
 
-User roles for Cloud ID
+Creating a user
 ************************
 
-Users with the administrator role can create new users and assign either the Cloud ID user role or the Administrator role to that user. To add a user, simply navigate to Account Settings and Users. Click Add User to open the Create User dialog box and complete the requested fields – selecting the correct user role.
+Users with the administrator role can create new users and assign either the Cloud ID user role or the Administrator role to that user. To add a user, simply navigate to **Account Settings** and **Users**. Click **Add User** to open the **Create User** dialog box and complete the requested fields – selecting the correct user role.
  
 ABCDEFGHIJKL Tahir, kindly insert image on Creating a User as in draft 4 - 15 10 2021 document. ABCDEFGHIJKL
 
