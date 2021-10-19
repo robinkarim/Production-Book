@@ -681,6 +681,10 @@ ul li p {
 	margin-bottom: 0 !important;
 }
 
+.upperalpha li {
+	list-style: upper-alpha !important; 
+}
+
 
 @media (min-width: 1024px) {
     .socialbar-footer .social-popup.wechat {
