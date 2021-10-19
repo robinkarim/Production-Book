@@ -62,9 +62,7 @@ Cloud-ID compatible devices must first be associated with a Cloud ID account bef
 
 A.  Open a QR code-capable camera app on your phone.
 
-B.  Using your camera app or QR code scanner, scan one of the sample QR codes we provide at the end of this document. 
-
-    The QR code contains both a URL and a Product Batch ID (BID). Scanning the code automatically sends you to the URL for the CIRRENT™ Console, and directly to the device binding page, pre-populated with the BID.
+B.  Using your camera app or QR code scanner, scan one of the sample QR codes we provide at the end of this document. The QR code contains both a URL and a Product Batch ID (BID). Scanning the code automatically sends you to the URL for the CIRRENT™ Console, and directly to the device binding page, pre-populated with the BID.
 
 C.  Log in using the credentials you configured in Step 1.   
 
