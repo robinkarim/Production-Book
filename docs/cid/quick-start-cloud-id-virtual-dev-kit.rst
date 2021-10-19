@@ -158,7 +158,7 @@ By scanning this QR code you’ve now binded your devices with CIRRENT™ Cloud 
 
 **> Complete these steps using a PC and browser**
 
-A.  Navigate to **Device Management** and **Cloud ID**. You can also directly access the page with this URL: https://cirrent.infineon.com/cloud-id/infineon-devices
+A.  Navigate to **Device Management** and **Cloud ID**. You can also directly access the page with this URL: https://cirrent.infineon.com/cloud-devices/infineon-devices
 
 B.  Verify that on the **Infineon Devices** tab, your additional batch of devices is now listed.
 
