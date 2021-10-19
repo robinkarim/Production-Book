@@ -168,17 +168,17 @@ Step five illustrates the one-step process by which an authorized delegate that 
 Virtual Reels
 **************
 
-========   ===========   ============================   ==========
-Reel #     GUID          # of Certificates in Reel      QR Code
-========   ===========   ============================   ==========
-1          D001          2   
-2          D002          2   
-3          D003          2   
-4          D004          2   
-5          D005          2   
-6          D006          5   
-7          D007          5   
-8          D008          5   
-9          D009          10  
-10         D010          10  
-========   ===========   ============================   ==========
+========   ===========   ============================   ===================================================    ============================================
+Reel #     GUID          # of Certificates in Reel                                                             QR Code
+========   ===========   ============================   ===================================================    ============================================
+1          D001          2                              https://cirrent.infineon.com/cloud-id?groupId=D001     .. image:: ../img/qr-1.png
+2          D002          2                              https://cirrent.infineon.com/cloud-id?groupId=D002     .. image:: ../img/qr-2.png
+3          D003          2                              https://cirrent.infineon.com/cloud-id?groupId=D003     .. image:: ../img/qr-3.png
+4          D004          2                              https://cirrent.infineon.com/cloud-id?groupId=D004     .. image:: ../img/qr-4.png
+5          D005          2                              https://cirrent.infineon.com/cloud-id?groupId=D005     .. image:: ../img/qr-5.png
+6          D006          5                              https://cirrent.infineon.com/cloud-id?groupId=D006     .. image:: ../img/qr-6.png
+7          D007          5                              https://cirrent.infineon.com/cloud-id?groupId=D007     .. image:: ../img/qr-7.png
+8          D008          5                              https://cirrent.infineon.com/cloud-id?groupId=D008     .. image:: ../img/qr-8.png
+9          D009          10                             https://cirrent.infineon.com/cloud-id?groupId=D009     .. image:: ../img/qr-9.png
+10         D010          10                             https://cirrent.infineon.com/cloud-id?groupId=D0010    .. image:: ../img/qr-10.png
+========   ===========   ============================   ===================================================    ============================================
