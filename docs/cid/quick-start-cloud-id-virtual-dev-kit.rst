@@ -59,6 +59,7 @@ Cloud-ID compatible devices must first be associated with a Cloud ID account bef
 
 **> Complete these steps using a mobile phone**
 
+
 A.  Open a QR code-capable camera app on your phone.
 
 B.  Using your camera app or QR code scanner, scan one of the sample QR codes we provide at the end of this document. 
