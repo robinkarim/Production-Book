@@ -180,25 +180,13 @@ You can now proceed to complete the necessary fields.
 
 * **Name**: This is the name of your Product Cloud that will appear in CIRRENT™ Cloud ID. This name will help you identify which Product Cloud you are provisioning a device into when you set up automated provisioning – or when you manually provision a device.
 
-* **Type**: To speed up configuration, choose the relevant cloud service you are configuring – including Azure, AWS or your private cloud.
+* **Type**: To speed up configuration, choose the relevant cloud service you are configuring – including Azure, or your private cloud.
 
 * **Credentials**: The username and password combination that you have set up to allow CIRRENT™ Cloud ID to communicate with your product cloud. Simply enter the combination as username:password, for example: johndoe:abcxyz123
 
 * **URL**: This is the web address of your Product Cloud.
 
 You have now added your Product Cloud to CIRRENT™ Cloud ID and can now provision devices binded to your Cloud ID account directly into your Product Cloud.
-
-
-
-* **Name:** This is the name of your Product Cloud that will appear in CIRRENT™ Cloud ID. This name will help you identify which Product Cloud you are provisioning a device into when you set up automated provisioning – or when you manually provision a device.
-
-* **Type:** To speed up configuration, choose the relevant cloud service you are configuring – including Azure, AWS or your private cloud.
-
-* **Credentials:** The username and password combination that you have set up to allow CIRRENT™ Cloud ID to communicate with your product cloud. Simply enter the combination as username:password, for example: johndoe:abcxyz123
-
-* **URL:** this is the web address of your Product Cloud.
-
-You have now added your Product Cloud to CIRRENT™ Cloud ID and can now provision devices registered with Cloud ID directly into your product cloud.
 
 Binding and provisioning devices
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
