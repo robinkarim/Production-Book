@@ -17,8 +17,10 @@ Creating a user
 ************************
 
 Users with the administrator role can create new users and assign either the Cloud ID user role or the Administrator role to that user. To add a user, simply navigate to **Account Settings** and **Users**. Click **Add User** to open the **Create User** dialog box and complete the requested fields – selecting the correct user role.
- 
-ABCDEFGHIJKL Tahir, kindly insert image on Creating a User as in draft 4 - 15 10 2021 document. ABCDEFGHIJKL
+
+.. image:: ../img/create-user.png
+    :align: center
+    :alt: Dashboard 2
 
 Administrators can also manage users in the User Management panel, including assigning different roles to users and removing users.
 

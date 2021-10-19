@@ -153,7 +153,9 @@ To configure your first cloud API with Cloud ID, navigate to **Device Management
 
 Cloud ID has specific steps for Cloud ID users that rely on Amazon Web Services for their Product Cloud. In setting up your Product Cloud API, ensure that you select AWS in the Create Cloud API dialog box:
  
-ABCDEFGHIJK Tahir, please insert the image for Amazon Web Service Here - please refer to draft 4 15 10 2021 document for this image. ABCDEFGHIJK
+.. image:: ../img/amazon.png
+    :align: center
+    :alt: Dashboard 2
 
 Next, configure the fields as follows:
 
@@ -168,9 +170,7 @@ You have now added your AWS-based Product Cloud to CIRRENT™ Cloud ID and can n
 
 First, select the Other option to start configuring your Cloud API, as below:
 
-ABCDEFGHIJK Tahir, please replace this image  please refer to draft 4 15 10 2021 document for this image. ABCDEFGHIJK
-
-.. image:: ../img/pd-9.png
+.. image:: ../img/cloudapi.png
     :align: center
     :alt: Dashboard 2
 
