@@ -181,5 +181,5 @@ Reel #     GUID          # of Certificates in Reel                              
 7          D007          5                              https://cirrent.infineon.com/cloud-id?groupId=D007     .. image:: ../img/QR_D007.png
 8          D008          5                              https://cirrent.infineon.com/cloud-id?groupId=D008     .. image:: ../img/QR_D008.png
 9          D009          10                             https://cirrent.infineon.com/cloud-id?groupId=D009     .. image:: ../img/QR_D009.png
-10         D010          10                             https://cirrent.infineon.com/cloud-id?groupId=D0010    .. image:: ../img/QR_D0010.png
+10         D010          10                             https://cirrent.infineon.com/cloud-id?groupId=D0010    .. image:: ../img/QR_D010.png
 ========   ===========   ============================   ===================================================    ============================================
