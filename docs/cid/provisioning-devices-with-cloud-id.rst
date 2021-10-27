@@ -63,7 +63,7 @@ In the Product Batch ID field you enter the BID associated with the devices you 
 
 .. note:: You can use one of the dummy reels to test functionality.
 
-You can enter the BID manually, by copying and pasting the BID, or by using for QR code scanner on a mobile phone. Since you will be downloading the Manifest File to manually upload it to your Product Cloud you need to leave the Product Cloud API field blank. Simply click **Add** to complete the binding process. You should now see the batch of devices listed in your list of binded devices:
+You can enter the BID manually, by copying and pasting the BID, or by using for QR code scanner on a mobile phone. Since you will be downloading the Manifest File to manually upload it to your Product Cloud you need to leave the Product Cloud API field blank. Simply click **Add** to complete the binding process. You should now see the batch of devices listed in your list of bound devices:
 
 ABCDEFGHIJKLMON Tahir - please replace with image #A02
 
@@ -96,7 +96,7 @@ To bind ownership, simply enter the Product Batch ID number. Click **Add** to co
 Binding using a mobile device and QR code
 """"""""""""""""""""""""""""""""""""""""""
 
-Some Cloud ID compatible devices will come in a container carrying a QR code. Cloud ID offers a one-step onboarding process for devices shipped with a QR code.
+Some Cloud ID-compatible devices will come in a container carrying a QR code. Cloud ID offers a one-step onboarding process for devices shipped with a QR code.
 To bind devices that are identified with a QR code, simply scan the QR code with a QR-capable app. The QR code contains a link that automatically directs you to the Cloud ID website, and which also automatically populates the Product Batch ID field. 
 
 ABCDEFGHIJKLMON Tahir - please replace with image #A04
