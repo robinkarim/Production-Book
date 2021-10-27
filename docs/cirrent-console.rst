@@ -43,6 +43,8 @@ Each user in an account can be assigned one or more roles. The roles available t
 
 * **Operations role:** allows a user to add Device Types and Devices to an account
 
+* **Cloud ID role:** a role specific to CIRRENT™ Cloud ID customers, enables the user to bind compatible devices to their Cloud ID account
+
 * **Administrator role:** includes the ability to create or delete users, create and delete API keys
 
 
