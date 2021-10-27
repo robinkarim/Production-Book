@@ -192,7 +192,7 @@ Virtual Reels
 **************
 
 ========   ===========   ============================   ===================================================    ============================================
-Reel #     GUID          # of Certificates in Reel                                                             QR Code
+Reel #     BID           # of Certificates in Reel                                                             QR Code
 ========   ===========   ============================   ===================================================    ============================================
 1          D001          2                              https://cirrent.infineon.com/cloud-id?groupId=D001     .. image:: ../img/QR_D001.png
 2          D002          2                              https://cirrent.infineon.com/cloud-id?groupId=D002     .. image:: ../img/QR_D002.png
