@@ -9,9 +9,9 @@ Integrating Cloud ID into your manufacturing process
 
 You have several options when it comes to ensuring that only genuine, authorized devices gain access to your Product Cloud. CIRRENT™ Cloud ID is a solution that provides a practical, affordable, secure route to ensuring device authentication.
 
-To integrate Cloud ID into your manufacturing process you need to ensure that your devices include a Cloud ID-compatible chip. During the manufacturing process, you install Cloud ID-compatible chips into your devices to enable device authentication via Cloud ID. When you receive a batch of chips and when these chips are ready for installation, you or your contract manufacturer simply needs to scan a QR code, or manually enter the Product Batch ID into CIRRENT™ Console, to “bind” the devices with CIRRENT™ Cloud ID. 
+To integrate Cloud ID into your manufacturing process you need to ensure that your devices include a Cloud ID-compatible chip. During the manufacturing process, you install Cloud ID-compatible chips into your devices to enable device authentication via Cloud ID. When you receive a batch of chips and when these chips are ready for installation, you or your contract manufacturer simply needs to scan a QR code, or manually enter the Product Batch ID into CIRRENT™ Console to “bind” the devices with CIRRENT™ Cloud ID. 
 
-Exactly what happens after binding a device depends on how you configure your CIRRENT™ Cloud ID solution, but the net result is that Cloud ID informs your Product Cloud that a batch of devices has been binded and that these devices should be allowed to communicate with the Product Cloud. The Cloud ID process ensures that only genuine, authorized devices are allowed to communicate with your Product Cloud.
+Exactly what happens after binding a device depends on how you configure your CIRRENT™ Cloud ID solution, but the net result is that Cloud ID informs your Product Cloud that a batch of devices were bound to your account and that these devices should be allowed to communicate with the Product Cloud. The Cloud ID process ensures that only genuine, authorized devices are allowed to communicate with your Product Cloud.
 
 
 Integrating Cloud ID with your Product Cloud
@@ -29,6 +29,9 @@ Steps to configuring your Product Cloud API to accept data from CIRRENT™ Cloud
 
 Key Cloud ID terms
 *****************************************************
+
+ABCDEFGHIJKLMON Tahir - please make Key Cloud ID terms a seperate page
+
 
 **Binding**
 
