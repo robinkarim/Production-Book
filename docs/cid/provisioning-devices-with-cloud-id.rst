@@ -1,7 +1,7 @@
 Provisioning devices with Cloud ID
 ===================================
 
-CIRRENT™ Cloud ID helps you to ensure that only authorized devices get access to your Product Cloud. It does so by facilitating a secure device provisioning process. The exact steps involved in the provisioning process depend on your product workflow. However, broadly speaking, the onboarding process involves two key stages:
+CIRRENT™ Cloud ID ensures that only authorized devices get access to your Product Cloud. It does so by facilitating a secure device provisioning process. The exact steps involved in the provisioning process depend on your product workflow. However, broadly speaking, the onboarding process involves two key stages:
 
 **Stage One: Binding devices to your Cloud ID account**
 
@@ -42,7 +42,9 @@ Your Cloud ID-compatible devices come pre-installed with a device certificate, b
 
 Binding using a desktop browser
 """""""""""""""""""""""""""""""""
-If you’re using a desktop browser you can bind devices by navigating to **Device Management** and to **Cloud ID**. The default Cloud ID panel displays the batches of devices you have already onboarded. To add a new batch of devices click on the **Add Infineon Devices** button.
+If you’re using a desktop browser you can bind devices by navigating to **Device Management** and to **Cloud ID**. The default Cloud ID panel displays the batches of devices you have already onboarded. To add a new batch of devices, click on the **Add Infineon Devices** button.
+
+ABCDEFGHIJKLMON Tahir - please replace with image #A01
 
 .. image:: ../img/pd-2.png
     :align: center
@@ -61,14 +63,16 @@ In the Product Batch ID field you enter the BID associated with the devices you 
 
 .. note:: You can use one of the dummy reels to test functionality.
 
-You can enter the BID manually, by copying and pasting the BID, or by using a barcode scanner attached to your PC. Since you will be downloading the Manifest File to manually upload it to your Product Cloud you need to leave the Product Cloud API field blank. Simply click Add to complete the binding process. You should now see the batch of devices listed in your list of Infineon devices. You should now see the batch of devices listed in your list of Infineon devices:
+You can enter the BID manually, by copying and pasting the BID, or by using for QR code scanner on a mobile phone. Since you will be downloading the Manifest File to manually upload it to your Product Cloud you need to leave the Product Cloud API field blank. Simply click **Add** to complete the binding process. You should now see the batch of devices listed in your list of binded devices:
+
+ABCDEFGHIJKLMON Tahir - please replace with image #A02
 
 .. image:: ../img/pd-4.png
     :align: center
     :alt: Dashboard 2
  
 
-You will see a counter reflecting the number of binded devices, indicating the number of devices contained in that Product Batch ID.
+You will see a counter reflecting the number of bound devices, indicating the number of devices contained in that Product Batch ID.
 
 
 Binding using a mobile browser
@@ -76,26 +80,32 @@ Binding using a mobile browser
 
 CIRRENT™ Cloud ID offers a simplified mobile experience to speed up device provisioning in certain use cases – the factory floor, for example. To start the process of binding devices using a mobile device, simply navigate to the CIRRENT™ Cloud ID section in the CIRRENT™ Cloud. This will automatically display the following prompt:
 
+ABCDEFGHIJKLMON Tahir - please replace with image #A03
+
 .. image:: ../img/pd-5.png
     :align: center
     :alt: Dashboard 2
  
-To bind ownership, simply enter the Product Batch ID number. Because you will be downloading the Manifest File to manually upload it to your Product Cloud you need to leave the Product Cloud API field blank. Click Add to complete the binding process.
+To bind ownership, simply enter the Product Batch ID number. Click **Add** to complete the binding process.
 
 .. note:: To ensure a simplified onboarding experience the Cloud ID mobile browsing experience is restricted and users can only bind devices using a mobile device. Please switch to a desktop device for further device management features, as well as API management features.
+
+.. note:: If you are an administrator-level user you will also be presented with the option to choose a Product Cloud API when binding devices. If you are downloading the Manifest File to manually upload it to your Product Cloud you need to leave the Product Cloud API field blank
 
 
 Binding using a mobile device and QR code
 """"""""""""""""""""""""""""""""""""""""""
 
 Some Cloud ID compatible devices will come in a container carrying a QR code. Cloud ID offers a one-step onboarding process for devices shipped with a QR code.
-To bind devices that are identified with a QR code, simply scan the QR code with a QR-capable app. The QR code contains a link that automatically directs you to the Cloud ID website, and which also automatically populates the Product Batch ID field:
+To bind devices that are identified with a QR code, simply scan the QR code with a QR-capable app. The QR code contains a link that automatically directs you to the Cloud ID website, and which also automatically populates the Product Batch ID field. 
+
+ABCDEFGHIJKLMON Tahir - please replace with image #A04
 
 .. image:: ../img/pd-6.png
     :align: center
     :alt: Dashboard 2
  
-Because you will be downloading the Manifest File to manually upload it to your Product Cloud you need to leave the Product Cloud API field blank. Simply click Add to confirm the binding step.
+ Simply click **Add** to confirm the binding step.
 
 Downloading the Manifest File in CIRRENT™ Console
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -114,7 +124,7 @@ Clicking the download button will automatically trigger the download of an .csv 
 
 As a final step, you need to ingest the .csv Manifest File into your Product Cloud by using an import tool appropriate for your environment.
 
-.. note:: Only users with an administrator role are able to download Manifest Files.
+.. note:: Only users with an administrator role can download Manifest Files.
 
 
 Provisioning devices via a Product Cloud API
@@ -137,17 +147,20 @@ In this section, we outline how you can use an API that connects to your Product
 
 You have two options to inject device certificates into your Product Cloud:
 
-* **Automatic.** Choose a default cloud API to automatically accept device certificates as soon as you bind a Batch ID to your account. Cloud ID will automatically provision devices into your cloud API as soon as you activate a Batch ID.
+* **Automatic.** Choose a default cloud API to automatically accept device certificates as soon as you bind a Batch ID to your account. Cloud ID will automatically provision devices into your cloud API as soon as you activate a Product Batch ID.
 
-* **Manual.** Once you’ve activated a Batch ID you can instead choose to manually provision batches of devices to a Product Cloud using a cloud API of your choice. You can also trigger the provisioning action multiple times in order to provision batches of devices into multiple Product Clouds.
+* **Manual.** Once you’ve activated a Product Batch ID you can instead choose to manually provision batches of devices to a Product Cloud using a cloud API of your choice. You can also trigger the provisioning action multiple times to provision batches of devices into multiple Product Clouds.
 
 Your unique manufacturing workflow will determine whether automated or manual API-driven provisioning is your best choice.
 
 Configuring a cloud API
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In order to provision devices using an API you need to first set up a link to your Product Cloud by configuring a cloud API in the CIRRENT™ Console.
-To configure your first cloud API with Cloud ID, navigate to **Device Management** and **Cloud ID**. Select the **Product Cloud APIs** tab, and click on **Add Cloud API**. You’ll be presented with a dialog box where you need to complete your Product Cloud API details.
+To provision devices using an API you need to first set up a link to your Product Cloud by configuring a cloud API in the CIRRENT™ Console. To configure your first cloud API with Cloud ID, navigate to **Device Management** and **Cloud ID**. Select the **Provisioning** tab, and click on **Add Cloud API**. 
+
+ABCDEFGHIJKLMON Tahir - please insert image #A05
+
+You’ll be presented with a dialog box where you need to complete your Product Cloud API details.
 
 **Configuring Amazon Web Services**
 
@@ -164,11 +177,11 @@ Next, configure the fields as follows:
 * **Region**. Select the AWS region your AWS service operates in.
 * **Stage**. Provide the name of the stage in your deployment that you want to use for this API link.
 
-You have now added your AWS-based Product Cloud to CIRRENT™ Cloud ID and can now provision devices binded to your Cloud ID account directly into your Product Cloud.
+You have now added your AWS-based Product Cloud to CIRRENT™ Cloud ID and can now provision devices bound to your Cloud ID account directly into your Product Cloud.
 
 **Configuring other cloud APIs**
 
-First, select the Other option to start configuring your Cloud API, as below:
+First, select the **Other** option to start configuring your Cloud API, as below:
 
 .. image:: ../img/cloudapi.png
     :align: center
@@ -186,7 +199,7 @@ You can now proceed to complete the necessary fields.
 
 * **URL**: This is the web address of your Product Cloud.
 
-You have now added your Product Cloud to CIRRENT™ Cloud ID and can now provision devices binded to your Cloud ID account directly into your Product Cloud.
+You have now added your Product Cloud to CIRRENT™ Cloud ID and can now provision devices bound to your Cloud ID account directly into your Product Cloud.
 
 Binding and provisioning devices
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -197,6 +210,8 @@ Binding and provisioning using a desktop browser
 """""""""""""""""""""""""""""""""""""""""""""""""
 
 To bind and provision devices using a desktop browser, navigate to **Device Management** and to **Cloud ID**. The default Cloud ID panel displays the batches of devices you have already onboarded. To add a new batch of devices click on the **Add Infineon Devices** button.
+
+ABCDEFGHIJKLMON Tahir - please replace with image #A01
 
 .. image:: ../img/pd-10.png
     :align: center
@@ -214,18 +229,23 @@ In the Product Batch ID field you enter the BID associated with the devices you 
 
 .. note:: You can use one of the dummy reels to test functionality.
 
-You can enter the BID manually, by copying and pasting the BID, or by using a barcode scanner attached to your PC. Next, you need to specify the Product Cloud API into which you would like to provision the devices. Simply click Add to complete the provisioning process. You should now see the batch of devices listed in your list of Infineon devices:
+You can enter the BID manually, by copying and pasting the BID, or by using a QR code scanner. Next, you need to specify the Product Cloud API into which you would like to provision the devices. Simply click **Add** to complete the provisioning process. You should now see the batch of devices listed in your list of Infineon devices:
+
+ABCDEFGHIJKLMON Tahir - please replace with image #A06
+
 
 .. image:: ../img/pd-12.png
     :align: center
     :alt: Dashboard 2
 
-You will see a counter reflecting the number of binded devices and the number of provisioned devices, indicating the number of devices contained in that Product Batch ID.
+You will see a counter reflecting the number of bound devices and the number of provisioned devices, indicating the number of devices contained in that Product Batch ID.
 
 Binding and provisioning using a mobile browser
 """"""""""""""""""""""""""""""""""""""""""""""""
 
 CIRRENT™ Cloud ID offers a simplified mobile experience to speed up device provisioning in certain use cases – the factory floor, for example. To start the process of binding devices using a mobile device, simply navigate to the CIRRENT™ Cloud ID section in the CIRRENT™ Cloud. This will automatically display the following prompt:
+
+ABCDEFGHIJKLMON Tahir - please replace below with image #A03
 
 .. image:: ../img/pd-13.png
     :align: center
@@ -235,11 +255,15 @@ To bind ownership, simply enter the Product Batch ID number and choose the Produ
 
 .. note:: To ensure a simplified mobile device registration experience the Cloud ID mobile browsing experience is restricted and users can only bind devices using a mobile device. Please switch to a desktop device for further device management features, as well as API management features.
 
+.. note:: If you are an administrator-level user you will also be presented with the option to choose a Product Cloud API when binding devices. If you are downloading the Manifest File to manually upload it to your Product Cloud you need to leave the Product Cloud API field blank
+
 
 Binding and provisioning using a mobile device and QR code
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Some Cloud ID compatible devices will come in a container carrying a QR code. Cloud ID offers a one-step onboarding process for devices shipped with a QR code. To bind devices that are identified with a QR code, simply scan the QR code with a QR-capable app. The QR code contains a link that automatically directs you to the Cloud ID website, and which also automatically populates the Product Batch ID field:
+
+ABCDEFGHIJKLMON Tahir - please replace with image #A03
 
 .. image:: ../img/pd-14.png
     :align: center
@@ -251,9 +275,12 @@ Setting up a default cloud API to automatically receive device certificates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 For many manufacturing workflows the best way to provision devices is by automatically injecting the device certificates for authorized devices into your Product Cloud. 
-By default, you need to manually provision devices. You can, however, set up an automated workflow to ensure that any devices binded with Cloud ID are automatically provisioned into your Product Cloud. First, you need to enable the Automatically Provision Devices to Product Cloud feature. 
+By default, you need to manually provision devices. You can, however, set up an automated workflow to ensure that any devices bound in Cloud ID are automatically provisioned into your Product Cloud. First, you need to enable the Automatically Provision Devices to Product Cloud feature. 
 
-To do so, navigate to Device Management and to Cloud ID. Select the Product Cloud APIs tab. Look for the following toggle, which you need to switch to ON:
+To do so, navigate to Device Management and to Cloud ID. Select the **Provisioning** tab. Look for the **When devices are Bound, automatically Provision to Product Cloud** toggle, which you need to switch to ON:
+
+ABCDEFGHIJKLMON Tahir - please replace with image #A08
+
 
 .. image:: ../img/pd-15.png
     :align: center
