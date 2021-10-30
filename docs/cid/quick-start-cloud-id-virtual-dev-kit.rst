@@ -46,16 +46,12 @@ A.  Go to https://cirrent.infineon.com/login and click on **Login with Infineon 
 
 
 .. image:: ../img/v-1.png
-    :align: center
-    :alt: Dashboard 2
 
 
 B.  On the next screen, click **Register Now**.
 
 
 .. image:: ../img/v-2.png
-    :align: center
-    :alt: Dashboard 2
 
 
 C.  Complete your contact details, and click **Create Account**.
@@ -64,8 +60,6 @@ D.  Now, log in at https://cirrent.infineon.com/login using the credentials you 
 
 
 .. image:: ../img/v-3.png
-    :align: center
-    :alt: Dashboard 2
 
 
 E.  Give your account a name and click **Create**. Add any team members you’d like to include, and click **Add**.
@@ -74,8 +68,6 @@ F.  Now, try to find the Cloud ID section in the CIRRENT™ Console – navigate
 
 
 .. image:: ../img/v-4.png
-    :align: center
-    :alt: Dashboard 2
 
 
 2. Try to bind a batch of devices using a QR Code
@@ -91,8 +83,6 @@ A.	Open a QR code-capable camera app on your phone.
 B.  Using your camera app or QR code scanner, scan this sample QR code: 
 
 	.. image:: ../img/v-5.png
-	    :align: center
-	    :alt: Dashboard 2
 
     The QR code contains both a URL and a Product Batch ID (BID), in this case BID #D001. Scanning the code automatically sends you to the URL for the CIRRENT™ Console, and directly to the device binding page, pre-populated with the BID.
 
@@ -102,8 +92,6 @@ D.  Next, you will see a screen requesting a Product Batch ID. The Product Batch
 
 
 .. image:: ../img/v-6.png
-    :align: center
-    :alt: Dashboard 2
 
 
 E.  The system will provide you with an indication of success. 
@@ -129,8 +117,6 @@ PS: Now is also a good time to test downloading the Manifest File. For some use 
 
 
 .. image:: ../img/qsn-1.png
-    :align: center
-    :alt: Dashboard 2
 
 
 button to download the Manifest File in .csv format.
@@ -153,8 +139,6 @@ D.  Confirm that the API link you’ve just added appears in the Product Cloud A
 
 
 .. image:: ../img/v-7.png
-    :align: center
-    :alt: Dashboard 2
 
 
 You’ve now configured an API link to your Product Cloud and you’re ready to test provisioning devices directly into your Product Cloud. This is what you need to do to complete the provisioning step:
@@ -186,8 +170,6 @@ B.  Slide the **When devices are Bound, automatically Provision to Product Cloud
 
 
 .. image:: ../img/v-8.png
-    :align: center
-    :alt: Dashboard 2
 
 
 C.  Ensure the Product Cloud API you configured in Step 4 is selected in the **Product Cloud API** drop box.
@@ -202,8 +184,6 @@ B.  Using your camera app or QR code scanner, scan the second sample QR code, th
 
 
 .. image:: ../img/v-9.png
-    :align: center
-    :alt: Dashboard 2
 
 
 C.  Once the browser opens, log in and select your test account if prompted.
