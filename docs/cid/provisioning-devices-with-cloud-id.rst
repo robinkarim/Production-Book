@@ -44,9 +44,8 @@ Binding using a desktop browser
 """""""""""""""""""""""""""""""""
 If you’re using a desktop browser you can bind devices by navigating to **Device Management** and to **Cloud ID**. The default Cloud ID panel displays the batches of devices you have already onboarded. To add a new batch of devices, click on the **Add Infineon Devices** button.
 
-ABCDEFGHIJKLMON Tahir - please replace with image #A01
 
-.. image:: ../img/pd-2.png
+.. image:: ../img/pdn-1.png
     :align: center
     :alt: Dashboard 2
  
@@ -65,9 +64,8 @@ In the Product Batch ID field you enter the BID associated with the devices you 
 
 You can enter the BID manually, by copying and pasting the BID, or by using for QR code scanner on a mobile phone. Since you will be downloading the Manifest File to manually upload it to your Product Cloud you need to leave the Product Cloud API field blank. Simply click **Add** to complete the binding process. You should now see the batch of devices listed in your list of bound devices:
 
-ABCDEFGHIJKLMON Tahir - please replace with image #A02
 
-.. image:: ../img/pd-4.png
+.. image:: ../img/pdn-2.png
     :align: center
     :alt: Dashboard 2
  
@@ -80,9 +78,7 @@ Binding using a mobile browser
 
 CIRRENT™ Cloud ID offers a simplified mobile experience to speed up device provisioning in certain use cases – the factory floor, for example. To start the process of binding devices using a mobile device, simply navigate to the CIRRENT™ Cloud ID section in the CIRRENT™ Cloud. This will automatically display the following prompt:
 
-ABCDEFGHIJKLMON Tahir - please replace with image #A03
-
-.. image:: ../img/pd-5.png
+.. image:: ../img/pdn-3.png
     :align: center
     :alt: Dashboard 2
  
@@ -99,9 +95,7 @@ Binding using a mobile device and QR code
 Some Cloud ID-compatible devices will come in a container carrying a QR code. Cloud ID offers a one-step onboarding process for devices shipped with a QR code.
 To bind devices that are identified with a QR code, simply scan the QR code with a QR-capable app. The QR code contains a link that automatically directs you to the Cloud ID website, and which also automatically populates the Product Batch ID field. 
 
-ABCDEFGHIJKLMON Tahir - please replace with image #A04
-
-.. image:: ../img/pd-6.png
+.. image:: ../img/pdn-4.png
     :align: center
     :alt: Dashboard 2
  
@@ -158,7 +152,9 @@ Configuring a cloud API
 
 To provision devices using an API you need to first set up a link to your Product Cloud by configuring a cloud API in the CIRRENT™ Console. To configure your first cloud API with Cloud ID, navigate to **Device Management** and **Cloud ID**. Select the **Provisioning** tab, and click on **Add Cloud API**. 
 
-ABCDEFGHIJKLMON Tahir - please insert image #A05
+.. image:: ../img/pdn-5.png
+    :align: center
+    :alt: Dashboard 2
 
 You’ll be presented with a dialog box where you need to complete your Product Cloud API details.
 
@@ -211,9 +207,8 @@ Binding and provisioning using a desktop browser
 
 To bind and provision devices using a desktop browser, navigate to **Device Management** and to **Cloud ID**. The default Cloud ID panel displays the batches of devices you have already onboarded. To add a new batch of devices click on the **Add Infineon Devices** button.
 
-ABCDEFGHIJKLMON Tahir - please replace with image #A01
 
-.. image:: ../img/pd-10.png
+.. image:: ../img/pdn-1.png
     :align: center
     :alt: Dashboard 2
  
@@ -231,10 +226,8 @@ In the Product Batch ID field you enter the BID associated with the devices you 
 
 You can enter the BID manually, by copying and pasting the BID, or by using a QR code scanner. Next, you need to specify the Product Cloud API into which you would like to provision the devices. Simply click **Add** to complete the provisioning process. You should now see the batch of devices listed in your list of Infineon devices:
 
-ABCDEFGHIJKLMON Tahir - please replace with image #A06
 
-
-.. image:: ../img/pd-12.png
+.. image:: ../img/pdn-6.png
     :align: center
     :alt: Dashboard 2
 
@@ -245,9 +238,7 @@ Binding and provisioning using a mobile browser
 
 CIRRENT™ Cloud ID offers a simplified mobile experience to speed up device provisioning in certain use cases – the factory floor, for example. To start the process of binding devices using a mobile device, simply navigate to the CIRRENT™ Cloud ID section in the CIRRENT™ Cloud. This will automatically display the following prompt:
 
-ABCDEFGHIJKLMON Tahir - please replace below with image #A03
-
-.. image:: ../img/pd-13.png
+.. image:: ../img/pdn-3.png
     :align: center
     :alt: Dashboard 2
  
@@ -263,9 +254,7 @@ Binding and provisioning using a mobile device and QR code
 
 Some Cloud ID compatible devices will come in a container carrying a QR code. Cloud ID offers a one-step onboarding process for devices shipped with a QR code. To bind devices that are identified with a QR code, simply scan the QR code with a QR-capable app. The QR code contains a link that automatically directs you to the Cloud ID website, and which also automatically populates the Product Batch ID field:
 
-ABCDEFGHIJKLMON Tahir - please replace with image #A03
-
-.. image:: ../img/pd-14.png
+.. image:: ../img/pdn-3.png
     :align: center
     :alt: Dashboard 2
 
@@ -279,10 +268,8 @@ By default, you need to manually provision devices. You can, however, set up an 
 
 To do so, navigate to Device Management and to Cloud ID. Select the **Provisioning** tab. Look for the **When devices are Bound, automatically Provision to Product Cloud** toggle, which you need to switch to ON:
 
-ABCDEFGHIJKLMON Tahir - please replace with image #A08
 
-
-.. image:: ../img/pd-15.png
+.. image:: ../img/pdn-8.png
     :align: center
     :alt: Dashboard 2
 
