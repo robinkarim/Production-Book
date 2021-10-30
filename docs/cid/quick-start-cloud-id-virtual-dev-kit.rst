@@ -44,31 +44,39 @@ Cloud ID is a CIRRENT™ service that you access through the CIRRENT™ Console.
 
 A.  Go to https://cirrent.infineon.com/login and click on **Login with Infineon or create a new account**.
 
+
 .. image:: ../img/v-1.png
     :align: center
     :alt: Dashboard 2
 
+
 B.  On the next screen, click **Register Now**.
+
 
 .. image:: ../img/v-2.png
     :align: center
     :alt: Dashboard 2
 
+
 C.  Complete your contact details, and click **Create Account**.
 
 D.  Now, log in at https://cirrent.infineon.com/login using the credentials you set up in A. You will be prompted to select a Cloud ID account. Because you have just created an Infineon account you need to add a new Cloud ID account first. Click **Create Account**.
+
 
 .. image:: ../img/v-3.png
     :align: center
     :alt: Dashboard 2
 
+
 E.  Give your account a name and click **Create**. Add any team members you’d like to include, and click **Add**.
 
 F.  Now, try to find the Cloud ID section in the CIRRENT™ Console – navigate to **Device Management** and **Cloud ID**. You can also directly access the page with this URL: https://cirrent.infineon.com/cloud-devices/infineon-devices.
 
+
 .. image:: ../img/v-4.png
     :align: center
     :alt: Dashboard 2
+
 
 2. Try to bind a batch of devices using a QR Code
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -82,9 +90,9 @@ A.	Open a QR code-capable camera app on your phone.
 
 B.  Using your camera app or QR code scanner, scan this sample QR code: 
 
-.. image:: ../img/v-5.png
-    :align: center
-    :alt: Dashboard 2
+	.. image:: ../img/v-5.png
+	    :align: center
+	    :alt: Dashboard 2
 
     The QR code contains both a URL and a Product Batch ID (BID), in this case BID #D001. Scanning the code automatically sends you to the URL for the CIRRENT™ Console, and directly to the device binding page, pre-populated with the BID.
 
@@ -92,9 +100,11 @@ C.  You will be prompted to log in, you can do so using the credentials you conf
 
 D.  Next, you will see a screen requesting a Product Batch ID. The Product Batch ID should be pre-populated, but if it is not, type the BID into the system. Tap Add to complete the process.
 
+
 .. image:: ../img/v-6.png
     :align: center
     :alt: Dashboard 2
+
 
 E.  The system will provide you with an indication of success. 
 
@@ -117,9 +127,11 @@ B.  Verify that the devices you bound using a QR code are listed under the Bindi
 
 PS: Now is also a good time to test downloading the Manifest File. For some use cases, you may prefer to get manual access to device certificates – to manually upload these into your Product Cloud. Click the 
 
+
 .. image:: ../img/qsn-1.png
     :align: center
     :alt: Dashboard 2
+
 
 button to download the Manifest File in .csv format.
 
@@ -139,9 +151,11 @@ C.  Complete your Cloud API details in the dialogue box, and click **Create**. F
 
 D.  Confirm that the API link you’ve just added appears in the Product Cloud APIs screen.
 
+
 .. image:: ../img/v-7.png
     :align: center
     :alt: Dashboard 2
+
 
 You’ve now configured an API link to your Product Cloud and you’re ready to test provisioning devices directly into your Product Cloud. This is what you need to do to complete the provisioning step:
 
@@ -170,9 +184,11 @@ A.  Navigate to Device Management, Cloud ID, and select the Product Cloud APIs t
 
 B.  Slide the **When devices are Bound, automatically Provision to Product Cloud** slider to the **ON** position.
 
+
 .. image:: ../img/v-8.png
     :align: center
     :alt: Dashboard 2
+
 
 C.  Ensure the Product Cloud API you configured in Step 4 is selected in the **Product Cloud API** drop box.
 
@@ -184,9 +200,11 @@ A.  Open a QR code-capable camera app on your phone.
 
 B.  Using your camera app or QR code scanner, scan the second sample QR code, the code for BID D002:
 
+
 .. image:: ../img/v-9.png
     :align: center
     :alt: Dashboard 2
+
 
 C.  Once the browser opens, log in and select your test account if prompted.
 
