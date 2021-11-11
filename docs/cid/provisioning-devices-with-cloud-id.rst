@@ -42,7 +42,7 @@ Your Cloud ID-compatible devices come pre-installed with a device certificate, b
 
 Binding using a desktop browser
 """""""""""""""""""""""""""""""""
-If you’re using a desktop browser you can bind devices by navigating to **Device Management** and to **Cloud ID**. The default Cloud ID panel displays the batches of devices you have already onboarded. To add a new batch of devices, click on the **Add Infineon Devices** button.
+If you’re using a desktop browser you can bind devices by navigating to **Device Management** and to **Cloud ID**. The default Cloud ID panel displays the batches of devices you have already onboarded. To add a new batch of devices, click on the **Bind an Infineon Product Batch** button.
 
 
 .. image:: ../img/pdn-1.png
@@ -86,7 +86,7 @@ To bind ownership, simply enter the Product Batch ID number. Click **Add** to co
 
 .. note:: To ensure a simplified onboarding experience the Cloud ID mobile browsing experience is restricted and users can only bind devices using a mobile device. Please switch to a desktop device for further device management features, as well as API management features.
 
-.. note:: If you are an administrator-level user you will also be presented with the option to choose a Product Cloud API when binding devices. If you are downloading the Manifest File to manually upload it to your Product Cloud you need to leave the Product Cloud API field blank
+.. note:: If you are an administrator-level user you will also be presented with the option to choose a Product Cloud API when binding devices. If you are downloading the Manifest File to manually upload it to your Product Cloud you need to leave the Product Cloud API field blank.
 
 
 Binding using a mobile device and QR code
@@ -285,16 +285,30 @@ Triggering a distinct API provisioning step
 
 You have the option to inject device certificates for a batch of devices into your Product Cloud of choice by triggering a specific API provisioning step. You can trigger this step as many times as needed in order to provision devices into as many Product Clouds as required.
 
-To do so, navigate to **Device Management** and to **Cloud ID**. Select the **Infineon Devices** tab. Next, click the provisioning button 
+To do so, navigate to **Device Management** and to **Cloud ID**. Select the **Binding** tab. Next, click the provisioning button 
 
 .. image:: ../img/pd-17.png
     :align: center
     :alt: Dashboard 2
 
-to open the provisioning dialog box. 
-
-Next, simply select the Product Cloud API you’d like to inject the device certificates into, and click **Provision Now**. 
+to open the provisioning dialog box. Click **Provision Now** to confirm the provisioning step.
 
 .. image:: ../img/pd-18.png
     :align: center
     :alt: Dashboard 2
+
+
+Changing the Product Cloud API endpoint for a batch of devices
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You change the Product Cloud API endpoint for a batch of devices. You may want to do so if a batch you already bound to your account was never assigned to a Product Cloud API, or if you simply want to change the Product Cloud API endpoint for that group of devices.
+
+To do so, navigate to **Device Management** and to **Cloud ID**. Select the **Binding** tab. Next, click the edit button:
+
+ABCDEFGHIJKL Tahir insert image here ABCDEFGHIJKL
+
+This will activate a drop-down box where you can select the API endpoint:
+
+ABCDEFGHIJKL Tahir insert image here ABCDEFGHIJKL
+
+.. note:: Changing the Product Cloud API endpoint does not automatically trigger device provisioning into your Product Cloud. If you want to provision devices into the newly selected Product Cloud API endpoint you need to trigger a provisioning step by clicking on the provisioning button in the row for that device batch.
