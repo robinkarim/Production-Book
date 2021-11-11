@@ -122,13 +122,13 @@ In most scenarios, you will want to provision claimed devices directly into your
 
 **> Complete these steps using a PC and browser**
 
-A.  A.	Navigate to Device Management, Cloud ID, and select the Product Cloud APIs tab. You can also follow this link https://cirrent.infineon.com/cloud-devices/provisioning.
+A.  Navigate to **Device Management, Cloud ID**, and select the **Provisioning** tab. You can also follow this link https://cirrent.infineon.com/cloud-devices/provisioning.
 
 B.  Next, click on **Add Cloud API**.
 
 C.  Complete your Cloud API details in the dialogue box, and click **Create**. For the purpose of this developer kit you can enter dummy details for testing purposes.
 
-D.  Confirm that the API link you’ve just added appears in the Product Cloud APIs screen.
+D.  Confirm that the API link you’ve just added appears in the **Product Cloud APIs** section of the **Provisioning** tab.
 
 
 .. image:: ../img/v-7.png
@@ -136,15 +136,23 @@ D.  Confirm that the API link you’ve just added appears in the Product Cloud A
 
 You’ve now configured an API link to your Product Cloud and you’re ready to test provisioning devices directly into your Product Cloud. This is what you need to do to complete the provisioning step:
 
-A.  Navigate to Device Management, Cloud ID, or use this link – https://cirrent.infineon.com/cloud-devices/provisioning/
+A.  Navigate to **Device Management, Cloud ID**, or use this link – https://cirrent.infineon.com/cloud-devices/provisioning/
 
 B. Ensure you’re on the **Binding** tab.
 
-C. Find the batch of devices you bound in Step 2, and click on the <tahir insert image here> button in that row.
+C. Find the batch of devices you bound in Step 2, and click on the edit button in that row.
 
-D.  Select the **Product Cloud API** you’ve configured in the previous section and click **Provision Now**.
+ABCDEFHGIKL Tahir kindly insert image here ABCDEFGHIJKL
 
-E.  Verify that the **# of Provisioned Devices** in that row now matches the # of **Binded Devices**.
+D.  This will activate the **API Endpoint** editor for that batch of devices. Simply select the API endpoint you created in the previous section.
+
+ABCDEFHGIKL Tahir kindly insert image here ABCDEFGHIJKL
+
+E. Next, you need to trigger the provisioning step. Click the **Provisioning** button, and click **Provision Now**.
+
+ABCDEFHGIKL Tahir kindly insert image here ABCDEFGHIJKL
+
+F.  Verify that the **# of Provisioned Devices** in that row now matches the **# of Bound Devices**.
 
 You’re all done now – you’ve just provisioned devices into your Product Cloud. You should now also be able to view the device certificates when you log into your Product Cloud.
 
