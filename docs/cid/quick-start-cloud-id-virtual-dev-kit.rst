@@ -142,15 +142,21 @@ B. Ensure you’re on the **Binding** tab.
 
 C. Find the batch of devices you bound in Step 2, and click on the edit button in that row.
 
-ABCDEFHGIKL Tahir kindly insert image here ABCDEFGHIJKL
+	.. image:: ../img/cpc-2.png
+	    :align: center
+	    :alt: Dashboard 2
 
 D.  This will activate the **API Endpoint** editor for that batch of devices. Simply select the API endpoint you created in the previous section.
 
-ABCDEFHGIKL Tahir kindly insert image here ABCDEFGHIJKL
+	.. image:: ../img/cpc-3.png
+	    :align: center
+	    :alt: Dashboard 2
 
 E. Next, you need to trigger the provisioning step. Click the **Provisioning** button, and click **Provision Now**.
 
-ABCDEFHGIKL Tahir kindly insert image here ABCDEFGHIJKL
+	.. image:: ../img/cpc-4.png
+	    :align: center
+	    :alt: Dashboard 2
 
 F.  Verify that the **# of Provisioned Devices** in that row now matches the **# of Bound Devices**.
 

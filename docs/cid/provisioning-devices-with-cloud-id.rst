@@ -305,10 +305,10 @@ You change the Product Cloud API endpoint for a batch of devices. You may want t
 
 To do so, navigate to **Device Management** and to **Cloud ID**. Select the **Binding** tab. Next, click the edit button:
 
-ABCDEFGHIJKL Tahir insert image here ABCDEFGHIJKL
-
 This will activate a drop-down box where you can select the API endpoint:
 
-ABCDEFGHIJKL Tahir insert image here ABCDEFGHIJKL
+.. image:: ../img/cpc-1.png
+    :align: center
+    :alt: Dashboard 2
 
 .. note:: Changing the Product Cloud API endpoint does not automatically trigger device provisioning into your Product Cloud. If you want to provision devices into the newly selected Product Cloud API endpoint you need to trigger a provisioning step by clicking on the provisioning button in the row for that device batch.
