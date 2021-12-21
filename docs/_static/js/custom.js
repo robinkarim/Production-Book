@@ -16,9 +16,11 @@ $(document).ready(function(){
 		title: '<u>Use of Cookies</u>',
         	class: '',
         	backdrop: 'static',
-		message: 'Cypress uses cookies to enhance the user experience and collect visitor statistics. When you use this website, you are accepting our use of cookies.',
-		moreLinkLabel: '<u>Read Our Cookie Policy</u>',
-		moreLink: 'https://www.cypress.com/cookie-policy',
+		message: 'We use cookies and similar technologies (also from third parties) to collect your device and browser information for a better understanding on how you use our online offerings. This enables us to optimize and personalize your experience with Infineon and to provide you with additional services and information based on your individual profile. Details are available in our privacy policy where you can also change your preferences on cookies at any time.',
+		moreLinkLabel: '<u>Imprint</u>',
+		moreLink: 'https://www.infineon.com/cms/en/about-infineon/imprint/',
+                privacyLinkLabel: 'Privacy Policy',
+                privacyLink: 'https://www.infineon.com/cms/en/about-infineon/privacy-policy/',
 		moreLinkActive: true,
 		moreLinkNewTab: true,
 		delay: 500,
@@ -30,13 +32,17 @@ $(document).ready(function(){
 				name: 'necessary',
 				title: 'Technically required cookies - always selected by default',
 				description: 'By technically required cookies we mean cookies without those the technical provision of the online service cannot be ensured. These include e.g. cookies supporting essential services like a smooth reproduction of video or audio footage. So-called ‘functional cookies’ are also assigned belonging to this category. Functional cookies store information in order to provide you comfortable use of our online services.',
-				isFixed: true
+				isFixed: true,
+				moreLink: 'https://www.infineon.com/cms/en/about-infineon/privacy-policy/#cookies-and-co',
+				moreLabel: 'More details'
 			},
 			{
 				name: 'marketing',
 				title: 'Performance and marketing cookies',
 				description: 'By performance and marketing cookies we mean cookies which are technically not required. We use performance and marketing cookies only if you have given us your prior consent. With such cookies, we collect information about how users interact with our website and which pages have been visited. This helps us to understand user activity on our website on an aggregated as well as on a personal level to provide you relevant content and services.',
-				isFixed: false
+				isFixed: false,
+				moreLink: 'https://www.infineon.com/cms/en/about-infineon/privacy-policy/#cookies-and-co',
+				moreLabel: 'More details'
 			}
 		],
 		OnUserAction : function() {
@@ -79,7 +85,7 @@ $(document).ready(function(){
 	
 	//display hr line after heading which is replaced in xml with conf.pf code block
     	var isToolguid=false;
-	$( "ul[class='wy-breadcrumbs']" ).find("li").each(function(){
+	$( ".section > h1" ).each(function(){
 		//console.log('li text :: '+$(this).text());
 		//console.log('is contains Tool Guide :: '+($(this).text().indexOf('Tool Guide')));
 
@@ -123,9 +129,16 @@ $(document).ready(function(){
 		
 		if($( ".section li > p > em" ).next().is( "hr" ))
 		{
-			$( ".section li > p > em" ).next().is( "hr" ).remove();
+			$( ".section li > p > em" ).next().remove();
 			$( ".section li > p > em" ).removeClass( "headingclass" );
 		}
+
+		if( $( ".section td > p > em" ).next().is( "hr" ) )
+		{
+			$( ".section td > p > em" ).next().remove();
+			$( ".section td > p > em" ).removeClass( "headingclass" );
+		}
+
 	}
 	
 	$('.highlight-default .highlight pre').each(function (e) {
