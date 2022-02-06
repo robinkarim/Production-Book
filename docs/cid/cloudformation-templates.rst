@@ -18,7 +18,7 @@ Do the following to execute the Infineon-provided CloudFormation template:
 
 2.	On the Create Stack page in the AWS CloudFormation service with the Infineon CloudFormation template preloaded, click **Next**. 
 	
-	.. image:: ../img/cft1.png
+	.. image:: ../img/cft-1.png
  
 3.	On the Step 2 page, retain all parameters at their default values, and click **Next**.
 
@@ -26,19 +26,19 @@ Do the following to execute the Infineon-provided CloudFormation template:
 
 5.	Select the boxes to provide permissions to access the resources required by the CloudFormation template. 
 	
-	.. image:: ../img/cft2.png
+	.. image:: ../img/cft-2.png
  
 6.	Click **Create stack**. 
 
 7.	Wait for up to five minutes for the stack creation to complete. 
 
-	.. image:: ../img/cft3.png
+	.. image:: ../img/cft-3.png
  
 	This stack creates an infrastructure to enable provisioning the required resources for the  device you’re connecting into AWS IoT through the CIRRENT Cloud.
 
 8.	Click **Outputs**. 
 	Once the stack is created, it will return 4 fields (AccountID, GatewayID, Region & Stage).  You will need these to link your stack in the CIRRENT Console.    
 
-	.. image:: ../img/cft4.png
+	.. image:: ../img/cft-4.png
  \
  
