@@ -74,15 +74,23 @@
         <script type="text/javascript" src="{{ pathto(scriptfile, 1) }}"></script>
       {%- endfor %}
     {% endif %}
+	<script type="text/javascript" src="{{ pathto('_static/js/theme.js', 1) }}"></script>
 	
-	<!-- OneTrust Cookies Consent Notice start for infineon.com -->
-    <script type="text/javascript" src="https://cdn.cookielaw.org/consent/85f8227d-e015-4c62-ab96-ee1a08760fb3-test/OtAutoBlock.js" ></script>
-    <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="85f8227d-e015-4c62-ab96-ee1a08760fb3-test" ></script>
-    <script type="text/javascript">
-       function OptanonWrapper() { }
-    </script>
-    <!-- OneTrust Cookies Consent Notice end for infineon.com -->
-
+	<!-- QA OneTrust Cookies Consent Notice start for infineon.com -->
+	<script type="text/javascript" src="https://cdn.cookielaw.org/consent/7dd36896-f9af-4cc2-9d47-22c38c91c7f5-test/OtAutoBlock.js" ></script>
+	<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="7dd36896-f9af-4cc2-9d47-22c38c91c7f5-test" ></script>
+	<script type="text/javascript">
+		function OptanonWrapper() { }
+	</script>
+	<!-- QA OneTrust Cookies Consent Notice end for infineon.com -->
+	
+	<noscript>
+    <div
+      style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+      Your web browser must have JavaScript enabled in order for this
+      application to display correctly.</div>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=UA-186719284-1" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
 	
     {# OPENSEARCH #}
     {%- if use_opensearch %}
@@ -117,15 +125,6 @@
 </head>
 
 <body class="wy-body-for-nav">
-
-  <noscript>
-    <div
-      style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
-      Your web browser must have JavaScript enabled in order for this
-      application to display correctly.</div>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=UA-186719284-1" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe>
-  </noscript>
 
   <div class="new-nav">
     <div class="nav-left">
