@@ -57,6 +57,7 @@ You may want to review the CloudFormation Best Practices and Security section in
 	You can change the region in which you want to execute this template by changing the region=us-west-1 in this link to your required region. See `Choosing a Region <https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/select-region.html>`_ in the AWS documentation.
 
 2. You should now be on the **Create Stack** page in the AWS CloudFormation service, and the Infineon CloudFormation template should be preloaded. Click **Next**.
+   
    .. image:: ../img/pca-2.png
     	:align: center
     	:alt: Dashboard 2
