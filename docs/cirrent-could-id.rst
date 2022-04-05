@@ -44,6 +44,6 @@ CIRRENT™ Cloud ID
    :hidden:
 
    /cid/getting-started-with-cloud-id
-   /cid/provisioning-devices-with-cloud-id
+   /cid/product-cloud-api
    /cid/cirrent-console-for-cloud-id
    /cid/quick-start-cloud-id-virtual-dev-kit
