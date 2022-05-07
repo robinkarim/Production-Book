@@ -157,7 +157,7 @@ It is a two-stage process. First, you need to configure your Product Cloud, obta
 
 
 Configuring your Product Cloud to accept CIRRENT™ communications
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 The steps you need to take to configure your Product Cloud to communicate with CIRRENT™ Cloud ID will vary depending on your choice of cloud environment. CIRRENT™ Cloud ID supports a broad range of cloud environments, including Amazon AWS, Microsoft Azure, and others.
 
@@ -170,7 +170,7 @@ For some Product Cloud configurations it is possible to automate the above steps
 
 
 Setting up the AWS CloudFormation template
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 CloudFormation is an AWS service that helps in setting up the required resources in AWS through a template. Executing a CloudFormation template creates a stack in your AWS account. A stack is a collection of AWS resources.
 
@@ -222,7 +222,7 @@ You may want to review the CloudFormation Best Practices and Security section in
 
 
 Adding your Product Cloud API to CIRRENT™ Console
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 To configure your first cloud API with Cloud ID, navigate to Device Management and Cloud ID. Select the Provisioning tab, and click on Add Cloud API. 
 
@@ -233,7 +233,7 @@ To configure your first cloud API with Cloud ID, navigate to Device Management a
 You’ll be presented with a dialog box where you need to complete your Product Cloud API details.
 
 Configuring Amazon Web Services
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Cloud ID has specific steps for Cloud ID users that rely on Amazon Web Services for their Product Cloud. In setting up your Product Cloud API, ensure that you select AWS in the Create Cloud API dialog box:
 
@@ -251,7 +251,7 @@ Next, configure the fields as follows:
 You have now added your AWS-based Product Cloud to CIRRENT™ Cloud ID and can now provision devices bound to your Cloud ID account directly into your Product Cloud.
 
 Configuring other cloud APIs
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 First, select the Other option to start configuring your Cloud API, as below:
 
