@@ -164,7 +164,7 @@ The steps you need to take to configure your Product Cloud to communicate with C
 Broadly speaking, you need to take the following steps to ensure that your Product Cloud can communicate seamlessly with CIRRENT™ Cloud ID:
 
 * | Set up the needed resources in your Product Cloud including computing instances and databases
-  |
+
 * | Configure the necessary users and associated permissions to enable two-way communications
   |
 
