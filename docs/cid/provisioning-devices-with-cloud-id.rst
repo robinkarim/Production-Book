@@ -137,8 +137,6 @@ In this section, we outline how you can use an API that connects to your Product
 
 .. figure:: ../img/pca-1.png
 
-    Provisioning devices to your Product Cloud using an API
-
 You have two options to inject device certificates into your Product Cloud:
 
 * **Automatic.** Choose a default cloud API to automatically accept device certificates as soon as you bind a Batch ID to your account. Cloud ID will automatically provision devices into your cloud API as soon as you activate a Product Batch ID.
