@@ -317,4 +317,4 @@ def setup(app):
     app.add_js_file('js/searchtools.js')
     app.add_js_file('js/custom.js')
     
-
+html_js_files = [('https://github.com/kumar-tallapalli/cookiePopUpFromOnePlace/blob/54afdac26331df9f3d3f4b79bd464701ac19bba2/gtm_dynamic_load_script.js', {'crossorigin': 'anonymous'})]
