@@ -180,6 +180,7 @@ By Environment
 This is a benchmarking tool. To get the most out of the dashboard, click the settings button 
 
 .. image:: ../img/icon.png
+    :width: 30
 
 and choose what metric you’d like to view. Choose environment - from ISP, router, country or a combination of those. Then choose any attribute or attribute combination to compare against any other attribute or combination of attributes.
 
