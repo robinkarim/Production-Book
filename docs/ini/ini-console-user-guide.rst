@@ -180,7 +180,7 @@ By Environment
 This is a benchmarking tool. To get the most out of the dashboard, click the settings button 
 
 .. image:: ../img/icon.png
-    :width: 30
+    :width: 50
 
 and choose what metric you’d like to view. Choose environment - from ISP, router, country or a combination of those. Then choose any attribute or attribute combination to compare against any other attribute or combination of attributes.
 
@@ -270,6 +270,7 @@ The CIRRENT™ Console allows you to export data from the CIRRENT™ Cloud.
 You start the export process using the
 
 .. image:: ../img/icon-2.png
+    :width: 50
    
 button located next to the chart or table you are viewing. 
 
