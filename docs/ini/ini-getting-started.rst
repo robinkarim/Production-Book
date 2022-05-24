@@ -61,12 +61,14 @@ Both CIRRENT™ Wi-Fi onboarding apps also enable you to easily register a singl
 To access the **Android** CIRRENT™ Wi-Fi onboarding app, simply scan the code below:
 
 .. image:: ../img/androidqr.png
+    :width: 200
     :align: center
     :alt: Dashboard 2
  
 For the **iOS** edition of the app, scan the following code:
 
 .. image:: ../img/iphoneqr.png
+    :width: 200
     :align: center
     :alt: Dashboard 2
  

@@ -107,6 +107,7 @@ Downloading the Manifest File in CIRRENT™ Console
 Now that you have completed the binding step in CIRRENT™ Cloud ID you can proceed to download the Manifest File containing the device certificates. To do so, click on the download button next to the entry for the list of devices you’d like to provision into your Product Cloud:
 
 .. image:: ../img/pd-7.png
+    :width: 50
     :align: center
     :alt: Dashboard 2
  
@@ -361,6 +362,7 @@ You have the option to inject device certificates for a batch of devices into yo
 To do so, navigate to **Device Management** and to **Cloud ID**. Select the **Binding** tab. Next, click the provisioning button 
 
 .. image:: ../img/pd-17.png
+    :width: 50
     :align: center
     :alt: Dashboard 2
 

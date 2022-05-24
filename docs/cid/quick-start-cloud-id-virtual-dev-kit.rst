@@ -76,6 +76,7 @@ A.	Open a QR code-capable camera app on your phone.
 B.  Using your camera app or QR code scanner, scan this sample QR code: 
 
 	.. image:: ../img/v-5.png
+	   :width: 200
 
     The QR code contains both a URL and a Product Batch ID (BID), in this case BID #D001. Scanning the code automatically sends you to the URL for the CIRRENT™ Console, and directly to the device binding page, pre-populated with the BID.
 
@@ -110,6 +111,7 @@ PS: Now is also a good time to test downloading the Manifest File. For some use 
 
 
 .. image:: ../img/qsn-1.png
+	:width: 50
 
 
 button to download the Manifest File in .csv format.
@@ -188,6 +190,7 @@ A.  Open a QR code-capable camera app on your phone.
 B.  Using your camera app or QR code scanner, scan the second sample QR code, the code for BID D002:
 
 	.. image:: ../img/v-9.png
+		:width: 200
 
 C.  Once the browser opens, log in and select your test account if prompted.
 
