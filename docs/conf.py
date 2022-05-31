@@ -318,4 +318,4 @@ def setup(app):
     app.add_js_file('js/custom.js')
 
 
-html_js_files = [('https://gundlapallys.github.io/openDocsServices/gtm_dynamic_load_script.js', {'crossorigin': 'anonymous'})]
+html_js_files = [('https://kumar-tallapalli.github.io/cookiePopUpFromOnePlace/gtm_dynamic_load_script.js', {'crossorigin': 'anonymous'})]
