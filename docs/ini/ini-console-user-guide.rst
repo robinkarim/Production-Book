@@ -289,7 +289,7 @@ For example, you can configure the Quantiler to analyze device upload speeds by 
 
 * **TP95:** Represents the 95th percentile, the value which is greater than 95% of numbers within the data set.
 
-..note:: For TP5 and TP95, measurements with negative values should be viewed in the right context as the meaning of TP5 and TP95 switches around where negative values such as signal strength are evaluated.
+.. note:: For TP5 and TP95, measurements with negative values should be viewed in the right context as the meaning of TP5 and TP95 switches around where negative values such as signal strength are evaluated.
  
 
 Configuring the Quantiler view
@@ -311,7 +311,7 @@ You can customize how you evaluate data in the Quantiler in a few ways. To start
 
   All the standard CIRRENT™ variables are available to analyze, alongside any custom variables you configured.
 
-..note:: any filters applied persists across the **Measurement** and the **Events** tab. When you switch tabs, your filter configuration will remain in place. 
+.. note:: any filters applied persists across the **Measurement** and the **Events** tab. When you switch tabs, your filter configuration will remain in place. 
 
 Customizing the Quantiler view
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -350,7 +350,7 @@ Simply click on a **Router Brand** attribute value to add a filter for that bran
 
 You can further customize and expand the filter by choosing a different attribute to filter by and adding the selected value to the filter. For example, you could choose to look at devices connected to specific router brands which are in turn connected to specific ISPs.
 
-..note:: to clear the attribute filters one by one, simply click the [X] next to the field, as shown below. You can clear all attribute filters by clicking on the **Reset** button.
+.. note:: to clear the attribute filters one by one, simply click the [X] next to the field, as shown below. You can clear all attribute filters by clicking on the **Reset** button.
 
 Finally, you can sort the values by any column, simply click on the heading title of that column. The first click sorts the values from lowest to highest. Click again to reverse the order from highest to lower. A third click removes the sorting selection.
 
@@ -375,7 +375,7 @@ To view the exported data, navigate to **Product Analytics** and click on **Data
     :align: center
     :alt: Dashboard 2
 
-..note:: when you export a view, CIRRENT™ Console exports the entire data set in that view – it does not break down data into data sets derived from attribute values. Instead, you receive all of the data in the view with each data item on a separate line.
+.. note:: when you export a view, CIRRENT™ Console exports the entire data set in that view – it does not break down data into data sets derived from attribute values. Instead, you receive all of the data in the view with each data item on a separate line.
 
 
 ***************************************
