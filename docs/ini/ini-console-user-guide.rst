@@ -371,12 +371,140 @@ Once you’ve configured your Quantiler view you can export the data in your vie
 
 To view the exported data, navigate to **Product Analytics** and click on **Data Exports**. The latest exports will be visible, sorted by the time point at which the export was triggered.
  
-.. image:: ../img/q-ini-9.png
+.. image:: ../img/q-ini-10.png
     :align: center
     :alt: Dashboard 2
 
 .. note:: when you export a view, CIRRENT™ Console exports the entire data set in that view – it does not break down data into data sets derived from attribute values. Instead, you receive all of the data in the view with each data item on a separate line.
 
+*********************
+Anomaly Detection
+*********************
+
+You can use the CIRRENT™ Console’s **Anomaly Detection** page to evaluate anomalous device data at a glance. We currently support the analysis of **event metrics**. The Anomaly Detection page is split into two sections, displayed on two distinct tabs:
+ 
+.. image:: ../img/q-ini-11.png
+    :align: center
+    :alt: Dashboard 2
+
+First, the **Top Metrics** tab displays a list of the event metrics with the highest proportion of devices reporting an anomalous reading. Next, the **Attribute Explorer** tab enables you to deep-dive into metrics based on specific attributes.
+
+To access the Anomaly Detection page, simply navigate to **Product Analytics**, and click on **Anomaly Detection**.
+ 
+.. image:: ../img/q-ini-12.png
+    :align: center
+    :alt: Dashboard 2
+
+Top Metrics
+^^^^^^^^^^^^
+
+The **Top Metrics** tab displays a listing of the **event metrics** that are most associated with an anomalous reading. Currently, **Top Metrics** supports metrics based on event data only.  
+
+.. image:: ../img/q-ini-13.png
+    :align: center
+    :alt: Dashboard 2
+ 
+For example, in the above image you’ll notice that in this sample population of devices, **wifi_interference** and **network_performance** were most commonly associated with an anomalous reading.
+
+The **Top Metrics** tab lists metrics with the following fields:
+
+* **Name.** Contains the name of the metric represented by that line.
+
+* **Outliers.** A count of the number of devices that are reporting a value that qualifies as an outlier for that metric.
+
+* **% total.** The percentage of devices reporting an outlier value for that metric, calculated by dividing the count of devices that reported anomalous readings for that event metric by the total number of devices reporting to the account. 
+
+* **Avg TP5.** Represents the 5th percentile, in other words, the TP5 value is lower than 95% of other values for that metric.
+
+* **Avg TP50.** The statistical median, the number of devices measuring below this value would be equal to the number of devices measuring above this value. Where the number of devices measured is odd, the median would be the middle value. Where the number of devices in the data set is even, the median number is the average of the two middle numbers.
+
+* **Avg TP95.** Represents the 95th percentile, the value which is greater than 95% of values for that metric.
+
+You can also view a **Total Devices** count, which represents the total number of devices reporting into your account, at the top right of the page:
+ 
+.. image:: ../img/q-ini-14.png
+    :align: center
+    :alt: Dashboard 2
+
+By default, the metrics are listed starting with the metric with the highest number of outlying values.
+ 
+Attribute Explorer
+^^^^^^^^^^^^^^^^^^^
+ 
+The Anomaly Detection page also allows you to explore anomalies for a specific event metric by breaking event metrics down according to the reported values for specific device attributes. You access this report on the **Attribute Explorer** tab.
+
+Each line represents a specific attribute value. For example, you can determine which routers are creating high counts for network performance events by breaking down **network performance** events by router. In the example below, each line represents a specific router:
+
+.. image:: ../img/q-ini-15.png
+    :align: center
+    :alt: Dashboard 2
+
+Configuring the Attribute Explorer
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+Currently, the Attribute Explorer supports event metrics only. That includes any custom events you may have defined. Your first step in configuring the Attribute Explorer is selecting the event metric you would like to analyze:
+
+.. image:: ../img/q-ini-16.png
+    :align: center
+    :alt: Dashboard 2
+
+By selecting **Network Performance**, for example, you can review the outliers for network performance events according to your choice of attribute. As a next step you select the attribute you want to evaluate for outliers from the list of available attributes:
+
+.. image:: ../img/q-ini-17.png
+    :align: center
+    :alt: Dashboard 2
+
+You can add multiple attributes to evaluate, simply continue to select attributes from the list of available attributes. For example, you could choose to review **Network Performance** outliers both by **Router Brand** and by **ISP:**
+
+.. image:: ../img/q-ini-18.png
+    :align: center
+    :alt: Dashboard 2
+
+The resulting screen shows you a line-by-line analysis where each line represents a particular attribute, and a specific value for that attribute. Attribute Explorer will dedicate a line to every value logged for a particular attribute – but excluding any attribute value for which the outlier count is zero. 
+
+In the example above, you’ll notice lines for **ISP** and for **Router** – because we’ve chosen to evaluate outliers for network performance events both by Router and by ISP. By default, the attribute value with the largest number of outliers is displayed at the top, with attribute values then listed in descending order of outlier count.
+
+Every Attribute Explorer screen includes two counters. The total number of devices analyzed in the account, and the total number of devices in the account that reported an outlying reading for the metric you chose to evaluate:
+
+.. image:: ../img/q-ini-19.png
+    :align: center
+    :alt: Dashboard 2
+
+For each attribute value, the following is displayed: 
+
+* **Attribute device count:** number of devices that reported the specified value for that attribute.
+
+* **Outliers:** number of devices that reported the specified value for that attribute and that also reported an outlier reading for the metric under evaluation.
+
+* **% outliers:** for the devices reporting that attribute value, the percentage of devices that report an outlier reading.
+
+* **% attrib:** for the attribute value in that row, the percentage of devices in the fleet that reported that specific attribute value.
+
+* **Impact:** an impact score, calculated by multiplying the %outliers by %attrib. For example, if 50% of devices with that attribute value report outlier scores and if 25% of the devices being analyzed match that attribute, the impact score would be 0.50 x 0.25 x 100 = 12.5.
+
+.. note:: When you change the metric you are evaluating CIRRENT™ Console will retain your attribute selections.
+
+.. note:: To clear the attributes you are analyzing one by one, simply click the [X] next to the attribute, or click the down arrow and deselect attributes one by one – as shown below. You can clear all attribute filters by clicking on the **Reset** button, which restores the default attributes of **Router** and **ISP**.
+
+.. image:: ../img/q-ini-20.png
+    :align: center
+    :alt: Dashboard 2
+
+
+Exporting data from the Anomaly Detector
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+Once you’ve configured a view you can export the data in your view into a .csv file for further analyses in Excel or your data package of choice. Simply click on the **Export button** to the right of the screen:
+
+.. image:: ../img/q-ini-21.png
+    :align: center
+    :alt: Dashboard 2
+
+To view the exported data, navigate to **Product Analytics** and click on **Data Exportsv. The latest exports will be visible, sorted by the time point at which the export was triggered.
+ 
+.. image:: ../img/q-ini-22.png
+    :align: center
+    :alt: Dashboard 2
 
 ***************************************
 Exporting data from the CIRRENT™ Cloud
