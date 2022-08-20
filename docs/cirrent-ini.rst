@@ -1,51 +1,82 @@
-CIRRENT™ IoT Network Intelligence (INI)
-========================================
+CIRRENT™ Console is now INFINEON OSTS Console
+==============================================
 
-CIRRENT™ IoT Network Intelligence (INI) delivers IoT device analytics for IoT devices at home (including appliances, home security and home entertainment, and smart home devices) and for IoT devices in industry. With INI you can drive product development to improve the user experience – which leads to better product reviews, fewer returns, and increased sales. 
+We’ve now completed the process of switching all CIRRENT™ Console functionality to the INFINEON OSTS (Online Software, Tools and Services) Console. On this page, we’ll outline some of the changes you can expect.
 
+The most significant change is that the console is now organized in a way that services are more clearly delineated according to the brand or product that the service belongs to. Key products including INI, MAI, and Cloud ID all enjoy a dedicated section with independent navigation trees for the services under these products.
 
-.. topic:: What can INI do?
-
-
-	The data that INI collects works in combination with powerful analytics tools to give you deep insight into how your devices behave in the field, and how users make use of your devices every day. Using INI you can: 
-
-	* **Get deep insight into customer environments** to identify and prioritize your customer’s pain points and solve issues faster. With INI you get unique data covering environmental factors including ISP, router make and model, and much more.
-
-	* **Optimize product performance using actionable data,** including real-world performance analytics pre and post product launch. That includes product lifecycle data such as wireless performance, ensuring your pre-production testing algins with performance in the real world.
-
-	* **Identify and prioritize product issues** thanks to full visibility into all your products in the field. You can compare performance of products in your fleet at scale or deep dive into a single device – empowering you to improve product performance in the field and enabling timely identification of device failures and network issues in the field.
-
-	* **Leverage pre-built dashboards and reports to solve problems,** thanks to 10+ pre-built dashboards and 25+ out of the box events. Analyze data to understand root causes and spend less time trying to get to root cause of the product issue or customer environment.
+.. note:: You will still use the same credentials to log in to INFINEON OSTS. Any other users authorized on your account can also use these credentials.
 
 
-.. topic:: How INI works
 
-	CIRRENT™ INI works on its own, or in combination with CIRRENT™ MAI, to deliver insight into how your IoT devices perform and are being used in practice. INI uses the CIRRENT™ Agent, a lean application that’s embedded in your IoT product to securely report data into the CIRRENT™ Cloud, providing real-time access for your product management and engineering teams via the CIRRENT™ Console. 
+Changes to the landing page
+****************************
 
-	.. image:: img/ini-img.png
-	    :align: center
-	    :alt: Dashboard 2
+When you first log in you will notice that your landing page is no longer your dashboard. Instead, you’ll be directed to the new landing page for INFINEON OSTS (Online Services Tools and Software). On this landing page we organized the CIRRENT™ Console functionality according to product – with CIRRENT™ INI, CIRRENT™ MAI and CIRRENT™ Cloud ID now enjoying dedicated sections:
 
+.. image:: img/osts-1.png
+    :align: center
+    :alt: Dashboard 2
 
-	.. topic:: Components of INI
+There are additional sections for functionality that are shared across the products: including **Device Management** to manage the devices reporting into your account, and a section for the management of your **CIRRENT™ Accounts**.
 
-	CIRRENT™ IoT Network Intelligence consists out of several interacting components working together to provide device analytics:
+**A new way to access CIRRENT™ services – but you can still bookmark it**
 
-	* **Your device** or fleet of devices in the field, including any Linux-based device including devices based on Raspberry Pi, or devices using RTOS.
+When you use the new console you now access the CIRRENT™ service you need by first clicking on the CIRRENT™ product on the OSTS Console landing page, which will take you to the section for that CIRRENT™ service, e.g. CIRRENT™ INI.
 
-	* **The CIRRENT™ Agent** and its data collection engine which collects data on your device and facilitates communication with CIRRENT™ Cloud. You integrate the CIRRENT™ Agent into your IoT device software before shipment.
+Once in the relevant product’s section, you simply continue to select the service that you need. For example, for INI, the default view is your dashboard. You can then navigate to the Anomaly Detection page as per usual.
 
-	* **CIRRENT™ Cloud** acts as the central repository for data collected by CIRRENT™Agent, securely storing your device analytics and providing data manipulation and analytics services.
+You don’t need to navigate to the console home page to switch between products, simple use the navigator at the top left to switch.
 
-	* **CIRRENT™ Console** provides real-time visibility into the data from your devices, including out-of-the-box dashboards that analyzes a standard set of events and attributes. Simply log in to the CIRRENT™ Console to see the data and access the reports that helps you to understand the performance of your devices.
+Note, as always, you can still bookmark any commonly used services. For example, if you often view the INI dashboard just bookmark the page: `Infineon CIRRENT™ IoT Network Intelligence (INI) <https://osts.infineon.com/ini>`_.  You can then navigate directly to the page by clicking on the bookmark in your browser. 
 
+Where to find commonly used services now
+*****************************************
 
-.. toctree::
-   :maxdepth: 1
-   :hidden:
+By dedicating a console section to each product, we aim to simplify finding the services related to that CIRRENT™ product. That does mean that some of your favorite services are now located in a different place, as the navigation structure for the console has changed.
 
-   /ini/ini-getting-started
-   /ini/ini-data-model
-   /ini/cirrent-agent
-   /ini/cirrent-agent-api
-   /ini/ini-console-user-guide
+Product Analytics
+^^^^^^^^^^^^^^^^^^
+
+Because most of the tools in the Product Analytics menu were related to CIRRENT™ INI many tools in the **Product Analytics** section has been migrated to a dedicated section for CIRRENT™ INI, accessible from the INFINEON OSTS Console – with the exception of **App Inspector** and **Exports**.
+
+.. image:: img/osts-2.png
+    :align: center
+    :alt: Dashboard 2
+
+Device Fleet page
+^^^^^^^^^^^^^^^^^^
+
+Notably, we’ve also changed how the **Device Fleet** page works, it is no longer a single page with three tabs. Instead, the three tabs are located on dedicated pages:
+
+* | you’ll now find the visual analysis of device attributes under **CIRRENT™ INI** > **Data Analytics** > `Event Attribute Correlation <https://osts.infineon.com/ini/by-attribute>`_
+* | the device list is now available under **CIRRENT™ INI** > **Device Analytics** > `Device List <https://osts.infineon.com/ini/device-list>`_
+* | the Jobs list is located under **CIRRENT™ Device Management** > `Jobs <https://osts.infineon.com/device-management/jobs>`_
+  |
+
+CIRRENT™ MAI App Inspector
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The App Inspector used to be located under **Product Analytics** and **App Inspector**. That has now changed. You will now find the App Inspector views in the CIRRENT™ MAI section, under **App View**.
+ 
+.. image:: img/osts-3.png
+    :align: center
+    :alt: Dashboard 2
+
+CIRRENT™ Cloud ID
+^^^^^^^^^^^^^^^^^^
+
+In the CIRRENT™ Console you used to navigate to **Device Management** > **Cloud ID** to access CIRRENT™ Cloud ID features. Now you can simply click on **CIRRENT™ Cloud ID** on the IINFINEON OSTS landing page, `or navigate directly to this URL <https://osts.infineon.com/cloud-id>`_ to access a dedicated section for Cloud ID.
+
+.. image:: img/osts-4.png
+    :align: center
+    :alt: Dashboard 2
+
+Note that Cloud ID functionality is now no longer displayed on a tab-based view. Instead, we provide a dedicated navigation tree to make it simpler to access Cloud ID services.
+
+Other changes
+^^^^^^^^^^^^^^
+
+* Device management capabilities now have a dedicated section in INFINEON OSTS, called Device Management – which covers a range of features, including providing a list of **Active Devices** and the **Log Explorer**
+* We’ve now consolidated all CIRRENT™ Account management features under a dedicated section which you can access from the OSTS Console landing page. That includes individual profile management as well as user management for your account
+* Data exports from your CIRRENT™ account are now located under the **CIRRENT™ Account** section
