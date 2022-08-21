@@ -83,6 +83,7 @@ Measurements
 A measurement represents numerical data that varies with time, and which may help determine system conditions when an event occurs. Measurements are reported in CIRRENT™ Console for each individual device. The CIRRENT™ Agent collects the following measurements for network monitoring:
 
 * **Network Performance Score:** This metric shows the overall connectivity score. The score is a calculation based on the reported DHCP, DNS, gateway, TLS and Wi-Fi events.
+  |
 
 Analyzing this score is sensitive to the requirements of the device – for example, distinguishing between the minimal connectivity required by a microwave and the higher throughput required by a streaming device. 
 
