@@ -18,7 +18,7 @@ Interested in testing INI on your device? You need to complete a few steps to co
   |
   |	* View the general steps for installing the `CIRRENT™ Agent on a Linux device <cirrent-agent.rst#installing-cirrent-agent-on-linux>`_
   |	* View specific steps to configure `CIRRENT™ Agent on Raspberry Pi <cirrent-agent.rst#installation-example-cirrent-agent-on-raspberry-pi>`_ 
-  |	* View specific steps for configuring `CIRRENT™ Agent using ModusToolbox <cirrent-agent.rst#using-the-cirrent-agent-in-modustoolbox>`_
+  |	* View specific steps to configure `CIRRENT™ Agent using ModusToolbox <cirrent-agent.rst#using-the-cirrent-agent-in-modustoolbox>`_
 
 	Please contact us on support@cirrent.com if your device runs RTOS. 
 
@@ -31,7 +31,7 @@ Interested in testing INI on your device? You need to complete a few steps to co
 * | **Reviewing your analytics on CIRRENT™ Console**
   | Once data starts steaming in from CIRRENT™ Agent you will be able to review a range of analytics across all your devices, and drill down into device specific analytics. You can read more about the CIRRENT™ Console here.
 
-.. note:: Before you get started with INI you must have an active CIRRENT™ Cloud account so that you register your device and access CIRRENT™ Console where you will view your device data. You also need a device that is compatible with the CIRRENT™ Agent – you can view the requirements here. 
+.. note:: Before you get started with INI you must have an active CIRRENT™ Cloud account so that you can register your device and access the CIRRENT™ Console where you will view your device data. You also need a device that is compatible with the CIRRENT™ Agent – you can view the requirements here. 
 
 .. note:: CIRRENT™ Agent is already pre-installed on a select range of INFINEON products, including INFINEON AIROC™ Wi-Fi.
 
