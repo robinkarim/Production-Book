@@ -1,7 +1,7 @@
 ﻿Getting started with INI
 ========================
 
-Getting started with INI is easy, hassle-free and secure. To get started, `register for a free account <https://cirrent.infineon.com/login>`_. Next, integrate the CIRRENT™ Agent on your device, and onboard your device to CIRRENT™ Cloud. Then, simply sit back and watch the data flow into the CIRRENT™ Console, a secure dashboard that provides deep visibility into the performance of your IoT products both at the fleet level, and at device-level.
+Getting started with INI is easy, hassle-free and secure. To get started, `register for a free account <https://osts.infineon.com/login>`_. Next, integrate the CIRRENT™ Agent on your device, and onboard your device to CIRRENT™ Cloud. Then, simply sit back and watch the data flow into the CIRRENT™ Console, a secure dashboard that provides deep visibility into the performance of your IoT products both at the fleet level, and at device-level.
 
 *************************
 Steps to configuring INI
