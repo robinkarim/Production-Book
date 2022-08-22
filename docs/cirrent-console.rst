@@ -1,7 +1,7 @@
 CIRRENT™ Console
 =================
 
-.. note:: CIRRENT™ Console is now INFINEON OSTS Console. `View our announcement here </cirrent-osts>`_ to understand what's changed. 
+.. note:: CIRRENT™ Console is now INFINEON OSTS Console. `View our announcement here <cirrent-osts.rst>`_ to understand what's changed. 
 
 
 CIRRENT™ Console User Architecture
