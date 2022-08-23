@@ -255,11 +255,11 @@ You need access to the following to start CIRRENT™ Agent on ModusToolbox:
 
 * One of two supported parts: all `PSoC® 6 MCU <http://www.cypress.com/PSoC6>`_ parts with either `CYW43012 <https://www.cypress.com/documentation/product-overviews/cypress-cyw43012>`_ or `CYW4343W <https://www.cypress.com/documentation/datasheets/cyw4343w-single-chip-80211-bgn-macbasebandradio-bluetooth-41>`_ chips
 
-* CIRRENT™ Developer Account with access to the [CIRRENT™ Console](https://cirrent.infineon.com)
+* CIRRENT™ Developer Account with access to the CIRRENT™ Console.
 
 * Wi-Fi network with internet access
 
-The follow instructions support two kits – `the PSoC 6 Wi-Fi BT Prototyping Kit <https://www.infineon.com/cms/en/product/evaluation-boards/cy8cproto-062-4343w/) (CY8CPROTO-062-4343W>`_ and the `PSoC 62S2 Wi-Fi BT Pioneer Kit <https://www.infineon.com/cms/en/product/evaluation-boards/cy8ckit-062s2-43012/?utm_source=cypress&utm_medium=referral&utm_campaign=202110_globe_en_all_integration-dev_kit>`_.
+The follow instructions support two kits – `the PSoC 6 Wi-Fi BT Prototyping Kit <https://www.infineon.com/cms/en/product/evaluation-boards/cy8cproto-062-4343w>`_ and the `PSoC 62S2 Wi-Fi BT Pioneer Kit <https://www.infineon.com/cms/en/product/evaluation-boards/cy8ckit-062s2-43012/?utm_source=cypress&utm_medium=referral&utm_campaign=202110_globe_en_all_integration-dev_kit>`_.
 
 Required hardware and software configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
