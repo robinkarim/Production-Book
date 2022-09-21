@@ -38,11 +38,11 @@ We’ve split this guide into five steps that guide you through setting up CIRRE
 1. Sign up for a Cloud ID account
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Cloud ID is a CIRRENT™ service that you access through the CIRRENT™ Console. CIRRENT™ is an Infineon company and CIRRENT™ services are delivered through the Infineon platform. Before you get started testing Cloud ID you first need to create an Infineon account.
+CIRRENT™ is an Infineon company and CIRRENT™ services, including CIRRENT™ Cloud ID, are delivered through the Infineon OSTS Console. Before you get started testing Cloud ID you first need to create an Infineon user account.
 
 **> Complete these steps using a PC and browser**
 
-A.  Go to https://cirrent.infineon.com/login and click on **Login with Infineon or create a new account**.
+A.  Go to https://osts.infineon.com/login and click on **Create a new account**.
 
 	.. image:: ../img/v-1.png
 
@@ -52,15 +52,21 @@ B.  On the next screen, click **Register Now**.
 
 C.  Complete your contact details, and click **Create Account**.
 
-D.  Now, log in at https://cirrent.infineon.com/login using the credentials you set up in A. You will be prompted to select a Cloud ID account. Because you have just created an Infineon account you need to add a new Cloud ID account first. Click **Create Account**.
+D.  Click **I Agree with Terms of Service**.
+
+E.  Because you have just created an Infineon user you will first need to create a new CIRRENT™ account. Enter the account name in the prompt and click **Create**:
 
 	.. image:: ../img/v-3.png
 
-E.  Give your account a name and click **Create**. Add any team members you’d like to include, and click **Add**.
+F.  Add any team members you’d like to include, and click **Add**, or click **Do it Later** if you don’t want to add team members.
 
-F.  Now, try to find the Cloud ID section in the CIRRENT™ Console – navigate to **Device Management** and **Cloud ID**. You can also directly access the page with this URL: https://osts.infineon.com/cloud-id.
+G.  When you’re presented with the Infineon OSTS landing page, click on **CIRRENT™ Cloud ID**. You can also directly access the page with this URL: https://osts.infineon.com/cloud-id.
 
 	.. image:: ../img/v-4.png
+
+H.  You’ll now see the CIRRENT™ Cloud ID screen, confirming you’re set up to access CIRRENT™ Cloud ID:
+
+<insert image 10 here>
 
 
 2. Try to bind a batch of devices using a QR Code
