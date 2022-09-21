@@ -84,11 +84,11 @@ B.  Using your camera app or QR code scanner, scan this sample QR code:
 	.. image:: ../img/v-5.png
 	   :width: 200
 
-    The QR code contains both a URL and a Product Batch ID (BID), in this case BID #D001. Scanning the code automatically sends you to the URL for the CIRRENT™ Console, and directly to the device binding page, pre-populated with the BID.
+    The QR code contains both a URL and a Product Batch ID (BID), in this case BID #D001. Scanning the code automatically sends you to the right URL for the Infineon OSTS Console, directly to the device binding page, pre-populated with the BID.
 
-C.  You will be prompted to log in, you can do so using the credentials you configured in Step 1.  On the following screen, ensure your test account is selected, and click **Next**.   
+C.  You will be prompted to log in, you can do so using the credentials you configured in Step 1. On the following screen, ensure your test account is selected, and click **Next**.   
 
-D.  Next, you will see a screen requesting a Product Batch ID. The Product Batch ID should be pre-populated, but if it is not, type the BID into the system. Tap Add to complete the process.
+D.  Next, you will see a screen requesting a Product Batch ID. The Product Batch ID should be pre-populated, but if it is not, type the BID into the system. For now you can leave Product Cloud API set at None. Tap **Add** to complete the process.
 
 
 	.. image:: ../img/v-6.png
@@ -105,13 +105,13 @@ The above steps show you how simple it is to associate a batch of devices with y
 3. Verify that devices are now bound in CIRRENT™ Cloud ID
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Now that you’ve completed the binding process you can view the results in the CIRRENT™ Console.
+Now that you’ve completed the binding process you can view the results in the Infineon OSTS Console.
 
 **> Complete these steps using a PC and browser**
 
-A.  Navigate to Device Management and Cloud ID. You can also directly access the page with this URL: https://osts.infineon.com/cloud-id
+A.  Navigate to **CIRRENT™ Cloud ID** in the Infineon OSTS Console. You can also directly access the page with this URL: https://osts.infineon.com/cloud-id
 
-B.  Verify that the devices you bound using a QR code are listed under the Binding section. You’ll notice a device count under # of Bound Devices.
+B.  Verify that the devices you bound using a QR code are listed under the Binding section. You’ll notice a device count under **# of Bound Devices**.
 
 PS: Now is also a good time to test downloading the Manifest File. For some use cases, you may prefer to get manual access to device certificates – to manually upload these into your Product Cloud. Click the 
 
@@ -120,7 +120,7 @@ PS: Now is also a good time to test downloading the Manifest File. For some use 
 	:width: 50
 
 
-button to download the Manifest File in .csv format.
+button to download the Manifest File containing device certificates compressed in .7z format.
 
 
 4. Set up a Cloud API and test Product Cloud provisioning
@@ -130,13 +130,13 @@ In most scenarios, you will want to provision claimed devices directly into your
 
 **> Complete these steps using a PC and browser**
 
-A.  Navigate to **Device Management, Cloud ID**, and select the **Provisioning** tab. You can also follow this link https://osts.infineon.com/cloud-id/provisioning.
+A.  From the Infineon OSTS home page navigate to **CIRRENT™ Cloud ID**, and navigate to the **Provisioning** page using the hamburger menu. You can also follow this link: https://osts.infineon.com/cloud-id/provisioning.
 
 B.  Next, click on **Add Cloud API**.
 
-C.  Complete your Cloud API details in the dialogue box, and click **Create**. For the purpose of this developer kit you can enter dummy details for testing purposes.
+C.  C.	Complete your Cloud API details in the dialogue box, and click **Create**. For the purpose of this developer kit you can enter dummy details just to test the functionality.
 
-D.  Confirm that the API link you’ve just added appears in the **Product Cloud APIs** section of the **Provisioning** tab.
+D.  Confirm that the API link you’ve just added appears in the **Product Cloud APIs** section of the **Provisioning** page.
 
 
 .. image:: ../img/v-7.png
@@ -144,7 +144,7 @@ D.  Confirm that the API link you’ve just added appears in the **Product Cloud
 
 You’ve now configured an API link to your Product Cloud and you’re ready to test provisioning devices directly into your Product Cloud. This is what you need to do to complete the provisioning step:
 
-A.  Navigate to **Device Management, Cloud ID**, or use this link – https://osts.infineon.com/cloud-id/provisioning/
+A.  From the Infineon OSTS landing page navigate to **CIRRENT™ Cloud ID** and use the hamburger menu to navigate to Binding, or use this link – https://osts.infineon.com/cloud-id/binding/
 
 B. Ensure you’re on the **Binding** tab.
 
@@ -173,13 +173,13 @@ You’re all done now – you’ve just provisioned devices into your Product Cl
 5. Test automatic Product Cloud provisioning
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-CIRRENT™ Cloud ID is really easy to use. In this section we’ll illustrate how scanning a QR code can seamlessly trigger both device binding and device provisioning in a single step. For example, an authorized representative on the factory floor can simply scan the QR code of a batch of Cloud ID-compatible chips to trigger both device binding and secure cloud provisioning in one go.
+CIRRENT™ Cloud ID is designed to be extremely simple to use in practice. In this section we’ll illustrate how scanning a QR code can seamlessly trigger both device binding and device provisioning in a single step. For example, an authorized representative on the factory floor can simply scan the QR code of a batch of Cloud ID-compatible chips to trigger both device binding and secure cloud provisioning in one go.
 
 To automatically provision devices with your Product Cloud as soon as you bind a batch of devices you need to first set up an automatic API provisioning link.
 
 **> Complete these steps using a PC and browser**
 
-A.  Navigate to Device Management, Cloud ID, and select the Product Cloud APIs tab. You can also follow this link: https://osts.infineon.com/cloud-id/provisioning
+A.  From the Infineon OSTS landing page navigate to **CIRRENT™ Cloud ID** and use the hamburger menu to navigate to Provisioning. You can also follow this link: https://osts.infineon.com/cloud-id/provisioning
 
 B.  Slide the **When devices are Bound, automatically Provision to Product Cloud** slider to the **ON** position.
 
@@ -202,17 +202,17 @@ C.  Once the browser opens, log in and select your test account if prompted.
 
 D.  Next, you will see a screen requesting a **Product Batch ID**. The Product Batch ID should be pre-populated. Tap **Add** to confirm the provisioning step.
 
-E.  The system will provide you with an indication of success.  
+E.  You’ll now see the batch listed on the **Binding** page.  
 
-By scanning this QR code you’ve now bound your devices with CIRRENT™ Cloud ID, and provisioned your devices into your Product Cloud. Let’s take a look at the results in the CIRRENT™ Console:
+By scanning this QR code you’ve now bound your devices with CIRRENT™ Cloud ID, and provisioned your devices into your Product Cloud. Let’s take a look at the results in the Infineon OSTS Console:
 
 **> Complete these steps using a PC and browser**
 
-A.  Navigate to Device Management and Cloud ID. You can also directly access the page with this URL: https://osts.infineon.com/cloud-id.
+A.  From the Infineon OSTS Console landing page navigate to **CIRRENT™ Cloud ID**. You can also directly access the page with this URL: https://osts.infineon.com/cloud-id.
 
-B.  Verify that on the Binding tab, your additional batch of devices is now listed.
+B.  Use the hamburger menu to navigate to the **Binding** tab, where you will see your additional batch of devices is now listed.
 
-C.  Verify that both the # of Bound Devices counter and the # of Provisioned Devices counter now display the new devices.
+C.  Verify that both the **# of Bound Devices** counter and the **# of Provisioned Devices** counter now display the new devices.
 
 Step five illustrates the one-step process by which an authorized delegate that operates in a manufacturing environment can ensure a batch of devices is bound with Cloud ID, and also securely provisioned into your Product Cloud.
 
