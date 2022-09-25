@@ -44,7 +44,7 @@ CIRRENT™ is an Infineon company and CIRRENT™ services, including CIRRENT™ 
 
 A.  Go to https://osts.infineon.com/login and click on **Create a new account**.
 
-	.. image:: ../img/gsgc/image1.png
+	.. image:: ../img/qsgc/image1.png
 
 B.  On the next screen, click **Register Now**.
 
@@ -56,13 +56,13 @@ D.  Click **I Agree with Terms of Service**.
 
 E.  Because you have just created an Infineon user you will first need to create a new CIRRENT™ account. Enter the account name in the prompt and click **Create**:
 
-	.. image:: ../img/gsgc/image2.png
+	.. image:: ../img/qsgc/image2.png
 
 F.  Add any team members you’d like to include, and click **Add**, or click **Do it Later** if you don’t want to add team members.
 
 G.  When you’re presented with the Infineon OSTS landing page, click on **CIRRENT™ Cloud ID**. You can also directly access the page with this URL: https://osts.infineon.com/cloud-id.
 
-	.. image:: ../img/gsgc/image10.png
+	.. image:: ../img/qsgc/image10.png
 
 H.  You’ll now see the CIRRENT™ Cloud ID screen, confirming you’re set up to access CIRRENT™ Cloud ID:
 
@@ -91,7 +91,7 @@ C.  You will be prompted to log in, you can do so using the credentials you conf
 D.  Next, you will see a screen requesting a Product Batch ID. The Product Batch ID should be pre-populated, but if it is not, type the BID into the system. For now you can leave Product Cloud API set at None. Tap **Add** to complete the process.
 
 
-	.. image:: ../img/gsgc/image4.png
+	.. image:: ../img/qsgc/image4.png
 
 
 E.  The system will provide you with an indication of success. 
@@ -139,7 +139,7 @@ C.  C.	Complete your Cloud API details in the dialogue box, and click **Create**
 D.  Confirm that the API link you’ve just added appears in the **Product Cloud APIs** section of the **Provisioning** page.
 
 
-.. image:: ../img/gsgc/image5.png
+.. image:: ../img/qsgc/image5.png
 
 
 You’ve now configured an API link to your Product Cloud and you’re ready to test provisioning devices directly into your Product Cloud. This is what you need to do to complete the provisioning step:
@@ -150,15 +150,15 @@ B. Ensure you’re on the **Binding** tab.
 
 C. Find the batch of devices you bound in Step 2, and click on the edit button in that row.
 
-	.. image:: ../img/gsgc/image6.png
+	.. image:: ../img/qsgc/image6.png
 
 D.  This will activate the **API Endpoint** editor for that batch of devices. Simply select the API endpoint you created in the previous section.
 
-	.. image:: ../img/gsgc/image7.png
+	.. image:: ../img/qsgc/image7.png
 
 E. Next, you need to trigger the provisioning step. Click the **Provisioning** button, and click **Provision Now**.
 
-	.. image:: ../img/gsgc/image8.png
+	.. image:: ../img/qsgc/image8.png
 
 F.  Verify that the **# of Provisioned Devices** in that row now matches the **# of Bound Devices**.
 
@@ -177,7 +177,7 @@ A.  From the Infineon OSTS landing page navigate to **CIRRENT™ Cloud ID** and 
 
 B.  Slide the **When devices are Bound, automatically Provision to Product Cloud** slider to the **ON** position.
 
-	.. image:: ../img/gsgc/image9.png
+	.. image:: ../img/qsgc/image9.png
 
 C.  Ensure the Product Cloud API you configured in Step 4 is selected in the **Product Cloud API** drop box.
 
