@@ -44,7 +44,7 @@ CIRRENT™ is an Infineon company and CIRRENT™ services, including CIRRENT™ 
 
 A.  Go to https://osts.infineon.com/login and click on **Create a new account**.
 
-	.. image:: ../img/qsgc/image1.png
+	.. image:: ../img/qsgc/Image1.png
 
 B.  On the next screen, click **Register Now**.
 
@@ -62,12 +62,12 @@ F.  Add any team members you’d like to include, and click **Add**, or click **
 
 G.  When you’re presented with the Infineon OSTS landing page, click on **CIRRENT™ Cloud ID**. You can also directly access the page with this URL: https://osts.infineon.com/cloud-id.
 
-	.. image:: ../img/qsgc/image10.png
+	.. image:: ../img/qsgc/image3.png
 
 H.  You’ll now see the CIRRENT™ Cloud ID screen, confirming you’re set up to access CIRRENT™ Cloud ID:
 
-<insert image 10 here>
-
+	.. image:: ../img/qsgc/image10.png
+	
 
 2. Try to bind a batch of devices using a QR Code
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
