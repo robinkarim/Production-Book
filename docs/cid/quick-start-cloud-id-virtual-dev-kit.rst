@@ -146,21 +146,19 @@ You’ve now configured an API link to your Product Cloud and you’re ready to 
 
 A.  From the Infineon OSTS landing page navigate to **CIRRENT™ Cloud ID** and use the hamburger menu to navigate to Binding, or use this link – https://osts.infineon.com/cloud-id/binding/
 
-B. Ensure you’re on the **Binding** tab.
-
-C. Find the batch of devices you bound in Step 2, and click on the edit button in that row.
+B. Find the batch of devices you bound in Step 2, and click on the edit button in that row.
 
 	.. image:: ../img/qsgc/image6.png
 
-D.  This will activate the **API Endpoint** editor for that batch of devices. Simply select the API endpoint you created in the previous section.
+C.  This will activate the **API Endpoint** editor for that batch of devices. Simply select the API endpoint you created in the previous section.
 
 	.. image:: ../img/qsgc/image7.png
 
-E. Next, you need to trigger the provisioning step. Click the **Provisioning** button, and click **Provision Now**.
+D. Next, you need to trigger the provisioning step. Click the **Provisioning** button, and click **Provision Now**.
 
 	.. image:: ../img/qsgc/image8.png
 
-F.  Verify that the **# of Provisioned Devices** in that row now matches the **# of Bound Devices**.
+E.  Verify that the **# of Provisioned Devices** in that row now matches the **# of Bound Devices**.
 
 You’re all done now – you’ve just provisioned devices into your Product Cloud. You should now also be able to view the device certificates when you log into your Product Cloud.
 
