@@ -54,7 +54,7 @@ C.  Complete your contact details, and click **Create Account**.
 
 D.  Click **I Agree with Terms of Service**.
 
-E.  Because you have just created an Infineon user you will first need to create a new CIRRENT™ account. Enter the account name in the prompt and click **Create**:
+E.  Because you have just created an Infineon user you will first need to create a new CIRRENT™ account. Enter an account name in the prompt and click **Create**:
 
 	.. image:: ../img/qsgc/image2.png
 
@@ -88,7 +88,7 @@ B.  Using your camera app or QR code scanner, scan this sample QR code:
 
 C.  You will be prompted to log in, you can do so using the credentials you configured in Step 1. On the following screen, ensure your test account is selected, and click **Next**.   
 
-D.  Next, you will see a screen requesting a Product Batch ID. The Product Batch ID should be pre-populated, but if it is not, type the BID into the system. For now you can leave Product Cloud API set at None. Tap **Add** to complete the process.
+D.  Next, you will see a screen requesting a Product Batch ID. The Product Batch ID should be pre-populated, but if it is not, type the BID of the sample QR code (D001) into the **Product Batch ID** field. For now you can leave **Product Cloud API** set at None. Tap **Add** to complete the process.
 
 
 	.. image:: ../img/qsgc/image4.png
@@ -134,7 +134,7 @@ A.  From the Infineon OSTS home page navigate to **CIRRENT™ Cloud ID**, and na
 
 B.  Next, click on **Add Cloud API**.
 
-C.  C.	Complete your Cloud API details in the dialogue box, and click **Create**. For the purpose of this developer kit you can enter dummy details just to test the functionality.
+C.  Complete your Cloud API details in the dialogue box, and click **Create**. For the purpose of this developer kit you can enter dummy details just to test the functionality.
 
 D.  Confirm that the API link you’ve just added appears in the **Product Cloud APIs** section of the **Provisioning** page.
 
@@ -150,7 +150,7 @@ B. Find the batch of devices you bound in Step 2, and click on the edit button i
 
 	.. image:: ../img/qsgc/image6.png
 
-C.  This will activate the **API Endpoint** editor for that batch of devices. Simply select the API endpoint you created in the previous section.
+C.  This will activate the **API Endpoint** editor for that batch of devices. Simply select the API endpoint you created in the previous section and click **Save**.
 
 	.. image:: ../img/qsgc/image7.png
 
