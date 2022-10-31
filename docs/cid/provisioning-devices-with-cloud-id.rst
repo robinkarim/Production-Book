@@ -221,6 +221,65 @@ You may want to review the CloudFormation Best Practices and Security section in
         :alt: Dashboard 2
  
 
+Setting up the Azure Resource Group for Azure IoT Hub
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To set up an Azure Resource Group you need to complete the following steps.
+
+Log into Azure Portal using your Azure credentials.
+
+Click on Resource Groups
+
+QWERTYUI insert img01 here QWERTYU
+
+Click create to create a new Resource Group 
+
+QWERTYUI insert img02 here QWERTYU
+
+
+
+with a name that is less than 11 characters long. 
+
+.. note:: The 11 character limit is due to a limitation in Azure Resource Groups. Azure requires the name of the group to be between 7 and 24 characters. As part of 
+the creation process, Azure appends a 13 character long string to the name you select. This means you need to keep the name of the group to less than 11 characters. 
+
+
+
+Use region US East
+
+Prepare Azure Resource Group –  5
+•
+•
+•
+•
+To set up the Resource Group, you can use a script provided in the CIRRENT public Github repository. The 
+script is a sample that can be used as-is or modified based on your needs.
+Ensure that you are logged into Azure in your browser and then click the link: https://github.com/Cirrent/
+iot_azure_quickstart
+The README file in the repository contains a button that will execute the sample template. Click on this to 
+continue
+This will open a browser tab into Azure and you can see the script execute and create the proper resources. 
+The window will tell you when provisioning is complete
+Online Services, Tools and Software  –  Configuration of Cloud ID provisioning to Azure
+Prepare Azure Resource Group –  6
+Online Services, Tools and Software  –  Configuration of Cloud ID provisioning to Azure
+Configure the API connection –  7
+•
+•
+•
+•
+•
+1.
+2 Configure the API connection
+In order to set up the API connection in Cloud ID, you will need the interop URL and the subscription ID for 
+the Azure resources. You can find these in the Azure console by doing the following:
+Click on the newly created Resource Group and select the Deployment section
+Click on the template name
+Click on Outputs in the left menu
+The interop URL and subscription ID will be displayed on the screen.
+
+
+
 
 Adding your Product Cloud API to CIRRENT™ Console
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
