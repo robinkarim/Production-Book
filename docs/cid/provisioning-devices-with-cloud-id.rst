@@ -238,22 +238,17 @@ QWERTYUI insert img02 here QWERTYU
 
 Enter a name that that is less than 11 characters long. Select region **US East**
 
-.. note:: The 11 character limit is due to a limitation in Azure Resource Groups. Azure requires the name of the group to be between 7 and 24 characters. As part of 
-the creation process, Azure appends a 13 character long string to the name you select. This means you need to keep the name of the group to less than 11 characters. 
+.. note:: The 11 character limit is due to a limitation in Azure Resource Groups. Azure requires the name of the group to be between 7 and 24 characters. As part of the creation process, Azure appends a 13 character long string to the name you select. This means you need to keep the name of the group to less than 11 characters. 
 
 
 
 **Prepare Azure Resource Group**
 
-You set up the Resource Group, using a script provided in the CIRRENT public Github repository. The script is a sample that can be used as-is, but you can also modify the script based on your needs.
-
-To use the script, ensure that you are logged into Azure in your browser. In the same browser, click on this link: https://github.com/Cirrent/iot_azure_quickstart
+You set up the Resource Group, using a script provided in the CIRRENT public Github repository. The script is a sample that can be used as-is, but you can also modify the script based on your needs. To use the script, ensure that you are logged into Azure in your browser. In the same browser, click on this link: https://github.com/Cirrent/iot_azure_quickstart
 
 The link takes you to the CIRRENT Github repository. In the README file in the repository you will see a **Deploy to Azure** button that you can click to execute the sample template. Click on the button to continue. Assuming that you are logged in to Azure, the link will open a browser tab to an Azure URL where you can see the script execute and create the necessary resources in your account.
 
-The window will tell you when provisioning is complete
-
-In order to set up the API connection in Cloud ID, you will need the interop URL and the subscription ID for the Azure resources. You can find these in the Azure console by doing the following:
+The window will tell you when provisioning is complete. In order to set up the API connection in Cloud ID, you will need the interop URL and the subscription ID for the Azure resources. You can find these in the Azure console by doing the following:
 
 Click on the newly created **Resource Group** and select the **Deployment section**
 Click on the template name
