@@ -230,7 +230,9 @@ Log into Azure Portal using your Azure credentials.
 
 Click on **Resource Groups**.
 
-QWERTYUI insert img01 here QWERTYU
+.. image:: ../img/azr_img01.png
+        :align: center
+        :alt: Setting up Azure IoT Hub for CloudID
 
 Click **Create** to create a new Resource Group 
 
