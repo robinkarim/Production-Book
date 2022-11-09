@@ -307,34 +307,34 @@ Configuring Azure IoT Hub
 
 Cloud ID has specific steps for Cloud ID users that rely on Azure for their Product Cloud. In order to set up the API connection in Cloud ID, you will need the **interop URL** and the **subscription ID** for the Azure resources. You can find these in the Azure console by doing the following:
 
-Click on the **Resource Group** you created using the Cloud ID template and select the **Deployment section**
-Click on the template name:
+1. Click on the **Resource Group** you created using the Cloud ID template and select the **Deployment section**
+2. Click on the template name:
 
 .. image:: ../img/azr_img06.png
         :align: center
         :alt: Setting up Azure IoT Hub for CloudID
 
-Click on **Outputs** in the left menu:
+3. Click on **Outputs** in the left menu:
 
 .. image:: ../img/azr_img07.png
         :align: center
         :alt: Setting up Azure IoT Hub for CloudID
 
-The interop URL (**interopURL**) and subscription ID (**subscriptionID**) will be displayed on the screen. Make a note of both as you'll need it to configure the Azure cloud API in CIRRENT Cloud ID. 
+4. The interop URL (**interopURL**) and subscription ID (**subscriptionID**) will be displayed on the screen. Make a note of both as you'll need it to configure the Azure cloud API in CIRRENT Cloud ID. 
 
-Next, in the Product Cloud API section of Cloud ID, ensure that you select Azure as your Product Cloud:
+5. Next, in the Product Cloud API section of Cloud ID, ensure that you select Azure as your Product Cloud:
 
 .. image:: ../img/azr_img08.png
         :align: center
         :alt: Setting up Azure IoT Hub for CloudID
 
-Continue to complete the following fields:
+6. Continue to complete the following fields:
 
 * **Name** This is the name of your Azure cloud API.
 * **Interop URL.** Here, enter the information in the **interopURL** field in the Azure Console.
 * **Subscription ID.** Here, enter the information in the **subscriptionID** field in the Azure Console.
 
-Click **Create** to complete the configuration process.
+7. Click **Create** to complete the configuration process.
 
 
 
