@@ -328,9 +328,9 @@ Next, in the Product Cloud API section of Cloud ID, ensure that you select Azure
 
 Continue to complete the following fields:
 
-* **Name** This is your Amazon Web Services account identifier.
-* **Interop URL.** Here, enter the API gateway ID you have set up.
-* **Subscription ID.** Select the AWS region your AWS service operates in.
+* **Name** This is the name of your Azure cloud API.
+* **Interop URL.** Here, enter the information in the **interopURL** field in the Azure Console.
+* **Subscription ID.** Here, enter the information in the **subscriptionID** field in the Azure Console.
 
 Click **Create** to complete the configuration process.
 
@@ -339,7 +339,7 @@ Click **Create** to complete the configuration process.
 Configuring other cloud APIs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-First, select the Other option to start configuring your Cloud API, as below:
+First, select the **Other** option to start configuring your Cloud API, as below:
 
 .. image:: ../img/pca-8.png
         :align: center
