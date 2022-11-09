@@ -264,22 +264,7 @@ Click on the **Deploy to Azure** button to continue. Assuming that you are logge
         :align: center
         :alt: Setting up Azure IoT Hub for CloudID
 
-In order to set up the API connection in Cloud ID, you will need the **interop URL** and the **subscription ID** for the Azure resources. You can find these in the Azure console by doing the following:
 
-Click on the newly created **Resource Group** and select the **Deployment section**
-Click on the template name
-
-.. image:: ../img/azr_img06.png
-        :align: center
-        :alt: Setting up Azure IoT Hub for CloudID
-
-Click on **Outputs** in the left menu
-
-.. image:: ../img/azr_img07.png
-        :align: center
-        :alt: Setting up Azure IoT Hub for CloudID
-
-The interop URL (**interopURL**) and subscription ID (**subscriptionID**) will be displayed on the screen. Make a note of both as you'll need it to configure the Azure cloud API in CIRRENT Cloud ID. 
 
 
 
@@ -312,6 +297,44 @@ Next, configure the fields as follows:
 * **Stage.** Provide the name of the stage in your deployment that you want to use for this API link.
 
 You have now added your AWS-based Product Cloud to CIRRENT™ Cloud ID and can now provision devices bound to your Cloud ID account directly into your Product Cloud.
+
+
+Configuring Azure IoT Hub
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Cloud ID has specific steps for Cloud ID users that rely on Azure for their Product Cloud. In order to set up the API connection in Cloud ID, you will need the **interop URL** and the **subscription ID** for the Azure resources. You can find these in the Azure console by doing the following:
+
+Click on the **Resource Group** you created using the Cloud ID template and select the **Deployment section**
+Click on the template name:
+
+.. image:: ../img/azr_img06.png
+        :align: center
+        :alt: Setting up Azure IoT Hub for CloudID
+
+Click on **Outputs** in the left menu:
+
+.. image:: ../img/azr_img07.png
+        :align: center
+        :alt: Setting up Azure IoT Hub for CloudID
+
+The interop URL (**interopURL**) and subscription ID (**subscriptionID**) will be displayed on the screen. Make a note of both as you'll need it to configure the Azure cloud API in CIRRENT Cloud ID. 
+
+Next, in the Product Cloud API section of Cloud ID, ensure that you select Azure as your Product Cloud:
+
+.. image:: ../img/azr_img08.png
+        :align: center
+        :alt: Setting up Azure IoT Hub for CloudID
+
+Continue to complete the following fields:
+
+* **Name** This is your Amazon Web Services account identifier.
+* **Interop URL.** Here, enter the API gateway ID you have set up.
+* **Subscription ID.** Select the AWS region your AWS service operates in.
+
+Click **Create** to complete the configuration process.
+
+
 
 Configuring other cloud APIs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
