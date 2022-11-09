@@ -236,11 +236,15 @@ Click on **Resource Groups**.
 
 Click **Create** to create a new Resource Group 
 
-QWERTYUI insert img02 here QWERTYU
+.. image:: ../img/azr_img02.png
+        :align: center
+        :alt: Setting up Azure IoT Hub for CloudID
 
 Enter a name that that is less than 11 characters long. Select region **US East**, as whown below.
 
-QWERTYUI insert img03 here QWERTYU
+.. image:: ../img/azr_img03.png
+        :align: center
+        :alt: Setting up Azure IoT Hub for CloudID
 
 .. note:: The 11 character limit is due to a limitation in Azure Resource Groups. Azure requires the name of the group to be between 7 and 24 characters. As part of the creation process, Azure appends a 13 character long string to the name you select. This means you need to keep the name of the group to less than 11 characters. 
 
@@ -250,22 +254,30 @@ You set up the Resource Group, using a script provided in the CIRRENT public Git
 
 The link takes you to the CIRRENT Github repository. In the README file in the repository you will see a **Deploy to Azure** button that you can click to execute the sample template:
 
-QWERTYUI insert img04 here QWERTYU
+.. image:: ../img/azr_img04.png
+        :align: center
+        :alt: Setting up Azure IoT Hub for CloudID
 
 Click on the **Deploy to Azure** button to continue. Assuming that you are logged in to Azure, the link will open a browser tab to an Azure URL where you can see the script execute and create the necessary resources in your account. The window will prompt you when provisioning is complete.
 
-QWERTYUI insert img05 here QWERTYU
+.. image:: ../img/azr_img05.png
+        :align: center
+        :alt: Setting up Azure IoT Hub for CloudID
 
 In order to set up the API connection in Cloud ID, you will need the **interop URL** and the **subscription ID** for the Azure resources. You can find these in the Azure console by doing the following:
 
 Click on the newly created **Resource Group** and select the **Deployment section**
 Click on the template name
 
-QWERTYUI insert img06 here QWERTYU
+.. image:: ../img/azr_img06.png
+        :align: center
+        :alt: Setting up Azure IoT Hub for CloudID
 
 Click on **Outputs** in the left menu
 
-QWERTYUI insert img07 here QWERTYU
+.. image:: ../img/azr_img07.png
+        :align: center
+        :alt: Setting up Azure IoT Hub for CloudID
 
 The interop URL (**interopURL**) and subscription ID (**subscriptionID**) will be displayed on the screen. Make a note of both as you'll need it to configure the Azure cloud API in CIRRENT Cloud ID. 
 
