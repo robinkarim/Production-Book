@@ -242,13 +242,15 @@ To set up an Azure Resource Group you need to complete the following steps.
 
 4. Enter a name that that is less than 11 characters long. 
 
+.. note:: The 11 character limit is due to a limitation in Azure Resource Groups. Azure requires the name of the group to be between 7 and 24 characters. As part of the creation process, Azure appends a 13 character long string to the name you select. This means you need to keep the name of the group to less than 11 characters. 
+
+
 5. Select region **US East**, as shown below.
 
 .. image:: ../img/azr_img03.png
         :align: center
         :alt: Setting up Azure IoT Hub for CloudID
 
-.. note:: The 11 character limit is due to a limitation in Azure Resource Groups. Azure requires the name of the group to be between 7 and 24 characters. As part of the creation process, Azure appends a 13 character long string to the name you select. This means you need to keep the name of the group to less than 11 characters. 
 
 **Prepare Azure Resource Group**
 
