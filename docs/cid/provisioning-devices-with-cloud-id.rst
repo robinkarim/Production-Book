@@ -311,7 +311,7 @@ Configuring Azure IoT Hub
 
 Cloud ID has specific steps for Cloud ID users that rely on Azure for their Product Cloud. In order to set up the API connection in Cloud ID, you will need the **interop URL** and the **subscription ID** for the Azure resources. You can find these in the Azure console by doing the following:
 
-1. Click on the **Resource Group** you created using the Cloud ID template and select the **Deployment section**
+1. Click on the **Resource Group** you created using the Cloud ID template and select the **Deployments section**
 2. Click on the template name:
 
 .. image:: ../img/azr_img06.png
