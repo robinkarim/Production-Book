@@ -226,21 +226,21 @@ Setting up the Azure Resource Group for Azure IoT Hub
 
 To set up an Azure Resource Group you need to complete the following steps.
 
-Log into Azure Portal using your Azure credentials. 
+1. Log into Azure Portal using your Azure credentials. 
 
-Click on **Resource Groups**.
+2. Click on **Resource Groups**.
 
 .. image:: ../img/azr_img01.png
         :align: center
         :alt: Setting up Azure IoT Hub for CloudID
 
-Click **Create** to create a new Resource Group 
+3. Click **Create** to create a new Resource Group 
 
 .. image:: ../img/azr_img02.png
         :align: center
         :alt: Setting up Azure IoT Hub for CloudID
 
-Enter a name that that is less than 11 characters long. Select region **US East**, as whown below.
+4. Enter a name that that is less than 11 characters long. Select region **US East**, as whown below.
 
 .. image:: ../img/azr_img03.png
         :align: center
@@ -250,7 +250,9 @@ Enter a name that that is less than 11 characters long. Select region **US East*
 
 **Prepare Azure Resource Group**
 
-You set up the Resource Group, using a script provided in the CIRRENT public Github repository. The script is a sample that can be used as-is, but you can also modify the script based on your needs. To use the script, ensure that you are logged into Azure in your browser. In the same browser, click on this link: https://github.com/Cirrent/iot_azure_quickstart
+You set up the Resource Group, using a script provided in the CIRRENT public Github repository. The script is a sample that can be used as-is, but you can also modify the script based on your needs. To use the script, ensure that you are logged into Azure in your browser. 
+
+1. In the same browser, click on this link: https://github.com/Cirrent/iot_azure_quickstart
 
 The link takes you to the CIRRENT Github repository. In the README file in the repository you will see a **Deploy to Azure** button that you can click to execute the sample template:
 
@@ -258,7 +260,7 @@ The link takes you to the CIRRENT Github repository. In the README file in the r
         :align: center
         :alt: Setting up Azure IoT Hub for CloudID
 
-Click on the **Deploy to Azure** button to continue. Assuming that you are logged in to Azure, the link will open a browser tab to an Azure URL where you can see the script execute and create the necessary resources in your account. The window will prompt you when provisioning is complete.
+2. Click on the **Deploy to Azure** button to continue. Assuming that you are logged in to Azure, the link will open a browser tab to an Azure URL where you can see the script execute and create the necessary resources in your account. The window will prompt you when provisioning is complete.
 
 .. image:: ../img/azr_img05.png
         :align: center
