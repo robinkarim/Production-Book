@@ -167,7 +167,7 @@ Broadly speaking, you need to take the following steps to ensure that your Produ
 * | Configure the necessary users and associated permissions to enable two-way communications
   |
 
-For some Product Cloud configurations it is possible to automate the above steps. If you are using AWS, you can make use of the AWS CloudFormation template to do that. We describe the steps for using the AWS Cloud Formation template in the next section.
+For some Product Cloud configurations it is possible to automate the above steps. If you are using AWS, you can make use of the AWS CloudFormation template to do that. CIRRENT™ Cloud ID also offers automated provisionign for Azure IoT Hub.  We describe the steps for using the AWS Cloud Formation template and Azure IoT Hub in the next sections.
 
 
 Setting up the AWS CloudFormation template
