@@ -240,7 +240,9 @@ To set up an Azure Resource Group you need to complete the following steps.
         :align: center
         :alt: Setting up Azure IoT Hub for CloudID
 
-4. Enter a name that that is less than 11 characters long. Select region **US East**, as whown below.
+4. Enter a name that that is less than 11 characters long. 
+
+5. Select region **US East**, as shown below.
 
 .. image:: ../img/azr_img03.png
         :align: center
