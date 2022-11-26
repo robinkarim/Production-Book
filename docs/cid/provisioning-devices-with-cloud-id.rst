@@ -22,9 +22,9 @@ The workflow is as follows:
 
 1.	Device ships with a built-in Device Certificate prepopulated in CIRRENT™ Cloud ID service.
 2.	Use any smartphone to scan the QR Code on the reel and bind ownership.
-3.	Log onto the CIRRENT™ Console and download the Manifest File.
+3.	Log onto CIRRENT™ Cloud ID and download the Manifest File.
 4.	Upload the Manifest File into the Product Cloud.
-5.	Chain of Trust is established between the Product and the Product Cloud.  All ongoing communications are directly between device and Product Cloud.
+5.	Chain of Trust is established between the Product and the Product Cloud. All ongoing communications are directly between device and Product Cloud.
 
  
 .. figure:: ../img/pd-1.png
@@ -38,11 +38,11 @@ We will now outline the steps you need to take to complete the above workflow. T
 Binding devices
 ^^^^^^^^^^^^^^^^
 
-Your Cloud ID-compatible devices come pre-installed with a device certificate, but you first need to “bind” the devices to claim these as your own. To bind ownership with these devices you need to add the devices to CIRRENT™ Cloud ID by entering the Product Batch ID for the batch of devices into the Cloud ID section in the CIRRENT™ Console.
+Your Cloud ID-compatible devices come pre-installed with a device certificate, but you first need to “bind” the devices to claim these as your own. To bind ownership with these devices you need to add the devices to CIRRENT™ Cloud ID by entering the Product Batch ID for the batch of devices into the Cloud ID section in the Infineon OSTS Console.
 
 Binding using a desktop browser
 """""""""""""""""""""""""""""""""
-If you’re using a desktop browser you can bind devices by navigating to **Device Management** and to **Cloud ID**. The default Cloud ID panel displays the batches of devices you have already onboarded. To add a new batch of devices, click on the **Bind an Infineon Product Batch** button.
+If you’re using a desktop browser you can bind devices by navigating to **CIRRENT™ Cloud ID** and to the **Binding** page. The default Cloud ID panel displays the batches of devices you have already onboarded. To add a new batch of devices, click on the **Bind an Infineon Product Batch** button.
 
 
 .. image:: ../img/pdn-1.png
@@ -58,11 +58,11 @@ Next, you’ll see the following screen:
     :alt: Dashboard 2
  
 
-In the Product Batch ID field you enter the BID associated with the devices you want to bind ownership to. This could be a batch of chips, for example, identified by a unique alpha-numeric string.
+Ensure you select the correct CIRRENT™ account to bind your product batch to. In the Batch ID field you enter the BID associated with the devices you want to bind ownership to. This could be a batch of chips, for example, identified by a unique alpha-numeric string.
 
 .. note:: You can use one of the dummy reels to test functionality.
 
-You can enter the BID manually, by copying and pasting the BID, or by using for QR code scanner on a mobile phone. Since you will be downloading the Manifest File to manually upload it to your Product Cloud you need to leave the Product Cloud API field blank. Simply click **Add** to complete the binding process. You should now see the batch of devices listed in your list of bound devices:
+You can enter the BID manually, by copying and pasting the BID, or by using for QR code scanner on a mobile phone. Simply click **Add** to complete the binding process. You should now see the batch of devices listed in your list of bound devices:
 
 
 .. image:: ../img/pdn-2.png
@@ -76,7 +76,7 @@ You will see a counter reflecting the number of bound devices, indicating the nu
 Binding using a mobile browser
 """""""""""""""""""""""""""""""
 
-CIRRENT™ Cloud ID offers a simplified mobile experience to speed up device provisioning in certain use cases – the factory floor, for example. To start the process of binding devices using a mobile device, simply navigate to the CIRRENT™ Cloud ID section in the CIRRENT™ Cloud. This will automatically display the following prompt:
+CIRRENT™ Cloud ID offers a simplified mobile experience to speed up device provisioning in certain use cases – the factory floor, for example. To start the process of binding devices using a mobile device, simply navigate to the **CIRRENT™ Cloud ID** section in the Infineon OSTS Console. This will automatically display the following prompt:
 
 .. image:: ../img/pdn-3.png
     :align: center
@@ -101,7 +101,7 @@ To bind devices that are identified with a QR code, simply scan the QR code with
  
  Simply click **Add** to confirm the binding step.
 
-Downloading the Manifest File in CIRRENT™ Console
+Downloading the Manifest File in CIRRENT™ Cloud ID
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Now that you have completed the binding step in CIRRENT™ Cloud ID you can proceed to download the Manifest File containing the device certificates. To do so, click on the download button next to the entry for the list of devices you’d like to provision into your Product Cloud:
@@ -130,7 +130,7 @@ In the previous section, we described how you can use a Manifest File to extract
 In this section, we outline how you can use an API that connects to your Product Cloud - including AWS, Azure, or your custom cloud – to inject device certificates into your Product Cloud when you bind a batch of devices to your Cloud ID account. Broadly speaking, the workflow is as follows:
 
 1.  Device ships with built-in Device Certificate prepopulated in CIRRENT™ Cloud ID service.
-2.  You log in to the CIRRENT™ Console and configure the automation to provision your reels into the Product Cloud.
+2.  You log in to CIRRENT™ Cloud ID and configure the automation to provision your reels into the Product Cloud.
 3.  Use any smartphone to scan the QR Code on the reel and bind ownership.
 4.  CIRRENT™ Cloud ID service pushes the certificates into Product Cloud through a cloud-to-cloud API.
 5.  Chain of trust is established between the device and the Product Cloud.  All ongoing communications are directly between the device and the Product Cloud.
@@ -167,7 +167,7 @@ Broadly speaking, you need to take the following steps to ensure that your Produ
 * | Configure the necessary users and associated permissions to enable two-way communications
   |
 
-For some Product Cloud configurations it is possible to automate the above steps. If you are using AWS, you can make use of the AWS CloudFormation template to do that. CIRRENT™ Cloud ID also offers automated provisionign for Azure IoT Hub.  We describe the steps for using the AWS Cloud Formation template and Azure IoT Hub in the next sections.
+For some Product Cloud configurations it is possible to automate the above steps. If you are using AWS, you can make use of the AWS CloudFormation template to do that. CIRRENT™ Cloud ID also offers automated provisioning for Azure IoT Hub.  We describe the steps for using the AWS Cloud Formation template and Azure IoT Hub in the next sections.
 
 
 Setting up the AWS CloudFormation template
@@ -175,9 +175,9 @@ Setting up the AWS CloudFormation template
 
 CloudFormation is an AWS service that helps in setting up the required resources in AWS through a template. Executing a CloudFormation template creates a stack in your AWS account. A stack is a collection of AWS resources.
 
-A sample template for creating AWS resources required for connecting your CCM devices to the AWS IoT Core is already created by INFINEON and stored in Amazon S3 storage. The stack created by this template provides some outputs that can be used to establish cloud to cloud communication between your CIRRENT™ Cloud ID account and your AWS Product Cloud. 
+A sample template for creating the AWS resources required for connecting your Cloud ID devices to the AWS IoT Core is already created by Infineon and stored in Amazon S3 storage. The stack created by this template provides some outputs that can be used to establish cloud to cloud communication between your CIRRENT™ Cloud ID account and your AWS Product Cloud. 
 
-You may want to review the CloudFormation Best Practices and Security section in the AWS documentation. You need to execute the CloudFormation template only once per AWS account in a region. Do the following to execute the INFINEON-provided CloudFormation template:
+You may want to review the CloudFormation Best Practices and Security section in the AWS documentation. You need to execute the CloudFormation template only once per AWS account in a region. Do the following to execute the Infineon-provided CloudFormation template:
 
 
 1. Click on the following link to execute the CloudFormation template. By default, the link uses the **us-west-1** region: 
@@ -254,11 +254,11 @@ To set up an Azure Resource Group you need to complete the following steps.
 
 **Prepare Azure Resource Group**
 
-You set up the Resource Group, using a script provided in the CIRRENT public Github repository. The script is a sample that can be used as-is, but you can also modify the script based on your needs. To use the script, ensure that you are logged into Azure in your browser. 
+You set up the Resource Group, using a script provided in the CIRRENT™ public Github repository. The script is a sample that can be used as-is, but you can also modify the script based on your needs. To use the script, ensure that you are logged into Azure in your browser. 
 
 1. In the same browser, click on this link: https://github.com/Cirrent/iot_azure_quickstart
 
-The link takes you to the CIRRENT Github repository. In the README file in the repository you will see a **Deploy to Azure** button that you can click to execute the sample template:
+The link takes you to the CIRRENT™ Github repository. In the README file in the repository you will see a **Deploy to Azure** button that you can click to execute the sample template:
 
 .. image:: ../img/azr_img04.png
         :align: center
@@ -272,19 +272,16 @@ The link takes you to the CIRRENT Github repository. In the README file in the r
 
 
 
-
-
-
-Adding your Product Cloud API to CIRRENT™ Console
+Adding your Product Cloud API to CIRRENT™ Cloud ID
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-To configure your first cloud API with Cloud ID, navigate to Device Management and Cloud ID. Select the Provisioning tab, and click on Add Cloud API. 
+To configure your first cloud API with Cloud ID, log in to the Infineon OSTS Console and navigate to **CIRRENT™ Cloud ID**. Use the hamburger menu to open the **Provisioning** page, and click on **Add Cloud API**. 
 
 .. image:: ../img/pca-6.png
         :align: center
         :alt: Dashboard 2
 
-You’ll be presented with a dialog box where you need to complete your Product Cloud API details.
+You’ll be presented with a dialog box where you need to complete your Product Cloud API details. How you ccomp
 
 Configuring Amazon Web Services
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
