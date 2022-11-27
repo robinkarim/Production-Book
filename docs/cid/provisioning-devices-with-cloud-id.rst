@@ -389,7 +389,7 @@ In the Batch ID field you enter the BID associated with the devices you want to 
 You can enter the BID manually, by copying and pasting the BID, or by using a QR code scanner. Simply click **Add** to complete the provisioning process. You should now see the batch of devices listed in your list of Infineon devices:
 
 
-.. image:: ../img/pdn-6.png
+.. image:: ../img/pdn-2.png
     :align: center
     :alt: Dashboard 2
 
