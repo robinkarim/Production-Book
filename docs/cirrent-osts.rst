@@ -64,7 +64,7 @@ App Inspector used to be located under **Product Analytics** and **App Inspector
 CIRRENT™ Cloud ID
 ^^^^^^^^^^^^^^^^^^
 
-In the CIRRENT™ Console you used to navigate to **Device Management** > **Cloud ID** to access CIRRENT™ Cloud ID features. Now you can simply click on **CIRRENT™ Cloud ID** on the IINFINEON OSTS landing page, `or navigate directly to this URL <https://osts.infineon.com/cloud-id>`_, to access a dedicated section for Cloud ID.
+In the CIRRENT™ Console you used to navigate to **Device Management** > **Cloud ID** to access CIRRENT™ Cloud ID features. Now you can simply click on **CIRRENT™ Cloud ID** on the INFINEON OSTS landing page, `or navigate directly to this URL <https://osts.infineon.com/cloud-id>`_, to access a dedicated section for Cloud ID.
 
 .. image:: img/osts-4.png
     :align: center
