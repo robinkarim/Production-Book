@@ -298,6 +298,7 @@ Next, configure the fields as follows:
 * **API Gateway ID.** Here, enter the API gateway ID you have set up.
 * **Region.** Select the AWS region your AWS service operates in.
 * **Stage.** Provide the name of the stage in your deployment that you want to use for this API link.
+* **Encryption.** Select between ECDSA and RSA to match the encryption algorithm you use.
 
 You have now added your AWS-based Product Cloud to CIRRENT™ Cloud ID and can now provision devices bound to your Cloud ID account directly into your Product Cloud.
 
@@ -334,6 +335,7 @@ Cloud ID has specific steps for Cloud ID users that rely on Azure for their Prod
 * **Name** This is the name of your Azure cloud API.
 * **Interop URL.** Here, enter the information in the **interopURL** field in the Azure Console.
 * **Subscription ID.** Here, enter the information in the **subscriptionID** field in the Azure Console.
+* **Encryption.** Select between ECDSA and RSA to match the encryption algorithm you use.
 
 7. Click **Create** to complete the configuration process.
 
