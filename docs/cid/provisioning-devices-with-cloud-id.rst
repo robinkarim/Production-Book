@@ -281,7 +281,7 @@ To configure your first cloud API with Cloud ID, log in to the Infineon OSTS Con
         :align: center
         :alt: Dashboard 2
 
-You’ll be presented with a dialog box where you need to complete your Product Cloud API details. The steps vary depending on which vendor it is that hosts your Product Cloud with. Cloud ID provides specific configuration steps for Amaozn AWS and Microsoft Azure, while we also support other cloud vendors.
+You’ll be presented with a dialog box where you need to complete your Product Cloud API details. The steps vary depending on which vendor it is that hosts your Product Cloud with. Cloud ID provides specific configuration steps for Amazon AWS and Microsoft Azure, while we also support other cloud vendors.
 
 Configuring Amazon Web Services
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
