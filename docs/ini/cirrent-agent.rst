@@ -179,21 +179,21 @@ Installation
 
 	.. code-block:: none
 
-		sudo dpkg -i CIRRENT™-agent_2.0.4-ini+deb10u3_armhf.deb
+		sudo dpkg -i cirrent-agent_2.0.4-ini+deb10u3_armhf.deb
 
 	Some errors may be reported by dpkg. You can safely ignore these errors. See output:
 
 
 	.. code-block:: none
 
-		dpkg: dependency problems prevent configuration of CIRRENT™-agent:
-		CIRRENT™-agent depends on monit; however:
+		dpkg: dependency problems prevent configuration of cirrent-agent:
+		cirrent-agent depends on monit; however:
 		Package monit is not installed.
-		dpkg: error processing package CIRRENT™-agent (--install):
+		dpkg: error processing package cirrent-agent (--install):
 		dependency problems - leaving unconfigured
 		Processing triggers for systemd (241-7~deb10u2+rpi1) ...
 		Errors were encountered while processing:
-		CIRRENT™-agent
+		cirrent-agent
 
 3. Finish installation. This will also resolve errors from the previous step:
 
@@ -206,7 +206,7 @@ Installation
 
 	.. code-block:: none
 
-		sudo nano /etc/default/CIRRENT™
+		sudo nano /etc/default/cirrent
 
 	Add the following lines and replace the placeholders PROVISIONING_KEY and PROVISIONING_SECRET with your provisioning key and secret
 
