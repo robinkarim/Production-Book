@@ -171,20 +171,20 @@ Installation
 
 1. Update your Raspberry Pi:
 
-	::
+	.. code-block:: none
 
 		sudo apt-get update
 
 2. Install the CIRRENT™ Agent .deb package
 
-	::
+	.. code-block:: none
 
 		sudo dpkg -i CIRRENT™-agent_2.0.4-ini+deb10u3_armhf.deb
 
 	Some errors may be reported by dpkg. You can safely ignore these errors. See output:
 
 
-	::
+	.. code-block:: none
 
 		dpkg: dependency problems prevent configuration of CIRRENT™-agent:
 		CIRRENT™-agent depends on monit; however:
@@ -197,28 +197,28 @@ Installation
 
 3. Finish installation. This will also resolve errors from the previous step:
 
-	::
+	.. code-block:: none
 
 		sudo apt-get -f install
 
 4. Configure your device by entering your provisioning key and secret:
 
 
-	::
+	.. code-block:: none
 
 		sudo nano /etc/default/CIRRENT™
 
 	Add the following lines and replace the placeholders PROVISIONING_KEY and PROVISIONING_SECRET with your provisioning key and secret
 
 
-	::
+	.. code-block:: none
 
 		PROVISION_CRED="-K PROVISIONING_KEY -S PROVISIONING_SECRET \
 		 -U $(ip link show dev eth0 | grep ether | awk '{print $2}' | sed 's|:|-|g')"
 
 5.	Reboot your Raspberry Pi
 
-	::
+	.. code-block:: none
 
 		sudo reboot
 
