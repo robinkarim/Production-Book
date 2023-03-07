@@ -41,7 +41,6 @@ extensions = [
     'sphinx.ext.mathjax',
     'recommonmark',
     'nbsphinx',
-    'sphinx_sitemap',
     
 ]
 
