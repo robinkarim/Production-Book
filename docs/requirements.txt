@@ -1,4 +1,3 @@
 ipykernel
 nbsphinx
 Pygments==2.6.1
-sphinx-sitemap
